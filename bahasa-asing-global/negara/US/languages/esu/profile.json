@@ -1,0 +1,271 @@
+{
+  "schema_version": "1.1.0",
+  "record_type": "language_profile",
+  "language": {
+    "name": "Central Alaskan Yup'ik",
+    "native_name": "Yupʼik",
+    "iso_639_3": "esu",
+    "bcp47_tags": [
+      "esu-US"
+    ],
+    "family": "Eskimo-Aleut > Yupik"
+  },
+  "country_context": {
+    "country_code": "US",
+    "role": [
+      "indigenous",
+      "regional"
+    ],
+    "note": "Profil ini berfokus pada Central Alaskan Yup'ik dan komunitas penutur di Alaska. Siberian Yupik adalah bahasa berbeda dan tidak digabungkan ke profil ini."
+  },
+  "categories": {
+    "accent_and_pronunciation": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "US-ESU-ACC-001",
+          "term": "Central Yup'ik writing system",
+          "explanation_id": "Orthografi modern Central Alaskan Yup'ik dikembangkan oleh Irene Reed dan kolega di University of Alaska Fairbanks pada 1960-an.",
+          "indonesian_learning_link": "Perhatikan bahwa tanda apostrof dan huruf khusus dapat membedakan bentuk; jangan menghapusnya saat menyalin kata.",
+          "region": "Central Alaska",
+          "register": "Orthography / pronunciation",
+          "usage_context": "Membaca dan melafalkan teks.",
+          "example_source_language": "Yupʼik",
+          "example_indonesian": "Yup'ik",
+          "sources": [
+            "https://www.uaf.edu/anlc/languages-move/centralakyupik.php",
+            "https://www.uaf.edu/anla/collections/cayupik/"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-ESU-ACC-002",
+          "term": "Yup'ik dialect variation",
+          "explanation_id": "Central Alaskan Yup'ik memiliki beberapa dialek dengan perbedaan wilayah dan sejumlah variasi nama komunitas.",
+          "indonesian_learning_link": "Gunakan rekaman penutur dari komunitas dan dialek yang jelas.",
+          "region": "Lower Kuskokwim, Norton Sound, Hooper Bay-Chevak, Nunivak, Egegik",
+          "register": "Regional pronunciation",
+          "usage_context": "Mengenali asal penutur.",
+          "example_source_language": "Cupʼik / Cupʼig",
+          "example_indonesian": "variasi nama bahasa/komunitas",
+          "sources": [
+            "https://www.uaf.edu/anla/collections/cayupik/"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-ESU-ACC-003",
+          "term": "Yup'ik sounds and spelling",
+          "explanation_id": "Grammar praktis mencakup bunyi, ejaan, daftar kosa kata, dan latihan audio untuk pembelajar baru.",
+          "indonesian_learning_link": "Bandingkan pelafalan kata Indonesia dengan sistem bunyi Yup'ik secara langsung, bukan melalui ejaan English.",
+          "region": "Central Alaskan Yup'ik",
+          "register": "Pronunciation",
+          "usage_context": "Melatih bunyi dari audio.",
+          "example_source_language": "Yup'ik audio lessons",
+          "example_indonesian": "pelajaran audio Yup'ik",
+          "sources": [
+            "https://read.upcolorado.com/projects/a-practical-grammar-of-the-central-alaskan-yup-ik-eskimo-language"
+          ],
+          "verification_status": "reviewed"
+        }
+      ]
+    },
+    "speaking_style_and_pragmatics": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "US-ESU-PRAG-001",
+          "term": "cama-i",
+          "explanation_id": "Ungkapan sapaan yang dicatat oleh Alaska Native Language Center dengan makna ‘hello/good to see you’.",
+          "indonesian_learning_link": "Padanan fungsi: ‘halo, senang bertemu’ sesuai konteks.",
+          "region": "Central Alaskan Yup'ik",
+          "register": "Greeting",
+          "usage_context": "Menyapa seseorang.",
+          "example_source_language": "cama-i",
+          "example_indonesian": "halo / senang bertemu",
+          "sources": [
+            "https://www.uaf.edu/anlc/languages-move/centralakyupik.php"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-ESU-PRAG-002",
+          "term": "quyana",
+          "explanation_id": "Ungkapan terima kasih yang dicatat dalam daftar ekspresi umum Central Yup'ik.",
+          "indonesian_learning_link": "Padanan Indonesia: ‘terima kasih’.",
+          "region": "Central Alaskan Yup'ik",
+          "register": "Polite / appreciative",
+          "usage_context": "Mengucapkan terima kasih.",
+          "example_source_language": "quyana",
+          "example_indonesian": "terima kasih",
+          "sources": [
+            "https://www.uaf.edu/anlc/languages-move/centralakyupik.php"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-ESU-PRAG-003",
+          "term": "cangacit? / assirtua",
+          "explanation_id": "Pertanyaan dan respons sederhana ‘bagaimana kabar?’ dan ‘saya baik’ dicatat sebagai frasa umum oleh ANLC.",
+          "indonesian_learning_link": "Padanan Indonesia: ‘apa kabar?’ dan ‘saya baik’.",
+          "region": "Central Alaskan Yup'ik",
+          "register": "Conversational",
+          "usage_context": "Tanya jawab singkat.",
+          "example_source_language": "cangacit? / assirtua",
+          "example_indonesian": "apa kabar? / saya baik",
+          "sources": [
+            "https://www.uaf.edu/anlc/languages-move/centralakyupik.php"
+          ],
+          "verification_status": "reviewed"
+        }
+      ]
+    },
+    "standard_language": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "US-ESU-STD-001",
+          "term": "ANLC orthography",
+          "explanation_id": "Sistem tulisan modern dibangun melalui kerja bahasa dan pendidikan di University of Alaska Fairbanks sejak 1960-an.",
+          "indonesian_learning_link": "Gunakan ejaan dan bentuk yang diajarkan ANLC untuk konsistensi; jangan mengganti dengan sistem dari bahasa Yupik lain.",
+          "region": "Central Alaskan Yup'ik",
+          "register": "Written standard",
+          "usage_context": "Membaca teks edukasi.",
+          "example_source_language": "Central Alaskan Yupʼik",
+          "example_indonesian": "Central Alaskan Yup'ik",
+          "sources": [
+            "https://www.uaf.edu/anlc/languages-move/centralakyupik.php",
+            "https://www.uaf.edu/anla/collections/cayupik/"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-ESU-STD-002",
+          "term": "Yup'ik grammar and morphology",
+          "explanation_id": "Grammar praktis menjelaskan bunyi, ejaan, kosakata, dan morfologi, termasuk materi tingkat lanjut untuk pembelajar dan penutur.",
+          "indonesian_learning_link": "Jelaskan bahwa struktur kata Yup'ik berbeda dari bahasa Indonesia; gunakan glos morfem, bukan terjemahan bebas saja.",
+          "region": "Central Alaskan Yup'ik",
+          "register": "Grammar",
+          "usage_context": "Memahami konstruksi kalimat.",
+          "example_source_language": "A Practical Grammar of Central Alaskan Yup'ik",
+          "example_indonesian": "Tata bahasa praktis Central Alaskan Yup'ik",
+          "sources": [
+            "https://read.upcolorado.com/projects/a-practical-grammar-of-the-central-alaskan-yup-ik-eskimo-language"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-ESU-STD-003",
+          "term": "Yup'ik dictionary",
+          "explanation_id": "Kamus Central Yup'ik mencakup catatan fonologi, ortografi, dialek, bentuk dasar, postbase, akhiran, dan enklitik.",
+          "indonesian_learning_link": "Kamus dwibahasa dapat menjadi jembatan untuk memahami makna dan struktur Indonesia.",
+          "region": "Central Alaskan Yup'ik",
+          "register": "Lexicography",
+          "usage_context": "Menelusuri lema dan bentuk turunan.",
+          "example_source_language": "Yupʼik Eskimo Dictionary",
+          "example_indonesian": "Kamus Central Yup'ik",
+          "sources": [
+            "https://eric.ed.gov/?id=ED394353"
+          ],
+          "verification_status": "reviewed"
+        }
+      ]
+    },
+    "nonstandard_language_and_slang": {
+      "status": "community_research_required",
+      "entries": [],
+      "coverage_note": "Belum ada slang modern atau istilah internet yang dapat ditambahkan dengan sumber komunitas yang memadai. Jangan mengarang daftar slang."
+    },
+    "profanity_and_vulgar_language": {
+      "status": "community_review_required",
+      "entries": [],
+      "coverage_note": "Belum dimasukkan. Materi umpatan memerlukan sumber langsung dan persetujuan/peninjauan komunitas sebelum dimasukkan."
+    },
+    "regional_and_minority_languages": {
+      "status": "cross_reference_country_catalog",
+      "entries": [
+        {
+          "id": "US-ESU-REG-001",
+          "term": "General Central Yup'ik",
+          "explanation_id": "General Central Yup'ik merupakan dialek utama yang dicatat dalam deskripsi ANLC; empat dialek lain juga didokumentasikan.",
+          "indonesian_learning_link": "Gunakan nama dialek dan wilayah pada contoh audio.",
+          "region": "Central Alaska; dialek utama",
+          "register": "Regional variety",
+          "usage_context": "Mengenali dialek acuan.",
+          "example_source_language": "General Central Yupʼik",
+          "example_indonesian": "dialek General Central Yup'ik",
+          "sources": [
+            "https://www.uaf.edu/anla/collections/cayupik/"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-ESU-REG-002",
+          "term": "Norton Sound, Hooper Bay-Chevak, Nunivak, Egegik",
+          "explanation_id": "ANLC mencatat empat dialek selain General Central Yup'ik; di Hooper Bay-Chevak dan Nunivak nama Cup'ik/Cup'ig juga dipakai.",
+          "indonesian_learning_link": "Jangan menggabungkan semua bentuk sebagai satu aksen tanpa label lokal.",
+          "region": "Norton Sound, Hooper Bay-Chevak, Nunivak, Egegik",
+          "register": "Regional dialects",
+          "usage_context": "Membedakan nama komunitas/dialek.",
+          "example_source_language": "Cupʼik / Cupʼig",
+          "example_indonesian": "nama komunitas/bahasa pada dialek tertentu",
+          "sources": [
+            "https://www.uaf.edu/anla/collections/cayupik/"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-ESU-REG-003",
+          "term": "Central Alaskan Yup'ik and Siberian Yupik are distinct",
+          "explanation_id": "Central Alaskan Yup'ik berbeda dari Siberian Yupik; ejaan apostrof pada Yup'ik juga membedakan nama bahasa tersebut.",
+          "indonesian_learning_link": "Pilih kode bahasa dan profil yang sesuai; jangan menggabungkan dua bahasa.",
+          "region": "Alaska dan St. Lawrence Island / Siberia",
+          "register": "Language distinction",
+          "usage_context": "Membedakan profil bahasa.",
+          "example_source_language": "Yupʼik ≠ Yupik",
+          "example_indonesian": "Central Alaskan Yup'ik bukan Siberian Yupik",
+          "sources": [
+            "https://www.uaf.edu/anlc/languages-move/centralakyupik.php",
+            "https://www.uaf.edu/anlc/languages-move/siberianyupik.php"
+          ],
+          "verification_status": "reviewed"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "Alaska Native Language Center — Central Yup'ik",
+      "url": "https://www.uaf.edu/anlc/languages-move/centralakyupik.php",
+      "scope": "Dialek, ortografi, jumlah penutur, dan ekspresi umum."
+    },
+    {
+      "title": "Alaska Native Language Archive — Central Alaskan Yup'ik",
+      "url": "https://www.uaf.edu/anla/collections/cayupik/",
+      "scope": "Lima dialek dan dokumentasi bahasa."
+    },
+    {
+      "title": "Jacobson — A Practical Grammar of the Central Alaskan Yup'ik Eskimo Language",
+      "url": "https://read.upcolorado.com/projects/a-practical-grammar-of-the-central-alaskan-yup-ik-eskimo-language",
+      "scope": "Bunyi, ejaan, tata bahasa, kosakata, bacaan, dan audio."
+    },
+    {
+      "title": "ERIC — Yup'ik Eskimo Dictionary",
+      "url": "https://eric.ed.gov/?id=ED394353",
+      "scope": "Kamus, fonologi, ortografi, dan dialek Central Yup'ik."
+    }
+  ],
+  "indonesian_learning_design": {
+    "direction": "Central Alaskan Yup'ik → Indonesian",
+    "learner_support": [
+      "Gunakan audio penutur dan ejaan ANLC untuk mempelajari bunyi.",
+      "Bandingkan ungkapan sapaan/terima kasih dengan bahasa Indonesia.",
+      "Jelaskan struktur gramatikal Yup'ik melalui contoh kontekstual, tidak melalui terjemahan kata-per-kata."
+    ]
+  },
+  "verification": {
+    "status": "content_seeded_reviewed_not_native_validated",
+    "last_reviewed": "2026-11-19",
+    "notes": "Materi awal mengacu pada University of Alaska Fairbanks dan publikasi ANLC. Slang dan umpatan tidak dimasukkan karena belum ada sumber dan peninjauan komunitas yang memadai."
+  }
+}
