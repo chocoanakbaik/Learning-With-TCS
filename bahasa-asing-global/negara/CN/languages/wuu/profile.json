@@ -1,0 +1,383 @@
+{
+  "schema_version": "1.1.0",
+  "record_type": "language_profile",
+  "language": {
+    "name": "Wu Chinese (Shanghai / Shanghainese focus)",
+    "native_name": "吴语 / 上海话 / 上海闲话",
+    "iso_639_3": "wuu",
+    "bcp47_tags": [
+      "wuu-CN"
+    ],
+    "family": "Sino-Tibetan > Sinitic > Wu"
+  },
+  "country_context": {
+    "country_code": "CN",
+    "role": [
+      "regional",
+      "Sinitic"
+    ],
+    "note": "Kode wuu mencakup Wu Chinese; profil ini berfokus pada urban Shanghainese di Shanghai. Suzhou Wu, Ningbo Wu, dan ragam pinggiran memerlukan label/profil tersendiri."
+  },
+  "categories": {
+    "accent_and_pronunciation": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "CN-WUU-ACC-001",
+          "term": "Shanghai Wu tone system",
+          "explanation_id": "Shanghai Wu merupakan bahasa bernada. Penelitian IPA menggambarkan tiga nada pada suku kata terbuka/sonoran dan dua realisasi pada suku kata checked tertutup glotal.",
+          "indonesian_learning_link": "Bahasa Indonesia tidak memiliki nada leksikal seperti ini; gunakan audio dan kurva pitch untuk membedakan bentuk kata.",
+          "region": "Urban Shanghai Wu; ragam urban",
+          "register": "Pronunciation",
+          "usage_context": "Mengenali kategori nada.",
+          "example_source_language": "T1 / T2 / T3; checked T4 / T5",
+          "example_indonesian": "kategori nada Shanghai Wu",
+          "sources": [
+            "https://www.cambridge.org/core/journals/journal-of-the-international-phonetic-association/article/shanghai-chinese/E58F14205E5EFF63067C6A180DB7AEEA",
+            "https://www.sciencedirect.com/science/article/abs/pii/S0095447015000935"
+          ],
+          "verification_status": "reviewed",
+          "note": "Nomor nada dan deskripsi kontur mengikuti analisis sumber yang dirujuk."
+        },
+        {
+          "id": "CN-WUU-ACC-002",
+          "term": "Historical voiced onset and phonation contrast",
+          "explanation_id": "Shanghai Wu mempertahankan pembedaan fonasi/voicing pada konsonan awal yang berhubungan dengan pembagian nada yin-yang; konsonan awal berhubungan dengan kelas nada tertentu.",
+          "indonesian_learning_link": "Ajarkan bunyi awal dan nada bersamaan, bukan sebagai dua modul yang sepenuhnya terpisah.",
+          "region": "Shanghai urban dialect",
+          "register": "Pronunciation",
+          "usage_context": "Mengenali kaitan konsonan awal dan nada.",
+          "example_source_language": "voiced vs voiceless onsets",
+          "example_indonesian": "konsonan awal bersuara dan tak bersuara",
+          "sources": [
+            "https://www.cambridge.org/core/journals/journal-of-the-international-phonetic-association/article/shanghai-chinese/E58F14205E5EFF63067C6A180DB7AEEA",
+            "https://www.sciencedirect.com/science/article/abs/pii/S0095447015000935"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-WUU-ACC-003",
+          "term": "Glottalized checked syllables",
+          "explanation_id": "Suku kata checked dalam Shanghai dapat direalisasikan dengan penutupan glotal /ʔ/ dan durasi lebih singkat; inventory nada checked lebih terbatas.",
+          "indonesian_learning_link": "Pelajar Indonesia perlu membedakan penutupan suku kata dari bunyi vokal tambahan.",
+          "region": "Urban Shanghai Wu",
+          "register": "Pronunciation",
+          "usage_context": "Mendengar suku kata tertutup.",
+          "example_source_language": "CVʔ",
+          "example_indonesian": "suku kata dengan penutupan glotal",
+          "sources": [
+            "https://www.cambridge.org/core/journals/journal-of-the-international-phonetic-association/article/shanghai-chinese/E58F14205E5EFF63067C6A180DB7AEEA",
+            "https://www.sciencedirect.com/science/article/abs/pii/S0095447015000935"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-WUU-ACC-004",
+          "term": "Structure-dependent tone sandhi",
+          "explanation_id": "Nada pada disilabel Shanghai mengalami sandhi yang berbeda menurut struktur: kata fonologis dapat menyebarkan nada awal ke seluruh kata, sedangkan frasa dapat mempertahankan nada akhir dan mereduksi kontur nada nonfinal.",
+          "indonesian_learning_link": "Jelaskan perubahan nada dalam gabungan kata dengan struktur frasa, bukan menerapkan satu aturan sandhi ke semua ujaran.",
+          "region": "Shanghai Wu",
+          "register": "Prosody",
+          "usage_context": "Mendengar perubahan nada antar suku kata.",
+          "example_source_language": "modifier-noun compound vs verb-noun phrase",
+          "example_indonesian": "gabungan nomina-modifier vs frasa verba-nomina",
+          "sources": [
+            "https://www.sciencedirect.com/science/article/abs/pii/S0095447015000935"
+          ],
+          "verification_status": "reviewed"
+        }
+      ]
+    },
+    "speaking_style_and_pragmatics": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "CN-WUU-PRAG-001",
+          "term": "侬 (nong)",
+          "explanation_id": "Treebank Shanghainese mencatat 侬 sebagai pronomina orang kedua yang lazim dalam data tutur urban yang dianotasi.",
+          "indonesian_learning_link": "Bandingkan dengan ‘kamu’ atau ‘Anda’ dalam bahasa Indonesia dan jelaskan bahwa pilihan sapaan mengikuti relasi sosial.",
+          "region": "Urban Shanghainese; data middle/new period",
+          "register": "Conversational pronoun",
+          "usage_context": "Menyapa lawan bicara.",
+          "example_source_language": "侬",
+          "example_indonesian": "kamu",
+          "sources": [
+            "https://universaldependencies.org/treebanks/wuu_shud/index.html"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-WUU-PRAG-002",
+          "term": "阿拉 (a-la)",
+          "explanation_id": "阿拉 tercatat sebagai pronomina orang pertama jamak/‘kami-kita’ dalam inventaris pronomina treebank Shanghainese.",
+          "indonesian_learning_link": "Padanan Indonesia berubah menurut inklusivitas: ‘kami’ atau ‘kita’ sesuai konteks.",
+          "region": "Urban Shanghainese",
+          "register": "Conversational pronoun",
+          "usage_context": "Menyebut kelompok penutur.",
+          "example_source_language": "阿拉",
+          "example_indonesian": "kami / kita",
+          "sources": [
+            "https://universaldependencies.org/treebanks/wuu_shud/index.html"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-WUU-PRAG-003",
+          "term": "Particle 伐 (va) and related particles",
+          "explanation_id": "Treebank spoken Shanghainese mencatat 伐 dan banyak partikel percakapan lain; fungsi partikel perlu dibaca dari konteks ujaran dan intonasi.",
+          "indonesian_learning_link": "Bahasa Indonesia juga memakai partikel lisan seperti ‘ya’, ‘kan’, atau ‘dong’, tetapi makna tidak selalu sepadan.",
+          "region": "Middle/New Period Urban Shanghainese",
+          "register": "Conversational particle",
+          "usage_context": "Menafsirkan pertanyaan, penegasan atau sikap.",
+          "example_source_language": "是伐",
+          "example_indonesian": "benarkah? / iya kan? (bergantung konteks)",
+          "sources": [
+            "https://universaldependencies.org/treebanks/wuu_shud/index.html",
+            "https://aclanthology.org/2025.udw-1.20.pdf"
+          ],
+          "verification_status": "draft",
+          "note": "Kamus fungsional tiap partikel perlu dirujuk per konteks sebelum menjadi pelajaran final."
+        }
+      ]
+    },
+    "standard_language": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "CN-WUU-STD-001",
+          "term": "Shanghainese as a Wu language",
+          "explanation_id": "Shanghainese adalah satu varietas Wu Chinese dengan kode ISO 639-3 wuu, bukan aksen atau dialek Mandarin Putonghua.",
+          "indonesian_learning_link": "Pilih wuu sebagai bahasa sumber tersendiri; jangan mengalihkannya ke profil Mandarin.",
+          "region": "Shanghai; Wu Chinese",
+          "register": "Language identity",
+          "usage_context": "Menetapkan bahasa sumber.",
+          "example_source_language": "上海话 / 上海闲话",
+          "example_indonesian": "bahasa Shanghai",
+          "sources": [
+            "https://www.cambridge.org/core/journals/journal-of-the-international-phonetic-association/article/shanghai-chinese/E58F14205E5EFF63067C6A180DB7AEEA"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-WUU-STD-002",
+          "term": "No single universal written standard",
+          "explanation_id": "Shanghainese memiliki sumber tulisan dan dokumentasi, tetapi tulisan lisan tidak sepenuhnya distandardisasi; penutur sering mengadaptasi teks Mandarin ke bentuk tutur ketika membaca.",
+          "indonesian_learning_link": "Jelaskan perbedaan bahasa lisan dan tulisan formal; jangan menganggap semua karakter tulis mewakili satu standar lisan.",
+          "region": "Shanghai urban; historical and contemporary registers",
+          "register": "Written register",
+          "usage_context": "Memahami teks informal dan formal.",
+          "example_source_language": "spoken Shanghainese sentence",
+          "example_indonesian": "kalimat tutur Shanghainese",
+          "sources": [
+            "https://aclanthology.org/2025.udw-1.20.pdf",
+            "https://universaldependencies.org/treebanks/wuu_shud/index.html"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-WUU-STD-003",
+          "term": "Modern Shanghai Wu varieties",
+          "explanation_id": "Kajian SOAS membedakan ragam modern Shanghai Wu menjadi old, middle, dan new; middle sering dijadikan titik rujuk urban dan new banyak dipakai penutur muda dengan code-mixing Mandarin.",
+          "indonesian_learning_link": "Materi harus mencatat kelompok generasi dan gaya tutur, bukan menyebut satu versi tunggal sebagai satu-satunya standar.",
+          "region": "Urban Shanghai; generasi berbeda",
+          "register": "Sociolinguistic register",
+          "usage_context": "Memilih model tutur.",
+          "example_source_language": "老派 / 中派 / 新派",
+          "example_indonesian": "ragam lama / tengah / baru",
+          "sources": [
+            "https://eprints.soas.ac.uk/35585/1/Jiang%20Wang%20SOAS%20WPL%202021-09-22.pdf"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-WUU-STD-004",
+          "term": "Shanghainese syntax and word classes",
+          "explanation_id": "Treebank Universal Dependencies untuk Shanghainese memberi anotasi manual pada lemmata, POS, features, dan relasi sintaksis dari korpus tutur.",
+          "indonesian_learning_link": "Gunakan kategori gramatikal tersebut untuk membandingkan susunan bahasa Indonesia secara bertahap.",
+          "region": "Middle/New Period Urban Shanghainese",
+          "register": "Grammar / reference",
+          "usage_context": "Mengkaji kelas kata dan susunan kalimat.",
+          "example_source_language": "NOUN / VERB / PART / PRON",
+          "example_indonesian": "nomina / verba / partikel / pronomina",
+          "sources": [
+            "https://universaldependencies.org/treebanks/wuu_shud/index.html"
+          ],
+          "verification_status": "reviewed"
+        }
+      ]
+    },
+    "nonstandard_language_and_slang": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "CN-WUU-SLANG-001",
+          "term": "Urban Shanghainese code-mixing",
+          "explanation_id": "Penelitian bahasa Shanghai modern mencatat ragam new-period oleh penutur muda yang sering bercampur dengan Mandarin; fenomena ini merupakan praktik bilingual/kontak, bukan satu bentuk slang tunggal.",
+          "indonesian_learning_link": "Bandingkan dengan alih kode Indonesia-Jawa atau Indonesia-Inggris; catat konteks dan generasi.",
+          "region": "Urban Shanghai; new-period speakers",
+          "register": "Bilingual / informal",
+          "usage_context": "Memahami ujaran campuran.",
+          "example_source_language": "Shanghainese-Mandarin code-mixing",
+          "example_indonesian": "alih kode Shanghainese-Mandarin",
+          "sources": [
+            "https://eprints.soas.ac.uk/35585/1/Jiang%20Wang%20SOAS%20WPL%202021-09-22.pdf"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-WUU-SLANG-002",
+          "term": "Colloquial particles in contemporary speech",
+          "explanation_id": "Treebank menginventaris partikel dan bentuk tutur urban yang digunakan dalam komunikasi sehari-hari; daftar ini lebih tepat diperlakukan sebagai unsur percakapan, bukan seluruhnya slang.",
+          "indonesian_learning_link": "Ajarkan perbedaan kata baku, partikel lisan, dan slang dalam bahasa Indonesia.",
+          "region": "Urban Shanghai",
+          "register": "Colloquial",
+          "usage_context": "Memahami bentuk lisan yang tidak muncul dalam Mandarin standar.",
+          "example_source_language": "么 / 伐 / 啦 / 呀",
+          "example_indonesian": "partikel percakapan",
+          "sources": [
+            "https://universaldependencies.org/treebanks/wuu_shud/index.html"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-WUU-SLANG-003",
+          "term": "Regional word choice and generation",
+          "explanation_id": "Shanghai Wu memiliki variasi fonetik dan leksikal antara ragam lama, tengah, dan baru; beberapa perbedaan terkait generasi serta kontak Mandarin.",
+          "indonesian_learning_link": "Tandai sumber leksikal menurut generasi; hindari menganggap bentuk muda sebagai slang universal.",
+          "region": "Shanghai; old/middle/new variants",
+          "register": "Regional colloquial",
+          "usage_context": "Mengenali kosakata yang bergantung generasi.",
+          "example_source_language": "new-period urban vocabulary",
+          "example_indonesian": "kosakata urban generasi baru",
+          "sources": [
+            "https://eprints.soas.ac.uk/35585/1/Jiang%20Wang%20SOAS%20WPL%202021-09-22.pdf",
+            "https://aclanthology.org/2025.udw-1.20.pdf"
+          ],
+          "verification_status": "draft",
+          "note": "Butuh contoh lema spesifik dan tanggal/sumber penggunaan untuk mengisi daftar slang."
+        }
+      ]
+    },
+    "profanity_and_vulgar_language": {
+      "status": "community_review_required",
+      "entries": [],
+      "coverage_note": "Umpatan Shanghainese belum ditambahkan. Data yang ditemukan terutama dokumentasi fonologi, grammar dan korpus; jangan mengambil umpatan Mandarin Putonghua lalu menganggapnya sebagai Shanghainese."
+    },
+    "regional_and_minority_languages": {
+      "status": "cross_reference_country_catalog",
+      "entries": [
+        {
+          "id": "CN-WUU-REG-001",
+          "term": "Wu Chinese and Shanghainese",
+          "explanation_id": "Shanghainese adalah varietas Wu Chinese yang dituturkan di Shanghai; kelompok Wu juga mencakup Suzhou, Ningbo, dan ragam regional lainnya.",
+          "indonesian_learning_link": "Pilih wuu untuk bahasa Wu dan tambahkan lokasi subvarietas pada setiap data.",
+          "region": "Shanghai and neighboring Jiangsu/Zhejiang areas",
+          "register": "Sinitic language group",
+          "usage_context": "Menentukan ruang lingkup.",
+          "example_source_language": "Shanghai Chinese (Shanghainese)",
+          "example_indonesian": "bahasa Shanghai",
+          "sources": [
+            "https://www.cambridge.org/core/journals/journal-of-the-international-phonetic-association/article/shanghai-chinese/E58F14205E5EFF63067C6A180DB7AEEA",
+            "https://journals.linguisticsociety.org/booknotices/?p=550"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-WUU-REG-002",
+          "term": "Urban versus suburban Shanghai varieties",
+          "explanation_id": "Artikel IPA membedakan urban Shanghai Chinese dari ragam suburban, yang dipengaruhi sejarah penggabungan kota dan kontak regional.",
+          "indonesian_learning_link": "Labeli data berdasarkan urban/suburban; jangan menyatukan tanpa dokumentasi.",
+          "region": "Shanghai urban core and surrounding suburbs",
+          "register": "Regional variety",
+          "usage_context": "Menandai wilayah penutur.",
+          "example_source_language": "urban Shanghai / suburban local varieties",
+          "example_indonesian": "ragam urban / pinggiran Shanghai",
+          "sources": [
+            "https://www.cambridge.org/core/journals/journal-of-the-international-phonetic-association/article/shanghai-chinese/E58F14205E5EFF63067C6A180DB7AEEA"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-WUU-REG-003",
+          "term": "Old, middle, and new Shanghai Wu",
+          "explanation_id": "Kajian SOAS menjelaskan tiga variasi historis modern, dengan perbedaan fonetik, leksikal, usia penutur, dan tingkat code-mixing.",
+          "indonesian_learning_link": "Berikan tag generasi pada rekaman dan daftar kata.",
+          "region": "Shanghai; generation-linked varieties",
+          "register": "Sociolinguistic variation",
+          "usage_context": "Mengenali variasi generasional.",
+          "example_source_language": "老派 / 中派 / 新派",
+          "example_indonesian": "ragam lama / tengah / baru",
+          "sources": [
+            "https://eprints.soas.ac.uk/35585/1/Jiang%20Wang%20SOAS%20WPL%202021-09-22.pdf"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-WUU-REG-004",
+          "term": "Wu dialects beyond Shanghai",
+          "explanation_id": "Suzhou Wu, Ningbo Wu, dan varietas Wu lain berbeda dari Shanghainese; jangan menganggap sumber Shanghai merepresentasikan seluruh kelompok Wu.",
+          "indonesian_learning_link": "Buat subprofil berbasis kota/varietas sebelum menambahkan data leksikal.",
+          "region": "Jiangsu, Zhejiang, Shanghai",
+          "register": "Regional language varieties",
+          "usage_context": "Membedakan subvarietas.",
+          "example_source_language": "Suzhou Wu / Ningbo Wu",
+          "example_indonesian": "Wu Suzhou / Wu Ningbo",
+          "sources": [
+            "https://www.cambridge.org/core/journals/journal-of-the-international-phonetic-association/article/shanghai-chinese/E58F14205E5EFF63067C6A180DB7AEEA"
+          ],
+          "verification_status": "reviewed"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "Cambridge — Shanghai Chinese (Illustrations of the IPA)",
+      "url": "https://www.cambridge.org/core/journals/journal-of-the-international-phonetic-association/article/shanghai-chinese/E58F14205E5EFF63067C6A180DB7AEEA",
+      "scope": "Inventaris bunyi, tone, checked syllables, voicing and regional identity."
+    },
+    {
+      "title": "Zhu (2006) — A Grammar of Shanghai Wu",
+      "url": "https://journals.linguisticsociety.org/booknotices/?p=550",
+      "scope": "Grammar urban Shanghai Wu, phonology, syllables and tone sandhi."
+    },
+    {
+      "title": "Zhang & Meng (2016) — Structure-dependent tone sandhi in real and nonce disyllables in Shanghai Wu",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0095447015000935",
+      "scope": "Word-level and phrase-level tone sandhi."
+    },
+    {
+      "title": "Universal Dependencies — Shanghainese-ShUD",
+      "url": "https://universaldependencies.org/treebanks/wuu_shud/index.html",
+      "scope": "Treebank spoken Shanghainese; manually annotated lemmas, POS, grammar and pronouns/particles."
+    },
+    {
+      "title": "Yang (2025) — ShUD: the First Shanghainese Universal Dependency Treebank",
+      "url": "https://aclanthology.org/2025.udw-1.20.pdf",
+      "scope": "Daily speech corpus, speakers, transcript design and current Shanghainese varieties."
+    },
+    {
+      "title": "Jiang & Wang (2021) — Modern Shanghai Wu and language variation",
+      "url": "https://eprints.soas.ac.uk/35585/1/Jiang%20Wang%20SOAS%20WPL%202021-09-22.pdf",
+      "scope": "Old/middle/new varieties, generation and Mandarin contact."
+    },
+    {
+      "title": "Johns Hopkins — Wu-Dialectal Chinese Speech Corpus",
+      "url": "https://www.clsp.jhu.edu/wp-content/uploads/2015/10/WS04-dialectical-finalreport.pdf",
+      "scope": "Speech data, corpus distinctions and acoustic recognition context."
+    }
+  ],
+  "indonesian_learning_design": {
+    "direction": "Wu / Shanghainese → Indonesian",
+    "learner_support": [
+      "Gunakan audio Shanghainese dan catat urban/suburban serta generasi penutur.",
+      "Bandingkan pronomina dan partikel percakapan dengan kata sapaan/partikel bahasa Indonesia.",
+      "Jelaskan bahwa Wu Chinese bukan aksen Mandarin Putonghua."
+    ]
+  },
+  "verification": {
+    "status": "content_seeded_reviewed_not_native_validated",
+    "last_reviewed": "2026-11-19",
+    "notes": "Fonologi, tone sandhi, varian generasional, dan data partikel didukung Cambridge, jurnal fonetik, SOAS, dan Universal Dependencies. Slang spesifik dan profanity belum divalidasi penutur/ahli."
+  }
+}
