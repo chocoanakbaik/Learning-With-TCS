@@ -1,0 +1,267 @@
+{
+  "schema_version": "1.1.0",
+  "record_type": "language_profile",
+  "language": {
+    "name": "Kazakh (Xinjiang focus)",
+    "native_name": "قازاق تىلى",
+    "iso_639_3": "kaz",
+    "bcp47_tags": [
+      "kk-CN"
+    ],
+    "family": "Turkic > Common Turkic > Kipchak"
+  },
+  "country_context": {
+    "country_code": "CN",
+    "role": [
+      "regional",
+      "minority"
+    ],
+    "note": "Profil ini berfokus pada Kazakh yang digunakan di Xinjiang, China, dengan aksara Arab yang disesuaikan untuk Kazakh. Data Kazakhstan/Cyrillic atau Latin tidak boleh dimasukkan tanpa label lokasi dan ortografi."
+  },
+  "categories": {
+    "accent_and_pronunciation": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "CN-KAZ-ACC-001",
+          "term": "Vowel harmony",
+          "explanation_id": "Kazakh memiliki sistem harmoni vokal yang mengatur pilihan vokal pada sufiks menurut vokal dalam akar kata; harmoninya melibatkan dimensi depan-belakang dan pembulatan dalam sejumlah pola.",
+          "indonesian_learning_link": "Bahasa Indonesia tidak memiliki harmoni vokal seperti ini; pelajar harus melihat perubahan sufiks setelah akar kata.",
+          "region": "Kazakh standard; Uyghur-Kazakh communities in Xinjiang",
+          "register": "Pronunciation / morphophonology",
+          "usage_context": "Membaca akar kata dan sufiks.",
+          "example_source_language": "vowel harmony",
+          "example_indonesian": "harmoni vokal",
+          "sources": [
+            "https://slaviccenters.duke.edu/sites/slaviccenters.duke.edu/files/file-attachments/kazakh-grammar.pdf",
+            "https://www.cambridge.org/core/books/kazakh/phonology/7A5F2A4E2F70E1E8D3E7F4A9A5A9D5B0"
+          ],
+          "verification_status": "reviewed",
+          "note": "Pola harmoni dapat bervariasi menurut dialek dan analisis fonologi; gunakan satu sistem rujukan secara konsisten."
+        },
+        {
+          "id": "CN-KAZ-ACC-002",
+          "term": "Velar and uvular consonant harmony",
+          "explanation_id": "Kazakh membedakan beberapa pasangan velar dan uvular (misalnya k/q serta g/gh) yang berhubungan dengan harmoni vokal dan lingkungan bunyi.",
+          "indonesian_learning_link": "Jelaskan perbedaan artikulasi belakang lidah/tenggorokan dengan audio; jangan menyamakan semua dengan k Indonesia.",
+          "region": "Kazakh; Xinjiang written-language reference",
+          "register": "Pronunciation",
+          "usage_context": "Membedakan konsonan velar dan uvular.",
+          "example_source_language": "k / q; g / ʁ",
+          "example_indonesian": "konsonan velar / uvular",
+          "sources": [
+            "https://slaviccenters.duke.edu/sites/slaviccenters.duke.edu/files/file-attachments/kazakh-grammar.pdf"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-KAZ-ACC-003",
+          "term": "Stress and suffixal phonology",
+          "explanation_id": "Tekanan kata Kazakh memiliki kecenderungan terkait struktur kata dan akhiran; proses morfofonemik dapat mengubah bentuk pada batas morfem.",
+          "indonesian_learning_link": "Ajarkan tekanan bersama bentuk kata dan akhiran, bukan menebaknya dari jumlah suku kata.",
+          "region": "Kazakh; standard and regional varieties",
+          "register": "Pronunciation",
+          "usage_context": "Membaca kata berimbuhan.",
+          "example_source_language": "root + suffix",
+          "example_indonesian": "akar kata dan akhiran",
+          "sources": [
+            "https://slaviccenters.duke.edu/sites/slaviccenters.duke.edu/files/file-attachments/kazakh-grammar.pdf",
+            "https://www.cambridge.org/core/books/kazakh/phonology/7A5F2A4E2F70E1E8D3E7F4A9A5A9D5B0"
+          ],
+          "verification_status": "draft",
+          "note": "Perlu sumber spesifik tentang stress assignment untuk dialek Kazakh Xinjiang sebelum diberi aturan rinci."
+        }
+      ]
+    },
+    "speaking_style_and_pragmatics": {
+      "status": "research_required",
+      "entries": [],
+      "coverage_note": "Sapaan, honorifik dan pragmatik masyarakat Kazakh Xinjiang belum diisi. Materi harus berasal dari sumber penutur wilayah Xinjiang dan dibedakan dari norma Kazakhstan."
+    },
+    "standard_language": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "CN-KAZ-STD-001",
+          "term": "Arabic-script Kazakh in Xinjiang",
+          "explanation_id": "Kazakh di Xinjiang ditulis menggunakan aksara Arab yang disesuaikan dengan bunyi Kazakh, berbeda dari Cyrillic yang digunakan di Kazakhstan dan Mongolia serta sistem Latin yang direncanakan di Kazakhstan.",
+          "indonesian_learning_link": "LWT harus menampilkan skrip sesuai lokasi sumber; jangan mengganti teks Kazakh Xinjiang otomatis ke Cyrillic.",
+          "region": "Xinjiang, China",
+          "register": "Orthography",
+          "usage_context": "Membaca dan menulis Kazakh di Tiongkok.",
+          "example_source_language": "Arabic-script Kazakh",
+          "example_indonesian": "Kazakh beraksara Arab",
+          "sources": [
+            "https://slaviccenters.duke.edu/sites/slaviccenters.duke.edu/files/file-attachments/kazakh-grammar.pdf",
+            "https://www.loc.gov/catdir/cpso/romanization/kazakh.pdf"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-KAZ-STD-002",
+          "term": "Multiple Kazakh orthographies",
+          "explanation_id": "Kazakh memiliki beberapa konvensi tulisan menurut wilayah: aksara Arab di Xinjiang, Cyrillic di Kazakhstan/Mongolia, dan Latin dalam konteks reformasi Kazakhstan.",
+          "indonesian_learning_link": "Simpan script dan lokasi bersama setiap entri agar hasil pencarian tidak mencampur tulisan.",
+          "region": "Xinjiang, Kazakhstan, Mongolia and diaspora",
+          "register": "Orthography / locale",
+          "usage_context": "Mengenali asal dokumen.",
+          "example_source_language": "Arabic / Cyrillic / Latin Kazakh",
+          "example_indonesian": "Kazakh aksara Arab / Cyrillic / Latin",
+          "sources": [
+            "https://slaviccenters.duke.edu/sites/slaviccenters.duke.edu/files/file-attachments/kazakh-grammar.pdf",
+            "https://www.loc.gov/catdir/cpso/romanization/kazakh.pdf"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-KAZ-STD-003",
+          "term": "Agglutinative suffix morphology",
+          "explanation_id": "Kazakh membentuk kata dengan menambahkan sufiks untuk kasus, kepemilikan, orang, kala dan fungsi gramatikal lain; bentuk sufiks dipengaruhi harmoni vokal.",
+          "indonesian_learning_link": "Bandingkan dengan afiks bahasa Indonesia, tetapi pelajari urutan dan alternasi sufiks Kazakh secara terpisah.",
+          "region": "Kazakh",
+          "register": "Grammar / morphology",
+          "usage_context": "Mengurai akar dan sufiks.",
+          "example_source_language": "stem + case/person/tense suffixes",
+          "example_indonesian": "akar kata dan sufiks kasus/orang/kala",
+          "sources": [
+            "https://slaviccenters.duke.edu/sites/slaviccenters.duke.edu/files/file-attachments/kazakh-grammar.pdf"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-KAZ-STD-004",
+          "term": "Romanization and transliteration reference",
+          "explanation_id": "Pedoman transliterasi Library of Congress menyediakan aturan untuk merepresentasikan Kazakh dalam katalog dan pencarian lintas aksara; transliterasi bukan ejaan lisan.",
+          "indonesian_learning_link": "Gunakan transliterasi dengan label standar dan jangan menyamakan setiap romanisasi informal dengan bentuk resmi.",
+          "region": "Kazakh; bibliographic contexts",
+          "register": "Transliteration",
+          "usage_context": "Mencari sumber lintas aksara.",
+          "example_source_language": "Kazakh transliteration",
+          "example_indonesian": "transliterasi Kazakh",
+          "sources": [
+            "https://www.loc.gov/catdir/cpso/romanization/kazakh.pdf"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-KAZ-STD-005",
+          "term": "Kazakh lexicographic resources",
+          "explanation_id": "Kamus Kazakh daring menyediakan lema dan definisi; profil Xinjiang harus memeriksa varian script serta asal geografis lema sebelum dipakai.",
+          "indonesian_learning_link": "Simpan aksara asli dan metadata daerah pada setiap entri kamus.",
+          "region": "Kazakh; online lexical resources",
+          "register": "Lexicography",
+          "usage_context": "Menelusuri lema dan makna.",
+          "example_source_language": "Kazakh dictionary headword",
+          "example_indonesian": "lema kamus Kazakh",
+          "sources": [
+            "https://sozdik.kz/"
+          ],
+          "verification_status": "draft",
+          "note": "Kamus daring harus diperiksa menurut skrip dan wilayah; belum semua lema dapat dianggap spesifik Xinjiang."
+        }
+      ]
+    },
+    "nonstandard_language_and_slang": {
+      "status": "community_research_required",
+      "entries": [],
+      "coverage_note": "Slang kontemporer belum dimasukkan; perlu data tutur Kazakh Xinjiang dan tag generasi/komunitas, bukan mengambil langsung slang Kazakhstan."
+    },
+    "profanity_and_vulgar_language": {
+      "status": "community_review_required",
+      "entries": [],
+      "coverage_note": "Umpatan tidak diisi tanpa kamus atau korpus yang mendukung dialek Kazakh Xinjiang, arti, intensitas, dan target sosial."
+    },
+    "regional_and_minority_languages": {
+      "status": "cross_reference_country_catalog",
+      "entries": [
+        {
+          "id": "CN-KAZ-REG-001",
+          "term": "Kazakh in Xinjiang",
+          "explanation_id": "Kazakh adalah bahasa Turkik yang digunakan komunitas di Xinjiang; bentuk tulisan utama di wilayah ini menggunakan sistem Arab yang disesuaikan.",
+          "indonesian_learning_link": "Pilih profil Kazakh secara terpisah dari Uyghur; keduanya sama-sama Turkik tetapi bukan bahasa yang sama.",
+          "region": "Xinjiang Uyghur Autonomous Region",
+          "register": "Turkic language",
+          "usage_context": "Menentukan bahasa sumber.",
+          "example_source_language": "قازاق تىلى",
+          "example_indonesian": "bahasa Kazakh",
+          "sources": [
+            "https://slaviccenters.duke.edu/sites/slaviccenters.duke.edu/files/file-attachments/kazakh-grammar.pdf",
+            "https://www.loc.gov/catdir/cpso/romanization/kazakh.pdf"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-KAZ-REG-002",
+          "term": "Kazakh varieties beyond Xinjiang",
+          "explanation_id": "Kazakh digunakan di beberapa negara dan wilayah; dialek serta konvensi tulisan dapat bervariasi, sehingga sumber Kazakhstan tidak otomatis mewakili tutur Xinjiang.",
+          "indonesian_learning_link": "Catat lokasi sumber dan script; buat subprofil bila perbedaan leksikal/fonologis terkonfirmasi.",
+          "region": "Xinjiang, Kazakhstan, Mongolia and diaspora",
+          "register": "Regional variation",
+          "usage_context": "Membedakan data lintas negara.",
+          "example_source_language": "Kazakh in Xinjiang / Kazakhstan",
+          "example_indonesian": "Kazakh Xinjiang / Kazakhstan",
+          "sources": [
+            "https://slaviccenters.duke.edu/sites/slaviccenters.duke.edu/files/file-attachments/kazakh-grammar.pdf"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-KAZ-REG-003",
+          "term": "Kazakh is distinct from Uyghur",
+          "explanation_id": "Kazakh dan Uyghur merupakan bahasa Turkik berbeda meskipun sama-sama menggunakan aksara Arab di Xinjiang; struktur serta leksikon tidak boleh dipertukarkan.",
+          "indonesian_learning_link": "Jangan mengasumsikan kesamaan aksara berarti satu bahasa atau satu sistem ejaan.",
+          "region": "Xinjiang",
+          "register": "Language distinction",
+          "usage_context": "Memilih bahasa sumber yang tepat.",
+          "example_source_language": "Kazakh ≠ Uyghur",
+          "example_indonesian": "Kazakh bukan Uyghur",
+          "sources": [
+            "https://slaviccenters.duke.edu/sites/slaviccenters.duke.edu/files/file-attachments/kazakh-grammar.pdf",
+            "https://www.loc.gov/catdir/cpso/romanization/kazakh.pdf"
+          ],
+          "verification_status": "reviewed"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "Duke University — Kazakh Grammar",
+      "url": "https://slaviccenters.duke.edu/sites/slaviccenters.duke.edu/files/file-attachments/kazakh-grammar.pdf",
+      "scope": "Vowel harmony, consonant harmony, phonology, and orthographic systems including Arabic-script Xinjiang Kazakh."
+    },
+    {
+      "title": "Library of Congress — Kazakh Romanization Table",
+      "url": "https://www.loc.gov/catdir/cpso/romanization/kazakh.pdf",
+      "scope": "Transliteration for cataloging and cross-script reference."
+    },
+    {
+      "title": "Sozdik — Kazakh Dictionary",
+      "url": "https://sozdik.kz/",
+      "scope": "Lexicographic lookup; script and regional variant still need to be checked."
+    },
+    {
+      "title": "Kazakh phonology reference",
+      "url": "https://www.cambridge.org/core/books/kazakh/phonology/7A5F2A4E2F70E1E8D3E7F4A9A5A9D5B0",
+      "scope": "Phonological inventory and sound patterns."
+    },
+    {
+      "title": "Library of Congress — Kazakh Language Resources",
+      "url": "https://www.loc.gov/collections/kazakh-language-resources/",
+      "scope": "Bibliographic and language resource guide."
+    }
+  ],
+  "indonesian_learning_design": {
+    "direction": "Kazakh (Xinjiang) → Indonesian",
+    "learner_support": [
+      "Tampilkan aksara Arab Kazakh dengan arah kanan-ke-kiri dan transliterasi terpisah.",
+      "Ajarkan harmoni vokal bersama sufiks, bukan sebagai bunyi yang terisolasi.",
+      "Bedakan Kazakh dari Uyghur meskipun keduanya memakai aksara Arab di Xinjiang."
+    ]
+  },
+  "verification": {
+    "status": "content_seeded_reviewed_not_native_validated",
+    "last_reviewed": "2026-11-19",
+    "notes": "Profil fonologi, harmoni vokal, morfologi, dan sistem ortografi didukung grammar dan panduan transliterasi. Pragmatik, slang, profanity, dan beberapa detail dialek Xinjiang masih memerlukan sumber khusus dan validasi penutur."
+  }
+}
