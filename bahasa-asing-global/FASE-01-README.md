@@ -22,9 +22,9 @@ Setiap profil utama memiliki enam kategori: logat/aksen, pragmatik/cara bicara, 
 
 | Profil | Entri awal | Catatan |
 |---|---:|---|
-| English (US) | 32 | Variasi regional dan komunitas diberi batasan; beberapa entri aksen/slang masih draft. |
-| Japanese (JP) | 32 | Rujukan Japan Foundation, NINJAL, NDL, dan kamus; aksen dan slang regional masih memerlukan audio/validasi. |
-| Mandarin Putonghua (CN) | 33 | Standar fonologi dan tulisan ditopang sumber pemerintah RRT; pragmatik dan beberapa umpatan masih draft. |
+| English (US) | 32 | Beberapa entri aksen regional masih draft; referensi flapping dan cot-caught telah diperkuat dengan riset akademik. |
+| Japanese (JP) | 32 | Rujukan Japan Foundation, NINJAL, NDL, dan kamus; slang tertentu sudah memiliki rujukan langsung, lainnya masih draft. |
+| Mandarin Putonghua (CN) | 33 | Standar fonologi/tulisan ditopang sumber pemerintah RRT; beberapa pragmatik dan umpatan tetap draft. |
 | **Total** | **97** | Benih materi terstruktur, bukan inventaris lengkap kosakata semua penutur. |
 
 ## Status pekerjaan
@@ -34,7 +34,19 @@ Setiap profil utama memiliki enam kategori: logat/aksen, pragmatik/cara bicara, 
 - Tiga bahasa utama memiliki profil terisi pada keenam kategori.
 - Setiap entri memiliki ID, penjelasan Indonesia, hubungan ke pembelajaran bahasa Indonesia, konteks, contoh, sumber, dan status verifikasi.
 - Status profil dan tautan dari katalog negara telah diselaraskan.
+- Sumber yang tidak secara langsung mendukung lema dihapus atau diganti; rujukan pembanding dari Taiwan diberi batas geografis yang jelas.
+- Validator Python standard library ditambahkan dan diperkuat untuk memeriksa JSON, kategori, field wajib, ID unik, status, tautan sumber, dan relasi katalog.
 - Kode Hachijo tetap `null` karena belum dikonfirmasi; kode bahasa tidak ditebak.
+
+## Ringkasan status entri
+
+Audit data terakhir: **97 entri**, terdiri dari **63 reviewed**, **34 draft**, dan **0 verified**.
+
+- `reviewed` berarti entri telah diperiksa terhadap rujukan yang dicantumkan; bukan berarti sudah divalidasi penutur asli.
+- `draft` berarti sumber langsung, sebaran regional, atau konteks pemakaian belum cukup.
+- `verified` belum diberikan karena belum ada proses validasi penutur asli/ahli yang terdokumentasi untuk entri-entri tersebut.
+
+Pemeriksaan struktur terakhir menemukan nol kesalahan JSON/struktur, nol ID kosong/duplikat, dan seluruh katalog inti terhubung ke profil bahasa yang sesuai.
 
 **Masih terbuka sebelum seluruh inventaris tiga negara dapat disebut lengkap:**
 - Profil individual bahasa lain yang tercantum dalam katalog negara, termasuk bahasa komunitas, Indigenous, regional, dan minoritas.
