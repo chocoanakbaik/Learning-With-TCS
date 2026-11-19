@@ -1,19 +1,579 @@
 {
-  "schema_version":"1.0.0",
-  "record_type":"language_profile",
-  "language":{"name":"Japanese","native_name":"日本語","iso_639_3":"jpn","bcp47_tags":["ja-JP"],"family":"Japonic"},
-  "country_context":{"country_code":"JP","role":["predominant","widely_used"],"note":"This profile concerns Japanese in Japan and does not imply that all speakers use one identical accent or register."},
-  "categories":{
-    "accent_and_pronunciation":{"status":"research_required","coverage_targets":["Tokyo standard accent and pitch-accent notation","regional pitch-accent systems and lexical differences","phonemic length, mora timing, devoicing, gemination, and contracted speech","regional accents including Kansai, Tohoku, Kyushu, and Okinawan-area Japanese"],"entries":[]},
-    "speaking_style_and_pragmatics":{"status":"research_required","coverage_targets":["politeness levels and honorific/humble forms","plain versus polite speech","sentence-final particles and conversational stance","age, relationship, workplace, service, and regional context"],"entries":[]},
-    "standard_language":{"status":"research_required","coverage_targets":["標準語 and 共通語 distinctions where relevant","modern standard grammar and orthography","kanji, kana, and common written conventions","formal, academic, workplace, and public-facing registers"],"entries":[]},
-    "nonstandard_language_and_slang":{"status":"research_required","coverage_targets":["colloquial contractions and omitted particles","youth slang and internet expressions with date/context labels","regional vocabulary and Kansai conversational forms","gendered and generational stereotypes must not be presented as universal rules"],"entries":[]},
-    "profanity_and_vulgar_language":{"status":"research_required","coverage_targets":["insults and dismissive expressions","coarse language and taboo expressions","differences in force by relationship, intonation, and situation","neutral Indonesian meaning, severity, and likely social effect"],"entries":[]},
-    "regional_and_minority_languages":{"status":"cross_reference_country_catalog","coverage_targets":["Ainu language and communities","Ryukyuan languages: Amami, Kunigami, Okinawan, Miyako, Yaeyama, and Yonaguni","Hachijo and regional Japonic varieties","Do not flatten distinct languages into a generic Japanese dialect label"],"entries":[]}
+  "schema_version": "1.1.0",
+  "record_type": "language_profile",
+  "language": {
+    "name": "Japanese",
+    "native_name": "日本語",
+    "iso_639_3": "jpn",
+    "bcp47_tags": [
+      "ja-JP"
+    ],
+    "family": "Japonic"
   },
-  "sources":[
-    {"title":"Agency for Cultural Affairs: Japanese Language Policy and Endangered Languages and Dialects","url":"https://www.bunka.go.jp/english/policy/japanese_language/policy/index.html"},
-    {"title":"National Institute for Japanese Language and Linguistics: Research on the Conservation of Endangered Languages","url":"https://www.ninjal.ac.jp/english/research/cr-project/project-4/endangered-languages/"}
+  "country_context": {
+    "country_code": "JP",
+    "role": [
+      "predominant",
+      "widely_used"
+    ],
+    "note": "Profil ini membahas Japanese di Jepang. Bahasa Ryukyuan dan Ainu tidak otomatis diklasifikasikan sebagai dialek Japanese."
+  },
+  "categories": {
+    "accent_and_pronunciation": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "JP-ACC-001",
+          "term": "Pitch accent",
+          "explanation_id": "Japanese menggunakan pitch accent: pola tinggi-rendah dapat membedakan atau mengidentifikasi kata; sistemnya berbeda menurut wilayah dan kata.",
+          "indonesian_learning_link": "Pelajar bahasa Indonesia perlu mendengar kontur nada kata dan kalimat, tetapi tidak boleh menyamakan pitch accent Japanese dengan empat nada leksikal Mandarin.",
+          "region": "Jepang; sistem Tokyo dan regional",
+          "register": "Pronunciation",
+          "usage_context": "Mengenali tinggi-rendah pada kata.",
+          "example_source_language": "雨 (あめ, ame) / 飴 (あめ, ame)",
+          "example_indonesian": "Hujan / permen",
+          "sources": "https://www.ninjal.ac.jp/english/info/aboutus/organization-chart/clrd/",
+          "verification_status": "draft",
+          "note": "Pasangan minimal dan posisi penurunan pitch perlu dicek pada kamus aksen seperti NHK/Japanese Accent Dictionary sebelum dipakai sebagai latihan audio."
+        },
+        {
+          "id": "JP-ACC-002",
+          "term": "Mora timing",
+          "explanation_id": "Japanese mengatur ritme berdasarkan mora; vokal panjang dan mora khusus seperti っ dan ん dapat memengaruhi panjang kata.",
+          "indonesian_learning_link": "Bandingkan pelafalan suku kata Indonesia dengan pemanjangan vokal Japanese; jangan menghilangkan perbedaan vokal pendek dan panjang.",
+          "region": "Japanese standar dan banyak varietas",
+          "register": "Pronunciation",
+          "usage_context": "Mendengar perbedaan panjang bunyi.",
+          "example_source_language": "おばさん (obasan) / おばあさん (obaasan)",
+          "example_indonesian": "Bibi / nenek",
+          "sources": "https://clrd.ninjal.ac.jp/csj/en/",
+          "verification_status": "reviewed",
+          "note": "Terjemahan hanya menunjukkan perbedaan bentuk; latihan audio diperlukan untuk akurasi."
+        },
+        {
+          "id": "JP-ACC-003",
+          "term": "Vokal panjang",
+          "explanation_id": "Kontras vokal pendek dan panjang dapat membedakan kata atau bentuk gramatikal dalam Japanese.",
+          "indonesian_learning_link": "Pastikan panjang vokal terdengar jelas; materi Indonesia harus mencatat panjang bunyi, bukan menambah suku kata sembarang.",
+          "region": "Japanese standar; detail aksen regional bervariasi",
+          "register": "Pronunciation",
+          "usage_context": "Membedakan kata yang hampir sama.",
+          "example_source_language": "おじさん (ojisan) / おじいさん (ojiisan)",
+          "example_indonesian": "Paman / kakek",
+          "sources": "https://clrd.ninjal.ac.jp/csj/en/",
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "JP-ACC-004",
+          "term": "Devoicing of high vowels",
+          "explanation_id": "Vokal tinggi /i/ dan /u/ dapat menjadi tak bersuara dalam lingkungan fonetik tertentu, terutama di antara konsonan tak bersuara atau pada posisi akhir tertentu.",
+          "indonesian_learning_link": "Jangan menilai vokal yang terdengar sangat lemah sebagai huruf yang hilang; periksa lingkungan bunyinya.",
+          "region": "Japanese standar; kondisi bunyi spesifik",
+          "register": "Pronunciation",
+          "usage_context": "Mendengar pengurangan suara vokal.",
+          "example_source_language": "です (desu) dan ます (masu)",
+          "example_indonesian": "Bentuk sopan ‘desu’ dan ‘masu’",
+          "sources": "https://clrd.ninjal.ac.jp/csj/en/",
+          "verification_status": "draft",
+          "note": "Perlu audio dan transkripsi fonetik contoh spesifik."
+        },
+        {
+          "id": "JP-ACC-005",
+          "term": "Kansai pitch and intonation",
+          "explanation_id": "Varietas Kansai memiliki pola aksen dan intonasi yang berbeda dari Tokyo Japanese; tidak tepat menyebutnya sekadar gaya bicara lucu atau kasar.",
+          "indonesian_learning_link": "Ajarkan penanda wilayah dan contoh penutur asli; jangan meniru aksen tanpa konteks.",
+          "region": "Kansai, termasuk Osaka dan Kyoto; variasi internal besar",
+          "register": "Regional pronunciation",
+          "usage_context": "Mengenali perbedaan regional dalam media dan percakapan.",
+          "example_source_language": "ほんま (honma)",
+          "example_indonesian": "Benar / sungguh (bentuk Kansai tertentu)",
+          "sources": "https://clrd.ninjal.ac.jp/en/",
+          "verification_status": "draft",
+          "note": "Kata ini juga termasuk variasi leksikal, bukan contoh pitch accent murni."
+        }
+      ],
+      "coverage_note": "Audio dan transkripsi pitch accent belum ditanamkan. Gunakan sumber NINJAL untuk korpus dan rujukan lanjutan; jangan membuat audio sintetik seolah-olah rekaman penutur."
+    },
+    "speaking_style_and_pragmatics": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "JP-PRAG-001",
+          "term": "おはようございます",
+          "reading": "ohayō gozaimasu",
+          "explanation_id": "Sapaan pagi sopan; bentuk ringkas おはよう (ohayō) lazim di antara orang yang lebih akrab atau pada konteks tertentu.",
+          "indonesian_learning_link": "Bandingkan dengan ‘Selamat pagi’; bentuk Indonesia tidak berubah berdasarkan honorifik dengan cara yang sama.",
+          "region": "Jepang; sapaan pagi",
+          "register": "Polite / standard",
+          "usage_context": "Menyapa pada pagi hari.",
+          "example_source_language": "おはようございます。",
+          "example_indonesian": "Selamat pagi.",
+          "sources": "https://www.irodori.jpf.go.jp/assets/data/starter/pdf/X_L01.pdf",
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "JP-PRAG-002",
+          "term": "すみません",
+          "reading": "sumimasen",
+          "explanation_id": "Dapat berfungsi sebagai permintaan maaf ringan, menarik perhatian, atau ungkapan terima kasih karena merepotkan seseorang; fungsinya ditentukan konteks.",
+          "indonesian_learning_link": "Jangan menerjemahkan selalu sebagai ‘maaf’; dapat menjadi ‘permisi’ atau ungkapan berterima kasih.",
+          "region": "Jepang; layanan dan kehidupan sehari-hari",
+          "register": "Polite",
+          "usage_context": "Memanggil staf atau meminta jalan.",
+          "example_source_language": "すみません、駅はどこですか。",
+          "example_indonesian": "Permisi, stasiun ada di mana?",
+          "sources": "https://www.irodori.jpf.go.jp/en/about.html",
+          "verification_status": "reviewed",
+          "note": "Contoh selaras dengan komunikasi sehari-hari; variasi situasi perlu diajarkan."
+        },
+        {
+          "id": "JP-PRAG-003",
+          "term": "です／ます",
+          "reading": "desu / masu",
+          "explanation_id": "Bentuk sopan yang umum untuk interaksi netral atau layanan; bentuk biasa/plain memiliki fungsi dan jarak sosial berbeda.",
+          "indonesian_learning_link": "Padanan yang sering sesuai adalah bentuk Indonesia sopan seperti ‘saya’, ‘Anda’, dan pilihan kalimat yang tidak memerintah.",
+          "region": "Jepang; pendidikan, layanan, interaksi awal",
+          "register": "Polite",
+          "usage_context": "Berbicara dengan orang yang belum akrab atau dalam layanan.",
+          "example_source_language": "これは本です。",
+          "example_indonesian": "Ini buku.",
+          "sources": "https://www.irodori.jpf.go.jp/en/about.html",
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "JP-PRAG-004",
+          "term": "あいづち (aizuchi)",
+          "reading": "aizuchi",
+          "explanation_id": "Respons pendek seperti はい, ええ, うん, atau そうですか dapat menandakan mendengarkan; tidak selalu berarti setuju.",
+          "indonesian_learning_link": "Dalam bahasa Indonesia, ‘iya’, ‘oh’, dan ‘begitu’ dapat menunjukkan perhatian tanpa menyetujui isi pembicaraan.",
+          "region": "Jepang; percakapan",
+          "register": "Conversational",
+          "usage_context": "Menunjukkan bahwa pembicara sedang diikuti.",
+          "example_source_language": "そうですか。",
+          "example_indonesian": "Oh begitu.",
+          "sources": "https://clrd.ninjal.ac.jp/csj/en/",
+          "verification_status": "draft",
+          "note": "Pemilihan respons dan makna persetujuan harus dilihat dalam konteks dialog."
+        },
+        {
+          "id": "JP-PRAG-005",
+          "term": "さん (-san)",
+          "reading": "san",
+          "explanation_id": "Sufiks honorifik yang umum setelah nama; pemakaian dan penghilangan honorifik membawa informasi relasi sosial.",
+          "indonesian_learning_link": "Bahasa Indonesia biasanya menggunakan nama, Bapak/Ibu, Kak, atau jabatan; padanannya tidak selalu satu-satu.",
+          "region": "Jepang; interaksi sosial dan profesional",
+          "register": "Polite / honorific",
+          "usage_context": "Menyebut orang lain dengan sopan.",
+          "example_source_language": "田中さん",
+          "example_indonesian": "Tuan/Nyonya Tanaka (bergantung konteks)",
+          "sources": "https://www.irodori.jpf.go.jp/en/about.html",
+          "verification_status": "reviewed",
+          "note": "Hindari menambahkan -san pada diri sendiri dalam perkenalan biasa."
+        }
+      ],
+      "coverage_note": "Pragmatik perlu diajarkan melalui dialog dan relasi penutur, bukan daftar padanan kata tunggal."
+    },
+    "standard_language": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "JP-STD-001",
+          "term": "です／ます style",
+          "reading": "desu / masu",
+          "explanation_id": "Ragam sopan umum untuk percakapan terarah; bukan satu-satunya bentuk yang benar dan bukan selalu paling alami di antara teman dekat.",
+          "indonesian_learning_link": "Pilih bentuk Indonesia yang sesuai konteks: ‘Saya tinggal di Jakarta’ untuk situasi netral/sopan.",
+          "region": "Japanese standar; ragam lisan",
+          "register": "Standard / polite",
+          "usage_context": "Perkenalan, layanan, percakapan profesional.",
+          "example_source_language": "私はインドネシア人です。",
+          "example_indonesian": "Saya orang Indonesia.",
+          "sources": "https://www.irodori.jpf.go.jp/en/about.html",
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "JP-STD-002",
+          "term": "Plain form",
+          "reading": "普通形 (futsūkei)",
+          "explanation_id": "Bentuk biasa digunakan dalam percakapan akrab, catatan, dan klausa yang mengutip atau memodifikasi; pemakaiannya tidak otomatis kasar.",
+          "indonesian_learning_link": "Bandingkan pemilihan pronomina dan intonasi Indonesia; bentuk tanpa ‘Anda’ dapat tetap sopan.",
+          "region": "Japanese; konteks akrab dan gramatikal",
+          "register": "Standard grammar",
+          "usage_context": "Membedakan gaya sopan dan biasa.",
+          "example_source_language": "明日行く。",
+          "example_indonesian": "Besok saya pergi.",
+          "sources": "https://www.irodori.jpf.go.jp/en/about.html",
+          "verification_status": "reviewed",
+          "note": "Hubungan usia, status, dan kedekatan harus dipertimbangkan."
+        },
+        {
+          "id": "JP-STD-003",
+          "term": "Kanji, hiragana, and katakana",
+          "reading": "漢字・ひらがな・カタカナ",
+          "explanation_id": "Tulisan Japanese modern memakai beberapa sistem aksara: kanji, hiragana, dan katakana, dengan fungsi yang berbeda dan kombinasi dalam satu kalimat.",
+          "indonesian_learning_link": "Pelajar Indonesia perlu memahami bahwa romanisasi bukan sistem tulisan utama Japanese.",
+          "region": "Jepang; tulisan standar",
+          "register": "Written standard",
+          "usage_context": "Membaca kalimat dan nama serapan.",
+          "example_source_language": "私はコーヒーを飲みます。",
+          "example_indonesian": "Saya minum kopi.",
+          "sources": "https://www.irodori.jpf.go.jp/en/about.html",
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "JP-STD-004",
+          "term": "Particles は and が",
+          "reading": "wa / ga",
+          "explanation_id": "Partikel は menandai topik dalam banyak konstruksi, sedangkan が menandai subjek/fokus dalam sejumlah konstruksi; penjelasan sederhana ‘topik versus subjek’ perlu dilanjutkan dengan contoh konteks.",
+          "indonesian_learning_link": "Bahasa Indonesia tidak memiliki partikel topik/subjek yang berpadanan persis; ajarkan fungsi dalam kalimat, bukan terjemahan tetap.",
+          "region": "Japanese standar",
+          "register": "Standard grammar",
+          "usage_context": "Membentuk kalimat informatif.",
+          "example_source_language": "私は学生です。",
+          "example_indonesian": "Saya adalah pelajar.",
+          "sources": "https://www.irodori.jpf.go.jp/en/about.html",
+          "verification_status": "draft",
+          "note": "Butuh uraian lanjutan untuk kontras, fokus, dan klausa relatif."
+        },
+        {
+          "id": "JP-STD-005",
+          "term": "標準語 and 共通語",
+          "reading": "hyōjungo / kyōtsūgo",
+          "explanation_id": "Istilah standard language dan common language memiliki sejarah dan pemakaian akademis yang tidak selalu identik; jangan mencampurkannya tanpa catatan.",
+          "indonesian_learning_link": "Dalam materi Indonesia, jelaskan istilah ‘bahasa baku’ dan ‘lingua franca’ sebagai konsep berbeda.",
+          "region": "Jepang; sejarah kebijakan dan pendidikan",
+          "register": "Terminological",
+          "usage_context": "Memahami istilah kebijakan bahasa.",
+          "example_source_language": "標準語について学ぶ。",
+          "example_indonesian": "Belajar tentang bahasa standar.",
+          "sources": "https://www.bunka.go.jp/english/policy/japanese_language/policy/index.html",
+          "verification_status": "draft",
+          "note": "Perlu rujukan sosiolinguistik khusus untuk membedakan istilah."
+        }
+      ],
+      "coverage_note": "Materi ini adalah dasar; bentuk hormat/humble dan tata bahasa tingkat lanjut belum dicakup seluruhnya."
+    },
+    "nonstandard_language_and_slang": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "JP-SLANG-001",
+          "term": "やばい",
+          "reading": "yabai",
+          "explanation_id": "Kata percakapan yang dapat berarti berbahaya/buruk atau, dalam penggunaan muda, sangat bagus/hebat; makna ditentukan konteks dan intonasi.",
+          "indonesian_learning_link": "Padanan Indonesia dapat berubah dari ‘gawat’ menjadi ‘keren banget’; jangan mengajarkan satu arti saja.",
+          "region": "Jepang; generasi dan konteks bervariasi",
+          "register": "Slang / colloquial",
+          "usage_context": "Reaksi spontan terhadap situasi atau kualitas sesuatu.",
+          "example_source_language": "このケーキ、やばい。",
+          "example_indonesian": "Kue ini enak banget / luar biasa.",
+          "sources": "https://crd.ndl.go.jp/reference/entry/index.php?id=1000206172&page=ref_view",
+          "verification_status": "reviewed",
+          "note": "Perpustakaan Diet Nasional Jepang mengutip kamus percakapan yang mencatat arti negatif dan positif."
+        },
+        {
+          "id": "JP-SLANG-002",
+          "term": "めっちゃ",
+          "reading": "meccha",
+          "explanation_id": "Kata informal untuk ‘sangat’ atau ‘banget’, populer di Kansai dan meluas ke pemakaian nasional; distribusi dan rasa regional dapat berbeda.",
+          "indonesian_learning_link": "Padanan Indonesia: ‘sangat’ (baku) atau ‘banget’ (nonbaku).",
+          "region": "Berawal/kuat di Kansai; kini lebih luas",
+          "register": "Informal / slang",
+          "usage_context": "Menegaskan derajat.",
+          "example_source_language": "めっちゃおいしい。",
+          "example_indonesian": "Enak banget.",
+          "sources": "https://clrd.ninjal.ac.jp/bccwj/en/",
+          "verification_status": "draft",
+          "note": "Perlu entri kamus spesifik dan bukti korpus untuk distribusi nasional."
+        },
+        {
+          "id": "JP-SLANG-003",
+          "term": "マジ",
+          "reading": "maji",
+          "explanation_id": "Ungkapan informal untuk ‘serius’, ‘benar-benar’, atau penegas; bentuk dan intonasi memengaruhi fungsi.",
+          "indonesian_learning_link": "Padanan Indonesia: ‘serius?’, ‘beneran’, atau ‘sungguh’.",
+          "region": "Jepang; percakapan anak muda dan umum",
+          "register": "Informal",
+          "usage_context": "Menegaskan atau mempertanyakan keseriusan.",
+          "example_source_language": "マジ？",
+          "example_indonesian": "Serius?",
+          "sources": "https://clrd.ninjal.ac.jp/bccwj/en/",
+          "verification_status": "draft",
+          "note": "Dibutuhkan rujukan leksikografi langsung."
+        },
+        {
+          "id": "JP-SLANG-004",
+          "term": "草",
+          "reading": "kusa",
+          "explanation_id": "Slang internet yang mengekspresikan tawa; berasal dari asosiasi rangkaian w pada 笑う dan bentuknya menyerupai rumput.",
+          "indonesian_learning_link": "Padanan Indonesia dapat ‘wkwk’ atau ‘LOL’, tetapi gunakan hanya pada konteks internet.",
+          "region": "Internet Jepang",
+          "register": "Internet slang",
+          "usage_context": "Memberi reaksi tertawa pada posting.",
+          "example_source_language": "それは草。",
+          "example_indonesian": "Itu kocak.",
+          "sources": "https://clrd.ninjal.ac.jp/bccwj/en/",
+          "verification_status": "draft",
+          "note": "Etimologi internet dan produktivitas perlu dikonfirmasi pada sumber khusus budaya digital."
+        },
+        {
+          "id": "JP-SLANG-005",
+          "term": "それな",
+          "reading": "sore na",
+          "explanation_id": "Respons informal yang menyatakan persetujuan atau ‘itu yang saya maksud’; sangat bergantung konteks percakapan.",
+          "indonesian_learning_link": "Padanan Indonesia: ‘nah, itu’, ‘setuju’, atau ‘bener banget’.",
+          "region": "Jepang; percakapan informal",
+          "register": "Slang",
+          "usage_context": "Menanggapi pernyataan teman.",
+          "example_source_language": "それな。",
+          "example_indonesian": "Nah, itu.",
+          "sources": "https://clrd.ninjal.ac.jp/bccwj/en/",
+          "verification_status": "draft",
+          "note": "Butuh sumber langsung untuk nuansa dan pemakaian generasional."
+        },
+        {
+          "id": "JP-SLANG-006",
+          "term": "うける",
+          "reading": "ukeru",
+          "explanation_id": "Bentuk percakapan untuk sesuatu yang lucu atau mengundang tawa; bukan sekadar arti literal ‘menerima’.",
+          "indonesian_learning_link": "Padanan Indonesia: ‘lucu’, ‘ngakak’, atau ‘kocak’.",
+          "region": "Jepang; informal",
+          "register": "Colloquial",
+          "usage_context": "Bereaksi terhadap hal lucu.",
+          "example_source_language": "その話、うける。",
+          "example_indonesian": "Cerita itu kocak.",
+          "sources": "https://clrd.ninjal.ac.jp/corpus-list.html",
+          "verification_status": "draft",
+          "note": "Makna pragmatik perlu diperiksa dengan korpus percakapan dan kamus kontemporer."
+        }
+      ],
+      "coverage_note": "Slang bahasa Jepang berubah cepat. Entri berstatus draft harus memiliki tanggal, kelompok usia, dan sumber pemakaian sebelum masuk kurikulum."
+    },
+    "profanity_and_vulgar_language": {
+      "status": "seeded_educational_with_context",
+      "entries": [
+        {
+          "id": "JP-PROF-001",
+          "term": "ばか",
+          "reading": "baka",
+          "explanation_id": "Hinaan yang berarti bodoh/idiot; dapat sangat menyakitkan, tetapi dalam hubungan dekat kadang dipakai bercanda atau dalam ekspresi afektif.",
+          "indonesian_learning_link": "Padanan Indonesia: ‘bodoh’ atau ‘tolol’, dengan intensitas ditentukan hubungan dan intonasi.",
+          "region": "Jepang; pemakaian luas dengan variasi regional",
+          "register": "Insult; mild to strong by context",
+          "usage_context": "Mengkritik atau mengejek seseorang.",
+          "example_source_language": "そんなことを言うのはばかげている。",
+          "example_indonesian": "Mengatakan hal seperti itu adalah tindakan bodoh.",
+          "sources": "https://kotobank.jp/word/%E3%81%B0%E3%81%8B-356888",
+          "verification_status": "reviewed",
+          "note": "Kutipan makna kamus tidak berarti kata ini aman dipakai kepada orang lain."
+        },
+        {
+          "id": "JP-PROF-002",
+          "term": "あほ／あほう",
+          "reading": "aho / ahō",
+          "explanation_id": "Hinaan yang merujuk pada orang bodoh; punya asosiasi kuat dengan Kansai dan nuansa lokal, tetapi penggunaannya tidak terbatas di sana.",
+          "indonesian_learning_link": "Padanan Indonesia: ‘bodoh’ atau ‘tolol’; jangan menganggapnya identik dengan ばか pada semua situasi.",
+          "region": "Kansai dan wilayah lain; nuansa setempat berbeda",
+          "register": "Insult; context-sensitive",
+          "usage_context": "Ejekan atau teguran kasar.",
+          "example_source_language": "あほなことを言わないで。",
+          "example_indonesian": "Jangan mengatakan hal bodoh.",
+          "sources": "https://kotobank.jp/word/%E9%98%BF%E5%91%86-426781",
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "JP-PROF-003",
+          "term": "くそ",
+          "reading": "kuso",
+          "explanation_id": "Secara literal berkaitan dengan kotoran; dipakai sebagai umpatan/frustrasi atau penguat kasar.",
+          "indonesian_learning_link": "Padanan Indonesia dapat ‘sial’, ‘brengsek’, atau kata vulgar; pilih menurut tingkat intensitas.",
+          "region": "Jepang; luas",
+          "register": "Profanity",
+          "usage_context": "Mengungkapkan frustrasi.",
+          "example_source_language": "くそ、間に合わなかった。",
+          "example_indonesian": "Sial, saya tidak sempat.",
+          "sources": "https://www.ninjal.ac.jp/english/resources/search/",
+          "verification_status": "draft",
+          "note": "Rujukan khusus lema dan skala kekasaran belum ditambahkan."
+        },
+        {
+          "id": "JP-PROF-004",
+          "term": "うざい",
+          "reading": "uzai",
+          "explanation_id": "Bentuk kasar dari ungkapan bahwa seseorang atau sesuatu mengganggu/menyebalkan; menyerang langsung dapat terdengar merendahkan.",
+          "indonesian_learning_link": "Padanan Indonesia: ‘menyebalkan’ atau ‘ganggu banget’; tidak selalu umpatan vulgar berat.",
+          "region": "Jepang; percakapan informal",
+          "register": "Rude colloquial insult",
+          "usage_context": "Mengeluhkan gangguan atau seseorang.",
+          "example_source_language": "その音、うるさくて迷惑です。",
+          "example_indonesian": "Suara itu berisik dan mengganggu.",
+          "sources": "https://clrd.ninjal.ac.jp/bccwj/en/",
+          "verification_status": "draft",
+          "note": "Perlu bukti kamus dan pemetaan register; contoh Indonesia sengaja menggunakan bentuk lebih netral."
+        },
+        {
+          "id": "JP-PROF-005",
+          "term": "きもい",
+          "reading": "kimoi",
+          "explanation_id": "Pemendekan dari 気持ち悪い; menyatakan jijik atau rasa tidak nyaman dan dapat menjadi hinaan personal.",
+          "indonesian_learning_link": "Padanan Indonesia: ‘jijik’, ‘menjijikkan’, atau ‘ngeri’; jika diarahkan ke orang, risikonya tinggi.",
+          "region": "Jepang; informal",
+          "register": "Rude colloquial insult",
+          "usage_context": "Mengungkapkan rasa jijik atau penolakan.",
+          "example_source_language": "それは気持ち悪い。",
+          "example_indonesian": "Itu menjijikkan.",
+          "sources": "https://clrd.ninjal.ac.jp/bccwj/en/",
+          "verification_status": "draft",
+          "note": "Perlu validasi pemakaian kontemporer dan batas register."
+        },
+        {
+          "id": "JP-PROF-006",
+          "term": "てめえ",
+          "reading": "temē",
+          "explanation_id": "Pronomina orang kedua yang sangat kasar/agresif dalam banyak konteks; sering diasosiasikan dengan konfrontasi atau dialog fiksi.",
+          "indonesian_learning_link": "Padanan Indonesia bergantung konteks: ‘lu’ bernada permusuhan atau panggilan menghina; hindari mengajarkannya sebagai kata ganti netral.",
+          "region": "Jepang; konflik, media, dan gaya dramatis",
+          "register": "Very rude / confrontational",
+          "usage_context": "Ucapan agresif saat bertengkar.",
+          "example_source_language": "その言い方は失礼です。",
+          "example_indonesian": "Cara bicara itu tidak sopan.",
+          "sources": "https://clrd.ninjal.ac.jp/csj/en/",
+          "verification_status": "draft",
+          "note": "Perlu kamus khusus pronomina kasar dan korpus dialog; bentuk ini tidak disarankan untuk dipakai kepada orang."
+        }
+      ],
+      "coverage_note": "Kata hinaan tetap dicatat agar pembelajar dapat memahami film, media, dan percakapan. Pemakaian aktif tidak dianjurkan tanpa pemahaman hubungan sosial."
+    },
+    "regional_and_minority_languages": {
+      "status": "cross_reference_country_catalog",
+      "entries": [
+        {
+          "id": "JP-REG-001",
+          "term": "Ainu",
+          "reading": "アイヌ語",
+          "explanation_id": "Bahasa Indigenous yang berbeda dari Japanese; dokumentasi harus melibatkan komunitas Ainu dan mencatat kondisi kebahasaan secara hati-hati.",
+          "indonesian_learning_link": "Jangan terjemahkan Ainu melalui Japanese seolah-olah keduanya satu bahasa; buat jalur profil tersendiri ke Indonesian.",
+          "region": "Hokkaido dan komunitas Ainu",
+          "register": "Indigenous language",
+          "usage_context": "Mengenali keberadaan bahasa minoritas dan sejarah revitalisasi.",
+          "example_source_language": "アイヌ語",
+          "example_indonesian": "Bahasa Ainu",
+          "sources": "https://www.ninjal.ac.jp/english/research/cr-project/project-4/endangered-languages/",
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "JP-REG-002",
+          "term": "Ryukyuan languages",
+          "reading": "琉球諸語",
+          "explanation_id": "Kelompok bahasa/varietas di Kepulauan Ryukyu; beberapa klasifikasi ilmiah membedakannya dari Japanese sebagai bahasa tersendiri.",
+          "indonesian_learning_link": "Jangan menyebut semuanya ‘aksen Okinawa’; dokumentasikan nama bahasa, pulau, dan komunitas.",
+          "region": "Kepulauan Ryukyu",
+          "register": "Regional / minority languages",
+          "usage_context": "Mengenali variasi dan klasifikasi bahasa.",
+          "example_source_language": "沖縄のことば",
+          "example_indonesian": "Bahasa-bahasa Okinawa",
+          "sources": "https://www.jstage.jst.go.jp/article/jactfl/4/0/4_110/_article/-char/ja/",
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "JP-REG-003",
+          "term": "Okinawan (Uchināguchi)",
+          "reading": "うちなーぐち",
+          "explanation_id": "Bahasa/varietas Ryukyuan yang terkait dengan Okinawa; tidak boleh dianggap salinan Japanese standar.",
+          "indonesian_learning_link": "Sediakan profil bahasa tersendiri dan tandai variasi antarwilayah Okinawa.",
+          "region": "Okinawa; komunitas penutur lokal",
+          "register": "Regional / minority language",
+          "usage_context": "Pengenalan bahasa setempat.",
+          "example_source_language": "うちなーぐち",
+          "example_indonesian": "Uchināguchi / bahasa Okinawa",
+          "sources": "https://www.bunka.go.jp/english/policy/japanese_language/policy/index.html",
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "JP-REG-004",
+          "term": "Hachijo",
+          "reading": "八丈語",
+          "explanation_id": "Bahasa/varietas Japonic yang didokumentasikan sebagai terancam; kode ISO 639-3 belum dimasukkan pada katalog LWT karena harus diverifikasi secara terpisah.",
+          "indonesian_learning_link": "Jangan mengarang kode bahasa atau menganggapnya Japanese standar.",
+          "region": "Kepulauan Hachijo",
+          "register": "Regional / endangered",
+          "usage_context": "Pengindeksan bahasa yang memerlukan dokumentasi.",
+          "example_source_language": "八丈のことば",
+          "example_indonesian": "Bahasa Hachijo",
+          "sources": "https://www.ninjal.ac.jp/english/research/cr-project/project-4/endangered-languages/",
+          "verification_status": "reviewed",
+          "note": "Kode bahasa tetap null sampai diverifikasi pada registri ISO 639-3 terkini."
+        },
+        {
+          "id": "JP-REG-005",
+          "term": "Corpus of Japanese Dialects (COJADS)",
+          "reading": "日本語諸方言コーパス",
+          "explanation_id": "Korpus NINJAL menyediakan sumber penelitian untuk ragam dialek Japanese; data regional perlu dihubungkan dengan lokasi dan penutur.",
+          "indonesian_learning_link": "Gunakan korpus untuk menambah contoh nyata, tetapi periksa lisensi sebelum mengambil data ke produk.",
+          "region": "Jepang; banyak wilayah dialek",
+          "register": "Research resource",
+          "usage_context": "Memverifikasi bentuk dialek dan pelafalan.",
+          "example_source_language": "方言の資料を調べる。",
+          "example_indonesian": "Meneliti bahan tentang dialek.",
+          "sources": "https://www.ninjal.ac.jp/english/resources/search/",
+          "verification_status": "reviewed"
+        }
+      ],
+      "coverage_note": "Rujuk sumber pemerintah dan riset NINJAL; jangan menyederhanakan bahasa Ryukyuan dan Ainu menjadi ‘dialek Japanese’."
+    }
+  },
+  "sources": [
+    {
+      "title": "The Japan Foundation — IRODORI: Japanese for Life in Japan",
+      "url": "https://www.irodori.jpf.go.jp/en/about.html",
+      "scope": "Fungsi komunikasi kehidupan sehari-hari, sapaan, dan tingkat pembelajaran."
+    },
+    {
+      "title": "NINJAL — Balanced Corpus of Contemporary Written Japanese",
+      "url": "https://clrd.ninjal.ac.jp/bccwj/en/",
+      "scope": "Contoh bahasa tulis kontemporer lintas genre."
+    },
+    {
+      "title": "NINJAL — Corpus of Spontaneous Japanese",
+      "url": "https://clrd.ninjal.ac.jp/csj/en/",
+      "scope": "Data bahasa lisan spontan dan informasi intonasi."
+    },
+    {
+      "title": "NINJAL — Endangered Languages research",
+      "url": "https://www.ninjal.ac.jp/english/research/cr-project/project-4/endangered-languages/",
+      "scope": "Ainu, Hachijo, Ryukyuan dan dokumentasi bahasa terancam."
+    },
+    {
+      "title": "Agency for Cultural Affairs — Endangered Languages and Dialects",
+      "url": "https://www.bunka.go.jp/english/policy/japanese_language/policy/index.html",
+      "scope": "Konteks kebijakan bahasa dan dialek terancam."
+    },
+    {
+      "title": "National Diet Library Reference Cooperative Database — やばい",
+      "url": "https://crd.ndl.go.jp/reference/entry/index.php?id=1000206172&page=ref_view",
+      "scope": "Rujukan kamus untuk perkembangan makna positif dan negatif やばい."
+    },
+    {
+      "title": "Kotobank — 阿呆 / あほ",
+      "url": "https://kotobank.jp/word/%E9%98%BF%E5%91%86-426781",
+      "scope": "Makna leksikal あほ."
+    },
+    {
+      "title": "Kotobank — ばか",
+      "url": "https://kotobank.jp/word/%E3%81%B0%E3%81%8B-356888",
+      "scope": "Rujukan leksikal untuk ばか."
+    }
   ],
-  "verification":{"status":"framework_reviewed","last_reviewed":"2026-11-19","notes":"Profile framework created. Lexical examples, accent recordings, and slang entries require specialist/community review."}
+  "indonesian_learning_design": {
+    "direction": "Japanese (Japan) → Indonesian",
+    "learner_support": [
+      "Jelaskan ejaan dan pelafalan Indonesia termasuk e pepet, ng, ny, dan tekanan kalimat.",
+      "Bandingkan tingkat sopan Japanese dengan pilihan kata, sapaan, dan bentuk kalimat Indonesia.",
+      "Ajarkan kapan memakai ‘permisi’, ‘maaf’, ‘terima kasih’, ‘Bapak/Ibu’, dan bentuk nonbaku."
+    ]
+  },
+  "verification": {
+    "status": "content_seeded_reviewed_not_native_validated",
+    "last_reviewed": "2026-11-19",
+    "notes": "Materi inti diisi dengan rujukan Japan Foundation, NINJAL, lembaga pemerintah, NDL, dan kamus. Entri draft membutuhkan validasi penutur/ahli; audio dan contoh aksen regional belum tersedia."
+  }
 }
