@@ -17,7 +17,7 @@
   },
   "language_context": {
     "national_language_note": "Japanese is the predominant language of public life. The country's linguistic landscape also includes Indigenous Ainu and Ryukyuan languages, as well as regional varieties and community languages.",
-    "diversity_note": "UNESCO's endangered-language references for Japan include Ainu and several Ryukyuan varieties, as well as Hachijo. Linguistic classification is contested in some cases; LWT records community and scholarly distinctions instead of automatically labelling all varieties as mere dialects.",
+    "diversity_note": "UNESCO's endangered-language references for Japan include Ainu and several Ryukyuan varieties, as well as Hachijo. Linguistic classification is contested in some cases; LWT records community and scholarly distinctions instead of automatically labelling all varieties as mere dialects. Profiles currently distinguish Hokkaido Ainu, Kunigami, Shuri Okinawan, Southern Amami-Oshima, Miyako, Yaeyama and Yonaguni. Hachijo remains uncoded pending current ISO verification.",
     "documentation_unit": "Use individual language/community profiles. Keep Japanese regional dialects distinct from separate Ryukyuan languages where the cited linguistic source does so."
   },
   "languages": [
@@ -41,10 +41,11 @@
       "regions": [
         "Hokkaido"
       ],
-      "profile_status": "planned"
+      "profile_status": "seeded_content_review_required",
+      "profile_path": "languages/ain/profile.json"
     },
     {
-      "name": "Amami",
+      "name": "Southern Amami-Oshima",
       "iso_639_3": "ams",
       "role": [
         "regional",
@@ -52,9 +53,11 @@
         "endangered"
       ],
       "regions": [
-        "Amami Islands"
+        "southern Amami-Oshima; Setouchi documented in the linked profile"
       ],
-      "profile_status": "planned"
+      "profile_status": "seeded_content_review_required",
+      "profile_path": "languages/ams/profile.json",
+      "note": "ISO 639-3 ams identifies Southern Amami-Oshima, not all Amami island varieties. Northern Amami-Oshima, Kikai, Tokunoshima, Okinoerabu and Yoron require separate scope/code verification."
     },
     {
       "name": "Kunigami",
@@ -67,7 +70,8 @@
       "regions": [
         "northern Okinawa"
       ],
-      "profile_status": "planned"
+      "profile_status": "seeded_content_review_required",
+      "profile_path": "languages/xug/profile.json"
     },
     {
       "name": "Okinawan",
@@ -80,7 +84,8 @@
       "regions": [
         "central and southern Okinawa"
       ],
-      "profile_status": "planned"
+      "profile_status": "seeded_content_review_required",
+      "profile_path": "languages/ryu/profile.json"
     },
     {
       "name": "Miyako",
@@ -93,7 +98,8 @@
       "regions": [
         "Miyako Islands"
       ],
-      "profile_status": "planned"
+      "profile_status": "seeded_content_review_required",
+      "profile_path": "languages/mvi/profile.json"
     },
     {
       "name": "Yaeyama",
@@ -106,7 +112,8 @@
       "regions": [
         "Yaeyama Islands"
       ],
-      "profile_status": "planned"
+      "profile_status": "seeded_content_review_required",
+      "profile_path": "languages/rys/profile.json"
     },
     {
       "name": "Yonaguni",
@@ -119,7 +126,8 @@
       "regions": [
         "Yonaguni Island"
       ],
-      "profile_status": "planned"
+      "profile_status": "seeded_content_review_required",
+      "profile_path": "languages/yoi/profile.json"
     },
     {
       "name": "Hachijo",
@@ -156,7 +164,7 @@
     "status": "reviewed_initial_catalog",
     "last_reviewed": "2026-11-19",
     "reviewed_by": "LWT research setup",
-    "notes": "Katalog awal. Profil bahasa utama telah memiliki materi enam kategori; bahasa/varietas lainnya tetap berstatus rencana dan memerlukan profil terpisah. Daftar nasional tidak diklaim lengkap."
+    "notes": "Seven non-Japanese language profiles have been added and linked. Hachijo remains unprofiled pending ISO 639-3 identifier verification. Catalog is selected and not exhaustive."
   },
   "language_catalog_status": "selected_catalog_not_exhaustive"
 }
