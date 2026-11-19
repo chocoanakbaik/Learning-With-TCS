@@ -34,7 +34,8 @@
           "example_source_language": "casa / caza",
           "example_indonesian": "rumah / perburuan (pelafalan dapat sama pada seseo)",
           "sources": [
-            "https://www.rae.es/dpd/seseo; https://www.pbs.org/speak/seatosea/americanvarieties/spanglish/usa/"
+            "https://www.rae.es/dpd/seseo",
+            "https://www.pbs.org/speak/seatosea/americanvarieties/spanglish/usa/"
           ],
           "verification_status": "reviewed",
           "note": "Fenomena ini tidak universal untuk setiap penutur di AS; komunitas dan asal keluarga memengaruhi pola."
@@ -50,7 +51,8 @@
           "example_source_language": "estás → ehtá (representasi pendekatan)",
           "example_indonesian": "kamu sedang / kamu berada",
           "sources": [
-            "https://www.pbs.org/speak/seatosea/americanvarieties/spanglish/usa/; https://www.jstor.org/stable/j.ctt2tt5q1"
+            "https://www.pbs.org/speak/seatosea/americanvarieties/spanglish/usa/",
+            "https://www.jstor.org/stable/j.ctt2tt5q1"
           ],
           "verification_status": "reviewed",
           "note": "Transkripsi ejaan pendekatan bukan ejaan baku dan tidak boleh dipakai sebagai bentuk tulis."
@@ -66,7 +68,8 @@
           "example_source_language": "Audio penutur New Mexican Spanish",
           "example_indonesian": "Contoh rekaman perlu diberi transkripsi dan lokasi.",
           "sources": [
-            "https://www.pbs.org/speak/seatosea/americanvarieties/spanglish/usa/; https://www.si.edu/object/varieties-spanish-united-states-john-m-lipski%3Asiris_sil_1170533"
+            "https://www.pbs.org/speak/seatosea/americanvarieties/spanglish/usa/",
+            "https://www.si.edu/object/varieties-spanish-united-states-john-m-lipski%3Asiris_sil_1170533"
           ],
           "verification_status": "reviewed",
           "note": "Entri ini memetakan variasi, bukan memberikan transkripsi fonetik universal."
@@ -88,7 +91,8 @@
           "example_source_language": "¿Tú necesitas ayuda? / ¿Usted necesita ayuda?",
           "example_indonesian": "Apakah kamu membutuhkan bantuan? / Apakah Anda membutuhkan bantuan?",
           "sources": [
-            "https://www.rae.es/gtg/tuteo; https://www.rae.es/gtg/ustedeo"
+            "https://www.rae.es/gtg/tuteo",
+            "https://www.rae.es/gtg/ustedeo"
           ],
           "verification_status": "reviewed",
           "note": "Kedua bentuk contoh masing-masing konsisten secara gramatikal; pemilihan tú/usted dipengaruhi komunitas dan hubungan."
@@ -104,7 +108,8 @@
           "example_source_language": "Voy al store después del trabajo.",
           "example_indonesian": "Saya pergi ke toko setelah bekerja.",
           "sources": [
-            "https://www.pbs.org/speak/seatosea/americanvarieties/spanglish/usa/; https://www.verbumetlingua.cucsh.udg.mx/index.php/VerLin/article/view/259"
+            "https://www.pbs.org/speak/seatosea/americanvarieties/spanglish/usa/",
+            "https://www.verbumetlingua.cucsh.udg.mx/index.php/VerLin/article/view/259"
           ],
           "verification_status": "reviewed",
           "note": "Contoh code-switching dibuat untuk ilustrasi dan bukan kutipan korpus."
@@ -192,7 +197,8 @@
           "example_source_language": "Voy a parquear el carro.",
           "example_indonesian": "Saya akan memarkir mobil.",
           "sources": [
-            "https://www.pbs.org/speak/seatosea/americanvarieties/spanglish/usa/; https://www.jstor.org/stable/j.ctt2tt5q1"
+            "https://www.pbs.org/speak/seatosea/americanvarieties/spanglish/usa/",
+            "https://www.jstor.org/stable/j.ctt2tt5q1"
           ],
           "verification_status": "reviewed",
           "note": "Contoh parquear adalah bentuk yang digunakan di sejumlah wilayah Spanish Amerika; label US harus dijelaskan menurut komunitas."
@@ -208,7 +214,8 @@
           "example_source_language": "carro / coche",
           "example_indonesian": "mobil",
           "sources": [
-            "https://www.asale.org/obras-academicas/diccionarios/diccionario-de-americanismos; https://www.jstor.org/stable/j.ctt2tt5q1"
+            "https://www.asale.org/obras-academicas/diccionarios/diccionario-de-americanismos",
+            "https://www.jstor.org/stable/j.ctt2tt5q1"
           ],
           "verification_status": "reviewed"
         },
