@@ -1,0 +1,244 @@
+{
+  "schema_version": "1.1.0",
+  "record_type": "language_profile",
+  "language": {
+    "name": "Hachijo",
+    "native_name": "島言葉 / しまことば (Shima-kotoba)",
+    "iso_639_3": null,
+    "glottocode": "hach1239",
+    "bcp47_tags": [],
+    "family": "Japonic; internal classification debated"
+  },
+  "country_context": {
+    "country_code": "JP",
+    "role": [
+      "regional",
+      "endangered"
+    ],
+    "note": "Hachijo is documented with Glottocode hach1239. No ISO 639-3 identifier was confirmed in the registries consulted, so iso_639_3 remains null and no BCP 47 tag is fabricated. The profile covers multiple local lects across the southern Izu archipelago."
+  },
+  "categories": {
+    "accent_and_pronunciation": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "JP-HAC-ACC-001",
+          "term": "Panlectal phonology documentation",
+          "explanation_id": "Disertasi deskriptif Hachijo 2026 menggunakan pendekatan panlectal untuk menguraikan fonologi serta variasi antarlect di Kepulauan Izu; contoh bunyi harus tetap dilabeli pulau/desa.",
+          "indonesian_learning_link": "Pelajar bahasa Indonesia perlu mendengar model lokal dan tidak menganggap Hachijo sebagai aksen Tokyo Japanese.",
+          "region": "Hachijo-jima, Hachijo-kojima and Aogashima",
+          "register": "Pronunciation / dialect documentation",
+          "usage_context": "Membandingkan data pelafalan antarwilayah.",
+          "example_source_language": "Hachijo phonological corpus",
+          "example_indonesian": "korpus fonologi Hachijo",
+          "sources": [
+            "https://theses.fr/2026EHES0050"
+          ],
+          "verification_status": "reviewed",
+          "note": "Sumber tesis menyatakan adanya deskripsi fonologi lintaslect; contoh IPA dan audio perlu dipetik dari bab tesis sebelum menjadi materi latihan."
+        },
+        {
+          "id": "JP-HAC-ACC-002",
+          "term": "Seven local dialects",
+          "explanation_id": "Sumber NINJAL mencatat setidaknya tujuh dialek Hachijo yang digunakan di Hachijo-jima, Hachijo-kojima dan Aogashima; proyek lapangan mengunjungi Sueyoshi, Nakanogo, Mitsune, Okago dan Kashitate.",
+          "indonesian_learning_link": "Jangan memakai satu rekaman untuk mewakili seluruh pulau; simpan kode lokasi penutur.",
+          "region": "Hachijo archipelago; local settlements",
+          "register": "Regional pronunciation",
+          "usage_context": "Menandai titik pengumpulan audio.",
+          "example_source_language": "Sueyoshi / Nakanogo / Mitsune / Okago / Kashitate",
+          "example_indonesian": "lokasi dialek dan survei",
+          "sources": [
+            "https://www2.ninjal.ac.jp/past-projects/endangered/jointsurvey/hachijojima-2409.html",
+            "https://theses.fr/2026EHES0050"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "JP-HAC-ACC-003",
+          "term": "Eastern Japonic retention and sound change",
+          "explanation_id": "Kajian Hachijo menyoroti fitur fonologis yang mempertahankan ciri Eastern Old Japanese, termasuk bentuk yang berasal dari sejarah Japonic Timur.",
+          "indonesian_learning_link": "Bandingkan dengan bahasa Indonesia melalui perubahan bunyi historis, bukan dengan pelafalan Japanese standar masa kini.",
+          "region": "Hachijo; Eastern Japonic",
+          "register": "Historical phonology",
+          "usage_context": "Memahami retensi dan perubahan bunyi.",
+          "example_source_language": "Hachijo historical sound patterns",
+          "example_indonesian": "pola bunyi historis Hachijo",
+          "sources": [
+            "https://theses.fr/2026EHES0050"
+          ],
+          "verification_status": "draft",
+          "note": "Entri ini adalah pengarah studi sejarah bunyi; rincian pasangan bunyi dan IPA memerlukan ekstraksi sumber dan peninjauan ahli."
+        }
+      ]
+    },
+    "speaking_style_and_pragmatics": {
+      "status": "research_required",
+      "entries": [],
+      "coverage_note": "Formula sapaan, honorifik, dan pragmatik percakapan belum dimasukkan. Sumber NINJAL memuat survei kosakata/grammar, tetapi contoh pragmatik harus diambil dari teks wacana dan ditinjau penutur lokal."
+    },
+    "standard_language": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "JP-HAC-STD-001",
+          "term": "Hachijo descriptive grammar corpus",
+          "explanation_id": "Disertasi 2026 menawarkan deskripsi panlectal tentang fonologi, leksikon, morfologi dan sintaksis Hachijo, termasuk refleksi klasifikasi historisnya.",
+          "indonesian_learning_link": "LWT perlu menggunakan grammar Hachijo tersendiri dan tidak menerapkan aturan Japanese standar secara otomatis.",
+          "region": "Hachijo; multiple lects",
+          "register": "Grammar reference",
+          "usage_context": "Memilih sumber tata bahasa.",
+          "example_source_language": "A Panlectal Descriptive Grammar of Hachijō",
+          "example_indonesian": "tata bahasa deskriptif panlectal Hachijo",
+          "sources": [
+            "https://theses.fr/2026EHES0050"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "JP-HAC-STD-002",
+          "term": "Adnominal and final verb forms",
+          "explanation_id": "Hachijo mempertahankan perbedaan antara bentuk verba adnominal (rentaikei) dan bentuk final (shūshikei) pada sejumlah konstruksi, yang sebagian besar telah menyatu dalam Japanese standar modern.",
+          "indonesian_learning_link": "Bandingkan fungsi bentuk attributif dan predikatif dengan susunan klausa bahasa Indonesia, tanpa menyamakan paradigma verbanya.",
+          "region": "Hachijo; grammar and historical comparison",
+          "register": "Morphology / syntax",
+          "usage_context": "Memahami bentuk verba dalam klausa dan frasa nomina.",
+          "example_source_language": "adnominal vs final verb forms",
+          "example_indonesian": "bentuk verba atributif vs final",
+          "sources": [
+            "https://edizionicafoscari.unive.it/media/pdf/books/978-88-6969-913-9/978-88-6969-913-9-ch-07.pdf"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "JP-HAC-STD-003",
+          "term": "NINJAL fieldwork vocabulary and grammar",
+          "explanation_id": "Survei NINJAL 2012 mencatat dua kelompok kosakata dasar dan tata bahasa melalui penelitian lapangan di lima lokasi Hachijo-cho.",
+          "indonesian_learning_link": "Materi leksikal perlu mencantumkan titik desa dan tanggal sumber; jangan menggabungkan hasil lapangan sebagai satu dialek universal.",
+          "region": "Hachijo-cho; Sueyoshi, Nakanogo, Mitsune, Okago and Kashitate",
+          "register": "Lexicography / grammar reference",
+          "usage_context": "Menelusuri data lapangan.",
+          "example_source_language": "Basic Vocabulary 1 / Basic Vocabulary 2 / Grammar",
+          "example_indonesian": "kosakata dasar 1 dan 2 serta grammar",
+          "sources": [
+            "https://www2.ninjal.ac.jp/past-projects/endangered/jointsurvey/hachijojima-2409.html"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "JP-HAC-STD-004",
+          "term": "ISO code and Glottocode distinction",
+          "explanation_id": "Glottolog mengidentifikasi Hachijo dengan Glottocode hach1239; sumber yang diperiksa tidak menetapkan kode ISO 639-3. Kolom ISO karenanya tetap null.",
+          "indonesian_learning_link": "Gunakan Glottocode sebagai identitas data internal; jangan membuat BCP 47 atau ISO code yang tidak terdaftar.",
+          "region": "Hachijo language documentation",
+          "register": "Language identification",
+          "usage_context": "Membedakan pengenal katalog.",
+          "example_source_language": "hach1239",
+          "example_indonesian": "Glottocode Hachijo",
+          "sources": [
+            "https://glottolog.org/resource/languoid/id/hach1239"
+          ],
+          "verification_status": "reviewed",
+          "note": "Kode glottolog bukan kode ISO 639-3 dan tidak boleh dipertukarkan."
+        }
+      ]
+    },
+    "nonstandard_language_and_slang": {
+      "status": "community_research_required",
+      "entries": [],
+      "coverage_note": "Slang modern belum dimasukkan. Diperlukan contoh kontemporer per pulau/desa, generasi, dan konteks komunitas."
+    },
+    "profanity_and_vulgar_language": {
+      "status": "community_review_required",
+      "entries": [],
+      "coverage_note": "Umpatan belum dimasukkan karena belum ada kamus atau rekaman berlabel yang cukup untuk menjelaskan intensitas dan sasaran sosial Hachijo."
+    },
+    "regional_and_minority_languages": {
+      "status": "cross_reference_country_catalog",
+      "entries": [
+        {
+          "id": "JP-HAC-REG-001",
+          "term": "Hachijo as an Eastern Japonic variety",
+          "explanation_id": "Glottolog mencatat Hachijo sebagai varietas Japonic dengan Glottocode hach1239; klasifikasi internal dalam keluarga Japonic masih diperdebatkan.",
+          "indonesian_learning_link": "Pilih profil khusus Hachijo, bukan Japanese standar atau bahasa Ryukyuan.",
+          "region": "Southern Izu archipelago, Tokyo Metropolis",
+          "register": "Japonic regional / endangered variety",
+          "usage_context": "Memilih identitas bahasa sumber.",
+          "example_source_language": "Hachijo / Shima-kotoba",
+          "example_indonesian": "Hachijo / bahasa pulau",
+          "sources": [
+            "https://glottolog.org/resource/languoid/id/hach1239",
+            "https://theses.fr/2026EHES0050"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "JP-HAC-REG-002",
+          "term": "Hachijo island dialects",
+          "explanation_id": "Sumber dokumentasi mencakup Hachijo-jima, Hachijo-kojima dan Aogashima; dialek lokal tidak dapat diasumsikan identik tanpa label.",
+          "indonesian_learning_link": "Simpan metadata pulau, desa dan penutur untuk setiap lema/audio.",
+          "region": "Hachijo-jima, Hachijo-kojima, Aogashima",
+          "register": "Regional varieties",
+          "usage_context": "Menandai asal ujaran.",
+          "example_source_language": "local Hachijo varieties",
+          "example_indonesian": "varietas Hachijo lokal",
+          "sources": [
+            "https://www2.ninjal.ac.jp/past-projects/endangered/jointsurvey/hachijojima-2409.html",
+            "https://theses.fr/2026EHES0050"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "JP-HAC-REG-003",
+          "term": "Hachijo differs from mainland Japanese",
+          "explanation_id": "Sumber Glottolog merangkum bahwa Hachijo tidak sepenuhnya saling dipahami dengan varietas Japanese daratan tertentu dan memiliki ciri historis Eastern Old Japanese.",
+          "indonesian_learning_link": "Jangan meratakan perbedaan sebagai aksen daerah biasa; jelaskan status klasifikasi dengan hati-hati.",
+          "region": "Hachijo vs mainland Japanese",
+          "register": "Language distinction",
+          "usage_context": "Memahami batas bahasa.",
+          "example_source_language": "Hachijo ≠ Tokyo Japanese",
+          "example_indonesian": "Hachijo bukan Japanese Tokyo",
+          "sources": [
+            "https://glottolog.org/resource/languoid/id/hach1239",
+            "https://theses.fr/2026EHES0050"
+          ],
+          "verification_status": "reviewed"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "NINJAL — Field Research on Hachijo Dialect (2012)",
+      "url": "https://www2.ninjal.ac.jp/past-projects/endangered/jointsurvey/hachijojima-2409.html",
+      "scope": "Basic vocabulary 1 and 2, grammar, and five fieldwork locations on Hachijo Island."
+    },
+    {
+      "title": "Glottolog — Hachijo (hach1239)",
+      "url": "https://glottolog.org/resource/languoid/id/hach1239",
+      "scope": "Language identity, Glottocode, geographic area and endangerment notes."
+    },
+    {
+      "title": "Baudel (2026) — A Panlectal Descriptive Grammar of Hachijō",
+      "url": "https://theses.fr/2026EHES0050",
+      "scope": "Panlectal phonology, lexicon, morphology and syntax across Hachijo varieties."
+    },
+    {
+      "title": "Baudel (2025) — How Conservative Is the Morphology of Hachijō?",
+      "url": "https://edizionicafoscari.unive.it/media/pdf/books/978-88-6969-913-9/978-88-6969-913-9-ch-07.pdf",
+      "scope": "Adnominal and final verb forms, tense, copula, negative auxiliary and historical Japonic comparison."
+    }
+  ],
+  "indonesian_learning_design": {
+    "direction": "Hachijo → Indonesian",
+    "learner_support": [
+      "Gunakan metadata pulau/desa untuk setiap contoh pelafalan dan kosakata.",
+      "Bandingkan bentuk adnominal/final dengan fungsi frasa dan klausa bahasa Indonesia.",
+      "Bedakan Glottocode hach1239 dari kode ISO dan tag BCP 47."
+    ]
+  },
+  "verification": {
+    "status": "content_seeded_reviewed_not_native_validated",
+    "last_reviewed": "2026-11-19",
+    "notes": "Profil Hachijo dibuat tanpa kode ISO 639-3 karena tidak terkonfirmasi; Glottocode hach1239 digunakan sebagai identitas alternatif. Materi morfologi didukung disertasi 2026 dan penelitian 2025; pragmatik, slang dan profanity belum diisi."
+  }
+}
