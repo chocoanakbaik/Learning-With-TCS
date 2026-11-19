@@ -1,0 +1,358 @@
+{
+  "schema_version": "1.1.0",
+  "record_type": "language_profile",
+  "language": {
+    "name": "Russian",
+    "native_name": "Русский язык",
+    "iso_639_3": "rus",
+    "bcp47_tags": [
+      "ru-US"
+    ],
+    "family": "Indo-European > Balto-Slavic > Slavic > East Slavic"
+  },
+  "country_context": {
+    "country_code": "US",
+    "role": [
+      "community",
+      "heritage"
+    ],
+    "note": "Profil ini mendokumentasikan Russian yang digunakan komunitas diaspora di Amerika Serikat. Riwayat migrasi dan bahasa keluarga beragam; variasi Russian tidak boleh dianggap mewakili semua komunitas Eastern European."
+  },
+  "categories": {
+    "accent_and_pronunciation": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "US-RUS-ACC-001",
+          "term": "Lexical stress",
+          "explanation_id": "Tekanan kata dalam Russian tidak selalu dapat diprediksi dari ejaan dan dapat berpindah dalam paradigma kata; kamus menandai tekanan normatif serta variasinya.",
+          "indonesian_learning_link": "Ajarkan tekanan bersama lema, bukan menebaknya dari jumlah suku kata.",
+          "region": "Russian standar",
+          "register": "Pronunciation",
+          "usage_context": "Membaca kata dan bentuk infleksi.",
+          "example_source_language": "вода́",
+          "example_indonesian": "air",
+          "sources": [
+            "https://gramota.ru/biblioteka/slovari/russkij-orfograficheskij-slovar/udarenie-proiznoshenie",
+            "https://orfo.ruslang.ru/"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-RUS-ACC-002",
+          "term": "Vowel reduction",
+          "explanation_id": "Vokal tanpa tekanan dalam Russian dapat mengalami reduksi; kualitas aktual berbeda dari ejaan huruf vokal.",
+          "indonesian_learning_link": "Latih pembedaan tulisan dan bunyi, seperti pengurangan vokal pada suku kata tak bertekanan.",
+          "region": "Russian standar; variasi tutur",
+          "register": "Pronunciation",
+          "usage_context": "Memahami ucapan alami.",
+          "example_source_language": "молоко́",
+          "example_indonesian": "susu",
+          "sources": [
+            "https://gramota.ru/biblioteka/slovari/russkij-orfograficheskij-slovar/udarenie-proiznoshenie",
+            "https://ruscorpora.ru/en/"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-RUS-ACC-003",
+          "term": "Palatalization",
+          "explanation_id": "Kontras konsonan keras dan lunak merupakan bagian penting sistem bunyi Russian; pelunakan dapat dipengaruhi vokal berikutnya atau tanda khusus.",
+          "indonesian_learning_link": "Bahasa Indonesia tidak memiliki kontras keras/lunak konsonan dengan fungsi yang sama; gunakan audio dan posisi lidah.",
+          "region": "Russian standar",
+          "register": "Pronunciation",
+          "usage_context": "Membedakan konsonan berpasangan.",
+          "example_source_language": "брат / брать",
+          "example_indonesian": "saudara laki-laki / mengambil (contoh perbedaan bentuk)",
+          "sources": [
+            "https://assets.cambridge.org/97805211/31544/excerpt/9780521131544_excerpt.pdf"
+          ],
+          "verification_status": "draft",
+          "note": "Contoh pasangan perlu ditinjau fonetik lebih rinci; sumber Cambridge adalah bahan pengantar dialek, bukan langsung pasangan minimal."
+        }
+      ]
+    },
+    "speaking_style_and_pragmatics": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "US-RUS-PRAG-001",
+          "term": "ты / вы",
+          "explanation_id": "ты umumnya dipakai untuk akrab atau informal, sedangkan вы dapat menunjukkan hormat, jarak, atau jamak; pilihan dipengaruhi usia dan hubungan.",
+          "indonesian_learning_link": "Bandingkan dengan kamu, kalian, Anda, dan sapaan formal Indonesia.",
+          "region": "Russian; komunitas diaspora",
+          "register": "Context-sensitive",
+          "usage_context": "Memilih kata ganti orang kedua.",
+          "example_source_language": "Вы можете помочь?",
+          "example_indonesian": "Bisakah Anda membantu?",
+          "sources": [
+            "https://gramota.ru/biblioteka/slovari/russkij-orfograficheskij-slovar/udarenie-proiznoshenie"
+          ],
+          "verification_status": "draft",
+          "note": "Sumber perlu langsung ke lema/aturan penggunaan dan contoh interaksi; catatan ini masih pengantar."
+        },
+        {
+          "id": "US-RUS-PRAG-002",
+          "term": "Patronymics and forms of address",
+          "explanation_id": "Nama patronimik dapat dipakai bersama nama depan dalam situasi formal atau hormat; praktiknya berbeda menurut relasi dan generasi diaspora.",
+          "indonesian_learning_link": "Bandingkan dengan gelar dan sapaan Indonesia, bukan dengan nama keluarga semata.",
+          "region": "Russian; formal and generational",
+          "register": "Formal / respectful",
+          "usage_context": "Menyapa orang secara resmi.",
+          "example_source_language": "Имя Отчество",
+          "example_indonesian": "Nama depan dan patronimik",
+          "sources": [
+            "https://ruscorpora.ru/en/"
+          ],
+          "verification_status": "draft",
+          "note": "Perlu sumber etiket Russian yang khusus untuk penggunaan patronimik kontemporer."
+        },
+        {
+          "id": "US-RUS-PRAG-003",
+          "term": "Здравствуйте",
+          "explanation_id": "Sapaan formal yang umum; bentuk informal seperti привет digunakan pada relasi akrab.",
+          "indonesian_learning_link": "Padanan Indonesia: ‘selamat pagi/siang’ atau ‘halo’ menurut konteks.",
+          "region": "Russian; formal/informal",
+          "register": "Polite greeting",
+          "usage_context": "Membuka percakapan.",
+          "example_source_language": "Здравствуйте!",
+          "example_indonesian": "Halo / selamat datang (sapaan formal).",
+          "sources": [
+            "https://gramota.ru/biblioteka/slovari/russkij-orfograficheskij-slovar/udarenie-proiznoshenie"
+          ],
+          "verification_status": "draft",
+          "note": "Perlu rujukan leksikal langsung ke lema sapaan."
+        }
+      ]
+    },
+    "standard_language": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "US-RUS-STD-001",
+          "term": "Academic spelling standard",
+          "explanation_id": "Akademos adalah sumber ortografi akademik untuk ejaan normatif dan kata yang terus diperbarui.",
+          "indonesian_learning_link": "Siswa LWT menggunakan bentuk ejaan sumber untuk memahami bahasa asal, lalu mempelajari ejaan Indonesia sebagai tujuan.",
+          "region": "Russian standard written language",
+          "register": "Standard orthography",
+          "usage_context": "Memeriksa ejaan kata.",
+          "example_source_language": "русский язык",
+          "example_indonesian": "bahasa Rusia",
+          "sources": [
+            "https://orfo.ruslang.ru/"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-RUS-STD-002",
+          "term": "Stress marking in dictionaries",
+          "explanation_id": "Kamus dapat menandai tekanan untuk kata polysyllabic dan bentuk gramatikal; beberapa kata memiliki varian tekanan yang diterima.",
+          "indonesian_learning_link": "Tunjukkan bahwa kamus pelafalan merupakan sumber penting, bukan sekadar daftar terjemahan.",
+          "region": "Russian standard",
+          "register": "Pronunciation reference",
+          "usage_context": "Memeriksa tekanan kata.",
+          "example_source_language": "тво́рог / творо́г",
+          "example_indonesian": "keju (dua varian tekanan tercatat)",
+          "sources": [
+            "https://gramota.ru/biblioteka/slovari/russkij-orfograficheskij-slovar/udarenie-proiznoshenie"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-RUS-STD-003",
+          "term": "Case inflection",
+          "explanation_id": "Nomina dan adjektiva Russian berubah bentuk menurut kasus; bentuk kasus menandai fungsi sintaktis dan relasi gramatikal.",
+          "indonesian_learning_link": "Bahasa Indonesia lebih mengandalkan urutan kata dan preposisi; ajarkan fungsi kasus lewat contoh kalimat, bukan hafalan terjemahan.",
+          "region": "Russian standard",
+          "register": "Grammar",
+          "usage_context": "Membedakan subjek, objek, dan relasi.",
+          "example_source_language": "Я читаю книгу.",
+          "example_indonesian": "Saya membaca buku.",
+          "sources": [
+            "https://assets.cambridge.org/97805211/31544/excerpt/9780521131544_excerpt.pdf"
+          ],
+          "verification_status": "draft",
+          "note": "Kutipan Cambridge merupakan sumber grammar/dialect overview; perlu buku referensi grammar khusus."
+        }
+      ]
+    },
+    "nonstandard_language_and_slang": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "US-RUS-SLANG-001",
+          "term": "круто",
+          "explanation_id": "Ungkapan informal untuk sesuatu yang keren, hebat, atau mengesankan; nada dapat mengubah kesan.",
+          "indonesian_learning_link": "Padanan Indonesia: keren atau mantap.",
+          "region": "Russian-speaking communities; usage generation-sensitive",
+          "register": "Colloquial / slang",
+          "usage_context": "Memuji sesuatu.",
+          "example_source_language": "Это круто!",
+          "example_indonesian": "Itu keren!",
+          "sources": [],
+          "verification_status": "draft",
+          "note": "Perlu rujukan kamus kontemporer dan data penggunaan komunitas AS."
+        },
+        {
+          "id": "US-RUS-SLANG-002",
+          "term": "жесть",
+          "explanation_id": "Secara literal berkaitan dengan timah pelat; dalam percakapan dapat menjadi seruan untuk situasi ekstrem, mengejutkan, atau berat.",
+          "indonesian_learning_link": "Padanan Indonesia: parah, gila, atau waduh sesuai konteks.",
+          "region": "Russian contemporary speech",
+          "register": "Slang / interjection",
+          "usage_context": "Bereaksi terhadap situasi mengejutkan.",
+          "example_source_language": "Вот это жесть.",
+          "example_indonesian": "Wah, parah sekali.",
+          "sources": [],
+          "verification_status": "draft",
+          "note": "Perlu definisi leksikografi kontemporer yang langsung."
+        },
+        {
+          "id": "US-RUS-SLANG-003",
+          "term": "прикольно",
+          "explanation_id": "Ungkapan informal untuk sesuatu yang menarik, lucu, atau menyenangkan.",
+          "indonesian_learning_link": "Padanan Indonesia: seru, menarik, atau lucu.",
+          "region": "Russian contemporary speech",
+          "register": "Colloquial",
+          "usage_context": "Memberi reaksi positif.",
+          "example_source_language": "Это прикольно.",
+          "example_indonesian": "Itu menarik/seru.",
+          "sources": [],
+          "verification_status": "draft",
+          "note": "Perlu sumber kamus dan pembatasan register."
+        }
+      ]
+    },
+    "profanity_and_vulgar_language": {
+      "status": "seeded_educational_with_context",
+      "entries": [
+        {
+          "id": "US-RUS-PROF-001",
+          "term": "блин",
+          "explanation_id": "Seruan informal yang secara harfiah berarti pancake tipis; dapat menjadi pengganti umpatan yang lebih kuat.",
+          "indonesian_learning_link": "Padanan Indonesia: ‘aduh’, ‘sial’, atau ‘waduh’ sesuai situasi.",
+          "region": "Russian; informal",
+          "register": "Mild euphemistic profanity",
+          "usage_context": "Mengungkapkan frustrasi ringan.",
+          "example_source_language": "Блин, я забыл ключи.",
+          "example_indonesian": "Aduh, saya lupa kunci.",
+          "sources": [],
+          "verification_status": "draft",
+          "note": "Makna pragmatik perlu rujukan kamus langsung."
+        },
+        {
+          "id": "US-RUS-PROF-002",
+          "term": "чёрт",
+          "explanation_id": "Kata yang berarti setan; juga dapat menjadi seruan frustrasi dengan intensitas relatif ringan sampai sedang.",
+          "indonesian_learning_link": "Padanan Indonesia: ‘sial’, ‘setan’, atau ‘aduh’ sesuai konteks.",
+          "region": "Russian; informal",
+          "register": "Mild to moderate profanity",
+          "usage_context": "Mengumpat ringan.",
+          "example_source_language": "Чёрт, опоздал.",
+          "example_indonesian": "Sial, saya terlambat.",
+          "sources": [],
+          "verification_status": "draft",
+          "note": "Perlu sumber langsung untuk makna interjeksi dan intensitas."
+        },
+        {
+          "id": "US-RUS-PROF-003",
+          "term": "блядь",
+          "explanation_id": "Umpatan vulgar yang sangat kasar; dapat berfungsi sebagai makian atau seruan dan berisiko tinggi menyinggung.",
+          "indonesian_learning_link": "Jelaskan sebagai kata vulgar kuat; jangan gunakan sebagai kata pengisi.",
+          "region": "Russian; penggunaan dan intensitas perlu konteks",
+          "register": "Very strong profanity",
+          "usage_context": "Memahami dialog kasar.",
+          "example_source_language": "Это очень грубое слово.",
+          "example_indonesian": "Ini kata yang sangat kasar.",
+          "sources": [],
+          "verification_status": "draft",
+          "note": "Tidak ada sumber langsung untuk lema dan skala kekasaran pada tahap ini."
+        }
+      ]
+    },
+    "regional_and_minority_languages": {
+      "status": "cross_reference_country_catalog",
+      "entries": [
+        {
+          "id": "US-RUS-REG-001",
+          "term": "Northern Russian dialects",
+          "explanation_id": "Kelompok dialek utara memiliki sejumlah ciri fonologi seperti pola vokal yang berbeda dari banyak dialek selatan.",
+          "indonesian_learning_link": "Labeli contoh berdasarkan wilayah dan jangan anggap satu dialek sebagai seluruh Russian.",
+          "region": "Northern Russia",
+          "register": "Regional dialect",
+          "usage_context": "Mengenali variasi regional.",
+          "example_source_language": "оканье",
+          "example_indonesian": "pola pelafalan vokal tertentu",
+          "sources": [
+            "https://assets.cambridge.org/97805211/31544/excerpt/9780521131544_excerpt.pdf"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-RUS-REG-002",
+          "term": "Central and Southern Russian dialects",
+          "explanation_id": "Dialek tengah dan selatan memiliki perbedaan bunyi serta sejarah dialektal; kelompok regional ini mencakup banyak subvarietas.",
+          "indonesian_learning_link": "Ajarkan variasi dan pemahaman lintas dialek; bukan kesalahan bahasa.",
+          "region": "Central and Southern Russia",
+          "register": "Regional dialect",
+          "usage_context": "Mengenali sumber penutur.",
+          "example_source_language": "южнорусские говоры",
+          "example_indonesian": "dialek-dialek Russian selatan",
+          "sources": [
+            "https://assets.cambridge.org/97805211/31544/excerpt/9780521131544_excerpt.pdf"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-RUS-REG-003",
+          "term": "Russian diaspora varieties",
+          "explanation_id": "Komunitas berbahasa Russian di AS memiliki asal migrasi dan bahasa keluarga yang beragam; penggunaan bilingual dan perubahan antargenerasi bervariasi.",
+          "indonesian_learning_link": "Pisahkan bahasa Russian dari bahasa lain yang mungkin digunakan keluarga diaspora.",
+          "region": "United States; communities with varied origins",
+          "register": "Heritage / contact variety",
+          "usage_context": "Memahami bahasa warisan.",
+          "example_source_language": "русский язык в диаспоре",
+          "example_indonesian": "Russian dalam komunitas diaspora",
+          "sources": [],
+          "verification_status": "draft",
+          "note": "Perlu studi sociolinguistics Russian-American untuk contoh dan deskripsi khusus."
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "Vinogradov Institute — АКАДЕМОС Academic Orthographic Resource",
+      "url": "https://orfo.ruslang.ru/",
+      "scope": "Ejaan normatif bahasa Russian dan kamus elektronik akademik."
+    },
+    {
+      "title": "Gramota.ru — Stress and Pronunciation",
+      "url": "https://gramota.ru/biblioteka/slovari/russkij-orfograficheskij-slovar/udarenie-proiznoshenie",
+      "scope": "Tekanan normatif dan variasi tekanan Russian."
+    },
+    {
+      "title": "Russian National Corpus",
+      "url": "https://ruscorpora.ru/en/",
+      "scope": "Korpus teks, media, jejaring sosial, dan korpus lisan/aksen."
+    },
+    {
+      "title": "Cambridge — Russian Dialectology excerpt",
+      "url": "https://assets.cambridge.org/97805211/31544/excerpt/9780521131544_excerpt.pdf",
+      "scope": "Kelompok dialek utara, tengah, dan selatan serta ciri pengucapan."
+    }
+  ],
+  "indonesian_learning_design": {
+    "direction": "Russian (US communities) → Indonesian",
+    "learner_support": [
+      "Bandingkan ты/вы dengan kamu/Anda dan sapaan formal Indonesia.",
+      "Ajarkan tekanan kata, reduksi vokal, dan konsonan lunak melalui audio.",
+      "Jelaskan sistem kasus Russian dibandingkan urutan kata bahasa Indonesia."
+    ]
+  },
+  "verification": {
+    "status": "content_seeded_reviewed_not_native_validated",
+    "last_reviewed": "2026-11-19",
+    "notes": "Paket awal didukung kamus akademik, Gramota, korpus, dan rujukan dialektologi. Pragmatik, slang, dan umpatan masih draft; belum divalidasi penutur Russian diaspora."
+  }
+}
