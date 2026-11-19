@@ -2,30 +2,54 @@
 
 Fase ini mengembangkan basis pengetahuan untuk tiga negara. Paket inti untuk bahasa utama telah diisi pada enam kategori pembelajaran LWT.
 
-## Navigasi negara dan profil inti
+## Navigasi negara dan profil bahasa
 
-| Kode | Negara | Bahasa utama | Katalog |
-|---|---|---|---|
-| US | Amerika Serikat | English (eng) | [country.json](./negara/US/country.json) |
-| JP | Jepang | Japanese (jpn) | [country.json](./negara/JP/country.json) |
-| CN | Tiongkok | Mandarin Putonghua (cmn) | [country.json](./negara/CN/country.json) |
+| Kode | Negara | Profil bahasa yang tersedia |
+|---|---|---|
+| US | Amerika Serikat | English, Spanish, Tagalog, Vietnamese, French, Korean, Russian, Navajo (Diné Bizaad), Central Alaskan Yup'ik, Western Apache |
+| JP | Jepang | Japanese |
+| CN | Tiongkok | Mandarin Putonghua |
 
-Profil bahasa:
+Tautan katalog negara:
+- [Amerika Serikat](./negara/US/country.json)
+- [Jepang](./negara/JP/country.json)
+- [Tiongkok](./negara/CN/country.json)
 
-- [English — Amerika Serikat](./negara/US/languages/eng/profile.json)
-- [Japanese — Jepang](./negara/JP/languages/jpn/profile.json)
-- [Mandarin Putonghua — Tiongkok daratan](./negara/CN/languages/cmn/profile.json)
+Profil bahasa inti dan komunitas:
+- [English — US](./negara/US/languages/eng/profile.json)
+- [Spanish — US](./negara/US/languages/spa/profile.json)
+- [Tagalog — US Filipino communities](./negara/US/languages/tgl/profile.json)
+- [Vietnamese — US communities](./negara/US/languages/vie/profile.json)
+- [French — US heritage communities](./negara/US/languages/fra/profile.json)
+- [Korean — US communities](./negara/US/languages/kor/profile.json)
+- [Russian — US communities](./negara/US/languages/rus/profile.json)
+- [Navajo / Diné Bizaad](./negara/US/languages/nav/profile.json)
+- [Central Alaskan Yup'ik](./negara/US/languages/esu/profile.json)
+- [Western Apache](./negara/US/languages/apw/profile.json)
+- [Japanese — JP](./negara/JP/languages/jpn/profile.json)
+- [Mandarin Putonghua — CN](./negara/CN/languages/cmn/profile.json)
 
-## Cakupan paket inti
+## Cakupan materi
 
-Setiap profil utama memiliki enam kategori: logat/aksen, pragmatik/cara bicara, bahasa baku, slang/nonbaku, umpatan/kata vulgar, dan bahasa regional/minoritas.
+Setiap profil bahasa memakai enam kategori: logat/aksen, pragmatik/cara bicara, bahasa baku, slang/nonbaku, umpatan/kata vulgar, dan bahasa regional/minoritas. Beberapa profil Indigenous sengaja membiarkan kategori slang atau umpatan kosong sampai sumber serta tinjauan komunitas tersedia.
 
-| Profil | Entri awal | Catatan |
-|---|---:|---|
-| English (US) | 32 | Beberapa entri aksen regional masih draft; referensi flapping dan cot-caught telah diperkuat dengan riset akademik. |
-| Japanese (JP) | 32 | Rujukan Japan Foundation, NINJAL, NDL, dan kamus; slang tertentu sudah memiliki rujukan langsung, lainnya masih draft. |
-| Mandarin Putonghua (CN) | 33 | Standar fonologi/tulisan ditopang sumber pemerintah RRT; beberapa pragmatik dan umpatan tetap draft. |
-| **Total** | **97** | Benih materi terstruktur, bukan inventaris lengkap kosakata semua penutur. |
+| Profil bahasa | Entri awal |
+|---|---:|
+| English (US) | 32 |
+| Spanish (US) | 17 |
+| Tagalog (US) | 18 |
+| Vietnamese (US) | 18 |
+| French (US) | 18 |
+| Korean (US) | 16 |
+| Russian (US) | 18 |
+| Navajo / Diné Bizaad | 12 |
+| Central Alaskan Yup'ik | 12 |
+| Western Apache | 10 |
+| Japanese (JP) | 32 |
+| Mandarin Putonghua (CN) | 33 |
+| **Total** | **236** |
+
+Audit entri terakhir: **165 reviewed, 71 draft, dan 0 verified**. Status reviewed berarti entri sudah diperiksa terhadap rujukan yang dicantumkan, bukan validasi menyeluruh oleh penutur asli.
 
 ## Status pekerjaan
 
