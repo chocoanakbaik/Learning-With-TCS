@@ -84,8 +84,15 @@ def check_entry(entry: Any, path: Path, category: str, seen_ids: set[str], repor
         for source in sources:
             if not isinstance(source, str) or not source.startswith("https://"):
                 report.error(f"{label}: setiap sumber harus berupa URL https://.")
+        if status in {"reviewed", "verified"} and not sources:
+            report.error(f"{label}: status {status} membutuhkan setidaknya satu sumber.")
+        elif status == "draft" and not sources:
+            report.warn(f"{label}: entri draft belum memiliki sumber langsung.")
 
-    for field in ("term", "explanation_id", "indonesian_learning_link", "region", "register", "usage_context"):
+    for field in (
+        "term", "explanation_id", "indonesian_learning_link", "region", "register",
+        "usage_context", "example_source_language", "example_indonesian",
+    ):
         if field in entry and (not isinstance(entry[field], str) or not entry[field].strip()):
             report.error(f"{label}: {field} harus berupa string non-kosong.")
 
@@ -131,6 +138,14 @@ def check_profile(path: Path, country_code: str, seen_ids: set[str], report: Rep
         for entry in entries:
             check_entry(entry, path, category, seen_ids, report)
 
+    profile_sources = profile.get("sources", [])
+    if not isinstance(profile_sources, list):
+        report.error(f"{path.relative_to(ROOT)}: sources tingkat profil harus berupa array.")
+    else:
+        for source in profile_sources:
+            if not isinstance(source, dict) or not isinstance(source.get("url"), str) or not source["url"].startswith("https://"):
+                report.error(f"{path.relative_to(ROOT)}: setiap sumber profil harus memiliki URL https://.")
+
     status = profile.get("verification", {}).get("status", "")
     if "not_native_validated" in status:
         report.warn(f"{path.relative_to(ROOT)}: profil belum divalidasi penutur asli/ahli.")
@@ -159,7 +174,15 @@ def main() -> int:
         if country.get("record_type") != "country_profile":
             report.error(f"{country_file.relative_to(ROOT)}: record_type harus country_profile.")
 
-        for language in country.get("languages", []):
+        language_records = country.get("languages", [])
+        if not isinstance(language_records, list):
+            report.error(f"{country_file.relative_to(ROOT)}: languages harus berupa array.")
+            language_records = []
+
+        for language in language_records:
+            if not isinstance(language, dict):
+                report.error(f"{country_file.relative_to(ROOT)}: setiap record bahasa harus berupa object.")
+                continue
             profile_path = language.get("profile_path")
             if profile_path:
                 full_path = country_file.parent / profile_path
