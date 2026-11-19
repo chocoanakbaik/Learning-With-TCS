@@ -1,0 +1,245 @@
+{
+  "schema_version": "1.1.0",
+  "record_type": "language_profile",
+  "language": {
+    "name": "Xiang Chinese",
+    "native_name": "湘语",
+    "iso_639_3": "hsn",
+    "bcp47_tags": [
+      "hsn-CN"
+    ],
+    "family": "Sino-Tibetan > Sinitic"
+  },
+  "country_context": {
+    "country_code": "CN",
+    "role": [
+      "regional",
+      "Sinitic"
+    ],
+    "note": "Xiang mencakup ragam di Hunan dan sebagian wilayah sekitar. Profil ini memakai Xiangxiang (Old Xiang) dan sumber penelitian lintas lokasi; contoh wajib diberi tag kota/subdialek."
+  },
+  "categories": {
+    "accent_and_pronunciation": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "CN-HSN-ACC-001",
+          "term": "Xiangxiang segmental phonology",
+          "explanation_id": "Xiangxiang, varietas Old Xiang di Hunan tengah, memiliki inventaris inisial dan final tersendiri; sumber IPA menyediakan deskripsi artikulasi serta contoh fonetik.",
+          "indonesian_learning_link": "Jangan membaca Xiangxiang dengan sistem bunyi Mandarin standar tanpa latihan audio dari dialek setempat.",
+          "region": "Xiangxiang, central Hunan",
+          "register": "Pronunciation",
+          "usage_context": "Mengenali inventaris bunyi lokal.",
+          "example_source_language": "Xiangxiang consonant and vowel inventory",
+          "example_indonesian": "inventaris konsonan dan vokal Xiangxiang",
+          "sources": [
+            "https://www.cambridge.org/core/journals/journal-of-the-international-phonetic-association/article/xiangxiang-dialect-of-chinese/75F1E69ACCC8AC46EED81F8EE1B1CB85"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-HSN-ACC-002",
+          "term": "Xiang dialect tone systems",
+          "explanation_id": "Sistem nada pada kelompok Xiang bervariasi menurut lokasi dan kelompok Old/New Xiang; pola nada harus dilabeli berdasarkan kota/dialek yang terdokumentasi.",
+          "indonesian_learning_link": "Bahasa Indonesia tidak memakai nada leksikal; gunakan audio dan label subdialek saat belajar.",
+          "region": "Hunan; Old and New Xiang varieties",
+          "register": "Lexical tone / regional prosody",
+          "usage_context": "Membedakan kata melalui nada.",
+          "example_source_language": "Xiangxiang tone categories",
+          "example_indonesian": "kategori nada Xiangxiang",
+          "sources": [
+            "https://www.cambridge.org/core/journals/journal-of-the-international-phonetic-association/article/xiangxiang-dialect-of-chinese/75F1E69ACCC8AC46EED81F8EE1B1CB85",
+            "https://journals.linguisticsociety.org/booknotices/?p=74"
+          ],
+          "verification_status": "reviewed",
+          "note": "Jangan memakai jumlah nada Xiangxiang sebagai jumlah nada universal seluruh kelompok Xiang."
+        },
+        {
+          "id": "CN-HSN-ACC-003",
+          "term": "Phonetic variation across Xiang locations",
+          "explanation_id": "Penelitian HKU 2023 mengumpulkan 47 rekaman narasi dari 16 lokasi di Hunan dan mengidentifikasi variasi fonetik antarvarietas Xiang.",
+          "indonesian_learning_link": "Tampilkan asal lokasi/penutur pada setiap contoh; jangan menggabungkan data lokasi ke satu aksen imajiner.",
+          "region": "Hunan; 16 surveyed locations",
+          "register": "Regional pronunciation",
+          "usage_context": "Membandingkan rekaman dialek.",
+          "example_source_language": "Xiang narrative recordings",
+          "example_indonesian": "rekaman narasi Xiang",
+          "sources": [
+            "https://hub.hku.hk/handle/10722/327613"
+          ],
+          "verification_status": "reviewed"
+        }
+      ]
+    },
+    "speaking_style_and_pragmatics": {
+      "status": "research_required",
+      "entries": [],
+      "coverage_note": "Sapaan, kesopanan dan formula pragmatik belum ditambahkan karena sumber yang dikurasi berfokus pada fonologi, sintaksis dan elicitation narasi. Perlu transkrip yang dapat dihubungkan dengan konteks sosial."
+    },
+    "standard_language": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "CN-HSN-STD-001",
+          "term": "Xiang is a regional Sinitic grouping, not a Putonghua accent",
+          "explanation_id": "Xiang mencakup ragam yang dituturkan terutama di Hunan dan bagian utara Guangxi; kajian komparatif menunjukkan variasi internal yang tinggi dan batas kelompok sulit diringkas dengan satu ciri tunggal.",
+          "indonesian_learning_link": "Pilih hsn sebagai identitas kelompok dan simpan nama kota/dialek untuk setiap lema.",
+          "region": "Hunan and northern Guangxi",
+          "register": "Sinitic language group",
+          "usage_context": "Menentukan identitas bahasa sumber.",
+          "example_source_language": "湘语",
+          "example_indonesian": "bahasa Xiang",
+          "sources": [
+            "https://hub.hku.hk/handle/10722/327613",
+            "https://journals.linguisticsociety.org/booknotices/?p=74"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-HSN-STD-002",
+          "term": "Written Chinese and spoken Xiang",
+          "explanation_id": "Sebagian besar dokumentasi tertulis memakai karakter Han; tulisan formal sering mengikuti Standard Written Chinese sementara tuturan lokal memakai fonologi dan leksikon Xiang.",
+          "indonesian_learning_link": "Jelaskan perbedaan bahasa tulis formal dan bentuk tutur regional, seperti perbedaan bahasa Indonesia baku dan percakapan lokal.",
+          "region": "Xiang-speaking communities",
+          "register": "Written / spoken register",
+          "usage_context": "Membaca teks formal dan dialog lokal.",
+          "example_source_language": "written Chinese / spoken Xiang",
+          "example_indonesian": "Tionghoa tertulis / tuturan Xiang",
+          "sources": [
+            "https://hub.hku.hk/handle/10722/327613",
+            "https://journals.linguisticsociety.org/booknotices/?p=74"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-HSN-STD-003",
+          "term": "Old Xiang and New Xiang",
+          "explanation_id": "Literatur membedakan Old Xiang yang lebih konservatif dan New Xiang yang lebih banyak menunjukkan konvergensi dengan Mandarin; istilah old/new tidak berarti tahap sejarah yang sudah punah.",
+          "indonesian_learning_link": "Simpan label Old/New Xiang pada data agar contoh leksikal dan fonologi tidak tercampur.",
+          "region": "Hunan; multiple urban and rural varieties",
+          "register": "Regional classification",
+          "usage_context": "Memilih varietas pembelajaran.",
+          "example_source_language": "老湘语 / 新湘语",
+          "example_indonesian": "Old Xiang / New Xiang",
+          "sources": [
+            "https://hub.hku.hk/handle/10722/327613",
+            "https://journals.linguisticsociety.org/booknotices/?p=74"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-HSN-STD-004",
+          "term": "Xiang morphosyntax research",
+          "explanation_id": "Studi dialek Xiang mengkaji struktur klasifier, variasi leksiko-morfologis dan sintaksis; bentuk antarvarietas tidak selalu sama.",
+          "indonesian_learning_link": "Gunakan contoh kalimat dari satu dialek pada satu waktu dan jelaskan fungsinya dalam bahasa Indonesia.",
+          "region": "Xiang dialects of Hunan",
+          "register": "Grammar reference",
+          "usage_context": "Menganalisis struktur kalimat.",
+          "example_source_language": "bare-classifier constructions",
+          "example_indonesian": "konstruksi klasifier tanpa penentu",
+          "sources": [
+            "https://hub.hku.hk/handle/10722/327613",
+            "https://aclanthology.org/2022.ccl-1.24.pdf"
+          ],
+          "verification_status": "reviewed"
+        }
+      ]
+    },
+    "nonstandard_language_and_slang": {
+      "status": "research_required",
+      "entries": [],
+      "coverage_note": "Slang tidak diisi tanpa sumber tutur kontemporer yang menunjuk kota, generasi, dan dialek. Kata percakapan Xiang tidak otomatis slang."
+    },
+    "profanity_and_vulgar_language": {
+      "status": "community_review_required",
+      "entries": [],
+      "coverage_note": "Umpatan belum ditambahkan karena belum ada sumber leksikografi/korpus yang secara langsung mendukung lema Xiang dan intensitasnya."
+    },
+    "regional_and_minority_languages": {
+      "status": "cross_reference_country_catalog",
+      "entries": [
+        {
+          "id": "CN-HSN-REG-001",
+          "term": "Xiangxiang (Old Xiang)",
+          "explanation_id": "Xiangxiang adalah dialek di wilayah tengah Hunan yang sering diklasifikasikan sebagai Old Xiang; artikel IPA memberi deskripsi fonetik khusus untuk kota ini.",
+          "indonesian_learning_link": "Tag semua contoh Xiangxiang sebagai Old Xiang dan jangan menganggapnya mewakili Changsha atau seluruh Hunan.",
+          "region": "Xiangxiang, Hunan",
+          "register": "Regional variety",
+          "usage_context": "Memilih sumber dialek.",
+          "example_source_language": "Xiangxiang dialect",
+          "example_indonesian": "dialek Xiangxiang",
+          "sources": [
+            "https://www.cambridge.org/core/journals/journal-of-the-international-phonetic-association/article/xiangxiang-dialect-of-chinese/75F1E69ACCC8AC46EED81F8EE1B1CB85"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-HSN-REG-002",
+          "term": "Changsha Xiang",
+          "explanation_id": "Changsha memiliki ragam spoken, reading, dan bentuk yang lebih dipengaruhi Putonghua; sumber grammar Xiang membahas perbedaan tersebut.",
+          "indonesian_learning_link": "Jangan menyamakan tutur Changsha dengan ragam Xiangxiang atau semua New Xiang.",
+          "region": "Changsha, Hunan",
+          "register": "Regional variety",
+          "usage_context": "Mengenali variasi kota.",
+          "example_source_language": "Changsha Xiang",
+          "example_indonesian": "Xiang Changsha",
+          "sources": [
+            "https://journals.linguisticsociety.org/booknotices/?p=74",
+            "https://hub.hku.hk/handle/10722/327613"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-HSN-REG-003",
+          "term": "Xiang varieties across Hunan and northern Guangxi",
+          "explanation_id": "Kajian HKU mencatat Xiang juga dituturkan di sebagian utara Guangxi serta memiliki sejarah migrasi dan variasi yang kompleks.",
+          "indonesian_learning_link": "Tambahkan subprofil kota/wilayah sebelum membuat daftar kata yang digeneralisasi.",
+          "region": "Hunan and northern Guangxi",
+          "register": "Regional varieties",
+          "usage_context": "Menentukan cakupan data.",
+          "example_source_language": "Xiang dialect locations",
+          "example_indonesian": "lokasi dialek Xiang",
+          "sources": [
+            "https://hub.hku.hk/handle/10722/327613"
+          ],
+          "verification_status": "reviewed"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "University of Hong Kong — Studies on the Xiang Dialects: Typology and Transitional Grammar",
+      "url": "https://hub.hku.hk/handle/10722/327613",
+      "scope": "47 narrative recordings from 16 locations, phonetic variation, morphosyntax and internal variation."
+    },
+    {
+      "title": "Cambridge — The Xiangxiang Dialect of Chinese (IPA)",
+      "url": "https://www.cambridge.org/core/journals/journal-of-the-international-phonetic-association/article/xiangxiang-dialect-of-chinese/75F1E69ACCC8AC46EED81F8EE1B1CB85",
+      "scope": "Segmental phonology and sound examples for Xiangxiang in central Hunan."
+    },
+    {
+      "title": "Linguistic Society — A Synchronic and Diachronic Study of the Grammar of the Chinese Xiang Dialects",
+      "url": "https://journals.linguisticsociety.org/booknotices/?p=74",
+      "scope": "Xiang grammar, phonological differences and spoken/reading/Putonghua-influenced styles."
+    },
+    {
+      "title": "CCL — Review and Prospect of the Phonetic Research of Xiang Dialects",
+      "url": "https://aclanthology.org/2022.ccl-1.24.pdf",
+      "scope": "Survey of recent phonetic research and resources for Xiang dialects."
+    }
+  ],
+  "indonesian_learning_design": {
+    "direction": "Xiang (Hunan varieties) → Indonesian",
+    "learner_support": [
+      "Labeli setiap contoh menurut kota dan kelompok Old/New Xiang.",
+      "Bandingkan nada dan fonologi Xiang dengan pelafalan bahasa Indonesia melalui audio.",
+      "Bedakan tulisan formal Tionghoa dari bentuk tutur Xiang."
+    ]
+  },
+  "verification": {
+    "status": "content_seeded_reviewed_not_native_validated",
+    "last_reviewed": "2026-11-19",
+    "notes": "Profil memakai studi HKU 2023 dan artikel fonetik Xiangxiang. Pragmatik, slang, dan profanity belum dimasukkan; variasi internal Xiang harus dipelihara pada metadata."
+  }
+}
