@@ -1,0 +1,310 @@
+{
+  "schema_version": "1.1.0",
+  "record_type": "language_profile",
+  "language": {
+    "name": "Okinawan (Shuri dialect)",
+    "native_name": "うちなーぐち / 沖縄語（首里方言）",
+    "iso_639_3": "ryu",
+    "bcp47_tags": [
+      "ryu-JP"
+    ],
+    "family": "Japonic > Ryukyuan > North Ryukyuan"
+  },
+  "country_context": {
+    "country_code": "JP",
+    "role": [
+      "regional",
+      "Ryukyuan",
+      "endangered"
+    ],
+    "note": "Profil ini berfokus pada Shuri dialect di Naha dan sekitarnya. Istilah Okinawan dapat merujuk pada beberapa ragam di Pulau Okinawa; Miyako, Ishigaki/Yaeyama, dan Yonaguni tidak digabung sebagai aksen Shuri."
+  },
+  "categories": {
+    "accent_and_pronunciation": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "JP-RYU-ACC-001",
+          "term": "Five-vowel system",
+          "explanation_id": "Shuri Okinawan memiliki lima vokal pendek /a, i, u, e, o/ dan vokal panjang yang ditulis ganda, misalnya aa, ii, uu, ee, oo.",
+          "indonesian_learning_link": "Pelajar bahasa Indonesia dapat membandingkan kualitas vokal, tetapi perlu mendengar panjang vokal secara terpisah.",
+          "region": "Shuri dialect, Naha dan sekitarnya",
+          "register": "Pronunciation",
+          "usage_context": "Membedakan vokal pendek dan panjang.",
+          "example_source_language": "tii / tiida",
+          "example_indonesian": "tangan / matahari",
+          "sources": [
+            "https://u-ryukyu.repo.nii.ac.jp/record/2017798/files/All%20About%20Okinawan%202nd%20Edition%202021.pdf"
+          ],
+          "verification_status": "reviewed",
+          "note": "Rujukan berfokus pada varian Shuri/Naha dan bukan semua dialek Okinawa."
+        },
+        {
+          "id": "JP-RYU-ACC-002",
+          "term": "Glottal stop",
+          "explanation_id": "Hentian glotal ditandai apostrof dalam romanisasi buku; kehadiran atau ketiadaannya dapat membedakan makna kata.",
+          "indonesian_learning_link": "Jelaskan bahwa apostrof di sini mewakili bunyi, bukan tanda baca.",
+          "region": "Shuri Okinawan",
+          "register": "Pronunciation",
+          "usage_context": "Mengenali perbedaan bunyi.",
+          "example_source_language": "'yaa / yaa",
+          "example_indonesian": "kamu / rumah",
+          "sources": [
+            "https://u-ryukyu.repo.nii.ac.jp/record/2017798/files/All%20About%20Okinawan%202nd%20Edition%202021.pdf"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "JP-RYU-ACC-003",
+          "term": "Unaspirated p, t, k",
+          "explanation_id": "Konsonan awal p, t, k dalam Shuri Okinawan dijelaskan tanpa hembusan udara seperti English aspirated stops.",
+          "indonesian_learning_link": "Bandingkan dengan bunyi p/t/k Indonesia yang cenderung tidak diaspirasikan kuat.",
+          "region": "Shuri Okinawan",
+          "register": "Pronunciation",
+          "usage_context": "Melatih konsonan letup.",
+          "example_source_language": "p / t / k",
+          "example_indonesian": "konsonan letup",
+          "sources": [
+            "https://u-ryukyu.repo.nii.ac.jp/record/2017798/files/All%20About%20Okinawan%202nd%20Edition%202021.pdf"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "JP-RYU-ACC-004",
+          "term": "Shuri pitch accent",
+          "explanation_id": "Sistem aksen Shuri dalam sumber pengantar membedakan pola datar dan turun; pola aksen berbeda cukup besar antar dialek Okinawan.",
+          "indonesian_learning_link": "Jangan menyebutnya tekanan seperti English; ajarkan kontur pitch dengan audio.",
+          "region": "Shuri dialect; bukan generalisasi semua Okinawa",
+          "register": "Prosody",
+          "usage_context": "Mengenali kontur datar dan turun.",
+          "example_source_language": "mii ‘eye’ (flat); kii ‘hair’ (falling)",
+          "example_indonesian": "mata / rambut",
+          "sources": [
+            "https://u-ryukyu.repo.nii.ac.jp/record/2017798/files/All%20About%20Okinawan%202nd%20Edition%202021.pdf",
+            "https://w3.u-ryukyu.ac.jp/tonga/ling/_userdata/shuri-accent.pdf"
+          ],
+          "verification_status": "reviewed"
+        }
+      ]
+    },
+    "speaking_style_and_pragmatics": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "JP-RYU-PRAG-001",
+          "term": "ichariba choodee",
+          "explanation_id": "Ungkapan yang menggambarkan gagasan ‘sekali bertemu, kita menjadi saudara’; merefleksikan keramahan dan ikatan sosial dalam konteks budaya Okinawa.",
+          "indonesian_learning_link": "Padanan Indonesia berupa ungkapan yang menegaskan persaudaraan setelah berjumpa; jangan terjemahkan sebagai sapaan netral biasa.",
+          "region": "Okinawa; ungkapan budaya",
+          "register": "Cultural expression",
+          "usage_context": "Menyampaikan nilai hubungan sosial.",
+          "example_source_language": "ichariba choodee",
+          "example_indonesian": "sekali bertemu, kita semua bersaudara",
+          "sources": [
+            "https://u-ryukyu.repo.nii.ac.jp/record/2017798/files/All%20About%20Okinawan%202nd%20Edition%202021.pdf"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "JP-RYU-PRAG-002",
+          "term": "nifee deebiru",
+          "explanation_id": "Ungkapan terima kasih yang dicatat dalam bahan belajar Shuri/Okinawan.",
+          "indonesian_learning_link": "Padanan Indonesia: ‘terima kasih banyak’; bentuk dan pelafalan perlu dicocokkan dengan sumber varian setempat.",
+          "region": "Okinawa; materi pembelajaran Shuri",
+          "register": "Polite / appreciative",
+          "usage_context": "Mengucapkan terima kasih.",
+          "example_source_language": "nifee deebiru",
+          "example_indonesian": "terima kasih banyak",
+          "sources": [
+            "https://u-ryukyu.repo.nii.ac.jp/record/2017798/files/All%20About%20Okinawan%202nd%20Edition%202021.pdf"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "JP-RYU-PRAG-003",
+          "term": "Dialect-specific greetings and courtesy",
+          "explanation_id": "Ungkapan harian dan bentuk sopan perlu dikaitkan dengan dialek Okinawan yang sedang dipelajari; bahan Shuri/Naha tidak otomatis mewakili seluruh pulau.",
+          "indonesian_learning_link": "Pilih padanan Indonesia berdasarkan situasi dan hubungan, bukan terjemahan satu-kata.",
+          "region": "Okinawa; variasi antarwilayah",
+          "register": "Context-sensitive",
+          "usage_context": "Memilih salam sesuai komunitas.",
+          "example_source_language": "Shuri greeting forms",
+          "example_indonesian": "bentuk sapaan dialek Shuri",
+          "sources": [
+            "https://mmsrv.ninjal.ac.jp/okinawago/en/index.html",
+            "https://u-ryukyu.repo.nii.ac.jp/record/2017798/files/All%20About%20Okinawan%202nd%20Edition%202021.pdf"
+          ],
+          "verification_status": "draft",
+          "note": "Perlu pemetaan ungkapan satu per satu dari kamus; tidak mengklaim satu sapaan universal."
+        }
+      ]
+    },
+    "standard_language": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "JP-RYU-STD-001",
+          "term": "Kana and kanji writing",
+          "explanation_id": "Bahan pengantar menyebut Okinawan tidak memiliki sistem tulisan tersendiri dan ditulis menggunakan kana Jepang dan/atau kanji; sebagian materi menggunakan romanisasi untuk pengajaran.",
+          "indonesian_learning_link": "Bedakan sistem tulis Japanese dan cara praktis menuliskan Okinawan dalam materi edukasi.",
+          "region": "Shuri / Okinawan writing",
+          "register": "Orthography",
+          "usage_context": "Membaca bentuk lokal.",
+          "example_source_language": "ゴーヤー / にふぇーでーびる",
+          "example_indonesian": "pare / terima kasih banyak",
+          "sources": [
+            "https://u-ryukyu.repo.nii.ac.jp/record/2017798/files/All%20About%20Okinawan%202nd%20Edition%202021.pdf"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "JP-RYU-STD-002",
+          "term": "Plural suffixes nu chaa and taa",
+          "explanation_id": "Shuri Okinawan memiliki beberapa penanda plural bagi kelas nomina tertentu; nu chaa dan taa tidak dapat dipertukarkan bebas.",
+          "indonesian_learning_link": "Bandingkan cara Indonesian memakai reduplikasi atau penanda jumlah, tanpa menyamakan morfologi.",
+          "region": "Shuri dialect",
+          "register": "Grammar",
+          "usage_context": "Memahami nomina jamak.",
+          "example_source_language": "uya nu chaa / gakushii taa",
+          "example_indonesian": "orang tua / para siswa",
+          "sources": [
+            "https://u-ryukyu.repo.nii.ac.jp/record/2017798/files/All%20About%20Okinawan%202nd%20Edition%202021.pdf"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "JP-RYU-STD-003",
+          "term": "Possessive marker nu",
+          "explanation_id": "Penanda posesif nu diletakkan sebelum benda yang dimiliki dalam sejumlah konstruksi, misalnya wan nu sumuchi ‘buku saya’.",
+          "indonesian_learning_link": "Bahasa Indonesia memakai urutan nomina + pemilik (‘buku saya’), sehingga urutan unsur berbeda.",
+          "region": "Shuri dialect",
+          "register": "Grammar",
+          "usage_context": "Membentuk frasa kepemilikan.",
+          "example_source_language": "wan nu sumuchi",
+          "example_indonesian": "buku saya",
+          "sources": [
+            "https://u-ryukyu.repo.nii.ac.jp/record/2017798/files/All%20About%20Okinawan%202nd%20Edition%202021.pdf"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "JP-RYU-STD-004",
+          "term": "Present and past verb forms",
+          "explanation_id": "Materi pengantar menggambarkan sejumlah verba kini berakhiran -un/-in dan bentuk lampau sering berakhiran -an; ada verba tidak beraturan.",
+          "indonesian_learning_link": "Ajarkan pola sebagai gambaran dialek sumber, bukan rumus universal seluruh Okinawan.",
+          "region": "Shuri dialect",
+          "register": "Grammar",
+          "usage_context": "Membedakan bentuk kini dan lampau.",
+          "example_source_language": "kamun / kadan",
+          "example_indonesian": "makan / sudah makan",
+          "sources": [
+            "https://u-ryukyu.repo.nii.ac.jp/record/2017798/files/All%20About%20Okinawan%202nd%20Edition%202021.pdf"
+          ],
+          "verification_status": "reviewed"
+        }
+      ]
+    },
+    "nonstandard_language_and_slang": {
+      "status": "community_research_required",
+      "entries": [],
+      "coverage_note": "Belum diisi. Slang kontemporer harus diambil dari sumber Okinawan/Shuri yang mengidentifikasi wilayah, generasi, dan konteks, bukan diambil dari Japanese slang."
+    },
+    "profanity_and_vulgar_language": {
+      "status": "community_review_required",
+      "entries": [],
+      "coverage_note": "Belum diisi karena sumber yang diperiksa belum memberi inventaris umpatan Shuri yang cukup dan tervalidasi. Jangan mengimpor umpatan Japanese sebagai kosakata Okinawan."
+    },
+    "regional_and_minority_languages": {
+      "status": "cross_reference_country_catalog",
+      "entries": [
+        {
+          "id": "JP-RYU-REG-001",
+          "term": "Shuri dialect / Okinawa-go",
+          "explanation_id": "Kamus NINJAL mendokumentasikan sekitar 15.000 kata dialek Shuri, dengan transkripsi fonologis dan penanda aksen; ini adalah satu cakupan dialek yang jelas, bukan keseluruhan Ryukyuan.",
+          "indonesian_learning_link": "Pilih subvarietas sesuai sumber; LWT mengarahkan materi ke Indonesian melalui profil Shuri.",
+          "region": "Shuri, Naha, Okinawa",
+          "register": "Regional dialect / documented variety",
+          "usage_context": "Menelusuri kata dan aksen.",
+          "example_source_language": "Shuri Okinawan",
+          "example_indonesian": "dialek Shuri",
+          "sources": [
+            "https://mmsrv.ninjal.ac.jp/okinawago/en/index.html"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "JP-RYU-REG-002",
+          "term": "Miyako, Ishigaki, Yonaguni are separate varieties",
+          "explanation_id": "Sumber akademik membedakan Miyako, Ishigaki/Yaeyama, dan Yonaguni sebagai bahasa-bahasa Southern Ryukyuan yang tidak saling dipahami dengan mudah.",
+          "indonesian_learning_link": "Buat profil sendiri untuk setiap bahasa; jangan menyebutnya aksen Shuri.",
+          "region": "Southern Ryukyus",
+          "register": "Language distinction",
+          "usage_context": "Memilih bahasa asal yang benar.",
+          "example_source_language": "nifee deebiru / tandigaa tandi / fugarasa",
+          "example_indonesian": "terima kasih (Shuri / Miyako / Yonaguni)",
+          "sources": [
+            "https://u-ryukyu.repo.nii.ac.jp/record/2017798/files/All%20About%20Okinawan%202nd%20Edition%202021.pdf",
+            "https://www.jstage.jst.go.jp/article/jactfl/4/0/4_110/_article/-char/ja/"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "JP-RYU-REG-003",
+          "term": "Naha and surrounding Okinawan dialects",
+          "explanation_id": "Bahan pengantar berfokus pada varian Naha dan sekitarnya, dan menyatakan dialek-dialek di Pulau Okinawa sendiri memiliki variasi.",
+          "indonesian_learning_link": "Tandai contoh sebagai Naha/Shuri ketika sumbernya demikian.",
+          "region": "Okinawa Island; Naha and surrounding areas",
+          "register": "Regional dialect continuum",
+          "usage_context": "Menandai ruang lingkup contoh.",
+          "example_source_language": "Naha / Shuri dialect",
+          "example_indonesian": "dialek Naha / Shuri",
+          "sources": [
+            "https://u-ryukyu.repo.nii.ac.jp/record/2017798/files/All%20About%20Okinawan%202nd%20Edition%202021.pdf",
+            "https://mmsrv.ninjal.ac.jp/okinawago/en/index.html"
+          ],
+          "verification_status": "reviewed"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "University of the Ryukyus — All About Okinawan, Second Edition",
+      "url": "https://u-ryukyu.repo.nii.ac.jp/record/2017798/files/All%20About%20Okinawan%202nd%20Edition%202021.pdf",
+      "scope": "Vokal, konsonan, glottal stop, aksen pitch Shuri, tata bahasa, kata dan ungkapan."
+    },
+    {
+      "title": "NINJAL — Okinawa-go (Ryukyu Dialect) Dictionary Database",
+      "url": "https://mmsrv.ninjal.ac.jp/okinawago/en/index.html",
+      "scope": "Kamus dialek Shuri dengan sekitar 15.000 lema, accent type, part of speech, meaning, and examples; CC BY 4.0."
+    },
+    {
+      "title": "University of the Ryukyus — Shuri dialect accent",
+      "url": "https://w3.u-ryukyu.ac.jp/tonga/ling/_userdata/shuri-accent.pdf",
+      "scope": "Klasifikasi pitch accent berdasarkan mora pada dialek Shuri."
+    },
+    {
+      "title": "J-STAGE — There are nine languages in Japan",
+      "url": "https://www.jstage.jst.go.jp/article/jactfl/4/0/4_110/_article/-char/ja/",
+      "scope": "Pembahasan klasifikasi Japanese dan bahasa Ryukyuan."
+    },
+    {
+      "title": "University of Hawaiʻi at Mānoa — Okinawan Studies: Languages",
+      "url": "https://guides.library.manoa.hawaii.edu/okinawa/languages",
+      "scope": "Referensi kamus dan basis data bahasa Okinawa/Ryukyuan."
+    }
+  ],
+  "indonesian_learning_design": {
+    "direction": "Shuri Okinawan → Indonesian",
+    "learner_support": [
+      "Latih kontras vokal pendek/panjang dan hentian glotal melalui audio.",
+      "Bandingkan susunan posesif Okinawan dengan frasa nomina bahasa Indonesia.",
+      "Jelaskan bahwa sapaan dan pilihan ungkapan tidak mewakili semua pulau Ryukyu."
+    ]
+  },
+  "verification": {
+    "status": "content_seeded_reviewed_not_native_validated",
+    "last_reviewed": "2026-11-19",
+    "notes": "Materi Shuri didukung kamus NINJAL dan bahan pengantar University of the Ryukyus. Slang dan profanity sengaja belum ditambahkan; belum ada validasi penutur/ahli untuk seluruh entri."
+  }
+}
