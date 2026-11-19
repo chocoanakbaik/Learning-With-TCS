@@ -1,0 +1,19 @@
+{
+  "schema_version":"1.0.0",
+  "record_type":"language_profile",
+  "language":{"name":"Mandarin Chinese (Putonghua)","native_name":"普通话","iso_639_3":"cmn","bcp47_tags":["zh-CN"],"family":"Sino-Tibetan > Sinitic"},
+  "country_context":{"country_code":"CN","role":["national_common_language","standard"],"note":"This profile focuses on Putonghua in mainland China. Mandarin varieties outside mainland China and regional Sinitic languages require separate context profiles."},
+  "categories":{
+    "accent_and_pronunciation":{"status":"research_required","coverage_targets":["standard pronunciation reference and its relation to Beijing speech","regional Mandarin accents such as Northeastern, Southwestern, and Jianghuai varieties","four lexical tones and neutral tone","retroflex initials, erhua, tone sandhi, and connected-speech changes"],"entries":[]},
+    "speaking_style_and_pragmatics":{"status":"research_required","coverage_targets":["forms of address and kinship terms","politeness, indirect requests, refusal, and face-related interaction","sentence-final particles and discourse markers","regional and generational variation"],"entries":[]},
+    "standard_language":{"status":"research_required","coverage_targets":["Putonghua pronunciation and grammar standards","simplified Chinese characters in mainland standard writing","pinyin conventions","formal, academic, public-service, and everyday written registers"],"entries":[]},
+    "nonstandard_language_and_slang":{"status":"research_required","coverage_targets":["colloquial reductions and discourse particles","internet slang, abbreviations, and memes with date labels","regional vocabulary kept distinct from standard Putonghua","character-based wordplay and homophones with cultural context"],"entries":[]},
+    "profanity_and_vulgar_language":{"status":"research_required","coverage_targets":["common insults and profanity","literal meaning versus pragmatic force","severity, target, and situational appropriateness","regional differences and neutral Indonesian explanations"],"entries":[]},
+    "regional_and_minority_languages":{"status":"cross_reference_country_catalog","coverage_targets":["Yue/Cantonese, Wu, Min, Hakka, Xiang, Gan, Jin, and other Sinitic varieties","Tibetan, Uyghur, Mongolian, Zhuang, Kazakh, Korean, and other minority languages","Do not treat mutually unintelligible varieties as interchangeable accents of Putonghua"],"entries":[]}
+  },
+  "sources":[
+    {"title":"PRC Ministry of Education: Overview of Chinese Language and Writing Systems","url":"https://www.moe.gov.cn/jyb_xxgk/xxgk/neirong/fenlei/sxml_zwgk/yuyanwenzi/202610/t20261023_1455676.html"},
+    {"title":"Center for Applied Linguistics: The Chinese Language and Language Planning in China","url":"https://www.cal.org/wp-content/uploads/2022/05/HeritageBriefChineseLanguageandLanguagePlanninginChina.pdf"}
+  ],
+  "verification":{"status":"framework_reviewed","last_reviewed":"2026-11-19","notes":"Profile framework created. Lexical examples, slang, and profanity entries require dictionary and native-speaker review."}
+}
