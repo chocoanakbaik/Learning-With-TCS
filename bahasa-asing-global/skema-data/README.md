@@ -1,65 +1,72 @@
 # Skema Data Bahasa Global LWT
 
-## Tujuan
+## Tujuan dan hubungan entitas
 
-Skema ini memisahkan tiga entitas yang sering tercampur:
+Skema memisahkan tiga jenis entitas:
 
-- **Negara/wilayah:** lokasi geografis dan konteks administratif.
+- **Negara/wilayah:** konteks geografis dan administratif.
 - **Bahasa:** sistem bahasa dengan identitas tersendiri.
 - **Variasi:** aksen, dialek, register, slang, dan gaya komunikasi yang terkait dengan bahasa serta komunitas tertentu.
 
-Satu negara dapat memiliki banyak bahasa. Satu bahasa juga dapat digunakan di banyak negara. Karena itu, data bahasa tidak boleh disimpan seolah-olah hanya dimiliki satu negara.
+Satu negara dapat memiliki banyak bahasa. Satu bahasa dapat digunakan di banyak negara. Negara adalah titik navigasi, bukan pemilik eksklusif bahasa.
 
-## Enam kelompok materi
+## Enam kategori wajib
 
-| Urutan | Kunci data | Isi |
+| Urutan | Kunci | Isi |
 |---|---|---|
-| 1 | `accent_and_pronunciation` | Aksen, logat, bunyi, intonasi, tekanan, ritme, contoh audio/fonetik bila tersedia |
-| 2 | `speaking_style_and_pragmatics` | Sapaan, kesopanan, giliran bicara, gaya langsung/tidak langsung, konteks sosial |
-| 3 | `standard_language` | Bentuk baku, tata bahasa, ejaan, kosakata formal, penggunaan resmi |
-| 4 | `nonstandard_language_and_slang` | Bahasa percakapan, slang, singkatan, bahasa internet, variasi generasi |
-| 5 | `profanity_and_vulgar_language` | Umpatan, kata kasar, makna, intensitas, sasaran, konteks, dan peringatan penggunaan |
-| 6 | `regional_and_minority_languages` | Bahasa daerah, bahasa minoritas, bahasa adat, dialek, komunitas, dan wilayah |
+| 1 | `accent_and_pronunciation` | Aksen, logat, bunyi, intonasi, tekanan, ritme, dan audio/fonetik bila tersedia. |
+| 2 | `speaking_style_and_pragmatics` | Sapaan, kesopanan, giliran bicara, gaya langsung/tidak langsung, dan konteks sosial. |
+| 3 | `standard_language` | Bentuk baku, tata bahasa, ejaan, kosakata formal, dan penggunaan resmi. |
+| 4 | `nonstandard_language_and_slang` | Percakapan, slang, singkatan, bahasa internet, dan variasi generasi. |
+| 5 | `profanity_and_vulgar_language` | Umpatan, kata kasar, makna, intensitas, sasaran, konteks, dan risiko penggunaan. |
+| 6 | `regional_and_minority_languages` | Bahasa daerah/minoritas/Indigenous, dialek, komunitas, wilayah, dan rujukan profil terpisah. |
 
-## Format setiap entri
+## Format entri profil bahasa
 
-Entri kosakata/ungkapan sebaiknya memiliki bidang berikut:
+Berkas profil menggunakan `schema_version: 1.1.0`. Setiap kategori berisi `status`, `entries`, dan catatan cakupan bila diperlukan.
 
-- `id`: ID stabil dan unik.
-- `term`: kata atau ungkapan asli.
-- `normalized_form`: bentuk normalisasi bila diperlukan.
-- `language_code`: kode bahasa ISO 639.
-- `region`: negara, wilayah, atau komunitas tempat bentuk tersebut digunakan.
-- `category`: salah satu dari enam kelompok materi.
-- `meaning`: arti yang jelas dalam bahasa Indonesia.
-- `literal_meaning`: arti harfiah bila berbeda dari makna pemakaian.
-- `indonesian_equivalent`: padanan bahasa Indonesia, jika ada.
-- `register`: formal, informal, slang, vulgar, archaic, atau lainnya.
-- `intensity`: tingkat kekasaran/ketajaman bila relevan.
-- `usage_context`: situasi penggunaan.
-- `example_original`: contoh dalam bahasa asal.
-- `example_indonesian`: contoh/padanan dalam bahasa Indonesia.
-- `cultural_notes`: catatan budaya dan potensi salah tafsir.
-- `sources`: sumber yang mendukung entri.
-- `verification_status`: draft, reviewed, atau verified.
+Setiap entri memakai bidang berikut:
 
-Tidak semua bidang harus terisi untuk setiap jenis data, tetapi arti, identitas bahasa, konteks, dan sumber wajib tersedia sebelum entri dinyatakan verified.
+- `id`: ID stabil dan unik di seluruh repositori.
+- `term`: lema, ungkapan, atau fenomena bahasa.
+- `reading`: pelafalan/transliterasi jika relevan.
+- `explanation_id`: penjelasan dalam bahasa Indonesia.
+- `indonesian_learning_link`: cara konsep tersebut membantu pengguna belajar bahasa Indonesia.
+- `region`: negara, wilayah, atau komunitas tempat bentuk/fenomena digunakan.
+- `register`: baku, informal, slang, vulgar, regional, atau label kontekstual lain.
+- `usage_context`: situasi atau fungsi pemakaian.
+- `example_source_language`: contoh atau representasi dalam bahasa asal.
+- `example_indonesian`: contoh/padanan yang mengarah pada pembelajaran bahasa Indonesia.
+- `sources`: satu atau lebih URL rujukan ketika tersedia.
+- `verification_status`: `draft`, `reviewed`, atau `verified`.
+- `note`: batasan, variasi, atau catatan editorial jika ada.
+
+Untuk fenomena fonologi, `term` dapat berupa nama fenomena dan `example_source_language` berisi kata/bentuk bunyi. Jangan memaksakan terjemahan literal jika yang diajarkan adalah pola bunyi atau pragmatik.
+
+## Status verifikasi
+
+- **draft:** catatan awal; bukti, distribusi, atau konteks belum cukup.
+- **reviewed:** telah diperiksa terhadap rujukan yang dicantumkan, tetapi belum tentu divalidasi penutur asli.
+- **verified:** sumber kuat dan pemeriksaan ahli/penutur asli telah terdokumentasi. Status ini tidak boleh diberikan otomatis hanya karena entri memiliki tautan.
+
+Status profil `content_seeded_reviewed_not_native_validated` berarti materi awal telah disusun dan ditautkan, tetapi belum mendapat validasi ahli/penutur asli secara menyeluruh.
 
 ## Prinsip pemetaan ke bahasa Indonesia
 
-LWT adalah guru bahasa Indonesia. Bahasa asal digunakan untuk menjelaskan materi, bukan menjadi tujuan kursus. Setiap unit belajar perlu mengarah pada kemampuan memahami atau menggunakan bahasa Indonesia.
-
-Contoh arah pemetaan:
+LWT adalah guru bahasa Indonesia. Bahasa asal digunakan sebagai jembatan, bukan menjadi tujuan kursus.
 
 - Konsep sapaan dalam bahasa asal → sapaan bahasa Indonesia yang sesuai.
-- Perbedaan register dalam bahasa asal → perbedaan baku dan nonbaku dalam bahasa Indonesia.
-- Umpatan dalam bahasa asal → penjelasan padanan umpatan Indonesia beserta intensitas dan konteksnya.
-- Aksen bahasa asal → panduan pelafalan bunyi bahasa Indonesia yang sering sulit bagi penutur tersebut.
+- Perbedaan register → pilihan bahasa Indonesia baku/nonbaku.
+- Umpatan → penjelasan padanan Indonesia dengan intensitas, target, dan konteks.
+- Aksen bahasa asal → panduan pelafalan bunyi bahasa Indonesia yang berpotensi sulit bagi penutur tersebut.
+- Contoh terjemahan harus alami, tidak sekadar menyalin struktur bahasa asal.
 
 ## Pengendalian mutu
 
-- Bedakan fakta, variasi regional, pendapat penutur, dan slang yang sedang tren.
-- Jangan menyebut suatu ungkapan sebagai bahasa seluruh negara jika hanya dipakai komunitas tertentu.
-- Umpatan harus dijelaskan secara edukatif, tidak disamarkan, tetapi juga tidak dilepaskan dari konteks.
-- Sertakan sumber yang dapat ditelusuri dan tanggal pemeriksaan.
-- Gunakan status `draft` sampai diperiksa; status `verified` memerlukan sumber yang memadai.
+- Jangan mengarang kosakata, aksen, kode bahasa, atau aturan.
+- Jangan menyebut variasi satu komunitas sebagai kebiasaan seluruh negara.
+- Bedakan bahasa, keluarga bahasa, dialek, aksen, dan register.
+- Cantumkan tanggal pemeriksaan dan sumber yang dapat ditelusuri.
+- Tandai tren slang dengan tahun dan komunitas pemakai jika diketahui.
+- Umpatan tetap dijelaskan secara terbuka, tetapi jangan dilepaskan dari konteks atau risiko sosial.
+- Validasi manual sebelum status `verified`.
