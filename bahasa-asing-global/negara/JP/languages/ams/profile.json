@@ -1,0 +1,272 @@
+{
+  "schema_version": "1.1.0",
+  "record_type": "language_profile",
+  "language": {
+    "name": "Southern Amami-Oshima",
+    "native_name": "島口 / シマユムタ (local naming varies)",
+    "iso_639_3": "ams",
+    "bcp47_tags": [
+      "ams-JP"
+    ],
+    "family": "Japonic > Ryukyuan > Northern Ryukyuan > Amami"
+  },
+  "country_context": {
+    "country_code": "JP",
+    "role": [
+      "regional",
+      "Ryukyuan",
+      "endangered"
+    ],
+    "note": "ISO 639-3 ams specifically identifies Southern Amami-Oshima. This profile uses the Setouchi community as a documented research focus; it does not represent all Amami islands or all Amami varieties."
+  },
+  "categories": {
+    "accent_and_pronunciation": {
+      "status": "research_required",
+      "entries": [
+        {
+          "id": "JP-AMS-ACC-001",
+          "term": "Phonology: vowel and consonant inventory",
+          "explanation_id": "Rujukan akademik untuk Southern Amami-Oshima membahas inventaris vokal, konsonan, struktur suku kata, dan aksen. Rincian perlu ditulis berdasarkan subdialek tertentu, bukan satu inventaris untuk seluruh Kepulauan Amami.",
+          "indonesian_learning_link": "Pelajar Indonesia perlu membedakan bunyi dari variasi setempat dan tidak menyamakan Southern Amami-Oshima dengan Japanese.",
+          "region": "Southern Amami-Oshima; varian lokal perlu disebut",
+          "register": "Pronunciation research",
+          "usage_context": "Mengenali wilayah studi fonologi.",
+          "example_source_language": "phonological inventory of Southern Amami-Oshima",
+          "example_indonesian": "inventaris fonologi Southern Amami-Oshima",
+          "sources": [
+            "https://doi.org/10.1515/9781614511151"
+          ],
+          "verification_status": "draft",
+          "note": "Entri cakupan riset; belum memasukkan IPA atau contoh kata sebelum memeriksa bab fonologi penuh."
+        },
+        {
+          "id": "JP-AMS-ACC-002",
+          "term": "Accent and prosody",
+          "explanation_id": "Bab grammar Amami membahas aksen sebagai bagian dari sistem prosodi; pola perlu dicatat menurut lokasi/dialek lapangan.",
+          "indonesian_learning_link": "Jangan menyalin pitch accent Tokyo Japanese ke dalam Amami tanpa bukti.",
+          "region": "Southern Amami-Oshima; Setouchi/Ura dan komunitas lain",
+          "register": "Prosody research",
+          "usage_context": "Memilih model audio sesuai dialek.",
+          "example_source_language": "Amami pitch-accent system",
+          "example_indonesian": "sistem aksen Amami",
+          "sources": [
+            "https://doi.org/10.1515/9781614511151"
+          ],
+          "verification_status": "draft",
+          "note": "Perlu rekaman yang dilabeli desa/varietas dan transkripsi akustik sebelum menjadi materi pelajaran."
+        }
+      ]
+    },
+    "speaking_style_and_pragmatics": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "JP-AMS-PRAG-001",
+          "term": "Addressee honorific verbs",
+          "explanation_id": "Penelitian lapangan di komunitas Setouchi mendokumentasikan bentuk honorifik yang diarahkan kepada lawan bicara; bentuk imperatif hormat juga ditemukan.",
+          "indonesian_learning_link": "Bandingkan dengan sapaan dan ungkapan sopan Indonesia, tetapi jelaskan bahwa bahasa Amami dapat menandai relasi melalui verba.",
+          "region": "Setouchi, Southern Amami-Oshima",
+          "register": "Honorific / polite",
+          "usage_context": "Berbicara kepada orang yang dihormati.",
+          "example_source_language": "Amami addressee-honorific verb forms",
+          "example_indonesian": "bentuk verba hormat kepada lawan bicara",
+          "sources": [
+            "https://soas-repository.worktribe.com/output/380020",
+            "https://eprints.soas.ac.uk/36490/1/Tsutsui_2021.pdf"
+          ],
+          "verification_status": "reviewed",
+          "note": "Penelitian melibatkan penutur di komunitas bilingual Setouchi; jangan generalisasi ke semua pulau/varietas Amami."
+        },
+        {
+          "id": "JP-AMS-PRAG-002",
+          "term": "Subject and non-subject honorifics",
+          "explanation_id": "Sumber dokumentasi membedakan honorifik subjek yang menaikkan status referen dan bentuk humble/non-subject yang merendahkan posisi referen yang terkait penutur atau kelompoknya.",
+          "indonesian_learning_link": "Ajarkan sebagai perbedaan perspektif sosial dalam kalimat, bukan terjemahan kata per kata.",
+          "region": "Southern Amami-Oshima; Setouchi",
+          "register": "Honorific grammar",
+          "usage_context": "Menjelaskan siapa yang dihormati dan siapa yang bertindak.",
+          "example_source_language": "subject honorific / non-subject honorific",
+          "example_indonesian": "honorifik subjek / non-subjek",
+          "sources": [
+            "https://soas-repository.worktribe.com/output/380020",
+            "https://eprints.soas.ac.uk/36490/1/Tsutsui_2021.pdf"
+          ],
+          "verification_status": "reviewed",
+          "note": "Kategori mengikuti kerangka analisis peneliti; terminologi pedagogis harus disederhanakan dengan contoh tervalidasi."
+        },
+        {
+          "id": "JP-AMS-PRAG-003",
+          "term": "Honorific lexical touchstones",
+          "explanation_id": "Sebagian bentuk honorifik yang tersisa berfungsi sebagai penanda keakraban, kedekatan, dan identitas lokal; Amami tidak lagi menjadi kode kesopanan default di semua ranah publik.",
+          "indonesian_learning_link": "Dalam bahasa Indonesia, bandingkan dengan pilihan sapaan/ungkapan yang menunjukkan kedekatan atau identitas lokal.",
+          "region": "Setouchi; penutur bilingual",
+          "register": "Local / relational",
+          "usage_context": "Menandai familiaritas dalam komunikasi harian.",
+          "example_source_language": "arigassama ryoota; kyaryoo",
+          "example_indonesian": "terima kasih; halo (bentuk yang terdokumentasi dalam studi)",
+          "sources": [
+            "https://soas-repository.worktribe.com/output/380020",
+            "https://eprints.soas.ac.uk/36490/1/Tsutsui_2021.pdf"
+          ],
+          "verification_status": "reviewed",
+          "note": "Bentuk ini dicatat sebagai lexical touchstones dalam studi; jangan mengubahnya menjadi formula universal seluruh Amami."
+        },
+        {
+          "id": "JP-AMS-PRAG-004",
+          "term": "Politeness and domain shift",
+          "explanation_id": "Di situasi kerja atau konteks resmi, penutur dalam studi Setouchi sering memilih Japanese untuk kesopanan ketika bentuk honorifik Amami tidak dikuasai atau tidak nyaman digunakan.",
+          "indonesian_learning_link": "Jelaskan perpindahan kode secara netral, bukan sebagai kekurangan kemampuan atau 'bahasa rusak'.",
+          "region": "Setouchi; komunitas bilingual Amami-Japanese",
+          "register": "Bilingual pragmatics",
+          "usage_context": "Memilih kode menurut relasi dan ranah sosial.",
+          "example_source_language": "Amami / Japanese code choice",
+          "example_indonesian": "pilihan kode Amami / Japanese",
+          "sources": [
+            "https://soas-repository.worktribe.com/output/380020"
+          ],
+          "verification_status": "reviewed",
+          "note": "Temuan studi bersifat komunitas dan waktu tertentu; bukan aturan semua penutur."
+        }
+      ]
+    },
+    "standard_language": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "JP-AMS-STD-001",
+          "term": "Amami grammar as a language-specific system",
+          "explanation_id": "Handbook grammar menjelaskan kelas kata, morfologi nomina/verba, sintaksis, serta kategori fungsional seperti negasi, kala/aspek/modus, voice, topik dan fokus.",
+          "indonesian_learning_link": "Tunjukkan bahwa bahasa Indonesia tidak memiliki pola infleksi yang sama; petakan fungsi kalimat secara alami.",
+          "region": "Southern/Northern Amami grammar references; masing-masing perlu dibedakan",
+          "register": "Grammar reference",
+          "usage_context": "Membangun peta tata bahasa.",
+          "example_source_language": "Amami grammar",
+          "example_indonesian": "tata bahasa Amami",
+          "sources": [
+            "https://doi.org/10.1515/9781614511151"
+          ],
+          "verification_status": "reviewed",
+          "note": "Sumber ini adalah bab ringkasan Handbook; materi tingkat lanjut perlu merujuk bab lengkap."
+        },
+        {
+          "id": "JP-AMS-STD-002",
+          "term": "Amami verbal honorific paradigms",
+          "explanation_id": "Studi dokumentasi menampilkan bentuk verba biasa dan bentuk honorifik kepada lawan bicara/referen; akar leksikal dapat berbeda pada sebagian verba.",
+          "indonesian_learning_link": "Jangan menyatukan semua bentuk sopan menjadi satu akhiran; ajarkan satu paradigma dengan konteks dan sumber.",
+          "region": "Southern Amami-Oshima; Setouchi",
+          "register": "Grammar / honorific register",
+          "usage_context": "Membandingkan bentuk dasar dan hormat.",
+          "example_source_language": "ikyun / ikyaon / chinkamoryaoro",
+          "example_indonesian": "pergi (bentuk biasa / hormat addressee / hormat referen non-subjek)",
+          "sources": [
+            "https://eprints.soas.ac.uk/36490/1/Tsutsui_2021.pdf"
+          ],
+          "verification_status": "reviewed",
+          "note": "Contoh ditranskripsikan menurut penelitian; perlu validasi audio dan review penutur untuk modul ajar."
+        }
+      ]
+    },
+    "nonstandard_language_and_slang": {
+      "status": "community_research_required",
+      "entries": [],
+      "coverage_note": "Belum ditambahkan. Bentuk percakapan lokal tidak otomatis slang; diperlukan sumber per subdialek dan konteks usia/komunitas."
+    },
+    "profanity_and_vulgar_language": {
+      "status": "community_review_required",
+      "entries": [],
+      "coverage_note": "Belum dimasukkan. Umpatan Southern Amami-Oshima memerlukan dokumentasi leksikografi langsung dan tinjauan penutur komunitas."
+    },
+    "regional_and_minority_languages": {
+      "status": "cross_reference_country_catalog",
+      "entries": [
+        {
+          "id": "JP-AMS-REG-001",
+          "term": "Southern Amami-Oshima (ISO 639-3 ams)",
+          "explanation_id": "Kode ams merujuk Southern Amami-Oshima, bukan seluruh keragaman bahasa Amami secara tanpa batas.",
+          "indonesian_learning_link": "Pilih profil ini hanya untuk komunitas Southern Amami-Oshima yang sesuai; jangan menggunakannya untuk Northern Amami-Oshima, Kikai, Tokunoshima, Okinoerabu, atau Yoron.",
+          "region": "Amami Oshima bagian selatan; Kagoshima Prefecture",
+          "register": "Language identity",
+          "usage_context": "Memastikan identitas bahasa sumber.",
+          "example_source_language": "Southern Amami-Oshima",
+          "example_indonesian": "Amami Oshima bagian selatan",
+          "sources": [
+            "https://soas-repository.worktribe.com/output/380020",
+            "https://glottolog.org/resource/languoid/id/sout2954"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "JP-AMS-REG-002",
+          "term": "Setouchi community and local speech",
+          "explanation_id": "Studi Tsutsui berfokus pada komunitas bilingual Setouchi dan dokumentasi honorifik verbal dalam Southern Amami-Oshima.",
+          "indonesian_learning_link": "Contoh percakapan harus diberi label Setouchi; jangan menghapus identitas komunitas ketika memindahkan materi ke database.",
+          "region": "Setouchi Town, Amami Oshima",
+          "register": "Community variety",
+          "usage_context": "Menandai lokasi penelitian.",
+          "example_source_language": "Setouchi Amami speech",
+          "example_indonesian": "tuturan Amami komunitas Setouchi",
+          "sources": [
+            "https://soas-repository.worktribe.com/output/380020"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "JP-AMS-REG-003",
+          "term": "Northern Amami and other island varieties are distinct",
+          "explanation_id": "Rumpun Amami memiliki varietas pulau dan lokal yang tidak dapat diasumsikan identik; kode ams hanya mengacu ke Southern Amami-Oshima.",
+          "indonesian_learning_link": "Pisahkan profil untuk Northern Amami, Kikai, Tokunoshima, Okinoerabu, dan Yoron setelah kode serta cakupan diverifikasi.",
+          "region": "Amami Islands",
+          "register": "Language variety distinction",
+          "usage_context": "Memilih profil daerah.",
+          "example_source_language": "Southern Amami-Oshima ≠ all Amami varieties",
+          "example_indonesian": "Southern Amami-Oshima bukan semua varietas Amami",
+          "sources": [
+            "https://doi.org/10.1515/9781614511151",
+            "https://www.glottolog.org/resource/languoid/id/sout2954"
+          ],
+          "verification_status": "reviewed"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "SOAS — A Sociolinguistic Documentation of Honorific Verbs in Southern Amami Ōshima",
+      "url": "https://soas-repository.worktribe.com/output/380020",
+      "scope": "Honorifics, politeness, verbal forms, and bilingual language choice in Setouchi."
+    },
+    {
+      "title": "Tsutsui (2021) — Southern Amami Ōshima thesis PDF",
+      "url": "https://eprints.soas.ac.uk/36490/1/Tsutsui_2021.pdf",
+      "scope": "Primary research data and discussion of lexical touchstones and honorific paradigms."
+    },
+    {
+      "title": "Handbook of the Ryukyuan Languages — Amami Grammar (Niinaga, 2015)",
+      "url": "https://doi.org/10.1515/9781614511151",
+      "scope": "Phonology, accent, word classes, morphology, syntax, speech acts, tense/aspect/mood."
+    },
+    {
+      "title": "Glottolog — Southern Amami-Oshima",
+      "url": "https://glottolog.org/resource/languoid/id/sout2954",
+      "scope": "Language identity, location, and ISO 639-3 ams."
+    },
+    {
+      "title": "Online Dictionary of the Japonic Languages",
+      "url": "https://odjl.net/",
+      "scope": "Continuously updated local vocabulary documentation across Japonic and Ryukyuan sites."
+    }
+  ],
+  "indonesian_learning_design": {
+    "direction": "Southern Amami-Oshima → Indonesian",
+    "learner_support": [
+      "Ajarkan bahasa Indonesia formal/nonformal melalui perbedaan honorifik dan pilihan kode.",
+      "Bandingkan verba Indonesia dengan sistem verba Amami tanpa menyamakan paradigmannya.",
+      "Labeli contoh menurut komunitas Setouchi dan varietas penuturnya."
+    ]
+  },
+  "verification": {
+    "status": "content_seeded_reviewed_not_native_validated",
+    "last_reviewed": "2026-11-19",
+    "notes": "Materi pragmatik didukung tesis sosiolinguistik SOAS (2021); kerangka grammar merujuk Handbook of the Ryukyuan Languages. Entri fonologi ditandai draft sampai detail dan rekaman subdialek diperiksa. Belum ada validasi komunitas untuk keseluruhan profil."
+  }
+}
