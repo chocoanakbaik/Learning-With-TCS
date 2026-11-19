@@ -33,7 +33,9 @@
           "usage_context": "Membedakan makna berdasarkan nada.",
           "example_source_language": "妈 (mā) / 麻 (má) / 马 (mǎ) / 骂 (mà)",
           "example_indonesian": "Ibu / rami / kuda / memarahi",
-          "sources": "https://www.moe.gov.cn/jyb_xxgk/gk_gbgg/moe_0/moe_9/moe_40/tnull_117.html",
+          "sources": [
+            "https://www.moe.gov.cn/jyb_xxgk/gk_gbgg/moe_0/moe_9/moe_40/tnull_117.html"
+          ],
           "verification_status": "reviewed"
         },
         {
@@ -47,7 +49,9 @@
           "usage_context": "Melatih suku kata ringan.",
           "example_source_language": "妈妈 (māma)",
           "example_indonesian": "Ibu",
-          "sources": "https://www.moe.gov.cn/jyb_xxgk/gk_gbgg/moe_0/moe_9/moe_40/tnull_117.html",
+          "sources": [
+            "https://www.moe.gov.cn/jyb_xxgk/gk_gbgg/moe_0/moe_9/moe_40/tnull_117.html"
+          ],
           "verification_status": "reviewed",
           "note": "Nada netral tidak berarti selalu tanpa pitch; kontur bergantung konteks."
         },
@@ -62,7 +66,9 @@
           "usage_context": "Membaca dua suku kata berturut dengan nada ketiga.",
           "example_source_language": "你好 (nǐ hǎo), dibaca dengan nada pertama naik pada suku kata pertama",
           "example_indonesian": "Halo.",
-          "sources": "https://www.moe.gov.cn/jyb_xxgk/gk_gbgg/moe_0/moe_9/moe_40/tnull_117.html",
+          "sources": [
+            "https://www.moe.gov.cn/jyb_xxgk/gk_gbgg/moe_0/moe_9/moe_40/tnull_117.html"
+          ],
           "verification_status": "reviewed",
           "note": "Pernyataan ini berlaku untuk sandhi umum dua nada ketiga; bentuk prosodik dan konteks lebih luas tetap perlu diajarkan."
         },
@@ -77,7 +83,9 @@
           "usage_context": "Mengenali bentuk儿化 dalam ujaran.",
           "example_source_language": "一点儿 (yìdiǎnr)",
           "example_indonesian": "Sedikit",
-          "sources": "https://www.moe.gov.cn/jyb_xxgk/gk_gbgg/moe_0/moe_9/moe_40/tnull_117.html",
+          "sources": [
+            "https://www.moe.gov.cn/jyb_xxgk/gk_gbgg/moe_0/moe_9/moe_40/tnull_117.html"
+          ],
           "verification_status": "draft",
           "note": "Distribusi penggunaan tidak seragam; jangan menyajikan erhua sebagai ciri wajib semua penutur Putonghua."
         },
@@ -92,7 +100,9 @@
           "usage_context": "Melatih kontras bunyi awal.",
           "example_source_language": "zī / zhī; cī / chī; sī / shī",
           "example_indonesian": "Latihan bunyi; bukan terjemahan kosakata",
-          "sources": "https://www.moe.gov.cn/jyb_xxgk/gk_gbgg/moe_0/moe_9/moe_40/tnull_117.html",
+          "sources": [
+            "https://www.moe.gov.cn/jyb_xxgk/gk_gbgg/moe_0/moe_9/moe_40/tnull_117.html"
+          ],
           "verification_status": "reviewed",
           "note": "Perlu rekaman penutur dan IPA untuk latihan final."
         }
@@ -133,8 +143,8 @@
           "sources": [
             "https://doi.org/10.1016/j.lingua.2026.104218"
           ],
-          "verification_status": "reviewed",
-          "note": "Perlu sumber contoh komunikasi Mandarin yang langsung. Didukung riset 2026 tentang pragmatik dan kesopanan Mandarin dalam buku ajar; fungsi ungkapan tetap bergantung pada relasi serta konteks."
+          "verification_status": "draft",
+          "note": "Artikel mendukung kategori tindak tutur permintaan dan mitigasi dalam Mandarin, tetapi tidak secara khusus mendefinisikan 请问; entri tetap draft sampai sumber lema langsung ditambahkan."
         },
         {
           "id": "CN-PRAG-003",
@@ -182,8 +192,8 @@
           "sources": [
             "https://doi.org/10.1016/j.lingua.2026.104218"
           ],
-          "verification_status": "reviewed",
-          "note": "Tautan sumber bukan sumber Mandarin; verifikasi leksikal perlu dilakukan terpisah. Didukung riset 2026 tentang pragmatik dan kesopanan Mandarin dalam buku ajar; fungsi ungkapan tetap bergantung pada relasi serta konteks."
+          "verification_status": "draft",
+          "note": "Artikel membahas tindak tutur thanking dalam pragmatik Mandarin secara umum, tetapi pasangan 谢谢／不客气 belum diverifikasi langsung dari sumber leksikografi khusus."
         }
       ],
       "coverage_note": "Entri pragmatik di bawah ini masih draft karena referensi yang dibuka dalam riset kali ini lebih kuat untuk standar fonologi/ujian daripada percakapan spontan. Jangan tandai reviewed sampai sumber Mandarin langsung ditambahkan."
@@ -202,7 +212,9 @@
           "usage_context": "Pendidikan, penyiaran, dan komunikasi publik.",
           "example_source_language": "我会说普通话。",
           "example_indonesian": "Saya bisa berbicara bahasa Mandarin standar.",
-          "sources": "https://en.moe.gov.cn/Resources/Laws_and_Policies/201506/t20150626_191388.html",
+          "sources": [
+            "https://en.moe.gov.cn/Resources/Laws_and_Policies/201506/t20150626_191388.html"
+          ],
           "verification_status": "reviewed"
         },
         {
@@ -216,7 +228,9 @@
           "usage_context": "Membaca dan menulis di Tiongkok daratan.",
           "example_source_language": "学习汉字。",
           "example_indonesian": "Belajar karakter Han.",
-          "sources": "https://en.moe.gov.cn/Resources/Laws_and_Policies/201506/t20150626_191388.html",
+          "sources": [
+            "https://en.moe.gov.cn/Resources/Laws_and_Policies/201506/t20150626_191388.html"
+          ],
           "verification_status": "reviewed"
         },
         {
@@ -230,7 +244,9 @@
           "usage_context": "Belajar pengucapan dan mencari kata.",
           "example_source_language": "你好 (nǐ hǎo)",
           "example_indonesian": "Halo.",
-          "sources": "https://www.moe.gov.cn/jyb_xxgk/gk_gbgg/moe_0/moe_9/moe_40/tnull_117.html",
+          "sources": [
+            "https://www.moe.gov.cn/jyb_xxgk/gk_gbgg/moe_0/moe_9/moe_40/tnull_117.html"
+          ],
           "verification_status": "reviewed"
         },
         {
@@ -244,7 +260,9 @@
           "usage_context": "Menghitung benda.",
           "example_source_language": "一本书",
           "example_indonesian": "Sebuah buku",
-          "sources": "https://www.moe.gov.cn/jyb_xxgk/gk_gbgg/moe_0/moe_9/moe_40/tnull_117.html",
+          "sources": [
+            "https://www.moe.gov.cn/jyb_xxgk/gk_gbgg/moe_0/moe_9/moe_40/tnull_117.html"
+          ],
           "verification_status": "reviewed"
         },
         {
@@ -258,7 +276,9 @@
           "usage_context": "Memahami perubahan keadaan atau aspek.",
           "example_source_language": "下雨了。",
           "example_indonesian": "Hujan turun sekarang / mulai hujan.",
-          "sources": "https://www.moe.gov.cn/jyb_xxgk/gk_gbgg/moe_0/moe_9/moe_40/tnull_117.html",
+          "sources": [
+            "https://www.moe.gov.cn/jyb_xxgk/gk_gbgg/moe_0/moe_9/moe_40/tnull_117.html"
+          ],
           "verification_status": "draft",
           "note": "Perlu korpus dan referensi tata bahasa untuk memisahkan berbagai fungsi 了."
         }
@@ -309,7 +329,9 @@
           "usage_context": "Bercanda tentang kesan lelah setelah bekerja.",
           "example_source_language": "今天的班味儿太重了。",
           "example_indonesian": "Hari ini aura habis kerja terasa sekali.",
-          "sources": "https://www.cp.com.cn/Content/2024/12-12/1655160790.html",
+          "sources": [
+            "https://www.cp.com.cn/Content/2024/12-12/1655160790.html"
+          ],
           "verification_status": "reviewed",
           "note": "Termasuk salah satu jaringan kata populer resmi 2024; contoh kalimat dibuat untuk pembelajaran, bukan kutipan sumber."
         },
@@ -324,7 +346,9 @@
           "usage_context": "Menggambarkan pembawaan seseorang atau suasana.",
           "example_source_language": "她给人一种松弛感。",
           "example_indonesian": "Dia memberi kesan tenang dan santai.",
-          "sources": "https://www.cp.com.cn/Content/2024/12-12/1655160790.html",
+          "sources": [
+            "https://www.cp.com.cn/Content/2024/12-12/1655160790.html"
+          ],
           "verification_status": "reviewed"
         },
         {
@@ -338,7 +362,9 @@
           "usage_context": "Komentar jenaka tentang pengalaman wisata atau kota.",
           "example_source_language": "这里很City不City？",
           "example_indonesian": "Tempat ini terasa modern dan kekinian, tidak?",
-          "sources": "https://www.cp.com.cn/Content/2024/12-12/1655160790.html",
+          "sources": [
+            "https://www.cp.com.cn/Content/2024/12-12/1655160790.html"
+          ],
           "verification_status": "reviewed"
         },
         {
@@ -352,7 +378,9 @@
           "usage_context": "Menyebut orang yang mengelola usaha atau proyek.",
           "example_source_language": "她是这家店的主理人。",
           "example_indonesian": "Dia adalah pengelola toko ini.",
-          "sources": "https://www.cp.com.cn/Content/2024/12-12/1655160790.html",
+          "sources": [
+            "https://www.cp.com.cn/Content/2024/12-12/1655160790.html"
+          ],
           "verification_status": "reviewed"
         }
       ],
@@ -372,7 +400,9 @@
           "usage_context": "Mengejek atau mengkritik seseorang.",
           "example_source_language": "请不要叫别人笨蛋。",
           "example_indonesian": "Tolong jangan menyebut orang lain bodoh.",
-          "sources": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=17151",
+          "sources": [
+            "https://dict.revised.moe.edu.tw/dictView.jsp?ID=17151"
+          ],
           "verification_status": "draft",
           "note": "Sumber leksikografi resmi berasal dari MOE Taiwan; harus diverifikasi dengan kamus dan penutur Mainland sebelum digunakan sebagai fakta zh-CN."
         },
@@ -387,7 +417,9 @@
           "usage_context": "Mengutuk perilaku seseorang.",
           "example_source_language": "不要用这种话骂人。",
           "example_indonesian": "Jangan menggunakan kata seperti itu untuk menghina orang.",
-          "sources": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=86001&la=1&powerMode=0",
+          "sources": [
+            "https://dict.revised.moe.edu.tw/dictView.jsp?ID=86001&la=1&powerMode=0"
+          ],
           "verification_status": "draft",
           "note": "Kamus tersebut mengulas bentuk 渾蛋/混蛋; bukti khusus penggunaan mainland masih dibutuhkan."
         },
@@ -402,7 +434,9 @@
           "usage_context": "Mengusir seseorang dalam konflik.",
           "example_source_language": "他叫我滚蛋。",
           "example_indonesian": "Dia mengusir saya dengan kasar.",
-          "sources": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=74303&la=1&powerMode=0",
+          "sources": [
+            "https://dict.revised.moe.edu.tw/dictView.jsp?ID=74303&la=1&powerMode=0"
+          ],
           "verification_status": "draft",
           "note": "Sumber leksikografi Taiwan; label Mainland zh-CN membutuhkan verifikasi tambahan."
         },
@@ -417,7 +451,9 @@
           "usage_context": "Menggambarkan seseorang secara merendahkan.",
           "example_source_language": "不要把他当傻子。",
           "example_indonesian": "Jangan menganggap dia orang bodoh.",
-          "sources": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=129232&la=1&powerMode=0",
+          "sources": [
+            "https://dict.revised.moe.edu.tw/dictView.jsp?ID=129232&la=1&powerMode=0"
+          ],
           "verification_status": "draft",
           "note": "Sumber dari kamus MOE Taiwan dan tidak boleh digeneralisasi tanpa verifikasi untuk Mainland."
         },
@@ -470,7 +506,9 @@
           "usage_context": "Navigasi ke profil bahasa terpisah.",
           "example_source_language": "你好 (Cantonese: néih hóu)",
           "example_indonesian": "Halo.",
-          "sources": "https://www.cal.org/wp-content/uploads/2022/05/HeritageBriefChineseLanguageandLanguagePlanninginChina.pdf",
+          "sources": [
+            "https://www.cal.org/wp-content/uploads/2022/05/HeritageBriefChineseLanguageandLanguagePlanninginChina.pdf"
+          ],
           "verification_status": "reviewed"
         },
         {
@@ -484,7 +522,9 @@
           "usage_context": "Mengenali bahasa regional yang berbeda dari Putonghua.",
           "example_source_language": "上海话",
           "example_indonesian": "Bahasa Shanghai",
-          "sources": "https://www.cal.org/wp-content/uploads/2022/05/HeritageBriefChineseLanguageandLanguagePlanninginChina.pdf",
+          "sources": [
+            "https://www.cal.org/wp-content/uploads/2022/05/HeritageBriefChineseLanguageandLanguagePlanninginChina.pdf"
+          ],
           "verification_status": "reviewed"
         },
         {
@@ -498,7 +538,9 @@
           "usage_context": "Menghindari satu profil untuk semua varietas Min.",
           "example_source_language": "闽南语 / 闽东语",
           "example_indonesian": "Min Nan / Min Dong",
-          "sources": "https://www.cal.org/wp-content/uploads/2022/05/HeritageBriefChineseLanguageandLanguagePlanninginChina.pdf",
+          "sources": [
+            "https://www.cal.org/wp-content/uploads/2022/05/HeritageBriefChineseLanguageandLanguagePlanninginChina.pdf"
+          ],
           "verification_status": "reviewed",
           "note": "Country catalog memakai label payung dan wajib dipecah saat implementasi profil."
         },
@@ -513,7 +555,9 @@
           "usage_context": "Mengenali ragam bahasa komunitas.",
           "example_source_language": "客家话",
           "example_indonesian": "Bahasa Hakka",
-          "sources": "https://www.cal.org/wp-content/uploads/2022/05/HeritageBriefChineseLanguageandLanguagePlanninginChina.pdf",
+          "sources": [
+            "https://www.cal.org/wp-content/uploads/2022/05/HeritageBriefChineseLanguageandLanguagePlanninginChina.pdf"
+          ],
           "verification_status": "reviewed"
         },
         {
@@ -527,7 +571,9 @@
           "usage_context": "Pengindeksan bahasa komunitas.",
           "example_source_language": "藏语",
           "example_indonesian": "Bahasa Tibet",
-          "sources": "https://www.moe.gov.cn/jyb_xxgk/xxgk/neirong/fenlei/sxml_zwgk/yuyanwenzi/202610/t20261023_1455676.html",
+          "sources": [
+            "https://www.moe.gov.cn/jyb_xxgk/xxgk/neirong/fenlei/sxml_zwgk/yuyanwenzi/202610/t20261023_1455676.html"
+          ],
           "verification_status": "reviewed"
         },
         {
@@ -541,7 +587,9 @@
           "usage_context": "Pengindeksan bahasa komunitas.",
           "example_source_language": "ئۇيغۇرچە",
           "example_indonesian": "Bahasa Uyghur",
-          "sources": "https://www.moe.gov.cn/jyb_xxgk/xxgk/neirong/fenlei/sxml_zwgk/yuyanwenzi/202610/t20261023_1455676.html",
+          "sources": [
+            "https://www.moe.gov.cn/jyb_xxgk/xxgk/neirong/fenlei/sxml_zwgk/yuyanwenzi/202610/t20261023_1455676.html"
+          ],
           "verification_status": "reviewed"
         }
       ],
