@@ -1,0 +1,255 @@
+{
+  "schema_version": "1.1.0",
+  "record_type": "language_profile",
+  "language": {
+    "name": "Uyghur (Central Uyghur focus)",
+    "native_name": "ئۇيغۇر تىلى",
+    "iso_639_3": "uig",
+    "bcp47_tags": [
+      "ug-CN"
+    ],
+    "family": "Turkic > Common Turkic > Karluk"
+  },
+  "country_context": {
+    "country_code": "CN",
+    "role": [
+      "regional",
+      "minority"
+    ],
+    "note": "Profil ini berfokus pada Central Uyghur yang digunakan di Xinjiang, China. Uyghur adalah bahasa Turkik, bukan bahasa Sinitik. Aksara Arab Uyghur di Xinjiang harus dibedakan dari Cyrillic dan Latin dalam konteks lain."
+  },
+  "categories": {
+    "accent_and_pronunciation": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "CN-UIG-ACC-001",
+          "term": "Front-back vowel harmony",
+          "explanation_id": "Uyghur memiliki harmoni vokal depan-belakang yang memengaruhi realisasi atau bentuk sufiks. Studi korpus menunjukkan raising dan harmony saling berinteraksi dalam bentuk morfologis.",
+          "indonesian_learning_link": "Bahasa Indonesia tidak memiliki harmoni vokal seperti ini; ajarkan perubahan sufiks dengan memperhatikan vokal akar kata.",
+          "region": "Standard Central Uyghur; tulisan dan ujaran kontemporer",
+          "register": "Pronunciation / phonology",
+          "usage_context": "Mendengar dan menuliskan akhiran sesuai harmoni vokal.",
+          "example_source_language": "vowel harmony alternations",
+          "example_indonesian": "alternasi harmoni vokal",
+          "sources": [
+            "https://www.cambridge.org/core/journals/phonology/article/largescale-corpus-study-of-phonological-opacity-in-uyghur/B12A84810232D377C242C7351C1F5972",
+            "https://linguistics.ucla.edu/wp-content/uploads/2021/06/cmayer_dissertation_final.pdf"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-UIG-ACC-002",
+          "term": "Velar and uvular consonant harmony",
+          "explanation_id": "Dalam beberapa analisis, konsonan velar dan uvular seperti k/q serta g/gh beralternasi atau menyesuaikan dengan lingkungan vokal belakang/depan.",
+          "indonesian_learning_link": "Bandingkan posisi artikulasi tenggorokan dengan konsonan Indonesia; jangan menganggap k dan q sebagai satu bunyi yang sama.",
+          "region": "Uyghur; regional and phonological variation",
+          "register": "Pronunciation",
+          "usage_context": "Membedakan velar dan uvular.",
+          "example_source_language": "k / q; g / ʁ",
+          "example_indonesian": "konsonan velar / uvular",
+          "sources": [
+            "https://linguistics.ucla.edu/wp-content/uploads/2021/06/cmayer_dissertation_final.pdf"
+          ],
+          "verification_status": "reviewed",
+          "note": "Contoh fokus pada pola harmonisasi konsonan dari tesis fonologi; perlu audio untuk latihan produksi."
+        },
+        {
+          "id": "CN-UIG-ACC-003",
+          "term": "Uyghur vowel and consonant phonology",
+          "explanation_id": "Deskripsi fonologi Uyghur memakai inventaris bunyi serta proses raising, harmony, dan alternasi morfem; bentuk permukaan dapat berbeda dari bentuk abstrak.",
+          "indonesian_learning_link": "Pelajar Indonesia perlu memeriksa perubahan bunyi pada batas morfem, bukan membaca kata sebagai rangkaian fonem statis.",
+          "region": "Uyghur Central dialect documentation",
+          "register": "Pronunciation / morphology",
+          "usage_context": "Membaca kata berimbuhan.",
+          "example_source_language": "Uyghur suffix alternation",
+          "example_indonesian": "alternasi sufiks Uyghur",
+          "sources": [
+            "https://www.cambridge.org/core/journals/phonology/article/largescale-corpus-study-of-phonological-opacity-in-uyghur/B12A84810232D377C242C7351C1F5972",
+            "https://linguistics.ucla.edu/wp-content/uploads/2021/06/cmayer_dissertation_final.pdf"
+          ],
+          "verification_status": "reviewed"
+        }
+      ]
+    },
+    "speaking_style_and_pragmatics": {
+      "status": "research_required",
+      "entries": [],
+      "coverage_note": "Sapaan, kesantunan, dan bentuk hormat belum dimasukkan karena sumber yang tersedia pada tahap ini berfokus pada fonologi, tata bahasa, dan aksara. Perlu sumber langsung untuk ragam Uyghur di Xinjiang."
+    },
+    "standard_language": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "CN-UIG-STD-001",
+          "term": "Uyghur Arabic-derived script in Xinjiang",
+          "explanation_id": "Uyghur di Xinjiang umumnya ditulis dengan aksara Arab yang dimodifikasi (Ereb/Yëziqi); bentuk tulisan berjalan dari kanan ke kiri.",
+          "indonesian_learning_link": "LWT harus mengatur arah tulisan RTL dan mempertahankan bentuk huruf Uyghur; jangan menggantinya otomatis dengan pinyin Mandarin.",
+          "region": "Xinjiang, China",
+          "register": "Orthography",
+          "usage_context": "Membaca dan menulis Uyghur.",
+          "example_source_language": "ئۇيغۇر تىلى",
+          "example_indonesian": "bahasa Uyghur",
+          "sources": [
+            "https://github.com/uyghur-language/data",
+            "https://linguistics.ucla.edu/wp-content/uploads/2021/06/cmayer_dissertation_final.pdf"
+          ],
+          "verification_status": "reviewed",
+          "note": "Sumber UCLA menjelaskan perbedaan ortografi di Xinjiang dan komunitas bekas Uni Soviet."
+        },
+        {
+          "id": "CN-UIG-STD-002",
+          "term": "Multiple Uyghur orthographies",
+          "explanation_id": "Uyghur telah menggunakan sistem Perso-Arabic, Cyrillic, dan Latin di konteks geografis berbeda; penelitian korpus menyatakan tiga sistem tulisan dipakai menurut wilayah.",
+          "indonesian_learning_link": "Setiap teks harus menyimpan identitas skrip/ortografi agar data Arab, Cyrillic, dan Latin tidak tercampur.",
+          "region": "Xinjiang and diaspora / Central Asian contexts",
+          "register": "Orthography / locale",
+          "usage_context": "Mengenali varian tulisan.",
+          "example_source_language": "Ereb / Cyrillic / Latin Uyghur",
+          "example_indonesian": "aksara Arab / Cyrillic / Latin Uyghur",
+          "sources": [
+            "https://www.cambridge.org/core/journals/phonology/article/largescale-corpus-study-of-phonological-opacity-in-uyghur/B12A84810232D377C242C7351C1F5972",
+            "https://linguistics.ucla.edu/wp-content/uploads/2021/06/cmayer_dissertation_final.pdf"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-UIG-STD-003",
+          "term": "Agglutinative suffix morphology",
+          "explanation_id": "Tata bahasa Modern Uyghur mencakup morfologi dengan rangkaian sufiks untuk membentuk informasi gramatikal pada nomina dan verba.",
+          "indonesian_learning_link": "Bandingkan dengan afiks bahasa Indonesia; urutan sufiks dan harmoni vokal Uyghur memiliki aturan tersendiri.",
+          "region": "Central Uyghur",
+          "register": "Grammar",
+          "usage_context": "Membaca hubungan akar dan imbuhan.",
+          "example_source_language": "Uyghur stem + suffix sequence",
+          "example_indonesian": "akar kata dan rangkaian sufiks",
+          "sources": [
+            "https://guides.lib.ku.edu/uyghur/elementary-intermediate",
+            "https://guides.lib.ku.edu/uyghur/intermediate-advanced"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-UIG-STD-004",
+          "term": "Dictionary and pronunciation resources",
+          "explanation_id": "Dataset Okyanus menyediakan teks sejumlah kamus Uyghur beserta file audio pengucapan untuk entri; cakupan sumber dan izin pemakaian harus diperiksa sebelum integrasi.",
+          "indonesian_learning_link": "Gunakan kamus dan audio hanya dengan provenance, metadata skrip, dan status lisensi yang jelas.",
+          "region": "Uyghur; script Ereb",
+          "register": "Lexicography / pronunciation resource",
+          "usage_context": "Mencari arti dan mendengar lema.",
+          "example_source_language": "Uyghur explanatory dictionary",
+          "example_indonesian": "kamus penjelasan Uyghur",
+          "sources": [
+            "https://github.com/uyghur-language/data"
+          ],
+          "verification_status": "reviewed",
+          "note": "Repositori ini mengompilasi beberapa kamus; lisensi setiap komponen perlu diperiksa sebelum disalin ke produk."
+        }
+      ]
+    },
+    "nonstandard_language_and_slang": {
+      "status": "research_required",
+      "entries": [],
+      "coverage_note": "Slang kontemporer belum dimasukkan. Perlu rujukan khusus pemakaian di Xinjiang dengan label generasi, kota, dan skrip."
+    },
+    "profanity_and_vulgar_language": {
+      "status": "community_review_required",
+      "entries": [],
+      "coverage_note": "Umpatan tidak ditambahkan karena belum tersedia kamus yang dikurasi dengan konteks, intensitas, dan wilayah penggunaan yang cukup untuk profil Uyghur di Xinjiang."
+    },
+    "regional_and_minority_languages": {
+      "status": "cross_reference_country_catalog",
+      "entries": [
+        {
+          "id": "CN-UIG-REG-001",
+          "term": "Uyghur is a Turkic language",
+          "explanation_id": "Uyghur merupakan bahasa Turkik, bukan bahasa Sinitik dan bukan aksen Mandarin. Bahasa ini memiliki sistem tulisan dan morfologi tersendiri.",
+          "indonesian_learning_link": "Pilih uig sebagai bahasa asal tersendiri, bukan sebagai bagian dari Mandarin Putonghua.",
+          "region": "Xinjiang and Uyghur-speaking communities",
+          "register": "Turkic language",
+          "usage_context": "Menentukan bahasa sumber.",
+          "example_source_language": "ئۇيغۇرچە",
+          "example_indonesian": "bahasa Uyghur",
+          "sources": [
+            "https://linguistics.ucla.edu/wp-content/uploads/2021/06/cmayer_dissertation_final.pdf",
+            "https://guides.lib.ku.edu/uyghur/elementary-intermediate"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-UIG-REG-002",
+          "term": "Central Uyghur and regional varieties",
+          "explanation_id": "Sumber pembelajaran membedakan ragam Uyghur dan mengacu pada Central Uyghur sebagai model pengajaran tertentu; ragam regional perlu ditandai.",
+          "indonesian_learning_link": "Jangan menggeneralisasi satu contoh Central Uyghur kepada semua komunitas Uyghur.",
+          "region": "Xinjiang; Central and other regional varieties",
+          "register": "Regional variety",
+          "usage_context": "Memilih ragam sumber.",
+          "example_source_language": "Central Uyghur",
+          "example_indonesian": "Uyghur Tengah",
+          "sources": [
+            "https://guides.lib.ku.edu/uyghur/elementary-intermediate",
+            "https://guides.lib.ku.edu/uyghur/intermediate-advanced"
+          ],
+          "verification_status": "draft",
+          "note": "Profil ini menggunakan model Central Uyghur sebagai fokus awal; butuh inventaris dialek dengan rujukan langsung."
+        },
+        {
+          "id": "CN-UIG-REG-003",
+          "term": "Uyghur outside Xinjiang and script differences",
+          "explanation_id": "Komunitas Uyghur di luar Xinjiang dapat memakai Cyrillic atau Latin dalam konteks historis dan geografis tertentu; ini bukan bahasa yang berbeda secara otomatis.",
+          "indonesian_learning_link": "Tag script dan lokasi secara terpisah dari kode bahasa.",
+          "region": "Xinjiang, Central Asia and diaspora",
+          "register": "Script / diaspora variation",
+          "usage_context": "Menafsirkan sumber dalam aksara berbeda.",
+          "example_source_language": "Ereb / Cyrillic / Latin",
+          "example_indonesian": "varian aksara Uyghur",
+          "sources": [
+            "https://www.cambridge.org/core/journals/phonology/article/largescale-corpus-study-of-phonological-opacity-in-uyghur/B12A84810232D377C242C7351C1F5972",
+            "https://linguistics.ucla.edu/wp-content/uploads/2021/06/cmayer_dissertation_final.pdf"
+          ],
+          "verification_status": "reviewed"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "University of Kansas Libraries — Uyghur Language Guide: Elementary–Intermediate",
+      "url": "https://guides.lib.ku.edu/uyghur/elementary-intermediate",
+      "scope": "Grammar, phonetics, lexicology, syntax and orthography learning resources."
+    },
+    {
+      "title": "University of Kansas Libraries — Uyghur Language Guide: Intermediate–Advanced",
+      "url": "https://guides.lib.ku.edu/uyghur/intermediate-advanced",
+      "scope": "Modern Uyghur Grammar, Spoken Uyghur and additional study resources."
+    },
+    {
+      "title": "Cambridge — A Large-scale Corpus Study of Phonological Opacity in Uyghur",
+      "url": "https://www.cambridge.org/core/journals/phonology/article/largescale-corpus-study-of-phonological-opacity-in-uyghur/B12A84810232D377C242C7351C1F5972",
+      "scope": "Uyghur vowel harmony, raising, orthographic alternations, and three script traditions."
+    },
+    {
+      "title": "UCLA — Uyghur phonology and orthography dissertation",
+      "url": "https://linguistics.ucla.edu/wp-content/uploads/2021/06/cmayer_dissertation_final.pdf",
+      "scope": "Consonant harmony, phonemic analysis, and script differences in Xinjiang and other regions."
+    },
+    {
+      "title": "Okyanus Uyghur Dictionary Data",
+      "url": "https://github.com/uyghur-language/data",
+      "scope": "Compiled dictionaries, synonyms, pronunciations and audio resources; each component license needs separate checking."
+    }
+  ],
+  "indonesian_learning_design": {
+    "direction": "Uyghur (Xinjiang / Central Uyghur focus) → Indonesian",
+    "learner_support": [
+      "Tampilkan aksara Arab Uyghur dari kanan ke kiri dan sediakan transliterasi terpisah.",
+      "Bandingkan sistem sufiks dan harmoni vokal Uyghur dengan afiksasi bahasa Indonesia.",
+      "Jelaskan bahwa Uyghur adalah bahasa Turkik dan bukan dialek Mandarin."
+    ]
+  },
+  "verification": {
+    "status": "content_seeded_reviewed_not_native_validated",
+    "last_reviewed": "2026-11-19",
+    "notes": "Profil didukung rujukan universitas, penelitian korpus, disertasi fonologi, dan dataset kamus. Pragmatik, slang, profanity, dan variasi dialek regional masih perlu dokumentasi sumber dan validasi penutur."
+  }
+}
