@@ -74,7 +74,8 @@ def check_entry(entry: Any, path: Path, category: str, seen_ids: set[str], repor
     if status not in VALID_STATUSES:
         report.error(f"{label}: verification_status tidak valid: {status!r}.")
     else:
-        setattr(report, status, getattr(report, status) + 1)
+        counter = {"draft": "drafts", "reviewed": "reviewed", "verified": "verified"}[status]
+        setattr(report, counter, getattr(report, counter) + 1)
 
     sources = entry.get("sources")
     if not isinstance(sources, list):
