@@ -281,9 +281,12 @@
           "usage_context": "Menegaskan derajat.",
           "example_source_language": "めっちゃおいしい。",
           "example_indonesian": "Enak banget.",
-          "sources": "https://clrd.ninjal.ac.jp/bccwj/en/",
-          "verification_status": "draft",
-          "note": "Perlu entri kamus spesifik dan bukti korpus untuk distribusi nasional."
+          "sources": [
+            "https://www.japandict.com/%E3%82%81%E3%81%A3%E3%81%A1%E3%82%83",
+            "https://www.mukogawa-u.ac.jp/~ILC/report/magazine/pdf/cram/cram-01.pdf"
+          ],
+          "verification_status": "reviewed",
+          "note": "Rujukan kamus dan laporan universitas mengidentifikasi めっちゃ sebagai penguat informal yang berakar pada pemakaian Kansai; distribusi kontemporer tetap bervariasi."
         },
         {
           "id": "JP-SLANG-003",
@@ -296,9 +299,9 @@
           "usage_context": "Menegaskan atau mempertanyakan keseriusan.",
           "example_source_language": "マジ？",
           "example_indonesian": "Serius?",
-          "sources": "https://clrd.ninjal.ac.jp/bccwj/en/",
+          "sources": [],
           "verification_status": "draft",
-          "note": "Dibutuhkan rujukan leksikografi langsung."
+          "note": "Tautan korpus umum sebelumnya tidak mendefinisikan lema ini secara langsung; sumber dihapus hingga rujukan leksikografi/korpus spesifik dapat dicantumkan."
         },
         {
           "id": "JP-SLANG-004",
@@ -311,9 +314,12 @@
           "usage_context": "Memberi reaksi tertawa pada posting.",
           "example_source_language": "それは草。",
           "example_indonesian": "Itu kocak.",
-          "sources": "https://clrd.ninjal.ac.jp/bccwj/en/",
-          "verification_status": "draft",
-          "note": "Etimologi internet dan produktivitas perlu dikonfirmasi pada sumber khusus budaya digital."
+          "sources": [
+            "https://www.tkgje.jp/entries/02000/02206_kusa.html",
+            "https://www.japandict.com/%E8%8D%89%E4%B8%8D%E5%8F%AF%E9%81%BF"
+          ],
+          "verification_status": "reviewed",
+          "note": "Rujukan leksikografi pembelajar mendokumentasikan 草 sebagai slang internet untuk tertawa, berasal dari rangkaian w/www yang menyerupai rumput."
         },
         {
           "id": "JP-SLANG-005",
@@ -326,9 +332,9 @@
           "usage_context": "Menanggapi pernyataan teman.",
           "example_source_language": "それな。",
           "example_indonesian": "Nah, itu.",
-          "sources": "https://clrd.ninjal.ac.jp/bccwj/en/",
+          "sources": [],
           "verification_status": "draft",
-          "note": "Butuh sumber langsung untuk nuansa dan pemakaian generasional."
+          "note": "Tautan korpus umum sebelumnya tidak mendefinisikan lema ini secara langsung; sumber dihapus hingga rujukan leksikografi/korpus spesifik dapat dicantumkan."
         },
         {
           "id": "JP-SLANG-006",
@@ -341,9 +347,9 @@
           "usage_context": "Bereaksi terhadap hal lucu.",
           "example_source_language": "その話、うける。",
           "example_indonesian": "Cerita itu kocak.",
-          "sources": "https://clrd.ninjal.ac.jp/corpus-list.html",
+          "sources": [],
           "verification_status": "draft",
-          "note": "Makna pragmatik perlu diperiksa dengan korpus percakapan dan kamus kontemporer."
+          "note": "Tautan korpus umum sebelumnya tidak mendefinisikan lema ini secara langsung; sumber dihapus hingga rujukan leksikografi/korpus spesifik dapat dicantumkan."
         }
       ],
       "coverage_note": "Slang bahasa Jepang berubah cepat. Entri berstatus draft harus memiliki tanggal, kelompok usia, dan sumber pemakaian sebelum masuk kurikulum."
@@ -391,9 +397,9 @@
           "usage_context": "Mengungkapkan frustrasi.",
           "example_source_language": "くそ、間に合わなかった。",
           "example_indonesian": "Sial, saya tidak sempat.",
-          "sources": "https://www.ninjal.ac.jp/english/resources/search/",
+          "sources": [],
           "verification_status": "draft",
-          "note": "Rujukan khusus lema dan skala kekasaran belum ditambahkan."
+          "note": "Sumber korpus umum bukan definisi langsung lema; entri dipertahankan sebagai target riset dan memerlukan rujukan kamus serta validasi penutur."
         },
         {
           "id": "JP-PROF-004",
@@ -406,9 +412,9 @@
           "usage_context": "Mengeluhkan gangguan atau seseorang.",
           "example_source_language": "その音、うるさくて迷惑です。",
           "example_indonesian": "Suara itu berisik dan mengganggu.",
-          "sources": "https://clrd.ninjal.ac.jp/bccwj/en/",
+          "sources": [],
           "verification_status": "draft",
-          "note": "Perlu bukti kamus dan pemetaan register; contoh Indonesia sengaja menggunakan bentuk lebih netral."
+          "note": "Sumber korpus umum bukan definisi langsung lema; entri dipertahankan sebagai target riset dan memerlukan rujukan kamus serta validasi penutur."
         },
         {
           "id": "JP-PROF-005",
@@ -421,9 +427,9 @@
           "usage_context": "Mengungkapkan rasa jijik atau penolakan.",
           "example_source_language": "それは気持ち悪い。",
           "example_indonesian": "Itu menjijikkan.",
-          "sources": "https://clrd.ninjal.ac.jp/bccwj/en/",
+          "sources": [],
           "verification_status": "draft",
-          "note": "Perlu validasi pemakaian kontemporer dan batas register."
+          "note": "Sumber korpus umum bukan definisi langsung lema; entri dipertahankan sebagai target riset dan memerlukan rujukan kamus serta validasi penutur."
         },
         {
           "id": "JP-PROF-006",
@@ -436,9 +442,9 @@
           "usage_context": "Ucapan agresif saat bertengkar.",
           "example_source_language": "その言い方は失礼です。",
           "example_indonesian": "Cara bicara itu tidak sopan.",
-          "sources": "https://clrd.ninjal.ac.jp/csj/en/",
+          "sources": [],
           "verification_status": "draft",
-          "note": "Perlu kamus khusus pronomina kasar dan korpus dialog; bentuk ini tidak disarankan untuk dipakai kepada orang."
+          "note": "Sumber korpus umum bukan definisi langsung lema; entri dipertahankan sebagai target riset dan memerlukan rujukan kamus serta validasi penutur."
         }
       ],
       "coverage_note": "Kata hinaan tetap dicatat agar pembelajar dapat memahami film, media, dan percakapan. Pemakaian aktif tidak dianjurkan tanpa pemahaman hubungan sosial."
@@ -561,6 +567,21 @@
       "title": "Kotobank — ばか",
       "url": "https://kotobank.jp/word/%E3%81%B0%E3%81%8B-356888",
       "scope": "Rujukan leksikal untuk ばか."
+    },
+    {
+      "title": "TKG Japanese-English Learner's Dictionary — 草",
+      "url": "https://www.tkgje.jp/entries/02000/02206_kusa.html",
+      "scope": "Makna literal dan penggunaan 草 sebagai slang internet."
+    },
+    {
+      "title": "JapanDict — めっちゃ",
+      "url": "https://www.japandict.com/%E3%82%81%E3%81%A3%E3%81%A1%E3%82%83",
+      "scope": "Lema percakapan めっちゃ."
+    },
+    {
+      "title": "Mukogawa Women's University — report on dictionary registration of めっちゃ",
+      "url": "https://www.mukogawa-u.ac.jp/~ILC/report/magazine/pdf/cram/cram-01.pdf",
+      "scope": "Riwayat pencatatan めっちゃ dalam kamus Jepang."
     }
   ],
   "indonesian_learning_design": {
