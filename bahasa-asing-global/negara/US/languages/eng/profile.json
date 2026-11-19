@@ -46,8 +46,12 @@
           "usage_context": "Ucapan cepat dan percakapan sehari-hari.",
           "example_source_language": "water; city",
           "example_indonesian": "Tata; kota",
-          "sources": "https://www.cambridge.org/core/what-we-publish/textbooks/american-english-pronunciation",
-          "verification_status": "reviewed"
+          "sources": [
+            "https://onlinelibrary.wiley.com/doi/full/10.1002/9781444335262.wbctp0113",
+            "https://journals.sagepub.com/doi/10.1177/0023830908098542"
+          ],
+          "verification_status": "reviewed",
+          "note": "Rujukan fonetik akademik membahas variasi/flapping /t/ dalam American English. Realisasi bervariasi menurut lingkungan, wilayah, dan gaya."
         },
         {
           "id": "US-ACC-003",
@@ -59,9 +63,12 @@
           "usage_context": "Mengenali variasi vokal antardaerah.",
           "example_source_language": "cot; caught",
           "example_indonesian": "Contoh latihan vokal bahasa Indonesia: ‘botol’ dan ‘bola’.",
-          "sources": "https://www.ling.upenn.edu/phono_atlas/ICSLP4.html",
+          "sources": [
+            "https://www.frontiersin.org/journals/communication/articles/10.3389/fcomm.2022.844862/full",
+            "https://www.pbs.org/speak/ahead/change/changin/"
+          ],
           "verification_status": "draft",
-          "note": "Peta merger harus diperiksa menurut wilayah dan generasi; entri ini bukan peta distribusi lengkap."
+          "note": "Cot-caught merger merupakan perubahan bunyi yang distribusinya geografis dan dapat berlangsung berbeda antarkomunitas; sumber penelitian membahas proses merger dan perubahan bunyi."
         },
         {
           "id": "US-ACC-004",
@@ -73,9 +80,9 @@
           "usage_context": "Mendengar variasi durasi dan pergeseran vokal.",
           "example_source_language": "time; ride",
           "example_indonesian": "Saya sedang naik kendaraan.",
-          "sources": "https://dare.wisc.edu/about/what-is-dare/",
+          "sources": [],
           "verification_status": "draft",
-          "note": "Perlu sampel audio spesifik wilayah; tidak ada satu ‘aksen Selatan’ yang seragam."
+          "note": "Entri pengarah riset saja. Perlu sumber sosiolinguistik/audio khusus Southern English sebelum menjadi materi ajar."
         },
         {
           "id": "US-ACC-005",
@@ -87,7 +94,10 @@
           "usage_context": "Memahami perbedaan pembacaan kata seperti car dan fourth.",
           "example_source_language": "car; fourth",
           "example_indonesian": "Saya tinggal di kota.",
-          "sources": "https://dare.wisc.edu/about/what-is-dare/",
+          "sources": [
+            "https://bpb-us-w2.wpmucdn.com/sites.brown.edu/dist/c/31/files/2019/05/NYSLanguageProfiles.pdf",
+            "https://www.tandfonline.com/doi/pdf/10.1080/23268263.2000.10761390"
+          ],
           "verification_status": "draft",
           "note": "Butuh rujukan sosiolinguistik khusus New York dan data audio."
         }
@@ -426,7 +436,10 @@
           "usage_context": "Memahami variasi English dalam musik, media, percakapan, dan sastra.",
           "example_source_language": "She be working on Fridays.",
           "example_indonesian": "Dalam konteks kebiasaan berulang: Dia biasanya bekerja setiap hari Jumat.",
-          "sources": "https://www.linguisticsociety.org/content/what-ebonics-african-american-english",
+          "sources": [
+            "https://www.linguisticsociety.org/content/what-ebonics-african-american-english",
+            "https://academic.oup.com/edited-volume/61882/chapter-abstract/547712638?login=false"
+          ],
           "verification_status": "draft",
           "note": "Contoh memakai habitual be dan harus dijelaskan dengan konteks aspek; perlu pemeriksaan ahli sebelum dipakai sebagai latihan baku."
         },
@@ -511,6 +524,21 @@
       "title": "Linguistic Society of America — What is African American English?",
       "url": "https://www.linguisticsociety.org/content/what-ebonics-african-american-english",
       "scope": "Penjelasan bahwa AAE merupakan ragam bahasa sistematis."
+    },
+    {
+      "title": "Peer-reviewed research on American English flapping",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/9781444335262.wbctp0113",
+      "scope": "Phonetic and sociolinguistic variation in American English /t/ flapping."
+    },
+    {
+      "title": "Research on the cot-caught merger",
+      "url": "https://www.frontiersin.org/journals/communication/articles/10.3389/fcomm.2022.844862/full",
+      "scope": "Geographic and social variation in the cot-caught merger."
+    },
+    {
+      "title": "Brown University — New York State Language Profiles",
+      "url": "https://bpb-us-w2.wpmucdn.com/sites.brown.edu/dist/c/31/files/2019/05/NYSLanguageProfiles.pdf",
+      "scope": "Regional English language features, including New York patterns."
     }
   ],
   "indonesian_learning_design": {
