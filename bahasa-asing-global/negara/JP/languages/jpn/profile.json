@@ -1,0 +1,19 @@
+{
+  "schema_version":"1.0.0",
+  "record_type":"language_profile",
+  "language":{"name":"Japanese","native_name":"日本語","iso_639_3":"jpn","bcp47_tags":["ja-JP"],"family":"Japonic"},
+  "country_context":{"country_code":"JP","role":["predominant","widely_used"],"note":"This profile concerns Japanese in Japan and does not imply that all speakers use one identical accent or register."},
+  "categories":{
+    "accent_and_pronunciation":{"status":"research_required","coverage_targets":["Tokyo standard accent and pitch-accent notation","regional pitch-accent systems and lexical differences","phonemic length, mora timing, devoicing, gemination, and contracted speech","regional accents including Kansai, Tohoku, Kyushu, and Okinawan-area Japanese"],"entries":[]},
+    "speaking_style_and_pragmatics":{"status":"research_required","coverage_targets":["politeness levels and honorific/humble forms","plain versus polite speech","sentence-final particles and conversational stance","age, relationship, workplace, service, and regional context"],"entries":[]},
+    "standard_language":{"status":"research_required","coverage_targets":["標準語 and 共通語 distinctions where relevant","modern standard grammar and orthography","kanji, kana, and common written conventions","formal, academic, workplace, and public-facing registers"],"entries":[]},
+    "nonstandard_language_and_slang":{"status":"research_required","coverage_targets":["colloquial contractions and omitted particles","youth slang and internet expressions with date/context labels","regional vocabulary and Kansai conversational forms","gendered and generational stereotypes must not be presented as universal rules"],"entries":[]},
+    "profanity_and_vulgar_language":{"status":"research_required","coverage_targets":["insults and dismissive expressions","coarse language and taboo expressions","differences in force by relationship, intonation, and situation","neutral Indonesian meaning, severity, and likely social effect"],"entries":[]},
+    "regional_and_minority_languages":{"status":"cross_reference_country_catalog","coverage_targets":["Ainu language and communities","Ryukyuan languages: Amami, Kunigami, Okinawan, Miyako, Yaeyama, and Yonaguni","Hachijo and regional Japonic varieties","Do not flatten distinct languages into a generic Japanese dialect label"],"entries":[]}
+  },
+  "sources":[
+    {"title":"Agency for Cultural Affairs: Japanese Language Policy and Endangered Languages and Dialects","url":"https://www.bunka.go.jp/english/policy/japanese_language/policy/index.html"},
+    {"title":"National Institute for Japanese Language and Linguistics: Research on the Conservation of Endangered Languages","url":"https://www.ninjal.ac.jp/english/research/cr-project/project-4/endangered-languages/"}
+  ],
+  "verification":{"status":"framework_reviewed","last_reviewed":"2026-11-19","notes":"Profile framework created. Lexical examples, accent recordings, and slang entries require specialist/community review."}
+}
