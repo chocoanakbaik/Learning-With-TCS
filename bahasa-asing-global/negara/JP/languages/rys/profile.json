@@ -1,0 +1,249 @@
+{
+  "schema_version": "1.1.0",
+  "record_type": "language_profile",
+  "language": {
+    "name": "Yaeyama",
+    "native_name": "八重山語 / ヤイマムニ (Yaimamuni)",
+    "iso_639_3": "rys",
+    "bcp47_tags": [
+      "rys-JP"
+    ],
+    "family": "Japonic > Ryukyuan > Southern Ryukyuan"
+  },
+  "country_context": {
+    "country_code": "JP",
+    "role": [
+      "regional",
+      "Ryukyuan",
+      "endangered"
+    ],
+    "note": "Profil rys mencakup Yaeyama, tetapi beberapa entri fonologi/tata bahasa berfokus pada Miyara dialect di Ishigaki Island. Semua materi wajib menyimpan label subvarietas."
+  },
+  "categories": {
+    "accent_and_pronunciation": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "JP-RYS-ACC-001",
+          "term": "Miyaran six-vowel inventory",
+          "explanation_id": "Dalam dialek Miyara, penelitian Davis dan Lau mendeskripsikan enam vokal termasuk vokal tengah tinggi /ï/; /e/ dan /o/ hanya muncul sebagai vokal panjang dalam analisis tersebut.",
+          "indonesian_learning_link": "Bandingkan vokal Indonesia dengan audio dialek; jangan memindahkan inventaris Miyara ke semua Yaeyama.",
+          "region": "Miyara, Ishigaki Island",
+          "register": "Pronunciation",
+          "usage_context": "Mengenali kualitas vokal lokal.",
+          "example_source_language": "i / ï / u / e / o / a",
+          "example_indonesian": "inventaris enam vokal Miyara",
+          "sources": [
+            "https://cmdavis.org/publications/2015/DavisLauRyukyuanHandbook.pdf"
+          ],
+          "verification_status": "reviewed",
+          "note": "Fitur ini khusus Miyaran, bukan klaim fonologi semua Yaeyama."
+        },
+        {
+          "id": "JP-RYS-ACC-002",
+          "term": "Miyaran consonant and nasal inventory",
+          "explanation_id": "Deskripsi Miyaran mencatat nasal moraik yang dapat berasimilasi menjadi m/n/ŋ dan dapat muncul pada awal kata; hentian glotal sebelum vokal awal bersifat dapat diprediksi.",
+          "indonesian_learning_link": "Pelajar Indonesia dapat membandingkan variasi bunyi ng, tetapi perlu audio agar tidak mengubahnya menjadi bunyi Indonesian yang berbeda.",
+          "region": "Miyara dialect",
+          "register": "Pronunciation",
+          "usage_context": "Mendengar nasal dan hentian glotal.",
+          "example_source_language": "m / n / ŋ; initial glottal stop",
+          "example_indonesian": "variasi nasal dan hentian glotal",
+          "sources": [
+            "https://cmdavis.org/publications/2015/DavisLauRyukyuanHandbook.pdf"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "JP-RYS-ACC-003",
+          "term": "Sentence-final vowel lengthening",
+          "explanation_id": "Penelitian melaporkan bahwa vokal sering memanjang pada akhir frasa, khususnya posisi akhir kalimat.",
+          "indonesian_learning_link": "Jangan menganggap vokal panjang selalu menandai kata berbeda; posisi prosodik juga berpengaruh.",
+          "region": "Miyara dialect",
+          "register": "Prosody",
+          "usage_context": "Mendengar ritme ujaran.",
+          "example_source_language": "phrase-final vowel lengthening",
+          "example_indonesian": "pemanjangan vokal di akhir frasa",
+          "sources": [
+            "https://cmdavis.org/publications/2015/DavisLauRyukyuanHandbook.pdf"
+          ],
+          "verification_status": "reviewed"
+        }
+      ]
+    },
+    "speaking_style_and_pragmatics": {
+      "status": "research_required",
+      "entries": [],
+      "coverage_note": "Belum ada formula sapaan dan pragmatik Yaeyama umum yang cukup untuk semua dialek. Contoh percakapan harus dilabeli Miyara, Ishigaki, Taketomi, Hatoma, dan lokasi lain."
+    },
+    "standard_language": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "JP-RYS-STD-001",
+          "term": "Miyaran present and past verb forms",
+          "explanation_id": "Dalam deskripsi Miyaran, bentuk present sederhana dapat memakai -u; bentuk indicative dapat memakai -u-n, sedangkan past memakai -da pada kelas verba yang dijelaskan.",
+          "indonesian_learning_link": "Bandingkan dengan bahasa Indonesia yang tidak menginfleksikan verba menurut pola sufiks yang sama.",
+          "region": "Miyara dialect",
+          "register": "Grammar",
+          "usage_context": "Membaca aspek dan kala verba.",
+          "example_source_language": "jum-u / jum-u-n / jun-da",
+          "example_indonesian": "membaca / bentuk present-indikatif / membaca lampau",
+          "sources": [
+            "https://cmdavis.org/publications/2015/DavisLauRyukyuanHandbook.pdf"
+          ],
+          "verification_status": "reviewed",
+          "note": "Bentuk contoh diturunkan dari bab grammar; periksa tabel lengkap sebelum mengubahnya menjadi materi kuis."
+        },
+        {
+          "id": "JP-RYS-STD-002",
+          "term": "Indicative suffix and sentence mood",
+          "explanation_id": "Sufiks -n dianalisis sebagai penanda indicative; intonasi akhir dapat membedakan pernyataan dan pertanyaan polar dalam contoh yang dijelaskan.",
+          "indonesian_learning_link": "Ajarkan bahwa intonasi Indonesian dan penanda gramatikal tidak sama dengan pola Miyaran.",
+          "region": "Miyara dialect",
+          "register": "Grammar / prosody",
+          "usage_context": "Membedakan deklaratif dan pertanyaan ya/tidak.",
+          "example_source_language": "jum-u-n (falling vs rising contour)",
+          "example_indonesian": "bentuk verba yang sama dengan kontur akhir berbeda",
+          "sources": [
+            "https://cmdavis.org/publications/2015/DavisLauRyukyuanHandbook.pdf"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "JP-RYS-STD-003",
+          "term": "Miyara dialect word list and local identity",
+          "explanation_id": "Miyaran adalah dialek Yaeyama yang digunakan secara tradisional di desa Miyara; sumber grammar mengutip daftar bilingual lebih dari 5.000 kata oleh penutur dan anggota komunitas.",
+          "indonesian_learning_link": "Simpan lema dengan lokasi Miyara dan provenance penutur; jangan menganggapnya sebagai bentuk seluruh Yaeyama.",
+          "region": "Miyara, Ishigaki Island",
+          "register": "Lexicography",
+          "usage_context": "Mencari lema dan variasi lokal.",
+          "example_source_language": "meera-muni",
+          "example_indonesian": "bahasa/ucapan Miyara",
+          "sources": [
+            "https://cmdavis.org/publications/2015/DavisLauRyukyuanHandbook.pdf"
+          ],
+          "verification_status": "reviewed"
+        }
+      ]
+    },
+    "nonstandard_language_and_slang": {
+      "status": "community_research_required",
+      "entries": [],
+      "coverage_note": "Belum ada inventaris slang yang dapat dipastikan untuk seluruh Yaeyama. Jika ditemukan, tandai pulau, dialek, generasi, dan sumber penutur."
+    },
+    "profanity_and_vulgar_language": {
+      "status": "community_review_required",
+      "entries": [],
+      "coverage_note": "Belum dimasukkan. Kategori umpatan membutuhkan kamus/rekaman langsung dan tinjauan penutur setempat."
+    },
+    "regional_and_minority_languages": {
+      "status": "cross_reference_country_catalog",
+      "entries": [
+        {
+          "id": "JP-RYS-REG-001",
+          "term": "Yaeyama / Yaimamuni",
+          "explanation_id": "Yaeyama merupakan bahasa Southern Ryukyuan yang digunakan di Kepulauan Yaeyama; ragam lokal meliputi Ishigaki dan pulau-pulau lain.",
+          "indonesian_learning_link": "Pilih subvarietas sebelum menampilkan contoh, karena variasi pulau dapat cukup besar.",
+          "region": "Yaeyama Islands, Okinawa Prefecture",
+          "register": "Southern Ryukyuan language",
+          "usage_context": "Menentukan identitas bahasa sumber.",
+          "example_source_language": "Yaimamuni",
+          "example_indonesian": "bahasa Yaeyama",
+          "sources": [
+            "https://glottolog.org/resource/languoid/id/yaey1239",
+            "https://libguides.gwu.edu/okinawa/languages"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "JP-RYS-REG-002",
+          "term": "Miyara dialect",
+          "explanation_id": "Miyara adalah salah satu varietas Yaeyama di Ishigaki Island dan memiliki deskripsi grammar serta dokumentasi kosakata tersendiri.",
+          "indonesian_learning_link": "Tag fitur fonologi/TAM dalam profil ini sebagai Miyara, bukan sebagai Yaeyama universal.",
+          "region": "Miyara village, Ishigaki Island",
+          "register": "Regional variety",
+          "usage_context": "Menentukan lokasi data grammar.",
+          "example_source_language": "meera-muni",
+          "example_indonesian": "bahasa Miyara",
+          "sources": [
+            "https://cmdavis.org/publications/2015/DavisLauRyukyuanHandbook.pdf"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "JP-RYS-REG-003",
+          "term": "Ishigaki thank-you expression",
+          "explanation_id": "Bahan pengantar Okinawan membedakan ungkapan terima kasih: nifee deebiru untuk Okinawan dan nifaiyuu untuk Ishigaki.",
+          "indonesian_learning_link": "Ajarkan sebagai perbandingan dialek yang diberi label, bukan padanan yang berlaku di seluruh Yaeyama.",
+          "region": "Ishigaki variety",
+          "register": "Polite / regional phrase",
+          "usage_context": "Mengenali ungkapan terima kasih lokal.",
+          "example_source_language": "nifaiyuu",
+          "example_indonesian": "terima kasih",
+          "sources": [
+            "https://u-ryukyu.repo.nii.ac.jp/record/2017798/files/All%20About%20Okinawan%202nd%20Edition%202021.pdf"
+          ],
+          "verification_status": "draft",
+          "note": "Sumber pengantar hanya menyebut Ishigaki; konfirmasi pelafalan dan distribusi dengan penutur sebelum materi rilis."
+        },
+        {
+          "id": "JP-RYS-REG-004",
+          "term": "Taketomi, Hatoma, Kohama, and other island varieties",
+          "explanation_id": "Kepulauan Yaeyama memiliki variasi setempat; kamus, wordbook, dan rekaman perlu menyimpan nama pulau/desa.",
+          "indonesian_learning_link": "Jangan menyamakan kata dari Taketomi, Hatoma, Kohama, dan Miyara tanpa pemeriksaan.",
+          "region": "Yaeyama archipelago",
+          "register": "Local varieties",
+          "usage_context": "Menjaga label komunitas.",
+          "example_source_language": "Taketomi / Hatoma / Kohama",
+          "example_indonesian": "varietas pulau di Yaeyama",
+          "sources": [
+            "https://libguides.gwu.edu/okinawa/languages",
+            "https://odjl.net/"
+          ],
+          "verification_status": "reviewed"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "Davis & Lau (2015) — Tense, Aspect, and Mood in Miyara Yaeyaman",
+      "url": "https://cmdavis.org/publications/2015/DavisLauRyukyuanHandbook.pdf",
+      "scope": "Inventaris konsonan/vokal, nasal, glottal, morphology TAM, accent and examples for Miyara dialect."
+    },
+    {
+      "title": "University of the Ryukyus — All About Okinawan, Second Edition",
+      "url": "https://u-ryukyu.repo.nii.ac.jp/record/2017798/files/All%20About%20Okinawan%202nd%20Edition%202021.pdf",
+      "scope": "Ungkapan dan perbandingan kata Okinawa, Miyako, Ishigaki, dan Yonaguni."
+    },
+    {
+      "title": "Online Dictionary of the Japonic Languages",
+      "url": "https://odjl.net/",
+      "scope": "Data leksikal berbasis lokasi untuk ragam Japonic/Ryukyuan."
+    },
+    {
+      "title": "GWU — Okinawa Studies: Languages",
+      "url": "https://libguides.gwu.edu/okinawa/languages",
+      "scope": "Kamus dan bahan pembelajaran untuk pulau-pulau Ryukyu."
+    },
+    {
+      "title": "Glottolog — Yaeyama",
+      "url": "https://glottolog.org/resource/languoid/id/yaey1239",
+      "scope": "Identitas Yaeyama, ISO 639-3 rys, klasifikasi, dan status vitalitas."
+    }
+  ],
+  "indonesian_learning_design": {
+    "direction": "Yaeyama → Indonesian",
+    "learner_support": [
+      "Labeli contoh Miyara dan Ishigaki secara terpisah.",
+      "Ajarkan vokal, nasal, dan konjugasi dengan audio dari subvarietas tertentu.",
+      "Jelaskan perbedaan bahasa Indonesia baku dan nonbaku tanpa menyamakan semua ragam Yaeyama."
+    ]
+  },
+  "verification": {
+    "status": "content_seeded_reviewed_not_native_validated",
+    "last_reviewed": "2026-11-19",
+    "notes": "Materi fonologi dan TAM didasarkan pada penelitian deskriptif Miyara Yaeyaman; ungkapan Ishigaki ditandai draft. Profil ini belum diverifikasi penutur ahli untuk seluruh ragam Yaeyama."
+  }
+}
