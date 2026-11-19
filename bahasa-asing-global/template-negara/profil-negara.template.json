@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0.0",
+  "record_type": "country_profile",
+  "country": {
+    "name_en": "",
+    "name_local": "",
+    "iso_3166_1_alpha2": "",
+    "iso_3166_1_alpha3": "",
+    "regions": []
+  },
+  "languages": [
+    {
+      "language_name": "",
+      "native_name": "",
+      "iso_639_code": "",
+      "bcp47_tags": [],
+      "language_role": "official | national | widely_used | regional | minority | immigrant | sign",
+      "regions_and_communities": [],
+      "categories": {
+        "accent_and_pronunciation": [],
+        "speaking_style_and_pragmatics": [],
+        "standard_language": [],
+        "nonstandard_language_and_slang": [],
+        "profanity_and_vulgar_language": [],
+        "regional_and_minority_languages": []
+      },
+      "indonesian_learning_links": [],
+      "sources": [],
+      "verification": {
+        "status": "draft",
+        "last_reviewed": "",
+        "reviewed_by": "",
+        "notes": ""
+      }
+    }
+  ],
+  "country_level_notes": [],
+  "sources": [],
+  "verification": {
+    "status": "draft",
+    "last_reviewed": "",
+    "reviewed_by": "",
+    "notes": ""
+  }
+}
