@@ -1,0 +1,279 @@
+{
+  "schema_version": "1.1.0",
+  "record_type": "language_profile",
+  "language": {
+    "name": "Navajo (Diné Bizaad)",
+    "native_name": "Diné Bizaad",
+    "iso_639_3": "nav",
+    "bcp47_tags": [
+      "nv"
+    ],
+    "family": "Na-Dené > Athabaskan > Southern Athabaskan"
+  },
+  "country_context": {
+    "country_code": "US",
+    "role": [
+      "indigenous",
+      "regional"
+    ],
+    "note": "Profil ini berfokus pada Diné Bizaad dalam komunitas Navajo di Amerika Serikat. Materi mengikuti rujukan dan sumber komunitas; status penutur, variasi lokal, dan praktik bahasa harus didokumentasikan dengan hormat."
+  },
+  "categories": {
+    "accent_and_pronunciation": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "US-NAV-ACC-001",
+          "term": "Vowel length",
+          "explanation_id": "Diné Bizaad memiliki empat kualitas vokal dasar dengan kontras panjang-pendek; panjang vokal dapat membedakan bentuk kata.",
+          "indonesian_learning_link": "Latih durasi vokal Indonesia, tetapi jangan menambahkan suku kata untuk meniru vokal panjang Diné.",
+          "region": "Diné Bizaad; komunitas Navajo",
+          "register": "Pronunciation",
+          "usage_context": "Membedakan vokal pendek dan panjang.",
+          "example_source_language": "a / aa",
+          "example_indonesian": "contoh vokal pendek dan panjang",
+          "sources": [
+            "https://navajo.unm.edu/dinesound/html/main.html",
+            "https://nnemaildist.navajo-nsn.gov/Navajo-Word-of-the-Day-Archives/PgrID/437/PageID/14/pid/437/authorid/1/authorname/alex-yazzie"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-NAV-ACC-002",
+          "term": "High and low tone",
+          "explanation_id": "Nada tinggi dan rendah merupakan bagian dari bentuk kata; nada tinggi umumnya ditandai dengan aksen akut, nada rendah tidak diberi tanda.",
+          "indonesian_learning_link": "Jelaskan bahwa bahasa Indonesia tidak memakai nada leksikal dengan sistem yang sama.",
+          "region": "Diné Bizaad",
+          "register": "Pronunciation",
+          "usage_context": "Membaca diakritik nada.",
+          "example_source_language": "á / a",
+          "example_indonesian": "kontras nada tinggi dan rendah",
+          "sources": [
+            "https://navajo.unm.edu/dinesound/html/main.html"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-NAV-ACC-003",
+          "term": "Nasal vowels and glottalized consonants",
+          "explanation_id": "Vokal dapat dinasalkan dan bahasa memiliki hentian glotal serta konsonan ejective/glottalized; tanda ortografi menyimpan informasi bunyi penting.",
+          "indonesian_learning_link": "Gunakan audio dan latihan posisi artikulasi; jangan menebak pelafalan hanya dari alfabet English.",
+          "region": "Diné Bizaad",
+          "register": "Pronunciation",
+          "usage_context": "Mendengar kontras nasal/glotal.",
+          "example_source_language": "ą / a; tʼ",
+          "example_indonesian": "kontras vokal nasal dan konsonan ejective",
+          "sources": [
+            "https://navajo.unm.edu/dinesound/html/main.html",
+            "https://navajo.unm.edu/books/"
+          ],
+          "verification_status": "reviewed"
+        }
+      ]
+    },
+    "speaking_style_and_pragmatics": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "US-NAV-PRAG-001",
+          "term": "yáʼátʼééh",
+          "explanation_id": "Ungkapan sapaan yang umum diasosiasikan dengan ‘halo/selamat’; bentuk dan respons perlu dipelajari dari sumber komunitas.",
+          "indonesian_learning_link": "Bandingkan fungsi sapaan ini dengan ‘halo’, ‘apa kabar’, dan salam Indonesia yang sesuai situasi.",
+          "region": "Diné Bizaad; komunitas Navajo",
+          "register": "Greeting",
+          "usage_context": "Membuka interaksi.",
+          "example_source_language": "yáʼátʼééh",
+          "example_indonesian": "halo / salam",
+          "sources": [
+            "https://navajo.unm.edu/other-resources/",
+            "https://nnemaildist.navajo-nsn.gov/Navajo-Word-of-the-Day-Archives/PgrID/437/PageID/14/pid/437/authorid/1/authorname/alex-yazzie"
+          ],
+          "verification_status": "reviewed",
+          "note": "Ejaan tanda glotal dan diakritik harus mengikuti sumber penutur."
+        },
+        {
+          "id": "US-NAV-PRAG-002",
+          "term": "ahéheeʼ",
+          "explanation_id": "Ungkapan terima kasih yang dicatat dalam bahan pembelajaran Diné; gunakan bentuk tertulis dari sumber komunitas.",
+          "indonesian_learning_link": "Padanan fungsi: ‘terima kasih’, dengan konteks budaya dan relasi tetap diperhatikan.",
+          "region": "Diné Bizaad; komunitas Navajo",
+          "register": "Polite / appreciative",
+          "usage_context": "Mengucapkan terima kasih.",
+          "example_source_language": "ahéheeʼ",
+          "example_indonesian": "terima kasih",
+          "sources": [
+            "https://navajo.unm.edu/other-resources/"
+          ],
+          "verification_status": "draft",
+          "note": "Perlu konfirmasi entri pada kamus utama dan varian ejaan."
+        },
+        {
+          "id": "US-NAV-PRAG-003",
+          "term": "Community-specific address and respect",
+          "explanation_id": "Pilihan sapaan dan cara berinteraksi perlu diajarkan berdasarkan materi dan otoritas komunitas Diné, bukan stereotip umum tentang budaya Indigenous.",
+          "indonesian_learning_link": "Jelaskan bahwa sapaan Indonesia juga bergantung usia, status, dan hubungan.",
+          "region": "Komunitas Navajo; konteks keluarga dan komunitas",
+          "register": "Context-sensitive",
+          "usage_context": "Menyiapkan dialog dengan penutur komunitas.",
+          "example_source_language": "Diné community communication",
+          "example_indonesian": "komunikasi komunitas Diné",
+          "sources": [],
+          "verification_status": "draft",
+          "note": "Perlu konsultasi penutur/pendidik Diné sebelum contoh spesifik diterbitkan."
+        }
+      ]
+    },
+    "standard_language": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "US-NAV-STD-001",
+          "term": "Diné orthography",
+          "explanation_id": "Ortografi praktis menggunakan huruf Latin dan tanda diakritik untuk merepresentasikan kualitas/nasalitas vokal, panjang, nada, serta hentian glotal.",
+          "indonesian_learning_link": "Ajarkan karakter khusus sebagai bagian dari ejaan, bukan ornamen yang boleh dihapus.",
+          "region": "Diné Bizaad; bahan pengajaran dan komunitas",
+          "register": "Orthography",
+          "usage_context": "Membaca dan menulis bahasa.",
+          "example_source_language": "Diné Bizaad",
+          "example_indonesian": "bahasa Diné",
+          "sources": [
+            "https://navajo.unm.edu/dinesound/html/main.html",
+            "https://nnemaildist.navajo-nsn.gov/Navajo-Word-of-the-Day-Archives/PgrID/437/PageID/14/pid/437/authorid/1/authorname/alex-yazzie"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-NAV-STD-002",
+          "term": "Navajo verb morphology",
+          "explanation_id": "Verba Diné memiliki struktur morfologi kompleks dengan awalan yang memuat informasi gramatikal; profil verba harus mengikuti tata bahasa khusus.",
+          "indonesian_learning_link": "Bandingkan dengan bahasa Indonesia yang menggunakan afiks, tetapi tidak memiliki sistem morfologi yang sama.",
+          "region": "Diné Bizaad",
+          "register": "Grammar",
+          "usage_context": "Memahami peran afiks verba.",
+          "example_source_language": "Navajo verb system",
+          "example_indonesian": "sistem verba Diné",
+          "sources": [
+            "https://navajo.unm.edu/books/"
+          ],
+          "verification_status": "draft",
+          "note": "Perlu menautkan sumber tata bahasa spesifik dan menjelaskan satu pola verba dengan contoh tervalidasi."
+        },
+        {
+          "id": "US-NAV-STD-003",
+          "term": "Diné language learning resources",
+          "explanation_id": "Bahan pembelajaran dan kamus disusun oleh program Navajo dan penulis/peneliti; ejaan dan contoh harus mengikuti edisi yang dipilih.",
+          "indonesian_learning_link": "Jangan mengganti diakritik atau menormalisasi bentuk lokal tanpa catatan.",
+          "region": "Diné Bizaad; sumber belajar komunitas",
+          "register": "Reference standard",
+          "usage_context": "Memilih kamus dan materi.",
+          "example_source_language": "Diné Bizaad",
+          "example_indonesian": "bahasa Diné",
+          "sources": [
+            "https://navajo.unm.edu/other-resources/",
+            "https://navajo.unm.edu/books/"
+          ],
+          "verification_status": "reviewed"
+        }
+      ]
+    },
+    "nonstandard_language_and_slang": {
+      "status": "research_required",
+      "entries": [],
+      "coverage_note": "Belum ada inventaris slang diaspora yang dapat dimasukkan dengan rujukan komunitas yang memadai. Jangan mengarang slang atau mengambil kata dari konteks bahasa lain."
+    },
+    "profanity_and_vulgar_language": {
+      "status": "community_review_required",
+      "entries": [],
+      "coverage_note": "Belum dimasukkan. Materi umpatan Diné perlu sumber langsung dan tinjauan penutur/pendidik komunitas sebelum dijelaskan atau dipublikasikan."
+    },
+    "regional_and_minority_languages": {
+      "status": "cross_reference_country_catalog",
+      "entries": [
+        {
+          "id": "US-NAV-REG-001",
+          "term": "Diné Bizaad as an Indigenous language",
+          "explanation_id": "Navajo/Diné Bizaad merupakan bahasa Indigenous tersendiri, bukan dialek English atau Spanish.",
+          "indonesian_learning_link": "Pilih profil Diné secara eksplisit sebagai bahasa asal pembelajar.",
+          "region": "Southwestern United States; Navajo Nation dan komunitas Diné",
+          "register": "Indigenous language",
+          "usage_context": "Memilih bahasa sumber yang tepat.",
+          "example_source_language": "Diné Bizaad",
+          "example_indonesian": "bahasa Diné",
+          "sources": [
+            "https://navajo.unm.edu/books/"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-NAV-REG-002",
+          "term": "Apachean languages are distinct",
+          "explanation_id": "Navajo dan bahasa Apachean berkerabat dalam rumpun Athabaskan Selatan, tetapi bahasa-bahasa Apachean bukan dialek Navajo.",
+          "indonesian_learning_link": "LWT harus memisahkan profil Navajo, Western Apache, dan bahasa Apachean lain.",
+          "region": "Southwestern United States",
+          "register": "Language family distinction",
+          "usage_context": "Mengenali bahasa yang berkerabat tetapi berbeda.",
+          "example_source_language": "Navajo ≠ Western Apache",
+          "example_indonesian": "Navajo bukan Western Apache",
+          "sources": [
+            "https://api.pageplace.de/preview/DT0400.9781136258466_A23817185/preview-9781136258466_A23817185.pdf"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-NAV-REG-003",
+          "term": "Diné language communities and variation",
+          "explanation_id": "Variasi penggunaan harus dikaitkan dengan komunitas dan sumber penutur; satu pola tidak mewakili semua keluarga atau wilayah.",
+          "indonesian_learning_link": "Ajarkan variasi lokal tanpa menilai bentuk lain sebagai salah.",
+          "region": "Navajo Nation and diaspora communities",
+          "register": "Community variation",
+          "usage_context": "Menandai asal contoh ujaran.",
+          "example_source_language": "Diné communities",
+          "example_indonesian": "komunitas Diné",
+          "sources": [],
+          "verification_status": "draft",
+          "note": "Perlu sumber komunitas untuk mendeskripsikan variasi lokal."
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "University of New Mexico — Navajo Sound Profile",
+      "url": "https://navajo.unm.edu/dinesound/html/main.html",
+      "scope": "Sistem vokal, panjang, nada, nasalitas, dan ortografi."
+    },
+    {
+      "title": "University of New Mexico — Navajo Language Program learning materials",
+      "url": "https://navajo.unm.edu/other-resources/",
+      "scope": "Bahan belajar dan sumber kosa kata Diné."
+    },
+    {
+      "title": "University of New Mexico — Navajo Language and Linguistics books",
+      "url": "https://navajo.unm.edu/books/",
+      "scope": "Kamus dan tata bahasa Navajo."
+    },
+    {
+      "title": "Navajo Nation Department of Diné Education — Navajo Word of the Day",
+      "url": "https://nnemaildist.navajo-nsn.gov/Navajo-Word-of-the-Day-Archives/PgrID/437/PageID/14/pid/437/authorid/1/authorname/alex-yazzie",
+      "scope": "Bahan pengenalan alfabet dan sistem bunyi yang dipublikasikan oleh otoritas pendidikan Navajo."
+    },
+    {
+      "title": "Cambridge — Apachean languages overview",
+      "url": "https://api.pageplace.de/preview/DT0400.9781136258466_A23817185/preview-9781136258466_A23817185.pdf",
+      "scope": "Hubungan rumpun Apachean dan Navajo."
+    }
+  ],
+  "indonesian_learning_design": {
+    "direction": "Navajo (Diné Bizaad) → Indonesian",
+    "learner_support": [
+      "Latih pelafalan bunyi Indonesia dengan perbandingan sistem nada dan panjang vokal Diné.",
+      "Ajarkan konsonan ng, ny, r, dan e pepet bahasa Indonesia sesuai kebutuhan pembelajar.",
+      "Jangan menganggap struktur verba atau urutan kalimat Diné identik dengan English."
+    ]
+  },
+  "verification": {
+    "status": "content_seeded_reviewed_not_native_validated",
+    "last_reviewed": "2026-11-19",
+    "notes": "Materi fonologi menggunakan sumber UNM dan Navajo Nation Department of Diné Education. Slang dan umpatan sengaja belum diisi; diperlukan sumber dan peninjauan komunitas."
+  }
+}
