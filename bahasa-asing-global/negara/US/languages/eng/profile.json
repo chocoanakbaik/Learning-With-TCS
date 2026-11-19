@@ -1,0 +1,19 @@
+{
+  "schema_version":"1.0.0",
+  "record_type":"language_profile",
+  "language":{"name":"English","native_name":"English","iso_639_3":"eng","bcp47_tags":["en-US"],"family":"Indo-European > Germanic > West Germanic"},
+  "country_context":{"country_code":"US","role":["predominant","widely_used"],"note":"This profile documents English as used in the United States. It must not be treated as a description of every English-speaking country."},
+  "categories":{
+    "accent_and_pronunciation":{"status":"research_required","coverage_targets":["General American as a broad reference label, not a uniform accent","regional patterns such as Southern, New England, New York City, Inland North, and Western varieties","African American English pronunciation patterns, documented without treating the variety as incorrect English","rhoticity, vowel shifts, stress, rhythm, and connected speech"],"entries":[]},
+    "speaking_style_and_pragmatics":{"status":"research_required","coverage_targets":["greetings and leave-taking","directness and indirectness by context","politeness, requests, disagreement, small talk","regional, generational, and community variation"],"entries":[]},
+    "standard_language":{"status":"research_required","coverage_targets":["standard written American English","spelling differences from other national standards","grammar and punctuation in formal contexts","formal, academic, workplace, and public-service registers"],"entries":[]},
+    "nonstandard_language_and_slang":{"status":"research_required","coverage_targets":["colloquial contractions and reductions","regional and community vocabulary","youth and internet slang with dated usage labels","African American English and other community varieties described on their own terms"],"entries":[]},
+    "profanity_and_vulgar_language":{"status":"research_required","coverage_targets":["common profanity and taboo expressions","severity, target, and pragmatic force","reclaimed or in-group usage versus hostile use","regional and generational variation; neutral Indonesian explanations"],"entries":[]},
+    "regional_and_minority_languages":{"status":"cross_reference_country_catalog","coverage_targets":["Do not classify Indigenous languages as English dialects","Create linked profiles for Navajo, Central Yupik, Western Apache, and other documented languages","Record language contact and bilingual usage only with community-specific evidence"],"entries":[]}
+  },
+  "sources":[
+    {"title":"U.S. Census Bureau: Detailed Languages Spoken at Home, 2017–2021","url":"https://www.census.gov/newsroom/press-releases/2025/2017-2021-acs-language-use-tables.html"},
+    {"title":"U.S. Census Bureau: Language Use","url":"https://www.census.gov/topics/population/language-use.html"}
+  ],
+  "verification":{"status":"framework_reviewed","last_reviewed":"2026-11-19","notes":"Profile framework created. No lexical or slang entry is marked verified yet."}
+}
