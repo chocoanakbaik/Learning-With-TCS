@@ -37,7 +37,7 @@ Setiap entri memakai bidang berikut:
 - `usage_context`: situasi atau fungsi pemakaian.
 - `example_source_language`: contoh atau representasi dalam bahasa asal.
 - `example_indonesian`: contoh/padanan yang mengarah pada pembelajaran bahasa Indonesia.
-- `sources`: satu atau lebih URL rujukan ketika tersedia.
+- `sources`: array URL rujukan; setiap elemen harus berisi satu URL HTTPS utuh. Jika ada beberapa rujukan, simpan sebagai beberapa elemen array, bukan digabung dengan titik koma.
 - `verification_status`: `draft`, `reviewed`, atau `verified`.
 - `note`: batasan, variasi, atau catatan editorial jika ada.
 
