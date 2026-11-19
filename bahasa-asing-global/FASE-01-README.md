@@ -1,109 +1,143 @@
 # Fase 01 — Amerika Serikat, Jepang, dan Tiongkok
 
-Fase ini mengembangkan basis pengetahuan untuk tiga negara. Paket inti untuk bahasa utama telah diisi pada enam kategori pembelajaran LWT.
+Fase 1 membangun katalog awal dan profil pembelajaran bahasa untuk tiga negara. Cakupan ini merupakan sampel terpilih, bukan inventaris lengkap bahasa di masing-masing negara.
 
-## Navigasi negara dan profil bahasa
+## Ringkasan data terkini
 
-| Kode | Negara | Profil bahasa yang tersedia |
-|---|---|---|
-| US | Amerika Serikat | English, Spanish, Tagalog, Vietnamese, French, Korean, Russian, Navajo (Diné Bizaad), Central Alaskan Yup'ik, Western Apache |
-| JP | Jepang | Japanese |
-| CN | Tiongkok | Mandarin Putonghua |
+Audit dihitung ulang dari seluruh berkas `profile.json` pada branch `main` tanggal 19 November 2026.
 
-Tautan katalog negara:
-- [Amerika Serikat](./negara/US/country.json)
-- [Jepang](./negara/JP/country.json)
-- [Tiongkok](./negara/CN/country.json)
+| Negara | Record katalog | Profil bahasa | Entri |
+|---|---:|---:|---:|
+| Amerika Serikat (US) | 12 | 10 | 228 |
+| Jepang (JP) | 9 | 9 | 141 |
+| Tiongkok (CN) | 14 | 14 | 130 |
+| **Total** | **35** | **33** | **499** |
 
-Profil bahasa inti dan komunitas:
-- [English — US](./negara/US/languages/eng/profile.json)
-- [Spanish — US](./negara/US/languages/spa/profile.json)
-- [Tagalog — US Filipino communities](./negara/US/languages/tgl/profile.json)
-- [Vietnamese — US communities](./negara/US/languages/vie/profile.json)
-- [French — US heritage communities](./negara/US/languages/fra/profile.json)
-- [Korean — US communities](./negara/US/languages/kor/profile.json)
-- [Russian — US communities](./negara/US/languages/rus/profile.json)
-- [Navajo / Diné Bizaad](./negara/US/languages/nav/profile.json)
-- [Central Alaskan Yup'ik](./negara/US/languages/esu/profile.json)
-- [Western Apache](./negara/US/languages/apw/profile.json)
-- [Japanese — JP](./negara/JP/languages/jpn/profile.json)
-- [Mandarin Putonghua — CN](./negara/CN/languages/cmn/profile.json)
+Dari 35 record katalog, 33 sudah memiliki profil individual. Dua record AS belum menjadi profil individual karena masih berupa label payung:
+- Chinese language groups — referensi silang ke profil bahasa terkait dalam katalog Tiongkok; variasi komunitas diaspora AS belum diprofilkan secara terpisah.
+- Arabic varieties — perlu dipecah berdasarkan varietas dan komunitas yang benar-benar teridentifikasi sebelum menentukan kode bahasa dan membuat profil.
 
-## Cakupan materi
+### Status verifikasi entri
 
-Setiap profil bahasa memakai enam kategori: logat/aksen, pragmatik/cara bicara, bahasa baku, slang/nonbaku, umpatan/kata vulgar, dan bahasa regional/minoritas. Beberapa profil Indigenous sengaja membiarkan kategori slang atau umpatan kosong sampai sumber serta tinjauan komunitas tersedia.
-
-| Profil bahasa | Entri awal |
+| Status | Jumlah |
 |---|---:|
-| English (US) | 32 |
-| Spanish (US) | 17 |
-| Tagalog (US) | 18 |
-| Vietnamese (US) | 18 |
-| French (US) | 18 |
-| Korean (US) | 16 |
-| Russian (US) | 18 |
-| Navajo / Diné Bizaad | 12 |
-| Central Alaskan Yup'ik | 12 |
-| Western Apache | 10 |
-| Japanese (JP) | 32 |
-| Mandarin Putonghua (CN) | 33 |
-| **Total** | **236** |
+| Reviewed | 397 |
+| Draft | 102 |
+| Verified | 0 |
+| **Total** | **499** |
 
-Audit entri terakhir: **165 reviewed, 71 draft, dan 0 verified**. Status reviewed berarti entri sudah diperiksa terhadap rujukan yang dicantumkan, bukan validasi menyeluruh oleh penutur asli.
+`Reviewed` berarti entri telah diperiksa terhadap rujukan yang dicantumkan. Status ini bukan bukti bahwa entri sudah divalidasi oleh penutur asli atau ahli bahasa. Belum ada entri yang diberi status `verified`; jangan menyebut materi ini telah tervalidasi secara linguistik.
 
-## Status pekerjaan
+### Distribusi entri berdasarkan kategori
 
-**Pekerjaan yang telah dilakukan:**
-- Katalog untuk tiga negara telah dibuat dan diperbarui.
-- Sepuluh profil bahasa/komunitas telah dibuat untuk Amerika Serikat.
-- Profil Japanese dan Mandarin Putonghua tetap tersedia untuk Jepang dan Tiongkok.
-- Semua 12 profil memiliki enam kategori pembelajaran LWT.
-- Katalog negara mengarah ke profil individual yang tersedia.
-- Referensi yang tidak langsung mendukung suatu lema dihapus atau ditandai draft.
-- Validator Python standard library tersedia untuk memeriksa JSON, kategori, field wajib, ID unik, status, sumber, dan hubungan katalog/profil.
-- Hachijo tetap tanpa kode ISO 639-3 sampai identifier-nya diverifikasi.
+| Kategori | Entri |
+|---|---:|
+| Accent and pronunciation | 112 |
+| Speaking style and pragmatics | 68 |
+| Standard language | 120 |
+| Nonstandard language and slang | 44 |
+| Profanity and vulgar language | 37 |
+| Regional and minority languages | 118 |
+| **Total** | **499** |
 
-## Ringkasan audit
+## Profil bahasa yang tersedia
 
-Audit terbaru terhadap berkas GitHub menemukan:
-- **3 katalog negara**
-- **12 profil bahasa**
-- **236 entri pembelajaran**
-- **165 reviewed, 71 draft, 0 verified**
-- **236 ID unik**
-- **233 tautan sumber per entri** dan 70 tautan sumber tingkat profil
-- **0 kesalahan struktur, 0 kesalahan hubungan katalog/profil, dan 0 ID duplikat**
+### Amerika Serikat — 10 profil, 228 entri
 
-Status reviewed berarti entri telah diperiksa terhadap rujukan yang dicantumkan. Itu bukan klaim validasi penutur asli. Status verified belum diberikan karena proses validasi penutur asli/ahli belum terdokumentasi.
+1. English — [eng](./negara/US/languages/eng/profile.json)
+2. Spanish — [spa](./negara/US/languages/spa/profile.json)
+3. Tagalog — [tgl](./negara/US/languages/tgl/profile.json)
+4. Vietnamese — [vie](./negara/US/languages/vie/profile.json)
+5. French — [fra](./negara/US/languages/fra/profile.json)
+6. Korean — [kor](./negara/US/languages/kor/profile.json)
+7. Russian — [rus](./negara/US/languages/rus/profile.json)
+8. Navajo / Diné Bizaad — [nav](./negara/US/languages/nav/profile.json)
+9. Central Alaskan Yup'ik — [esu](./negara/US/languages/esu/profile.json)
+10. Western Apache — [apw](./negara/US/languages/apw/profile.json)
 
-Katalog berisi **35 record bahasa/kelompok bahasa**. Sebanyak 12 sudah memiliki profil. **23 record masih belum memiliki profil individual**: dua label payung di katalog US yang perlu dipecah, delapan record di Jepang, dan tiga belas record di Tiongkok. Angka tersebut adalah hitungan katalog saat ini, bukan klaim inventaris nasional lengkap.
+### Jepang — 9 profil, 141 entri
 
-## Pekerjaan yang masih terbuka
+1. Japanese — [jpn](./negara/JP/languages/jpn/profile.json)
+2. Ainu — [ain](./negara/JP/languages/ain/profile.json)
+3. Southern Amami-Oshima — [ams](./negara/JP/languages/ams/profile.json)
+4. Kunigami — [xug](./negara/JP/languages/xug/profile.json)
+5. Okinawan (Shuri focus) — [ryu](./negara/JP/languages/ryu/profile.json)
+6. Miyako — [mvi](./negara/JP/languages/mvi/profile.json)
+7. Yaeyama — [rys](./negara/JP/languages/rys/profile.json)
+8. Yonaguni / Dunan — [yoi](./negara/JP/languages/yoi/profile.json)
+9. Hachijo — [Glottocode hach1239](./negara/JP/languages/hach1239/profile.json)
 
-- Memecah Chinese language groups dan Arabic varieties di katalog US menjadi bahasa/varietas yang teridentifikasi dengan benar.
-- Menambahkan profil Ainu dan bahasa/varietas Ryukyuan di Jepang; memverifikasi kode Hachijo terlebih dahulu.
-- Menambahkan profil bahasa Yue, Wu, Min secara lebih rinci, Hakka, Xiang, Gan, Jin, serta bahasa minoritas terpilih di Tiongkok.
-- Menambahkan rekaman pelafalan berlisensi, transkripsi fonetik, dan contoh percakapan dari penutur.
-- Memeriksa materi draft dan memperoleh validasi penutur asli/ahli.
-- Menambah kosakata slang dan umpatan hanya jika tersedia sumber leksikografi/korpus dan konteks komunitas yang tepat.
+Hachijo menggunakan Glottocode `hach1239`. `iso_639_3` tetap `null` dan tag BCP 47 tidak diisi karena identifier tersebut belum terkonfirmasi. Glottocode adalah pengenal alternatif, bukan pengganti kode ISO.
 
-Dengan demikian, Fase 1 sudah memiliki **paket data awal yang terstruktur dan dapat divalidasi**, tetapi belum boleh dinyatakan selesai secara linguistik. Sisa profil, inventaris regional, audio, dan tinjauan komunitas masih diperlukan.
+### Tiongkok — 14 profil, 130 entri
 
-## Catatan sumber dan batas penggunaan
+1. Mandarin Putonghua — [cmn](./negara/CN/languages/cmn/profile.json)
+2. Yue (Hong Kong Cantonese focus) — [yue](./negara/CN/languages/yue/profile.json)
+3. Wu Chinese (Shanghai focus) — [wuu](./negara/CN/languages/wuu/profile.json)
+4. Min Nan / Southern Min (Zhangzhou focus) — [nan](./negara/CN/languages/nan/profile.json)
+5. Hakka (Meixian focus) — [hak](./negara/CN/languages/hak/profile.json)
+6. Xiang — [hsn](./negara/CN/languages/hsn/profile.json)
+7. Gan (Nanchang focus) — [gan](./negara/CN/languages/gan/profile.json)
+8. Jin (Northern Shaanxi focus) — [cjy](./negara/CN/languages/cjy/profile.json)
+9. Tibetan (Lhasa colloquial focus) — [bod](./negara/CN/languages/bod/profile.json)
+10. Uyghur (Central Uyghur focus) — [uig](./negara/CN/languages/uig/profile.json)
+11. Mongolian (Inner Mongolia focus) — [mon](./negara/CN/languages/mon/profile.json)
+12. Zhuang (Standard Wuming focus) — [zha](./negara/CN/languages/zha/profile.json)
+13. Korean (Yanbian / Chosŏnmal focus) — [kor](./negara/CN/languages/kor/profile.json)
+14. Kazakh (Xinjiang focus) — [kaz](./negara/CN/languages/kaz/profile.json)
 
-- U.S. Census Bureau mendokumentasikan lebih dari 500 bahasa dan kelompok bahasa dalam tabel bahasa 2017–2021. Katalog US di LWT hanya sampel awal.
-- NINJAL menyediakan korpus bahasa tulis, lisan, dialek, dan sumber dokumentasi bahasa terancam di Jepang.
-- Hukum dan materi uji Putonghua Kementerian Pendidikan RRT menjadi rujukan standar Mandarin.
-- Rujukan kamus Mandarin dari Kementerian Pendidikan Taiwan pada beberapa entri umpatan hanya menjadi pembanding leksikografi; rujukan itu **tidak** dianggap bukti final penggunaan di Tiongkok daratan.
-- Slang bersifat temporal. Daftar kata populer resmi harus menyertakan tahun penerbitan.
-- Umpatan dicatat untuk pemahaman makna dan risiko sosial. Tidak ada instruksi untuk menggunakannya dalam serangan terhadap orang.
+Setiap profil regional hanya mencakup fokus varietas yang dinyatakan. Contohnya, profil Min Nan berfokus pada Zhangzhou dan tidak mewakili seluruh kelompok Min; Yue berfokus pada Kanton Hong Kong; Wu berfokus pada Shanghai; Tibetan berfokus pada Lhasa; dan Mongolian berfokus pada Inner Mongolia.
 
-## Validasi lokal
+## Struktur materi pembelajaran
 
-Jalankan dari root repositori:
+Semua profil menggunakan enam kategori baku LWT:
+
+1. Accent and pronunciation.
+2. Speaking style and pragmatics.
+3. Standard language.
+4. Nonstandard language and slang.
+5. Profanity and vulgar language.
+6. Regional and minority languages.
+
+Konten vulgar dicatat untuk tujuan pemahaman bahasa. Entri harus menjelaskan makna, intensitas, konteks, dan risiko sosialnya, bukan mendorong penghinaan atau pelecehan. Kategori tertentu dapat tetap kosong bila sumber tepercaya atau dokumentasi komunitas belum memadai.
+
+## Validasi dan batasan mutu
+
+Validator tersedia pada `bahasa-asing-global/tools/validate_language_data.py` dan menggunakan Python standard library. Jalankan dari root repository:
 
 ```bash
 python bahasa-asing-global/tools/validate_language_data.py
 ```
 
-Validator menggunakan Python standard library dan tidak membutuhkan paket pihak ketiga. Error membuat proses keluar dengan kode non-zero; entri draft dan bahasa yang belum memiliki profil dilaporkan sebagai peringatan.
+Validator memeriksa struktur JSON, enam kategori, field wajib, ID unik, status entri, URL sumber, dan relasi katalog/profil. Hasil validator bersifat pemeriksaan struktur dan konsistensi data; ia tidak membuktikan ketepatan linguistik, kewajaran contoh, atau penerimaan komunitas.
+
+Aturan editorial:
+- Gunakan ISO 3166-1 alpha-2 untuk kode negara.
+- Gunakan ISO 639-3 bila kode bahasa terkonfirmasi.
+- Gunakan BCP 47 hanya jika tag tepat dapat ditentukan.
+- Pisahkan bahasa, dialek/aksen, register, dan wilayah.
+- Jangan mengarang lema, contoh, klasifikasi, kode, atau rekaman audio.
+- Tandai informasi yang belum cukup sumber sebagai `draft`.
+- Hormati asal komunitas dan jangan menggeneralisasi satu varietas sebagai keseluruhan bahasa.
+- Jangan memberi status `verified` tanpa proses verifikasi penutur asli/ahli yang terdokumentasi.
+
+## Pekerjaan lanjutan Fase 1
+
+Fase 1 **belum selesai**. Pekerjaan berikutnya, dalam urutan prioritas:
+
+1. Memperbarui dan memperketat validator agar laporan audit mencakup ringkasan per negara, kategori, dan konsistensi identitas bahasa.
+2. Meninjau 102 entri draft dan memperkuat dukungan sumber untuk entri reviewed.
+3. Memecah dua label payung AS menjadi profil yang benar-benar teridentifikasi setelah bukti komunitas dan varietas tersedia.
+4. Meninjau cakupan bahasa/varietas Jepang dan Tiongkok tanpa menyamakan kelompok besar dengan satu varietas lokal.
+5. Menyiapkan proses tinjauan penutur asli/ahli, termasuk pencatatan nama peninjau, tanggal, lingkup, dan keputusan.
+6. Menambahkan pelafalan/audio hanya dengan sumber dan lisensi yang jelas.
+
+Fase 2 tidak dimulai sebelum kriteria penyelesaian Fase 1 ditinjau dan disepakati.
+
+## Referensi utama tingkat negara
+
+- [U.S. Census Bureau — Detailed Languages Spoken at Home, 2017–2021](https://www.census.gov/newsroom/press-releases/2025/2017-2021-acs-language-use-tables.html). Katalog AS hanya sampel dari cakupan data yang jauh lebih luas.
+- [Agency for Cultural Affairs, Japan](https://www.bunka.go.jp/english/policy/japanese_language/policy/index.html) dan [NINJAL — Endangered Languages](https://www.ninjal.ac.jp/english/research/cr-project/project-4/endangered-languages/).
+- [Ministry of Education of the People's Republic of China](https://www.moe.gov.cn/). Rujukan untuk kebijakan bahasa, bahasa umum nasional, dan lanskap bahasa di Tiongkok.
+
+Tanggal audit dokumentasi: 2026-11-19.
