@@ -1,0 +1,317 @@
+{
+  "schema_version": "1.1.0",
+  "record_type": "language_profile",
+  "language": {
+    "name": "Min Nan (Southern Min; Zhangzhou focus)",
+    "native_name": "閩南語 / 闽南语",
+    "iso_639_3": "nan",
+    "bcp47_tags": [
+      "nan-CN"
+    ],
+    "family": "Sino-Tibetan > Sinitic > Min > Southern Min"
+  },
+  "country_context": {
+    "country_code": "CN",
+    "role": [
+      "regional",
+      "Sinitic"
+    ],
+    "note": "Kode nan mengidentifikasi Min Nan/Southern Min. Profil ini memfokuskan Zhangzhou Southern Min di Fujian, dengan Xiamen dan Quanzhou sebagai ragam regional yang ditautkan secara terpisah. Teochew, Leizhou dan Hainan Min tidak dianggap identik dengan Zhangzhou."
+  },
+  "categories": {
+    "accent_and_pronunciation": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "CN-NAN-ACC-001",
+          "term": "Eight citation tones in Zhangzhou Southern Min",
+          "explanation_id": "Penelitian 2024 mendeskripsikan delapan nada kutipan pada Zhangzhou Southern Min, dengan variasi kontur menurut subwilayah seperti Longhai, Changtai, Dongshan dan Zhao'an.",
+          "indonesian_learning_link": "Bahasa Indonesia tidak memakai nada leksikal; setiap contoh harus disertai audio, nomor nada, dan lokasi subdialek.",
+          "region": "Zhangzhou, southern Fujian; Longwen/Xiangcheng urban focus",
+          "register": "Pronunciation",
+          "usage_context": "Membedakan kata berdasarkan nada.",
+          "example_source_language": "tone 1–8 citation forms",
+          "example_indonesian": "delapan nada kutipan Zhangzhou",
+          "sources": [
+            "https://onlinelibrary.wiley.com/doi/full/10.1111/stul.12235"
+          ],
+          "verification_status": "reviewed",
+          "note": "Sumber membatasi analisis pada wilayah perkotaan Longwen/Xiangcheng meski data variasi mencakup beberapa wilayah administratif."
+        },
+        {
+          "id": "CN-NAN-ACC-002",
+          "term": "Tonal phonotactics and syllable gaps",
+          "explanation_id": "Zhangzhou Southern Min memiliki 15 onset, 61 final dan delapan nada secara teoretis; hanya sebagian kombinasi syllable-tone benar-benar attested dalam korpus.",
+          "indonesian_learning_link": "Jelaskan bahwa tidak semua kombinasi bunyi dan nada mungkin membentuk kata; ini mirip batasan fonotaktik bahasa Indonesia.",
+          "region": "Zhangzhou Southern Min",
+          "register": "Phonotactics",
+          "usage_context": "Memahami pola suku kata yang sah.",
+          "example_source_language": "C(G)V(X) syllable template",
+          "example_indonesian": "pola suku kata C(G)V(X)",
+          "sources": [
+            "https://onlinelibrary.wiley.com/doi/full/10.1111/stul.12235"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-NAN-ACC-003",
+          "term": "Checked codas and syllable structure",
+          "explanation_id": "Suku kata Zhangzhou dapat memiliki coda nasal, glide, dan stop /p, t, k/; suku kata checked punya pola durasi serta nada tersendiri.",
+          "indonesian_learning_link": "Latih penutupan suku kata tanpa menambah vokal setelah konsonan akhir.",
+          "region": "Zhangzhou Southern Min",
+          "register": "Pronunciation",
+          "usage_context": "Membedakan suku kata terbuka dan tertutup.",
+          "example_source_language": "-p / -t / -k codas",
+          "example_indonesian": "konsonan penutup p/t/k",
+          "sources": [
+            "https://onlinelibrary.wiley.com/doi/full/10.1111/stul.12235"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-NAN-ACC-004",
+          "term": "Tone sandhi in Xiamen Southern Min",
+          "explanation_id": "Dalam Xiamen, nada kutipan pada suku kata non-final mengalami sandhi; suku kata akhir frasa mempertahankan nada kutipan. Pola sering dijelaskan sebagai tone circle.",
+          "indonesian_learning_link": "Ajarkan nada kata dan realisasi dalam frasa secara terpisah; jangan menghafalkan kontur tunggal tanpa struktur frasa.",
+          "region": "Xiamen, Fujian",
+          "register": "Prosody / tone sandhi",
+          "usage_context": "Mendengar perubahan nada dalam frasa.",
+          "example_source_language": "citation tone → sandhi tone in non-final position",
+          "example_indonesian": "nada dasar berubah menjadi nada sandhi sebelum batas frasa",
+          "sources": [
+            "https://digital.lib.washington.edu/server/api/core/bitstreams/f48bd06a-5c32-4e51-93cb-157b71e935d8/content",
+            "https://www.isca-archive.org/speechprosody_2020/li20b_speechprosody.html"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-NAN-ACC-005",
+          "term": "Tone sandhi differs across Southern Min varieties",
+          "explanation_id": "Zhangzhou, Quanzhou, Xiamen dan ragam Southern Min lain saling berhubungan, tetapi nilai kontur dan realisasi nada dapat berbeda di antara wilayah.",
+          "indonesian_learning_link": "Setiap latihan wajib menyimpan label kota/varietas; jangan menyebut satu tone circle sebagai aturan universal Southern Min.",
+          "region": "Zhangzhou, Quanzhou, Xiamen and coastal Southern Min",
+          "register": "Regional prosody",
+          "usage_context": "Membandingkan ragam nada antarkota.",
+          "example_source_language": "Zhangzhou tone 7 variants",
+          "example_indonesian": "variasi realisasi nada 7 di wilayah Zhangzhou",
+          "sources": [
+            "https://onlinelibrary.wiley.com/doi/full/10.1111/stul.12235",
+            "https://www.cuhk.edu.hk/ics/clrc/yue/13_hisao_hirayama.pdf"
+          ],
+          "verification_status": "reviewed"
+        }
+      ]
+    },
+    "speaking_style_and_pragmatics": {
+      "status": "research_required",
+      "entries": [],
+      "coverage_note": "Formula sapaan, kesopanan, dan pragmatik percakapan belum dimasukkan. Sumber yang dikurasi pada tahap ini terutama fonologi, morfologi, dan tone sandhi; perlu studi percakapan per kota."
+    },
+    "standard_language": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "CN-NAN-STD-001",
+          "term": "Southern Min / Min Nan language identity",
+          "explanation_id": "Southern Min merupakan kelompok Sinitik yang dituturkan di Zhangzhou, Quanzhou dan Xiamen di Fujian serta sejumlah wilayah di Guangdong dan Hainan. Istilah Hokkien sering digunakan untuk ragam Southern Min, tetapi tidak semua subvarietas identik.",
+          "indonesian_learning_link": "Pilih kode nan untuk kelompok Min Nan, kemudian tambahkan label kota/subdialek.",
+          "region": "Southern Fujian and neighboring regions",
+          "register": "Sinitic language group",
+          "usage_context": "Menetapkan bahasa sumber.",
+          "example_source_language": "閩南語 / 闽南语",
+          "example_indonesian": "bahasa Min Nan",
+          "sources": [
+            "https://www.asau.ru/files/pdf/2157092.pdf",
+            "https://www.cuhk.edu.hk/ics/clrc/yue/13_hisao_hirayama.pdf"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-NAN-STD-002",
+          "term": "Zhangzhou Southern Min syllable template",
+          "explanation_id": "Struktur suku kata Zhangzhou dapat diringkas sebagai C(G)V(X): onset dan nucleus wajib, glide pra-vokal dan coda bersifat opsional.",
+          "indonesian_learning_link": "Bandingkan dengan struktur suku kata bahasa Indonesia dan jelaskan bahwa final stop/nasal dapat mengisi posisi coda.",
+          "region": "Zhangzhou Southern Min",
+          "register": "Phonology / structure",
+          "usage_context": "Menganalisis susunan bunyi.",
+          "example_source_language": "C(G)V(X)",
+          "example_indonesian": "pola suku kata C(G)V(X)",
+          "sources": [
+            "https://onlinelibrary.wiley.com/doi/full/10.1111/stul.12235"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-NAN-STD-003",
+          "term": "Suffixation in Zhangzhou Southern Min",
+          "explanation_id": "Studi Zhangzhou mendokumentasikan proses sufiksasi serta perubahan fonologis pada akar dan sufiks dalam dialek tersebut.",
+          "indonesian_learning_link": "Arahkan pelajar untuk memahami fungsi imbuhan Indonesia melalui perbandingan fungsi, bukan menganggap urutan afiks sama.",
+          "region": "Zhangzhou Southern Min",
+          "register": "Morphology",
+          "usage_context": "Menganalisis kata berimbuhan.",
+          "example_source_language": "Zhangzhou suffixation patterns",
+          "example_indonesian": "pola sufiksasi Zhangzhou",
+          "sources": [
+            "https://doi.org/10.1515/opli-2024-0004"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-NAN-STD-004",
+          "term": "Southern Min and Mandarin are not interchangeable",
+          "explanation_id": "Southern Min memiliki fonologi, struktur suku kata, nada dan proses sandhi berbeda dari Putonghua; studi Zhangzhou menyatakan varietasnya tidak saling dapat dipahami dengan Mandarin, Hakka, Cantonese, Wu, Xiang dan Gan.",
+          "indonesian_learning_link": "Gunakan profil nan tersendiri; jangan mengubah Southern Min menjadi aksen Mandarin.",
+          "region": "Zhangzhou and Southern Min-speaking areas",
+          "register": "Language distinction",
+          "usage_context": "Memilih bahasa sumber dengan benar.",
+          "example_source_language": "Southern Min ≠ Putonghua",
+          "example_indonesian": "Min Nan bukan Putonghua",
+          "sources": [
+            "https://onlinelibrary.wiley.com/doi/full/10.1111/stul.12235",
+            "https://www.asau.ru/files/pdf/2157092.pdf"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-NAN-STD-005",
+          "term": "Coastal Southern Min varieties",
+          "explanation_id": "Kajian komparatif merekonstruksi sejarah nilai nada untuk dialek pesisir Southern Min di Fujian dan Guangdong timur; perubahan historis berbeda menurut subdialek.",
+          "indonesian_learning_link": "Simpan titik lokasi dan versi transkripsi untuk data nada, jangan menganggap semua subvarietas memiliki nilai identik.",
+          "region": "Fujian coast and eastern Guangdong",
+          "register": "Historical phonology",
+          "usage_context": "Memahami variasi dan evolusi nada.",
+          "example_source_language": "coastal Southern Min tone evolution",
+          "example_indonesian": "evolusi nada Southern Min pesisir",
+          "sources": [
+            "https://www.cuhk.edu.hk/ics/clrc/yue/13_hisao_hirayama.pdf"
+          ],
+          "verification_status": "reviewed"
+        }
+      ]
+    },
+    "nonstandard_language_and_slang": {
+      "status": "research_required",
+      "entries": [],
+      "coverage_note": "Slang kontemporer belum dimasukkan. Diperlukan korpus percakapan Zhangzhou/Quanzhou/Xiamen yang diberi label usia, lokasi dan register."
+    },
+    "profanity_and_vulgar_language": {
+      "status": "community_review_required",
+      "entries": [],
+      "coverage_note": "Umpatan belum dimasukkan karena belum ada sumber leksikografi yang cukup untuk mendukung lema, intensitas, sasaran dan distribusi subdialek Southern Min di daratan Tiongkok."
+    },
+    "regional_and_minority_languages": {
+      "status": "cross_reference_country_catalog",
+      "entries": [
+        {
+          "id": "CN-NAN-REG-001",
+          "term": "Zhangzhou Southern Min",
+          "explanation_id": "Zhangzhou Southern Min adalah ragam Min Nan yang digunakan di Zhangzhou, Fujian; studi 2024 memfokuskan analisis korpus pada area urban Longwen dan Xiangcheng.",
+          "indonesian_learning_link": "Labeli data sebagai Zhangzhou, bukan sebagai Southern Min universal.",
+          "region": "Zhangzhou, southern Fujian",
+          "register": "Regional variety",
+          "usage_context": "Menandai asal penutur dan data.",
+          "example_source_language": "漳州閩南語 / 漳州闽南语",
+          "example_indonesian": "Min Nan Zhangzhou",
+          "sources": [
+            "https://onlinelibrary.wiley.com/doi/full/10.1111/stul.12235",
+            "https://doi.org/10.1515/opli-2024-0004"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-NAN-REG-002",
+          "term": "Xiamen Southern Min",
+          "explanation_id": "Xiamen/Amoy merupakan ragam Southern Min yang banyak diteliti dalam tone sandhi; pola sandhi berhubungan dengan domain sintaksis dan batas frasa.",
+          "indonesian_learning_link": "Gunakan Xiamen sebagai subprofil tersendiri bila mengajar sandhi; jangan memindahkan semua contoh ke Zhangzhou.",
+          "region": "Xiamen, Fujian",
+          "register": "Regional variety",
+          "usage_context": "Menandai contoh tone sandhi.",
+          "example_source_language": "廈門閩南語 / 厦门闽南语",
+          "example_indonesian": "Min Nan Xiamen",
+          "sources": [
+            "https://digital.lib.washington.edu/server/api/core/bitstreams/f48bd06a-5c32-4e51-93cb-157b71e935d8/content",
+            "https://www.isca-archive.org/speechprosody_2020/li20b_speechprosody.html"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-NAN-REG-003",
+          "term": "Quanzhou Southern Min",
+          "explanation_id": "Quanzhou merupakan salah satu pusat utama Southern Min di Fujian; bentuk tutur saling berhubungan dengan Xiamen/Zhangzhou tetapi memiliki ciri regional tersendiri.",
+          "indonesian_learning_link": "Buat subprofil Quanzhou bila tersedia rekaman dan sumber spesifik kota.",
+          "region": "Quanzhou, Fujian",
+          "register": "Regional variety",
+          "usage_context": "Membedakan ragam kota.",
+          "example_source_language": "泉州閩南語 / 泉州闽南语",
+          "example_indonesian": "Min Nan Quanzhou",
+          "sources": [
+            "https://www.asau.ru/files/pdf/2157092.pdf",
+            "https://www.cuhk.edu.hk/ics/clrc/yue/13_hisao_hirayama.pdf"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-NAN-REG-004",
+          "term": "Southern Min beyond Fujian",
+          "explanation_id": "Southern Min juga digunakan di timur Guangdong, termasuk komunitas Chaoshan/Teochew, serta Leizhou dan Hainan dengan ragam tersendiri; jangan gabungkan semua ke satu daftar kata.",
+          "indonesian_learning_link": "Profil Hokkien Fujian tidak otomatis mencakup Teochew atau Hainanese Min.",
+          "region": "Eastern Guangdong, Leizhou and Hainan",
+          "register": "Regional varieties",
+          "usage_context": "Mengenali batas rumpun dan subkelompok.",
+          "example_source_language": "Teochew / Leizhou / Hainan Min",
+          "example_indonesian": "Teochew / Min Leizhou / Min Hainan",
+          "sources": [
+            "https://www.asau.ru/files/pdf/2157092.pdf",
+            "https://www.cuhk.edu.hk/ics/clrc/yue/13_hisao_hirayama.pdf"
+          ],
+          "verification_status": "reviewed"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "Huang (2024) — Tonal Phonotactics in Southern Min",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/stul.12235",
+      "scope": "Zhangzhou syllable template, eight citation tones, tonal phonotactics and regional variation."
+    },
+    {
+      "title": "Huang (2024) — Suffixation in Zhangzhou",
+      "url": "https://doi.org/10.1515/opli-2024-0004",
+      "scope": "Morphological suffixation and phonological alternations in Zhangzhou Southern Min."
+    },
+    {
+      "title": "Rethinking the Syntactic Constraints on Fuzhou Tone Sandhi",
+      "url": "https://digital.lib.washington.edu/server/api/core/bitstreams/f48bd06a-5c32-4e51-93cb-157b71e935d8/content",
+      "scope": "Comparative Xiamen Southern Min tone sandhi and phrase-domain behavior."
+    },
+    {
+      "title": "Li & Mok (2020) — The acquisition of tone sandhi of the Xiamen dialect",
+      "url": "https://www.isca-archive.org/speechprosody_2020/li20b_speechprosody.html",
+      "scope": "Xiamen tone circle, checked tones and child acquisition."
+    },
+    {
+      "title": "Southern Min grammar overview",
+      "url": "https://www.asau.ru/files/pdf/2157092.pdf",
+      "scope": "Geography and internal regional varieties of Southern Min in Fujian, Guangdong and Hainan."
+    },
+    {
+      "title": "Hirayama — Reconstruction of Coastal Southern Min tone values",
+      "url": "https://www.cuhk.edu.hk/ics/clrc/yue/13_hisao_hirayama.pdf",
+      "scope": "Historical tone development in coastal Fujian and eastern Guangdong varieties."
+    }
+  ],
+  "indonesian_learning_design": {
+    "direction": "Southern Min (Zhangzhou focus) → Indonesian",
+    "learner_support": [
+      "Ajarkan nada kutipan bersama nada sandhi pada frasa.",
+      "Bedakan ragam Zhangzhou, Xiamen, dan Quanzhou dalam setiap rekaman.",
+      "Bandingkan proses sufiksasi dengan afiksasi bahasa Indonesia tanpa memaksakan kesamaan morfologi."
+    ]
+  },
+  "verification": {
+    "status": "content_seeded_reviewed_not_native_validated",
+    "last_reviewed": "2026-11-19",
+    "notes": "Fonologi dan tone sandhi didukung studi peer-reviewed Zhangzhou dan Xiamen. Pragmatik, slang dan profanity belum diisi karena belum ada sumber langsung yang memadai untuk konteks tutur daratan Tiongkok. Profil secara eksplisit berfokus pada Zhangzhou."
+  }
+}
