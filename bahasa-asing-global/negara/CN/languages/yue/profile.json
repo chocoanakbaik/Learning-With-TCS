@@ -1,0 +1,431 @@
+{
+  "schema_version": "1.1.0",
+  "record_type": "language_profile",
+  "language": {
+    "name": "Yue (Hong Kong Cantonese focus)",
+    "native_name": "粵語 / 廣東話",
+    "iso_639_3": "yue",
+    "bcp47_tags": [
+      "yue-HK"
+    ],
+    "family": "Sino-Tibetan > Sinitic > Yue"
+  },
+  "country_context": {
+    "country_code": "CN",
+    "role": [
+      "regional",
+      "Sinitic"
+    ],
+    "note": "Kode yue mencakup Yue languages; this profile deliberately focuses on Hong Kong Cantonese. Guangzhou and other Yue varieties require regional subprofiles and must not be generalized from Hong Kong examples."
+  },
+  "categories": {
+    "accent_and_pronunciation": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "CN-YUE-ACC-001",
+          "term": "Six contrastive lexical tones",
+          "explanation_id": "Cantonese Hong Kong memiliki enam nada leksikal utama (T1–T6). Suku kata berakhir stop /p, t, k/ memiliki kategori checked/entering tones yang secara tradisional juga diberi nomor 7–9.",
+          "indonesian_learning_link": "Bahasa Indonesia tidak memakai nada leksikal seperti ini; pelajar harus mendengar kontur nada sebagai bagian dari identitas kata.",
+          "region": "Hong Kong Cantonese; ragam lain dapat memiliki variasi",
+          "register": "Pronunciation",
+          "usage_context": "Membedakan kata berdasarkan nada.",
+          "example_source_language": "fu1 / fu2 / fu3 / fu4 / fu5 / fu6",
+          "example_indonesian": "contoh enam nada leksikal Cantonese",
+          "sources": [
+            "https://cuhk.edu.hk/lin/people/peggy/SP2010_perception.pdf",
+            "https://lshk.org/jyutping-scheme/"
+          ],
+          "verification_status": "reviewed",
+          "note": "Sumber penelitian menjelaskan enam nada kontras dan tiga allotone checked dalam analisis yang digunakan."
+        },
+        {
+          "id": "CN-YUE-ACC-002",
+          "term": "Checked syllables and stop codas",
+          "explanation_id": "Suku kata Cantonese dapat berakhir dengan /p, t, k/; kategori nada checked memiliki durasi dan kontur yang khas.",
+          "indonesian_learning_link": "Latih bunyi akhir tanpa menambah vokal setelah konsonan penutup.",
+          "region": "Cantonese Hong Kong",
+          "register": "Pronunciation",
+          "usage_context": "Mendengar suku kata tertutup.",
+          "example_source_language": "-p / -t / -k codas",
+          "example_indonesian": "konsonan penutup p / t / k",
+          "sources": [
+            "https://lshk.org/jyutping-scheme/",
+            "https://cuhk.edu.hk/lin/people/peggy/SP2010_perception.pdf"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-YUE-ACC-003",
+          "term": "Jyutping romanization",
+          "explanation_id": "Jyutping adalah sistem romanisasi yang dibuat oleh Linguistic Society of Hong Kong pada 1993. Angka setelah suku kata menandai nada.",
+          "indonesian_learning_link": "Gunakan Jyutping sebagai alat bantu baca dan pertahankan karakter tradisional dalam contoh Hong Kong.",
+          "region": "Hong Kong Cantonese",
+          "register": "Romanization",
+          "usage_context": "Membaca bunyi dan nada.",
+          "example_source_language": "sik6 faan6",
+          "example_indonesian": "makan nasi",
+          "sources": [
+            "https://lshk.org/jyutping-scheme/"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-YUE-ACC-004",
+          "term": "No neutral tone in the cited Hong Kong analysis",
+          "explanation_id": "Analisis fonetik yang dirujuk menyatakan bahwa setiap suku kata, termasuk kata fungsi, membawa nada leksikal; ini berbeda dari sistem Mandarin dengan neutral tone.",
+          "indonesian_learning_link": "Jangan menghapus nada pada partikel atau kata fungsi saat mempelajari Cantonese.",
+          "region": "Hong Kong Cantonese; analisis penelitian tertentu",
+          "register": "Prosody",
+          "usage_context": "Mempertahankan nada kata.",
+          "example_source_language": "Cantonese function words carry lexical tones",
+          "example_indonesian": "kata fungsi Cantonese juga memiliki nada",
+          "sources": [
+            "https://cuhk.edu.hk/lin/people/peggy/SP2010_perception.pdf"
+          ],
+          "verification_status": "reviewed"
+        }
+      ]
+    },
+    "speaking_style_and_pragmatics": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "CN-YUE-PRAG-001",
+          "term": "唔該 (m4 goi1)",
+          "explanation_id": "Ungkapan untuk meminta perhatian/permisi, membuat permintaan sopan, atau berterima kasih atas bantuan dan layanan; bukan pilihan utama untuk ucapan terima kasih atas hadiah.",
+          "indonesian_learning_link": "Padanan Indonesia: ‘permisi’, ‘tolong’, atau ‘terima kasih atas bantuannya’ sesuai konteks.",
+          "region": "Hong Kong Cantonese",
+          "register": "Polite / service formula",
+          "usage_context": "Meminta bantuan atau berterima kasih atas layanan.",
+          "example_source_language": "唔該，請問洗手間喺邊？",
+          "example_indonesian": "Permisi, toilet ada di mana?",
+          "sources": [
+            "https://words.hk/zidin/%E5%94%94%E8%A9%B2",
+            "https://www.had.gov.hk/rru/en/images/pdf/Your_Guide_to_Services_in_HK_English_chapter_25.pdf"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-YUE-PRAG-002",
+          "term": "多謝 (do1 ze6)",
+          "explanation_id": "Ungkapan terima kasih yang lebih lazim ketika menerima hadiah, barang, atau pujian; berbeda fungsi dari 唔該 dalam penggunaan Hong Kong yang umum.",
+          "indonesian_learning_link": "Padanan Indonesia: ‘terima kasih’ ketika menerima pemberian atau pujian.",
+          "region": "Hong Kong Cantonese",
+          "register": "Polite / appreciative",
+          "usage_context": "Menerima hadiah atau pujian.",
+          "example_source_language": "多謝你送本書俾我。",
+          "example_indonesian": "Terima kasih sudah memberiku buku.",
+          "sources": [
+            "https://cantowords.com/dictionary/%E5%A4%9A%E8%AC%9D",
+            "https://www.had.gov.hk/rru/en/images/pdf/Your_Guide_to_Services_in_HK_English_chapter_25.pdf"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-YUE-PRAG-003",
+          "term": "對唔住 (deoi3 m4 zyu6)",
+          "explanation_id": "Ungkapan permintaan maaf yang umum dalam Cantonese; pilihan respons dan tingkat kesopanannya dipengaruhi konteks.",
+          "indonesian_learning_link": "Padanan Indonesia: ‘maaf’ atau ‘saya minta maaf’.",
+          "region": "Hong Kong Cantonese",
+          "register": "Polite / apology",
+          "usage_context": "Meminta maaf atas kesalahan.",
+          "example_source_language": "對唔住，我遲到喇。",
+          "example_indonesian": "Maaf, saya terlambat.",
+          "sources": [
+            "https://www.had.gov.hk/rru/en/images/pdf/Your_Guide_to_Services_in_HK_English_chapter_25.pdf",
+            "https://ywjt2.user.srcf.net/cantonese/guide_to_cantonese_grammar.pdf"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-YUE-PRAG-004",
+          "term": "唔使客氣 (m4 sai2 haak3 hei3)",
+          "explanation_id": "Respons yang dapat digunakan untuk menyatakan bahwa lawan bicara tidak perlu sungkan/berterima kasih.",
+          "indonesian_learning_link": "Padanan Indonesia: ‘tidak perlu sungkan’ atau ‘sama-sama’ sesuai konteks.",
+          "region": "Hong Kong Cantonese",
+          "register": "Polite response",
+          "usage_context": "Membalas ucapan terima kasih.",
+          "example_source_language": "唔使客氣。",
+          "example_indonesian": "Tidak perlu sungkan.",
+          "sources": [
+            "https://www.had.gov.hk/rru/en/images/pdf/Your_Guide_to_Services_in_HK_English_chapter_25.pdf"
+          ],
+          "verification_status": "reviewed"
+        }
+      ]
+    },
+    "standard_language": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "CN-YUE-STD-001",
+          "term": "Jyutping as romanization standard",
+          "explanation_id": "Jyutping merupakan skema romanisasi yang dikembangkan Linguistic Society of Hong Kong; skema ini menuliskan inisial, final, dan nada dengan angka.",
+          "indonesian_learning_link": "LWT dapat memakai Jyutping untuk panduan, tetapi hasil belajar tetap diarahkan pada ejaan dan pelafalan bahasa Indonesia.",
+          "region": "Hong Kong Cantonese",
+          "register": "Romanization",
+          "usage_context": "Menulis pelafalan dalam alfabet Latin.",
+          "example_source_language": "粵拼 Jyutping",
+          "example_indonesian": "sistem romanisasi Cantonese",
+          "sources": [
+            "https://lshk.org/jyutping-scheme/"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-YUE-STD-002",
+          "term": "Traditional characters in Hong Kong written Cantonese",
+          "explanation_id": "Bahan Hong Kong Cantonese lazim menggunakan karakter tradisional dan dapat memakai karakter khusus lisan untuk menuliskan struktur percakapan.",
+          "indonesian_learning_link": "Bedakan bahasa tulis formal yang dipengaruhi Standard Written Chinese dengan tulisan lisan Cantonese; keduanya tidak identik.",
+          "region": "Hong Kong; tulisan Cantonese",
+          "register": "Written register",
+          "usage_context": "Membaca teks dan percakapan tertulis.",
+          "example_source_language": "佢哋喺邊度？",
+          "example_indonesian": "Mereka ada di mana?",
+          "sources": [
+            "https://ywjt2.user.srcf.net/cantonese/guide_to_cantonese_grammar.pdf",
+            "https://hkcc.eduhk.hk/v2/"
+          ],
+          "verification_status": "reviewed",
+          "note": "Ortografi Cantonese lisan tidak selalu sepenuhnya distandardisasi; ikuti konvensi kamus dan korpus tertentu."
+        },
+        {
+          "id": "CN-YUE-STD-003",
+          "term": "Cantonese particles and sentence-final particles",
+          "explanation_id": "Partikel akhir seperti 呀, 喎, 啦 dan 呢 dapat menandai sikap, asumsi, pertanyaan, atau hubungan interpersonal; maknanya bergantung konteks dan intonasi.",
+          "indonesian_learning_link": "Bahasa Indonesia memakai intonasi, partikel lisan, dan pilihan kata, tetapi tidak memiliki padanan satu-ke-satu untuk setiap partikel Cantonese.",
+          "region": "Hong Kong Cantonese",
+          "register": "Grammar / pragmatics",
+          "usage_context": "Memahami nada sikap dalam percakapan.",
+          "example_source_language": "係喎。",
+          "example_indonesian": "Oh iya, benar juga.",
+          "sources": [
+            "https://ywjt2.user.srcf.net/cantonese/guide_to_cantonese_grammar.pdf",
+            "https://hkcc.eduhk.hk/v2/"
+          ],
+          "verification_status": "reviewed"
+        }
+      ]
+    },
+    "nonstandard_language_and_slang": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "CN-YUE-SLANG-001",
+          "term": "靚仔 (leng3 zai2)",
+          "explanation_id": "Secara literal merujuk pada laki-laki muda yang tampan; juga dapat menjadi sapaan informal kepada laki-laki dewasa dalam suasana santai, serta punya makna slang lain berdasarkan konteks.",
+          "indonesian_learning_link": "Padanan Indonesia: ‘ganteng’, ‘mas’, atau sapaan informal lain yang sesuai situasi.",
+          "region": "Hong Kong Cantonese",
+          "register": "Colloquial / slang",
+          "usage_context": "Menyebut atau menyapa laki-laki secara informal.",
+          "example_source_language": "阿靚仔，呢碟乾炒牛河係咪你嗌㗎？",
+          "example_indonesian": "Mas, apakah Anda yang memesan kwetiau goreng ini?",
+          "sources": [
+            "https://words.hk/zidin/%E9%9D%9A%E4%BB%94"
+          ],
+          "verification_status": "reviewed",
+          "note": "Kamus juga mencatat makna lain pada konteks mahjong dan sebagai deskripsi kualitas; jangan terpaku pada arti pertama."
+        },
+        {
+          "id": "CN-YUE-SLANG-002",
+          "term": "靚 (leng3)",
+          "explanation_id": "Kata percakapan yang dapat berarti indah, bagus, atau tampak menarik; cakupan makna lebih luas daripada ‘cantik’.",
+          "indonesian_learning_link": "Padanan Indonesia: ‘bagus’, ‘indah’, ‘keren’, atau ‘cantik’ sesuai objek dan konteks.",
+          "region": "Hong Kong Cantonese",
+          "register": "Colloquial",
+          "usage_context": "Menilai penampilan atau kualitas sesuatu.",
+          "example_source_language": "呢件衫好靚。",
+          "example_indonesian": "Baju ini bagus sekali.",
+          "sources": [
+            "https://words.hk/"
+          ],
+          "verification_status": "draft",
+          "note": "Perlu tautan lema langsung dan contoh spesifik; profil saat ini hanya menautkan kamus umum."
+        },
+        {
+          "id": "CN-YUE-SLANG-003",
+          "term": "靚仔 as casual address",
+          "explanation_id": "Dalam sebagian konteks perkotaan Hong Kong, 靚仔 dapat dipakai sebagai sapaan informal kepada pria dewasa; tidak sama dengan gelar hormat formal.",
+          "indonesian_learning_link": "Padanan Indonesia bergantung usia dan relasi: ‘Mas’, ‘Bang’, atau ‘kawan’.",
+          "region": "Hong Kong urban Cantonese",
+          "register": "Informal address",
+          "usage_context": "Menyapa orang asing dalam layanan atau interaksi santai.",
+          "example_source_language": "阿靚仔",
+          "example_indonesian": "Mas / Bang",
+          "sources": [
+            "https://words.hk/zidin/%E9%9D%9A%E4%BB%94"
+          ],
+          "verification_status": "reviewed",
+          "note": "Konteks penggunaan perlu dibatasi pada situasi nonformal; bukan panggilan netral untuk semua audiens."
+        }
+      ]
+    },
+    "profanity_and_vulgar_language": {
+      "status": "seeded_educational_with_context",
+      "entries": [
+        {
+          "id": "CN-YUE-PROF-001",
+          "term": "屌 (diu2)",
+          "explanation_id": "Kata vulgar yang secara literal berkaitan dengan hubungan seksual; sebagai kata kerja juga dapat berarti memarahi, sedangkan sebagai interjeksi dapat berfungsi seperti umpatan sangat kuat.",
+          "indonesian_learning_link": "Jelaskan fungsi dan intensitas berdasarkan tata kalimat; jangan menerjemahkan otomatis dengan satu kata Indonesia.",
+          "region": "Hong Kong Cantonese",
+          "register": "Very strong profanity; 粗俗",
+          "usage_context": "Memahami umpatan dalam percakapan atau media.",
+          "example_source_language": "屌！佢又輸波喇！",
+          "example_indonesian": "Sial/Fuck! Dia kalah lagi!",
+          "sources": [
+            "https://words.hk/zidin/%E5%B1%8C"
+          ],
+          "verification_status": "reviewed",
+          "note": "Kamus menandai lema sebagai 粗俗 (vulgar) dan mencatat beberapa fungsi kata kerja/interjeksi."
+        },
+        {
+          "id": "CN-YUE-PROF-002",
+          "term": "仆街 (puk1 gaai1)",
+          "explanation_id": "Sebagai hinaan nomina, kata ini dapat dipakai untuk menyebut seseorang dengan makna sangat merendahkan seperti bajingan/brengsek; juga memiliki penggunaan lain menurut konteks.",
+          "indonesian_learning_link": "Padanan Indonesia: ‘brengsek’ atau ‘bajingan’ hanya dalam konteks hinaan; jelaskan bahwa intensitasnya tinggi.",
+          "region": "Hong Kong Cantonese",
+          "register": "Strong insult; 粗俗",
+          "usage_context": "Memahami makian yang diarahkan kepada seseorang.",
+          "example_source_language": "佢係個仆街。",
+          "example_indonesian": "Dia orang yang brengsek.",
+          "sources": [
+            "https://words.hk/zidin/%E4%BB%86%E8%A1%97"
+          ],
+          "verification_status": "reviewed",
+          "note": "Kamus menandai penggunaan hinaan sebagai 粗俗; jangan menggunakannya sebagai sapaan."
+        },
+        {
+          "id": "CN-YUE-PROF-003",
+          "term": "屌你老母 (diu2 nei5 lou5 mou2)",
+          "explanation_id": "Umpatan yang secara harfiah menyerang ibu lawan bicara; kamus mencatatnya sebagai ungkapan vulgar yang dapat diarahkan kepada seseorang atau digunakan sebagai seruan tergantung konstruksi.",
+          "indonesian_learning_link": "Terangkan secara eksplisit sasaran penghinaan dan tingkat kekasaran yang sangat tinggi; jangan gunakan sebagai ujaran biasa.",
+          "region": "Hong Kong Cantonese",
+          "register": "Very strong targeted profanity",
+          "usage_context": "Memahami kutipan konflik atau konten online.",
+          "example_source_language": "屌你老母",
+          "example_indonesian": "umpatan sangat kasar yang menyerang ibu seseorang",
+          "sources": [
+            "https://words.hk/zidin/%E5%B1%8C%E4%BD%A0%E8%80%81%E6%AF%8D"
+          ],
+          "verification_status": "reviewed",
+          "note": "Tautan kamus membedakan penggunaan sebagai hinaan langsung dan interjeksi tanpa sasaran tertentu."
+        }
+      ]
+    },
+    "regional_and_minority_languages": {
+      "status": "cross_reference_country_catalog",
+      "entries": [
+        {
+          "id": "CN-YUE-REG-001",
+          "term": "Yue / Cantonese is not Mandarin accent",
+          "explanation_id": "Yue merupakan kelompok bahasa Sinitik dengan sistem bunyi, kosakata, dan tata bahasa yang berbeda dari Putonghua; Cantonese Hong Kong adalah satu ragam penting dari Yue.",
+          "indonesian_learning_link": "Pilih yue sebagai bahasa sumber terpisah dan jangan menyamakan Cantonese dengan aksen Mandarin.",
+          "region": "Guangdong, Guangxi, Hong Kong, Macau dan diaspora",
+          "register": "Regional Sinitic language",
+          "usage_context": "Memilih bahasa sumber yang benar.",
+          "example_source_language": "粵語 / 廣東話",
+          "example_indonesian": "bahasa Yue / Cantonese",
+          "sources": [
+            "https://ywjt2.user.srcf.net/cantonese/guide_to_cantonese_grammar.pdf",
+            "https://hkcc.eduhk.hk/v2/"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-YUE-REG-002",
+          "term": "Hong Kong Cantonese",
+          "explanation_id": "Profil ini memakai Hong Kong Cantonese sebagai titik rujukan; kosakata, partikel, romanisasi, dan konvensi tulisan dapat berbeda di wilayah Yue lainnya.",
+          "indonesian_learning_link": "Semua contoh perlu diberi tag Hong Kong, bukan digeneralisasi ke semua komunitas Yue.",
+          "region": "Hong Kong",
+          "register": "Regional variety",
+          "usage_context": "Menentukan wilayah contoh.",
+          "example_source_language": "香港粵語",
+          "example_indonesian": "Cantonese Hong Kong",
+          "sources": [
+            "https://lshk.org/jyutping-scheme/",
+            "https://hkcc.eduhk.hk/v2/"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-YUE-REG-003",
+          "term": "Guangzhou Cantonese and other Yue varieties",
+          "explanation_id": "Cantonese di Guangzhou dan ragam Yue lain memiliki variasi fonologis, leksikal, serta sosial; batas kelompok Yue lebih luas daripada Hong Kong.",
+          "indonesian_learning_link": "Tambahkan subprofil berbasis wilayah saat dataset dan penutur telah ditentukan.",
+          "region": "Guangzhou, Guangdong and other Yue-speaking areas",
+          "register": "Regional varieties",
+          "usage_context": "Mengenali batas generalisasi.",
+          "example_source_language": "廣州話",
+          "example_indonesian": "Cantonese Guangzhou",
+          "sources": [
+            "https://ywjt2.user.srcf.net/cantonese/guide_to_cantonese_grammar.pdf"
+          ],
+          "verification_status": "draft",
+          "note": "Perlu perbandingan korpus dan sumber lokal Guangzhou untuk membuat entri dialek rinci."
+        },
+        {
+          "id": "CN-YUE-REG-004",
+          "term": "Cantonese corpus documentation",
+          "explanation_id": "Corpus of Mid-20th Century Hong Kong Cantonese memiliki sekitar 770.000 token dari 60 film yang ditranskripsikan, disejajarkan dengan Jyutping dan POS tagging.",
+          "indonesian_learning_link": "Gunakan korpus untuk contoh autentik dengan izin/ketentuan pemanfaatan yang sesuai; jangan menyalin tanpa pemeriksaan lisensi.",
+          "region": "Hong Kong; historical spoken Cantonese",
+          "register": "Corpus / research resource",
+          "usage_context": "Mendokumentasikan kosakata dan pola percakapan.",
+          "example_source_language": "Hong Kong Cantonese corpus",
+          "example_indonesian": "korpus Cantonese Hong Kong",
+          "sources": [
+            "https://hkcc.eduhk.hk/v2/"
+          ],
+          "verification_status": "reviewed"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "Linguistic Society of Hong Kong — Jyutping Scheme",
+      "url": "https://lshk.org/jyutping-scheme/",
+      "scope": "Inisial, final, codas /p t k/, and six tone-number conventions."
+    },
+    {
+      "title": "CUHK — Perception of the merging tones in Hong Kong Cantonese",
+      "url": "https://cuhk.edu.hk/lin/people/peggy/SP2010_perception.pdf",
+      "scope": "Six contrastive lexical tones and checked-tone categories."
+    },
+    {
+      "title": "Education University of Hong Kong — Corpus of Mid-20th Century Hong Kong Cantonese",
+      "url": "https://hkcc.eduhk.hk/v2/",
+      "scope": "Transcribed spoken corpus, Jyutping romanization and POS tags."
+    },
+    {
+      "title": "Guide to Cantonese Grammar",
+      "url": "https://ywjt2.user.srcf.net/cantonese/guide_to_cantonese_grammar.pdf",
+      "scope": "Conversation grammar, sentence particles, written Cantonese, and grammatical examples."
+    },
+    {
+      "title": "Hong Kong Home Affairs Department — Conversational Expressions",
+      "url": "https://www.had.gov.hk/rru/en/images/pdf/Your_Guide_to_Services_in_HK_English_chapter_25.pdf",
+      "scope": "Service thanks vs gift thanks, apologies, responses, and everyday expressions."
+    },
+    {
+      "title": "Words.hk — Cantonese Dictionary",
+      "url": "https://words.hk/",
+      "scope": "Cantonese definitions, Jyutping, example sentences, register labels, and usage distinctions."
+    }
+  ],
+  "indonesian_learning_design": {
+    "direction": "Yue / Hong Kong Cantonese → Indonesian",
+    "learner_support": [
+      "Latih nada Cantonese sebagai bagian dari kata dengan Jyutping dan rekaman audio.",
+      "Bandingkan ungkapan layanan dan terima kasih dengan ‘permisi’, ‘tolong’, dan ‘terima kasih’ dalam bahasa Indonesia.",
+      "Jelaskan tingkat kekasaran, sasaran, dan konteks umpatan secara eksplisit."
+    ]
+  },
+  "verification": {
+    "status": "content_seeded_reviewed_not_native_validated",
+    "last_reviewed": "2026-11-19",
+    "notes": "Fonologi dan romanisasi didukung LSHK serta penelitian CUHK; pragmatik menggunakan panduan resmi Hong Kong dan kamus Cantonese. Entri slang/profanity menautkan kamus Words.hk. Belum divalidasi oleh panel penutur asli untuk seluruh profil."
+  }
+}
