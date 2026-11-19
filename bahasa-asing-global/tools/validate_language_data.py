@@ -35,6 +35,7 @@ class Report:
         self.drafts = 0
         self.reviewed = 0
         self.verified = 0
+        self.planned_languages = 0
 
     def error(self, message: str) -> None:
         self.errors.append(message)
@@ -71,7 +72,8 @@ def check_entry(entry: Any, path: Path, category: str, seen_ids: set[str], repor
         seen_ids.add(entry_id)
 
     status = entry.get("verification_status")
-    if status not in VALID_STATUSES:
+    valid_status = isinstance(status, str) and status in VALID_STATUSES
+    if not valid_status:
         report.error(f"{label}: verification_status tidak valid: {status!r}.")
     else:
         counter = {"draft": "drafts", "reviewed": "reviewed", "verified": "verified"}[status]
@@ -84,9 +86,9 @@ def check_entry(entry: Any, path: Path, category: str, seen_ids: set[str], repor
         for source in sources:
             if not isinstance(source, str) or not source.startswith("https://"):
                 report.error(f"{label}: setiap sumber harus berupa URL https://.")
-        if status in {"reviewed", "verified"} and not sources:
+        if valid_status and status in {"reviewed", "verified"} and not sources:
             report.error(f"{label}: status {status} membutuhkan setidaknya satu sumber.")
-        elif status == "draft" and not sources:
+        elif valid_status and status == "draft" and not sources:
             report.warn(f"{label}: entri draft belum memiliki sumber langsung.")
 
     for field in (
@@ -194,6 +196,8 @@ def main() -> int:
                         lang_code = linked.get("language", {}).get("iso_639_3")
                         if lang_code != language.get("iso_639_3"):
                             report.error(f"{full_path.relative_to(ROOT)}: ISO bahasa tidak cocok dengan katalog negara.")
+            else:
+                report.planned_languages += 1
 
         for profile_file in sorted((country_file.parent / "languages").glob("*/profile.json")):
             check_profile(profile_file, folder_code, seen_ids, report)
@@ -201,6 +205,7 @@ def main() -> int:
     print("LWT DATA VALIDATION")
     print(f"Country catalogs : {len(country_files)}")
     print(f"Language profiles: {report.profiles}")
+    print(f"Catalog languages awaiting profiles: {report.planned_languages}")
     print(f"Learning entries : {report.entries}")
     print(f"Draft / reviewed / verified: {report.drafts} / {report.reviewed} / {report.verified}")
     for warning in report.warnings:
