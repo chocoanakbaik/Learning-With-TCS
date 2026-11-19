@@ -6,7 +6,14 @@
     "name_local": "日本",
     "iso_3166_1_alpha2": "JP",
     "iso_3166_1_alpha3": "JPN",
-    "regions": ["Hokkaido", "Honshu", "Shikoku", "Kyushu", "Okinawa and Ryukyu Islands", "other islands"]
+    "regions": [
+      "Hokkaido",
+      "Honshu",
+      "Shikoku",
+      "Kyushu",
+      "Okinawa and Ryukyu Islands",
+      "other islands"
+    ]
   },
   "language_context": {
     "national_language_note": "Japanese is the predominant language of public life. The country's linguistic landscape also includes Indigenous Ainu and Ryukyuan languages, as well as regional varieties and community languages.",
@@ -14,20 +21,140 @@
     "documentation_unit": "Use individual language/community profiles. Keep Japanese regional dialects distinct from separate Ryukyuan languages where the cited linguistic source does so."
   },
   "languages": [
-    {"name":"Japanese","iso_639_3":"jpn","role":["predominant","widely_used"],"profile_status":"planned"},
-    {"name":"Ainu","iso_639_3":"ain","role":["indigenous","endangered"],"regions":["Hokkaido"],"profile_status":"planned"},
-    {"name":"Amami","iso_639_3":"ams","role":["regional","Ryukyuan","endangered"],"regions":["Amami Islands"],"profile_status":"planned"},
-    {"name":"Kunigami","iso_639_3":"xug","role":["regional","Ryukyuan","endangered"],"regions":["northern Okinawa"],"profile_status":"planned"},
-    {"name":"Okinawan","iso_639_3":"ryu","role":["regional","Ryukyuan","endangered"],"regions":["central and southern Okinawa"],"profile_status":"planned"},
-    {"name":"Miyako","iso_639_3":"mvi","role":["regional","Ryukyuan","endangered"],"regions":["Miyako Islands"],"profile_status":"planned"},
-    {"name":"Yaeyama","iso_639_3":"rys","role":["regional","Ryukyuan","endangered"],"regions":["Yaeyama Islands"],"profile_status":"planned"},
-    {"name":"Yonaguni","iso_639_3":"yoi","role":["regional","Ryukyuan","endangered"],"regions":["Yonaguni Island"],"profile_status":"planned"},
-    {"name":"Hachijo","iso_639_3":"揺","role":["regional","endangered"],"regions":["Hachijo Islands"],"note":"Confirm language-code mapping against the selected authoritative registry before publishing a machine-readable code.","profile_status":"needs_code_verification"}
+    {
+      "name": "Japanese",
+      "iso_639_3": "jpn",
+      "role": [
+        "predominant",
+        "widely_used"
+      ],
+      "profile_status": "planned"
+    },
+    {
+      "name": "Ainu",
+      "iso_639_3": "ain",
+      "role": [
+        "indigenous",
+        "endangered"
+      ],
+      "regions": [
+        "Hokkaido"
+      ],
+      "profile_status": "planned"
+    },
+    {
+      "name": "Amami",
+      "iso_639_3": "ams",
+      "role": [
+        "regional",
+        "Ryukyuan",
+        "endangered"
+      ],
+      "regions": [
+        "Amami Islands"
+      ],
+      "profile_status": "planned"
+    },
+    {
+      "name": "Kunigami",
+      "iso_639_3": "xug",
+      "role": [
+        "regional",
+        "Ryukyuan",
+        "endangered"
+      ],
+      "regions": [
+        "northern Okinawa"
+      ],
+      "profile_status": "planned"
+    },
+    {
+      "name": "Okinawan",
+      "iso_639_3": "ryu",
+      "role": [
+        "regional",
+        "Ryukyuan",
+        "endangered"
+      ],
+      "regions": [
+        "central and southern Okinawa"
+      ],
+      "profile_status": "planned"
+    },
+    {
+      "name": "Miyako",
+      "iso_639_3": "mvi",
+      "role": [
+        "regional",
+        "Ryukyuan",
+        "endangered"
+      ],
+      "regions": [
+        "Miyako Islands"
+      ],
+      "profile_status": "planned"
+    },
+    {
+      "name": "Yaeyama",
+      "iso_639_3": "rys",
+      "role": [
+        "regional",
+        "Ryukyuan",
+        "endangered"
+      ],
+      "regions": [
+        "Yaeyama Islands"
+      ],
+      "profile_status": "planned"
+    },
+    {
+      "name": "Yonaguni",
+      "iso_639_3": "yoi",
+      "role": [
+        "regional",
+        "Ryukyuan",
+        "endangered"
+      ],
+      "regions": [
+        "Yonaguni Island"
+      ],
+      "profile_status": "planned"
+    },
+    {
+      "name": "Hachijo",
+      "iso_639_3": null,
+      "role": [
+        "regional",
+        "endangered"
+      ],
+      "regions": [
+        "Hachijo Islands"
+      ],
+      "note": "ISO 639-3 identifier not yet confirmed; retain null until checked against the current ISO 639-3 registry.",
+      "profile_status": "needs_code_verification"
+    }
   ],
   "sources": [
-    {"title":"Agency for Cultural Affairs: Japanese Language Policy and Endangered Languages and Dialects","url":"https://www.bunka.go.jp/english/policy/japanese_language/policy/index.html","supports":"UNESCO-based listing of endangered Ainu and regional varieties in Japan."},
-    {"title":"National Institute for Japanese Language and Linguistics: Research on the Conservation of Endangered Languages","url":"https://www.ninjal.ac.jp/english/research/cr-project/project-4/endangered-languages/","supports":"Documentation of Ainu, Hachijo and Ryukyuan languages and local varieties; community collaboration."},
-    {"title":"J-STAGE: There are nine languages in Japan","url":"https://www.jstage.jst.go.jp/article/jactfl/4/0/4_110/_article/-char/ja/","supports":"Scholarly discussion of the classification of Japanese and Ryukyuan languages."}
+    {
+      "title": "Agency for Cultural Affairs: Japanese Language Policy and Endangered Languages and Dialects",
+      "url": "https://www.bunka.go.jp/english/policy/japanese_language/policy/index.html",
+      "supports": "UNESCO-based listing of endangered Ainu and regional varieties in Japan."
+    },
+    {
+      "title": "National Institute for Japanese Language and Linguistics: Research on the Conservation of Endangered Languages",
+      "url": "https://www.ninjal.ac.jp/english/research/cr-project/project-4/endangered-languages/",
+      "supports": "Documentation of Ainu, Hachijo and Ryukyuan languages and local varieties; community collaboration."
+    },
+    {
+      "title": "J-STAGE: There are nine languages in Japan",
+      "url": "https://www.jstage.jst.go.jp/article/jactfl/4/0/4_110/_article/-char/ja/",
+      "supports": "Scholarly discussion of the classification of Japanese and Ryukyuan languages."
+    }
   ],
-  "verification": {"status":"reviewed_initial_catalog","last_reviewed":"2026-11-19","reviewed_by":"LWT research setup","notes":"Initial catalog only. Hachijo ISO code requires verification; do not use this record as a validated language-code assertion until corrected."}
+  "verification": {
+    "status": "reviewed_initial_catalog",
+    "last_reviewed": "2026-11-19",
+    "reviewed_by": "LWT research setup",
+    "notes": "Initial catalog only. Hachijo ISO code requires verification; do not use this record as a validated language-code assertion until corrected. Hachijo code intentionally left null pending registry verification."
+  }
 }
