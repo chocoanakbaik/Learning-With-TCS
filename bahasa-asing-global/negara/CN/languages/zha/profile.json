@@ -1,0 +1,281 @@
+{
+  "schema_version": "1.1.0",
+  "record_type": "language_profile",
+  "language": {
+    "name": "Zhuang (Standard Zhuang / Wuming focus)",
+    "native_name": "Vahcuengh / 壮语",
+    "iso_639_3": "zha",
+    "bcp47_tags": [
+      "za-CN"
+    ],
+    "family": "Kra-Dai > Tai > Northern Tai"
+  },
+  "country_context": {
+    "country_code": "CN",
+    "role": [
+      "regional",
+      "minority"
+    ],
+    "note": "Kode zha mencakup kelompok Zhuang. Profil ini berfokus pada Standard Zhuang yang didasarkan pada pengucapan Wuming/Yongbei di Guangxi. Du'an dan varietas lokal lain ditandai terpisah."
+  },
+  "categories": {
+    "accent_and_pronunciation": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "CN-ZHA-ACC-001",
+          "term": "Eight tone categories in Standard Zhuang",
+          "explanation_id": "Panduan Zhuangwen menjelaskan enam kategori nada pada suku kata terbuka dan kategori checked dengan coda stop pada sistem standar; variasi lokal perlu dicatat.",
+          "indonesian_learning_link": "Bahasa Indonesia tidak memakai nada leksikal seperti ini; ajarkan nada sebagai bagian dari kata dengan audio dan bentuk tulis.",
+          "region": "Standard Zhuang, based on Wuming pronunciation",
+          "register": "Pronunciation",
+          "usage_context": "Membedakan kategori nada dan kode ortografi.",
+          "example_source_language": "Tone 1–6; checked-tone categories",
+          "example_indonesian": "kategori nada terbuka dan checked",
+          "sources": [
+            "https://newdoc.nccu.edu.tw/teasyllabus/113721209100/Guide%20to%20Zhuangwen.pdf"
+          ],
+          "verification_status": "reviewed",
+          "note": "Sumber Wuming menjelaskan enam nada open-syllable dan dua checked categories; deskripsi dialek lain dapat berbeda."
+        },
+        {
+          "id": "CN-ZHA-ACC-002",
+          "term": "Tone letters in Zhuangwen",
+          "explanation_id": "Dalam ortografi modern, huruf akhir seperti z, j, x, q, h menandai nada; huruf tersebut tidak selalu mewakili bunyi konsonan yang diucapkan.",
+          "indonesian_learning_link": "Jangan mengeja huruf penanda nada sebagai konsonan akhir ketika membaca kata Zhuang.",
+          "region": "Standard Zhuang / Wuming",
+          "register": "Orthographic pronunciation",
+          "usage_context": "Membaca penanda nada.",
+          "example_source_language": "son / mwngz / hwnj / max / gvaq / dah",
+          "example_indonesian": "contoh lema dengan penanda nada",
+          "sources": [
+            "https://newdoc.nccu.edu.tw/teasyllabus/113721209100/Guide%20to%20Zhuangwen.pdf",
+            "https://www.degruyterbrill.com/document/doi/10.21832/9781800411562-011/html"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-ZHA-ACC-003",
+          "term": "Checked syllables and coda spelling",
+          "explanation_id": "Suku kata checked dibedakan melalui coda stop; p/t/k dapat menunjukkan kategori tinggi dan b/d/g kategori rendah dalam ortografi standar yang direformasi.",
+          "indonesian_learning_link": "Latih penutupan suku kata tanpa menambahkan vokal setelah konsonan akhir.",
+          "region": "Standard Zhuang",
+          "register": "Pronunciation / orthography",
+          "usage_context": "Membedakan suku kata terbuka dan tertutup.",
+          "example_source_language": "checked codas p/t/k and b/d/g",
+          "example_indonesian": "coda checked p/t/k dan b/d/g",
+          "sources": [
+            "https://www.degruyterbrill.com/document/doi/10.21832/9781800411562-011/html"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-ZHA-ACC-004",
+          "term": "Du'an Zhuang variation",
+          "explanation_id": "Riset Du'an Zhuang mengukur interaksi nada dan durasi; variasi Du'an tidak boleh dianggap identik dengan Wuming Standard Zhuang.",
+          "indonesian_learning_link": "Setiap data harus menyimpan subdialek dan lokasi, terutama ketika memuat contoh akustik.",
+          "region": "Du'an Zhuang; Guangxi",
+          "register": "Regional phonetics",
+          "usage_context": "Mengenali batas generalisasi.",
+          "example_source_language": "Du'an tonal duration patterns",
+          "example_indonesian": "pola durasi dan nada Du'an",
+          "sources": [
+            "https://www.cambridge.org/core/journals/journal-of-the-international-phonetic-association/article/interaction-between-tone-and-duration-in-duan-zhuang/CB8D5D96578616262DB8CAD56B73EC73"
+          ],
+          "verification_status": "draft",
+          "note": "Sumber mendeskripsikan Du'an; profil ini fokus Wuming, sehingga data ini hanya pembanding."
+        }
+      ]
+    },
+    "speaking_style_and_pragmatics": {
+      "status": "research_required",
+      "entries": [],
+      "coverage_note": "Sapaan, formula kesopanan, serta pragmatik percakapan belum diisi karena sumber yang terkurasi berfokus pada fonologi dan standardisasi tertulis. Perlu data penutur Wuming dan konteks sosial."
+    },
+    "standard_language": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "CN-ZHA-STD-001",
+          "term": "Standard Zhuang / Zhuangwen",
+          "explanation_id": "Standard Zhuang adalah ragam baku yang berlandaskan fonologi Wuming di Guangxi; identitas standardisasi tidak menjadikan semua varietas Zhuang sama.",
+          "indonesian_learning_link": "Sebut secara eksplisit bahwa model yang dipakai adalah Standard Zhuang, bukan seluruh kelompok Zhuang.",
+          "region": "Wuming / Yongbei, Guangxi",
+          "register": "Standard variety",
+          "usage_context": "Memilih materi belajar baku.",
+          "example_source_language": "Vahcuengh",
+          "example_indonesian": "bahasa Zhuang",
+          "sources": [
+            "https://newdoc.nccu.edu.tw/teasyllabus/113721209100/Guide%20to%20Zhuangwen.pdf",
+            "https://www.degruyterbrill.com/document/doi/10.21832/9781800411562-011/html"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-ZHA-STD-002",
+          "term": "Latin-based Zhuangwen orthography",
+          "explanation_id": "Zhuangwen modern memakai alfabet Latin setelah revisi 1981–1982; aksara ini dipakai pada buku, surat kabar, media, kamus, dan materi pendidikan.",
+          "indonesian_learning_link": "Jangan memperlakukan Zhuangwen sebagai pinyin Mandarin; setiap huruf penanda nada mempunyai fungsi spesifik.",
+          "region": "Guangxi; Standard Zhuang",
+          "register": "Orthography",
+          "usage_context": "Membaca teks Zhuang modern.",
+          "example_source_language": "Vahcuengh",
+          "example_indonesian": "bahasa Zhuang",
+          "sources": [
+            "https://newdoc.nccu.edu.tw/teasyllabus/113721209100/Guide%20to%20Zhuangwen.pdf",
+            "https://www.degruyterbrill.com/document/doi/10.21832/9781800411562-011/html"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-ZHA-STD-003",
+          "term": "Historical Sawndip writing",
+          "explanation_id": "Sebelum sistem Zhuangwen modern, tradisi tulis Zhuang menggunakan karakter rakyat/karakter yang dibangun dari unsur Han; praktik ini dikenal sebagai Sawndip dan tetap penting dalam dokumentasi budaya.",
+          "indonesian_learning_link": "Bedakan Sawndip historis dari ortografi Latin resmi modern; jangan menyebut salah satunya sebagai representasi universal semua penutur.",
+          "region": "Zhuang communities in Guangxi",
+          "register": "Historical writing system",
+          "usage_context": "Membaca sumber budaya dan lagu rakyat.",
+          "example_source_language": "Sawndip",
+          "example_indonesian": "aksara tradisional/karakter rakyat Zhuang",
+          "sources": [
+            "https://www.degruyterbrill.com/document/doi/10.21832/9781800411562-011/html"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-ZHA-STD-004",
+          "term": "Wuming / Yongbei reference pronunciation",
+          "explanation_id": "Standard Zhuang didasarkan pada dialek utara Yongbei dan pengucapan Wuming, khususnya area Chengxiang dan Shuangqiao sebagaimana dicatat dalam pedoman ortografi.",
+          "indonesian_learning_link": "Materi harus menyebut model pengucapan yang dipakai sebelum menampilkan kosakata dan audio.",
+          "region": "Wuming County, Guangxi",
+          "register": "Standard pronunciation",
+          "usage_context": "Menentukan model audio.",
+          "example_source_language": "Wuming / Yongbei",
+          "example_indonesian": "Wuming / Yongbei",
+          "sources": [
+            "https://newdoc.nccu.edu.tw/teasyllabus/113721209100/Guide%20to%20Zhuangwen.pdf",
+            "https://abvd.clld.org/austronesian/language.php/767"
+          ],
+          "verification_status": "reviewed"
+        }
+      ]
+    },
+    "nonstandard_language_and_slang": {
+      "status": "research_required",
+      "entries": [],
+      "coverage_note": "Slang belum dimasukkan. Kosakata lokal Wuming, Yongbei, dan kelompok Zhuang lain harus dibedakan dari Standard Zhuang dan diberi sumber kontemporer."
+    },
+    "profanity_and_vulgar_language": {
+      "status": "community_review_required",
+      "entries": [],
+      "coverage_note": "Umpatan belum ditambahkan tanpa kamus dan data tutur yang mendukung bentuk, intensitas, serta komunitas pemakai."
+    },
+    "regional_and_minority_languages": {
+      "status": "cross_reference_country_catalog",
+      "entries": [
+        {
+          "id": "CN-ZHA-REG-001",
+          "term": "Zhuang / Standard Zhuang",
+          "explanation_id": "Zhuang merupakan bahasa Tai-Kadai yang digunakan di Guangxi dan wilayah sekitar; Standard Zhuang menggunakan dasar fonologi Wuming/Yongbei.",
+          "indonesian_learning_link": "Pilih kode zha sebagai bahasa payung, lalu tandai varietas spesifik pada metadata.",
+          "region": "Guangxi Zhuang Autonomous Region",
+          "register": "Tai-Kadai language",
+          "usage_context": "Menentukan identitas bahasa.",
+          "example_source_language": "Vahcuengh",
+          "example_indonesian": "bahasa Zhuang",
+          "sources": [
+            "https://abvd.clld.org/austronesian/language.php/767",
+            "https://newdoc.nccu.edu.tw/teasyllabus/113721209100/Guide%20to%20Zhuangwen.pdf"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-ZHA-REG-002",
+          "term": "Yongbei / Wuming reference variety",
+          "explanation_id": "Wordlist ABVD mengidentifikasi Wuming sebagai dialek standar kelompok Zhuang dan memberi lokasi Shuangqiao, Wuming County.",
+          "indonesian_learning_link": "Tag contoh dengan Wuming/Shuangqiao; jangan mewakili semua varietas Zhuang.",
+          "region": "Shuangqiao, Wuming County, Guangxi",
+          "register": "Northern Zhuang variety",
+          "usage_context": "Memilih sumber kosakata.",
+          "example_source_language": "Wuming Zhuang",
+          "example_indonesian": "Zhuang Wuming",
+          "sources": [
+            "https://abvd.clld.org/austronesian/language.php/767"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-ZHA-REG-003",
+          "term": "Du'an Zhuang",
+          "explanation_id": "Studi fonetik terpisah mendeskripsikan Du'an Zhuang dan interaksi nada/durasi; data ini tidak boleh dicampur ke profil Wuming.",
+          "indonesian_learning_link": "Buat subprofil Du'an bila materi fonologi lokal tersedia.",
+          "region": "Du'an, Guangxi",
+          "register": "Regional variety",
+          "usage_context": "Membedakan dialek lokal.",
+          "example_source_language": "Du'an Zhuang",
+          "example_indonesian": "Zhuang Du'an",
+          "sources": [
+            "https://www.cambridge.org/core/journals/journal-of-the-international-phonetic-association/article/interaction-between-tone-and-duration-in-duan-zhuang/CB8D5D96578616262DB8CAD56B73EC73"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-ZHA-REG-004",
+          "term": "Language vitality and intergenerational transmission",
+          "explanation_id": "Laporan proyek di Guangxi mencatat pergeseran komunikasi generasi muda ke Mandarin di sejumlah lokasi dan berkurangnya kemampuan berbicara Zhuang; temuan lokasi tidak boleh digeneralisasi ke seluruh Guangxi.",
+          "indonesian_learning_link": "Ajarkan status vitalitas sebagai kondisi lokal dan bertanggal, bukan atribut tetap seluruh komunitas.",
+          "region": "Selected areas of Guangxi",
+          "register": "Sociolinguistic / vitality",
+          "usage_context": "Memahami pergeseran bahasa.",
+          "example_source_language": "Zhuang language transmission",
+          "example_indonesian": "transmisi bahasa Zhuang",
+          "sources": [
+            "https://www.aiib.org/en/projects/details/2021/_download/china/Guangxi-Chongzuo-Border-Connectivity-Improvement-Project_Environmental-and-Social-Impact-Assessment-Report.pdf"
+          ],
+          "verification_status": "draft",
+          "note": "Sumber merupakan laporan dampak proyek untuk area tertentu; bukan survei vitalitas nasional."
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "A Guide to Zhuangwen Transcription",
+      "url": "https://newdoc.nccu.edu.tw/teasyllabus/113721209100/Guide%20to%20Zhuangwen.pdf",
+      "scope": "Ortografi Latin resmi, dasar Wuming, enam nada suku kata terbuka dan kategori checked."
+    },
+    {
+      "title": "Cambridge — The Interaction Between Tone and Duration in Du'an Zhuang",
+      "url": "https://www.cambridge.org/core/journals/journal-of-the-international-phonetic-association/article/interaction-between-tone-and-duration-in-duan-zhuang/CB8D5D96578616262DB8CAD56B73EC73",
+      "scope": "Inventaris bunyi dan interaksi nada/durasi Du'an Zhuang."
+    },
+    {
+      "title": "How Standard Zhuang has Met with Market Forces",
+      "url": "https://www.degruyterbrill.com/document/doi/10.21832/9781800411562-011/html",
+      "scope": "Sejarah standardisasi, reformasi Zhuangwen 1982, dan tradisi Sawndip."
+    },
+    {
+      "title": "ABVD — Wuming / Yongbei Zhuang wordlist",
+      "url": "https://abvd.clld.org/austronesian/language.php/767",
+      "scope": "Kode zyb untuk Yongbei, lokasi Shuangqiao/Wuming, kontur nada dan wordlist."
+    },
+    {
+      "title": "AIIB — Guangxi Chongzuo Border Connectivity Improvement Project ESIA",
+      "url": "https://www.aiib.org/en/projects/details/2021/_download/china/Guangxi-Chongzuo-Border-Connectivity-Improvement-Project_Environmental-and-Social-Impact-Assessment-Report.pdf",
+      "scope": "Catatan pergeseran bahasa lokal pada lokasi proyek; bukan survei nasional."
+    }
+  ],
+  "indonesian_learning_design": {
+    "direction": "Zhuang (Standard Wuming focus) → Indonesian",
+    "learner_support": [
+      "Ajarkan penanda nada pada ejaan Latin Zhuangwen.",
+      "Bedakan nada dari huruf konsonan akhir yang tidak diucapkan.",
+      "Bandingkan model Wuming dengan dialek Zhuang lain tanpa menyatukannya."
+    ]
+  },
+  "verification": {
+    "status": "content_seeded_reviewed_not_native_validated",
+    "last_reviewed": "2026-11-19",
+    "notes": "Profil mengacu pedoman Zhuangwen, studi Cambridge, serta riset standardisasi. Pragmatik, slang, dan profanity masih membutuhkan sumber lokal serta validasi penutur. Kode zha adalah payung, dan Wuming/Yongbei merupakan fokus varietas."
+  }
+}
