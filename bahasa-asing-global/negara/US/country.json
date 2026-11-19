@@ -45,8 +45,8 @@
       "role": [
         "community"
       ],
-      "note": "Split into specific language profiles such as Mandarin, Yue/Cantonese, and other varieties; do not treat this umbrella label as one language.",
-      "profile_status": "planned"
+      "note": "This is a navigation umbrella, not a single language record. Split into individually identified languages such as cmn, yue, wuu, nan and hak as supported by community and region-specific research.",
+      "profile_status": "split_required"
     },
     {
       "name": "Tagalog",
@@ -74,8 +74,8 @@
       "role": [
         "community"
       ],
-      "note": "Create individual profiles for varieties when evidence and scope are established.",
-      "profile_status": "planned"
+      "note": "Arabic varieties are not one language profile. Identify individual varieties and communities (for example, Egyptian, Levantine, Iraqi or other groups) only after confirming the catalog evidence and language-code scope.",
+      "profile_status": "split_required"
     },
     {
       "name": "French",
