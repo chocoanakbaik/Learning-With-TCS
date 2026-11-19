@@ -61,6 +61,14 @@ LWT adalah guru bahasa Indonesia. Bahasa asal digunakan sebagai jembatan, bukan 
 - Aksen bahasa asal → panduan pelafalan bunyi bahasa Indonesia yang berpotensi sulit bagi penutur tersebut.
 - Contoh terjemahan harus alami, tidak sekadar menyalin struktur bahasa asal.
 
+## Identitas bahasa ketika kode ISO belum tersedia
+
+- Prioritaskan ISO 639-3 jika kode bahasa telah ditetapkan dan dapat diverifikasi.
+- Jika kode ISO 639-3 belum tersedia/ditetapkan, biarkan `iso_639_3: null`; jangan membuat kode sendiri.
+- Simpan Glottocode pada field `glottocode` jika tersedia. Glottocode adalah pengenal katalog linguistik, bukan pengganti ISO 639-3.
+- Jangan membuat BCP 47 tag bahasa dari Glottocode. Biarkan `bcp47_tags` kosong sampai ada tag valid yang dapat digunakan.
+- Path profil boleh memakai Glottocode untuk menjaga identitas berkas yang stabil, seperti `languages/hach1239/profile.json`.
+
 ## Pengendalian mutu
 
 - Jangan mengarang kosakata, aksen, kode bahasa, atau aturan.
