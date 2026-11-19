@@ -53,35 +53,41 @@ Audit entri terakhir: **165 reviewed, 71 draft, dan 0 verified**. Status reviewe
 
 ## Status pekerjaan
 
-**Selesai untuk paket inti Fase 1:**
-- Katalog negara US, JP, dan CN telah dibuat.
-- Tiga bahasa utama memiliki profil terisi pada keenam kategori.
-- Setiap entri memiliki ID, penjelasan Indonesia, hubungan ke pembelajaran bahasa Indonesia, konteks, contoh, sumber, dan status verifikasi.
-- Status profil dan tautan dari katalog negara telah diselaraskan.
-- Sumber yang tidak secara langsung mendukung lema dihapus atau diganti; rujukan pembanding dari Taiwan diberi batas geografis yang jelas.
-- Validator Python standard library ditambahkan dan diperkuat untuk memeriksa JSON, kategori, field wajib, ID unik, status, tautan sumber, dan relasi katalog.
-- Kode Hachijo tetap `null` karena belum dikonfirmasi; kode bahasa tidak ditebak.
+**Pekerjaan yang telah dilakukan:**
+- Katalog untuk tiga negara telah dibuat dan diperbarui.
+- Sepuluh profil bahasa/komunitas telah dibuat untuk Amerika Serikat.
+- Profil Japanese dan Mandarin Putonghua tetap tersedia untuk Jepang dan Tiongkok.
+- Semua 12 profil memiliki enam kategori pembelajaran LWT.
+- Katalog negara mengarah ke profil individual yang tersedia.
+- Referensi yang tidak langsung mendukung suatu lema dihapus atau ditandai draft.
+- Validator Python standard library tersedia untuk memeriksa JSON, kategori, field wajib, ID unik, status, sumber, dan hubungan katalog/profil.
+- Hachijo tetap tanpa kode ISO 639-3 sampai identifier-nya diverifikasi.
 
-## Ringkasan status entri
+## Ringkasan audit
 
-Audit data terakhir: **97 entri**, terdiri dari **63 reviewed**, **34 draft**, dan **0 verified**.
+Audit terbaru terhadap berkas GitHub menemukan:
+- **3 katalog negara**
+- **12 profil bahasa**
+- **236 entri pembelajaran**
+- **165 reviewed, 71 draft, 0 verified**
+- **236 ID unik**
+- **233 tautan sumber per entri** dan 70 tautan sumber tingkat profil
+- **0 kesalahan struktur, 0 kesalahan hubungan katalog/profil, dan 0 ID duplikat**
 
-- `reviewed` berarti entri telah diperiksa terhadap rujukan yang dicantumkan; bukan berarti sudah divalidasi penutur asli.
-- `draft` berarti sumber langsung, sebaran regional, atau konteks pemakaian belum cukup.
-- `verified` belum diberikan karena belum ada proses validasi penutur asli/ahli yang terdokumentasi untuk entri-entri tersebut.
+Status reviewed berarti entri telah diperiksa terhadap rujukan yang dicantumkan. Itu bukan klaim validasi penutur asli. Status verified belum diberikan karena proses validasi penutur asli/ahli belum terdokumentasi.
 
-Katalog yang saat ini tercatat memuat **35 record bahasa/kelompok bahasa** di tiga negara. Tiga bahasa utama telah memiliki profil; **32 record lainnya masih menunggu profil individual**. Angka ini adalah hitungan record katalog saat ini, bukan klaim bahwa semua bahasa di ketiga negara sudah terdaftar.
+Katalog berisi **35 record bahasa/kelompok bahasa**. Sebanyak 12 sudah memiliki profil. **23 record masih belum memiliki profil individual**: dua label payung di katalog US yang perlu dipecah, delapan record di Jepang, dan tiga belas record di Tiongkok. Angka tersebut adalah hitungan katalog saat ini, bukan klaim inventaris nasional lengkap.
 
-Pemeriksaan struktur terakhir menemukan nol kesalahan JSON/struktur, nol ID kosong/duplikat, dan seluruh tiga profil inti terhubung ke kode bahasa yang sesuai.
+## Pekerjaan yang masih terbuka
 
-**Masih terbuka sebelum seluruh inventaris tiga negara dapat disebut lengkap:**
-- Profil individual bahasa lain yang tercantum dalam katalog negara, termasuk bahasa komunitas, Indigenous, regional, dan minoritas.
-- Pemecahan label payung seperti Min menjadi subvarietas yang tepat.
-- Penambahan rekaman pelafalan berlisensi dan transkripsi fonetik yang ditinjau.
-- Pemeriksaan oleh penutur asli/ahli, khususnya entri berstatus `draft`.
-- Penambahan kosakata dan contoh percakapan yang bersumber dari kamus/korpus, dengan wilayah dan tahun penggunaan.
+- Memecah Chinese language groups dan Arabic varieties di katalog US menjadi bahasa/varietas yang teridentifikasi dengan benar.
+- Menambahkan profil Ainu dan bahasa/varietas Ryukyuan di Jepang; memverifikasi kode Hachijo terlebih dahulu.
+- Menambahkan profil bahasa Yue, Wu, Min secara lebih rinci, Hakka, Xiang, Gan, Jin, serta bahasa minoritas terpilih di Tiongkok.
+- Menambahkan rekaman pelafalan berlisensi, transkripsi fonetik, dan contoh percakapan dari penutur.
+- Memeriksa materi draft dan memperoleh validasi penutur asli/ahli.
+- Menambah kosakata slang dan umpatan hanya jika tersedia sumber leksikografi/korpus dan konteks komunitas yang tepat.
 
-Dengan demikian, **paket inti tiga bahasa selesai diisi**, tetapi fase tiga negara ini tidak diklaim sebagai inventaris linguistik nasional yang lengkap.
+Dengan demikian, Fase 1 sudah memiliki **paket data awal yang terstruktur dan dapat divalidasi**, tetapi belum boleh dinyatakan selesai secara linguistik. Sisa profil, inventaris regional, audio, dan tinjauan komunitas masih diperlukan.
 
 ## Catatan sumber dan batas penggunaan
 
