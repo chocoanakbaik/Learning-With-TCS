@@ -1,0 +1,285 @@
+{
+  "schema_version": "1.1.0",
+  "record_type": "language_profile",
+  "language": {
+    "name": "Hakka (Meixian focus)",
+    "native_name": "客家話 / 客家话",
+    "iso_639_3": "hak",
+    "bcp47_tags": [
+      "hak-CN"
+    ],
+    "family": "Sino-Tibetan > Sinitic > Hakka"
+  },
+  "country_context": {
+    "country_code": "CN",
+    "role": [
+      "regional",
+      "Sinitic"
+    ],
+    "note": "Kode hak mencakup Hakka varieties. This profile focuses primarily on Meixian/Kayinchu Hakka in Guangdong, with separate historical references to Sin-on and comparative phonetic data from Shataukok. Do not treat all entries as universal Hakka."
+  },
+  "categories": {
+    "accent_and_pronunciation": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "CN-HAK-ACC-001",
+          "term": "Six lexical tones in Meixian Hakka",
+          "explanation_id": "Penelitian akustik Meixian Hakka menemukan enam nada kutipan: dua nada ping (yin/yang), shang, qu, yin-ru, dan yang-ru. Kontur tepat berbeda dalam transkripsi antarpeneliti.",
+          "indonesian_learning_link": "Bahasa Indonesia tidak memakai nada leksikal seperti ini; pelajar harus mempelajari nada bersama kata dan subdialek.",
+          "region": "Meixian Hakka, Guangdong",
+          "register": "Pronunciation",
+          "usage_context": "Membedakan makna melalui nada.",
+          "example_source_language": "Yin-Ping / Yang-Ping / Shang / Qu / Yin-Ru / Yang-Ru",
+          "example_indonesian": "enam kategori nada Meixian Hakka",
+          "sources": [
+            "https://www.isca-archive.org/interspeech_2007/gu07b_interspeech.pdf",
+            "https://scholars.cityu.edu.hk/en/studentTheses/vowels-and-tones-in-mei-xian-hakka/"
+          ],
+          "verification_status": "reviewed",
+          "note": "Analisis Meixian dan Shataukok pada sumber ini menemukan enam nada; jangan generalisasi angka kontur ke seluruh Hakka."
+        },
+        {
+          "id": "CN-HAK-ACC-002",
+          "term": "Checked syllables and final stops",
+          "explanation_id": "Suku kata checked dalam Meixian Hakka dapat berakhir dengan stop tak dilepas /p, t, k/ dan memiliki durasi lebih singkat daripada suku kata terbuka.",
+          "indonesian_learning_link": "Latih penutupan suku kata tanpa menambahkan vokal akhir seperti kebiasaan mengeja ala Indonesia.",
+          "region": "Meixian Hakka",
+          "register": "Pronunciation",
+          "usage_context": "Melafalkan konsonan akhir.",
+          "example_source_language": "-p / -t / -k",
+          "example_indonesian": "konsonan akhir yang ditutup",
+          "sources": [
+            "https://www.isca-archive.org/interspeech_2007/gu07b_interspeech.pdf"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-HAK-ACC-003",
+          "term": "Voiced and voiceless initials",
+          "explanation_id": "Dalam Meixian dan sejumlah varietas Hakka, pembedaan voicing pada inisial historis berkaitan dengan register yin/yang dalam sistem nada.",
+          "indonesian_learning_link": "Ajarkan kombinasi inisial dan nada melalui audio, bukan menghafal tanda nada terpisah.",
+          "region": "Meixian and Shataukok Hakka",
+          "register": "Pronunciation",
+          "usage_context": "Membedakan konsonan awal dan nada.",
+          "example_source_language": "voiced vs voiceless initials",
+          "example_indonesian": "konsonan awal bersuara dan tak bersuara",
+          "sources": [
+            "https://www.isca-archive.org/interspeech_2007/gu07b_interspeech.pdf",
+            "https://pure.mpg.de/rest/items/item_402745_7/component/file_402744/content"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-HAK-ACC-004",
+          "term": "Tone sandhi",
+          "explanation_id": "Dalam ujaran berkelanjutan, beberapa nada Meixian Hakka berubah ketika diikuti nada tertentu; variasi terjadi sesuai urutan dan konteks fonologis.",
+          "indonesian_learning_link": "Jelaskan bahwa pelafalan kata dalam kalimat dapat berubah, seperti perubahan bunyi pada bahasa Indonesia tetapi dengan sistem berbeda.",
+          "region": "Meixian Hakka",
+          "register": "Prosody",
+          "usage_context": "Mendengar nada dalam frasa.",
+          "example_source_language": "tone sandhi patterns",
+          "example_indonesian": "pola perubahan nada",
+          "sources": [
+            "https://www.isca-archive.org/interspeech_2007/gu07b_interspeech.pdf"
+          ],
+          "verification_status": "reviewed"
+        }
+      ]
+    },
+    "speaking_style_and_pragmatics": {
+      "status": "research_required",
+      "entries": [],
+      "coverage_note": "Formula sapaan, kesopanan, dan pragmatik belum diisi untuk Meixian Hakka karena sumber yang dikurasi di sini lebih kuat pada fonologi dan leksikografi historis."
+    },
+    "standard_language": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "CN-HAK-STD-001",
+          "term": "Meixian Hakka dictionary and corpus",
+          "explanation_id": "Academia Sinica mendigitalisasi A Chinese-English Dictionary: Hakka-Dialect as Spoken in Kwang-Tung Province (1926), yang terutama merekam Kayinchu/Meixian Hakka beserta beberapa pelafalan wilayah lain.",
+          "indonesian_learning_link": "Gunakan kamus untuk menelusuri lema dan makna dengan menyebut tahun, daerah, dan batas sejarah sumbernya.",
+          "region": "Meixian / Kayinchu Hakka; historis 1926",
+          "register": "Lexicography",
+          "usage_context": "Menelusuri kosakata historis.",
+          "example_source_language": "A Chinese-English Dictionary: Hakka-Dialect as Spoken in Kwang-Tung Province",
+          "example_indonesian": "Kamus Hakka-Inggris dialek Guangdong",
+          "sources": [
+            "https://minhakka2.ling.sinica.edu.tw/hakka_info_en/"
+          ],
+          "verification_status": "reviewed",
+          "note": "Kamus merupakan dokumentasi historis, bukan gambaran lengkap percakapan kontemporer."
+        },
+        {
+          "id": "CN-HAK-STD-002",
+          "term": "Hakka grammatical and lexical documentation",
+          "explanation_id": "Kumpulan grammar dan lexicon Hakka dari Basel Mission mencakup bahan historis Sin-on Hakka sekitar wilayah Hong Kong/Guangdong; sumber mengidentifikasi lokasi dan sejarah manuskrip.",
+          "indonesian_learning_link": "Jangan menggabungkan bukti Sin-on dengan Meixian tanpa mencatat varietas sumber.",
+          "region": "Sin-on Hakka; Guangdong/Hong Kong historical records",
+          "register": "Grammar / lexicography",
+          "usage_context": "Membaca catatan grammar dan kosakata.",
+          "example_source_language": "Kleine Hakka-Grammatik",
+          "example_indonesian": "gramatika Hakka historis",
+          "sources": [
+            "https://crlao.cnrs.fr/publications/collection-des-cahiers-de-linguistique-asie-orientale/a-grammar-and-lexicon-of-hakka-historical-materials-from-the-basel-mission-library/"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-HAK-STD-003",
+          "term": "Hakka phonemic inventory varies by variety",
+          "explanation_id": "Inventaris bunyi Hakka mencakup stop aspirasi/tak aspirasi, nasal, frikatif, serta final nasal dan stop; inventaris rinci harus ditautkan ke subdialek penelitian.",
+          "indonesian_learning_link": "Gunakan IPA dan nama subdialek saat mengajarkan pelafalan, bukan satu inventaris untuk seluruh Hakka.",
+          "region": "Hakka; inventaris dari sumber yang didokumentasikan",
+          "register": "Phonology reference",
+          "usage_context": "Mengenali bunyi dan struktur suku kata.",
+          "example_source_language": "p / pʰ / t / tʰ / k / kʰ",
+          "example_indonesian": "konsonan stop tak beraspirasi dan beraspirasi",
+          "sources": [
+            "https://pure.mpg.de/rest/items/item_402745_7/component/file_402744/content"
+          ],
+          "verification_status": "draft",
+          "note": "Sumber inventaris fonem menggunakan data varietas spesifik; perlu menambahkan subdialek sumber secara eksplisit pada implementasi."
+        },
+        {
+          "id": "CN-HAK-STD-004",
+          "term": "Hakka romanization and dictionary notation",
+          "explanation_id": "Rujukan kamus lama menggunakan sistem transkripsi yang berbeda dari pinyin Mandarin; sejumlah tradisi menandai nada dengan angka atau diakritik.",
+          "indonesian_learning_link": "Jangan mengonversi semua ejaan Hakka ke pinyin Mandarin; simpan skema romanisasi dan sumber aslinya.",
+          "region": "Meixian Hakka and other documented varieties",
+          "register": "Transcription",
+          "usage_context": "Membaca bentuk romanisasi.",
+          "example_source_language": "Hakka tone-marked romanization",
+          "example_indonesian": "romanisasi Hakka bertanda nada",
+          "sources": [
+            "https://minhakka2.ling.sinica.edu.tw/hakka_info_en/",
+            "https://www.isca-archive.org/interspeech_2007/gu07b_interspeech.pdf"
+          ],
+          "verification_status": "reviewed",
+          "note": "Setiap dataset harus menyimpan nama skema romanisasi dan dialek; tidak ada satu romanisasi universal untuk seluruh Hakka."
+        }
+      ]
+    },
+    "nonstandard_language_and_slang": {
+      "status": "research_required",
+      "entries": [],
+      "coverage_note": "Slang modern tidak diisi dari kamus historis 1926. Dibutuhkan sumber percakapan kontemporer dan pelabelan subdialek serta generasi."
+    },
+    "profanity_and_vulgar_language": {
+      "status": "community_review_required",
+      "entries": [],
+      "coverage_note": "Umpatan belum dimasukkan karena sumber leksikografi yang dikurasi belum cukup mendukung arti, intensitas, serta penggunaan kontemporer Meixian Hakka."
+    },
+    "regional_and_minority_languages": {
+      "status": "cross_reference_country_catalog",
+      "entries": [
+        {
+          "id": "CN-HAK-REG-001",
+          "term": "Hakka / Kejia",
+          "explanation_id": "Hakka (Kejia) merupakan cabang Sinitik yang digunakan di sejumlah wilayah Guangdong, Fujian, Jiangxi, Guangxi dan komunitas diaspora; kelompok ini memiliki ragam internal.",
+          "indonesian_learning_link": "Pilih hak sebagai identitas bahasa tingkat payung, lalu tambahkan subdialek sebagai metadata.",
+          "region": "Guangdong, Fujian, Jiangxi, Guangxi and diaspora",
+          "register": "Sinitic language",
+          "usage_context": "Menentukan bahasa sumber.",
+          "example_source_language": "客家話 / 客家话",
+          "example_indonesian": "bahasa Hakka",
+          "sources": [
+            "https://asjp.clld.org/languages/HAKKA"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-HAK-REG-002",
+          "term": "Meixian / Kayinchu Hakka",
+          "explanation_id": "Kamus historis Academia Sinica menyatakan aksen Kayinchu, kini Meizhou/Meixian, menjadi dasar pelafalan utama kamus 1926.",
+          "indonesian_learning_link": "Tandai entri dan contoh sebagai Meixian; jangan mewakili seluruh dialek Hakka.",
+          "region": "Meizhou / Meixian, Guangdong",
+          "register": "Regional variety",
+          "usage_context": "Menentukan lokasi lema.",
+          "example_source_language": "Kayinchu / Meixian Hakka",
+          "example_indonesian": "Hakka Kayinchu / Meixian",
+          "sources": [
+            "https://minhakka2.ling.sinica.edu.tw/hakka_info_en/"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-HAK-REG-003",
+          "term": "Sin-on Hakka",
+          "explanation_id": "Grammar dan leksikon Basel Mission menggambarkan Sin-on Hakka yang digunakan di area Hong Kong sekitar abad ke-19/awal abad ke-20; bukan sinonim Meixian.",
+          "indonesian_learning_link": "Pisahkan arsip historis Sin-on dari profil Meixian kontemporer.",
+          "region": "Sin-on / Xin'an historical Hakka",
+          "register": "Historical regional variety",
+          "usage_context": "Menandai asal data lama.",
+          "example_source_language": "Sin-on Hakka",
+          "example_indonesian": "Hakka Sin-on",
+          "sources": [
+            "https://crlao.cnrs.fr/publications/collection-des-cahiers-de-linguistique-asie-orientale/a-grammar-and-lexicon-of-hakka-historical-materials-from-the-basel-mission-library/"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-HAK-REG-004",
+          "term": "Meixian and Shataukok tone varieties",
+          "explanation_id": "Penelitian tone komparatif memeriksa Meixian dan Shataukok secara terpisah; keduanya mempertahankan enam kategori nada dengan perbedaan nilai F0 dan detail kontur.",
+          "indonesian_learning_link": "Jangan memindahkan nomor/kontur nada dari satu subdialek ke yang lain tanpa pemeriksaan.",
+          "region": "Meixian, Shataukok and other Hakka sites",
+          "register": "Regional varieties",
+          "usage_context": "Membandingkan sistem nada.",
+          "example_source_language": "Meixian / Shataukok",
+          "example_indonesian": "varietas Meixian / Shataukok",
+          "sources": [
+            "https://www.isca-archive.org/interspeech_2007/gu07b_interspeech.pdf"
+          ],
+          "verification_status": "reviewed"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "Academia Sinica — Min and Hakka Dictionary and Literature Corpus",
+      "url": "https://minhakka2.ling.sinica.edu.tw/hakka_info_en/",
+      "scope": "Digital Hakka dictionary and corpus derived from the 1926 Guangdong Hakka dictionary; its Kayinchu/Meixian base and historical scope are documented."
+    },
+    {
+      "title": "Gu, Ho & Lee — Modeling Tones in Hakka",
+      "url": "https://www.isca-archive.org/interspeech_2007/gu07b_interspeech.pdf",
+      "scope": "Six lexical tones, checked syllables, voicing registers and tone sandhi in Meixian and Shataukok varieties."
+    },
+    {
+      "title": "Cheung — Vowels and Tones in Mei Xian Hakka",
+      "url": "https://scholars.cityu.edu.hk/en/studentTheses/vowels-and-tones-in-mei-xian-hakka/",
+      "scope": "Acoustic and perceptual study of six citation tones and vowel system."
+    },
+    {
+      "title": "Chappell & Lamarre — A Grammar and Lexicon of Hakka",
+      "url": "https://crlao.cnrs.fr/publications/collection-des-cahiers-de-linguistique-asie-orientale/a-grammar-and-lexicon-of-hakka-historical-materials-from-the-basel-mission-library/",
+      "scope": "Historical Sin-on Hakka grammar and lexicon from the Basel Mission Library."
+    },
+    {
+      "title": "Hakka phonemic inventory",
+      "url": "https://pure.mpg.de/rest/items/item_402745_7/component/file_402744/content",
+      "scope": "Consonant and vowel inventory from a specific documented Hakka data set."
+    },
+    {
+      "title": "ASJP Database — Hakka",
+      "url": "https://asjp.clld.org/languages/HAKKA",
+      "scope": "ISO 639-3 hak, classification, region and bibliography."
+    }
+  ],
+  "indonesian_learning_design": {
+    "direction": "Hakka (Meixian focus) → Indonesian",
+    "learner_support": [
+      "Ajarkan nada dan konsonan akhir melalui audio subdialek yang dinyatakan.",
+      "Bandingkan struktur suku kata Hakka dengan ejaan dan pelafalan bahasa Indonesia.",
+      "Jelaskan hubungan bahasa sumber dan ragam regional sebelum memberi padanan Indonesian."
+    ]
+  },
+  "verification": {
+    "status": "content_seeded_reviewed_not_native_validated",
+    "last_reviewed": "2026-11-19",
+    "notes": "Fonologi dan tone merujuk studi Meixian/Shataukok; kamus 1926 dan grammar historis ditandai batas daerah dan waktu. Pragmatik, slang, profanity belum diisi tanpa sumber kontemporer dan validasi penutur."
+  }
+}
