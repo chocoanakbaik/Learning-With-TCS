@@ -1,0 +1,312 @@
+{
+  "schema_version": "1.1.0",
+  "record_type": "language_profile",
+  "language": {
+    "name": "Yonaguni (Dunan)",
+    "native_name": "どぅなんむぬい / Dunan munui",
+    "iso_639_3": "yoi",
+    "bcp47_tags": [
+      "yoi-JP"
+    ],
+    "family": "Japonic > Ryukyuan > Southern Ryukyuan > Macro-Yaeyama"
+  },
+  "country_context": {
+    "country_code": "JP",
+    "role": [
+      "regional",
+      "Ryukyuan",
+      "endangered"
+    ],
+    "note": "Profil ini berfokus pada Dunan/Yonaguni di Yonaguni Island. Sonai dan Higawa adalah lokasi dialek yang dijelaskan sebagai saling dapat dipahami dalam grammar 2015; variasi lokal tetap harus dicatat."
+  },
+  "categories": {
+    "accent_and_pronunciation": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "JP-YOI-ACC-001",
+          "term": "Three-vowel phonemic system",
+          "explanation_id": "Dunan memiliki tiga vokal utama /a, i, u/. Analisis grammar juga membahas kemungkinan vokal /o/ dengan distribusi terbatas, terutama dalam sejumlah interjeksi atau partikel.",
+          "indonesian_learning_link": "Jangan membaca Dunan dengan asumsi sistem lima vokal Japanese; pelajar perlu mendengar audio dan mengikuti ortografi khusus Dunan.",
+          "region": "Yonaguni Island; Dunan",
+          "register": "Pronunciation",
+          "usage_context": "Mengenali sistem vokal.",
+          "example_source_language": "/a, i, u/",
+          "example_indonesian": "tiga vokal utama",
+          "sources": [
+            "https://altaica.ru/LIBRARY/JAPANESE/Yamada_Pellard_Shimoji_2015_Dunan_grammar.pdf"
+          ],
+          "verification_status": "reviewed",
+          "note": "Status fonem /o/ dibahas sebagai kemungkinan terbatas; jangan mengajarkannya sebagai vokal produktif universal."
+        },
+        {
+          "id": "JP-YOI-ACC-002",
+          "term": "Fortis, lenis and voiced stop contrast",
+          "explanation_id": "Dunan membedakan seri stop fortis, lenis, dan bersuara. Ortografi praktis menggunakan konvensi seperti huruf ganda atau digraf tertentu untuk membedakan seri bunyi.",
+          "indonesian_learning_link": "Bahasa Indonesia tidak memiliki kontras yang persis sama; ajarkan melalui audio dan posisi artikulasi, bukan romanisasi saja.",
+          "region": "Dunan; ortografi praktis Yamada, Pellard dan Shimoji",
+          "register": "Pronunciation",
+          "usage_context": "Mengenali seri konsonan letup.",
+          "example_source_language": "fortis / lenis / voiced stops",
+          "example_indonesian": "konsonan letup fortis / lenis / bersuara",
+          "sources": [
+            "https://altaica.ru/LIBRARY/JAPANESE/Yamada_Pellard_Shimoji_2015_Dunan_grammar.pdf"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "JP-YOI-ACC-003",
+          "term": "Three-way word tone",
+          "explanation_id": "Dunan memiliki tiga jenis nada kata: tinggi, rendah, dan turun. Nada merupakan bagian dari bentuk kata dan tidak sama dengan intonasi emosional kalimat.",
+          "indonesian_learning_link": "Bandingkan dengan bahasa Indonesia yang tidak memiliki sistem nada leksikal seperti ini.",
+          "region": "Dunan; deskripsi nada kata",
+          "register": "Lexical tone / prosody",
+          "usage_context": "Mengenali kata berdasarkan nada.",
+          "example_source_language": "ná / khì / wâ",
+          "example_indonesian": "contoh kata dengan nada tinggi / rendah / turun",
+          "sources": [
+            "https://altaica.ru/LIBRARY/JAPANESE/Yamada_Pellard_Shimoji_2015_Dunan_grammar.pdf"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "JP-YOI-ACC-004",
+          "term": "Mora and syllable weight",
+          "explanation_id": "Dunan mengatur berat suku kata dan mora. Kata monosilabis tertentu mengalami pemanjangan vokal ketika berdiri tanpa klitik.",
+          "indonesian_learning_link": "Jangan menafsirkan pemanjangan sebagai penekanan emosi secara otomatis.",
+          "region": "Dunan",
+          "register": "Prosody",
+          "usage_context": "Mendengar durasi kata.",
+          "example_source_language": "word-final vowel lengthening",
+          "example_indonesian": "pemanjangan vokal pada posisi akhir",
+          "sources": [
+            "https://altaica.ru/LIBRARY/JAPANESE/Yamada_Pellard_Shimoji_2015_Dunan_grammar.pdf"
+          ],
+          "verification_status": "reviewed"
+        }
+      ]
+    },
+    "speaking_style_and_pragmatics": {
+      "status": "research_required",
+      "entries": [
+        {
+          "id": "JP-YOI-PRAG-001",
+          "term": "Interjection di",
+          "explanation_id": "Grammar Dunan mencatat di sebagai interjeksi yang dapat berfungsi sebagai seruan atau panggilan perhatian, diterjemahkan dalam sumber sebagai “hey”.",
+          "indonesian_learning_link": "Padanan Indonesia dapat berupa “hei” atau “eh”; pemakaian harus diperiksa menurut lawan bicara dan situasi.",
+          "region": "Dunan; catatan gramatikal",
+          "register": "Interjection",
+          "usage_context": "Memanggil perhatian atau berseru.",
+          "example_source_language": "di",
+          "example_indonesian": "hei / eh",
+          "sources": [
+            "https://altaica.ru/LIBRARY/JAPANESE/Yamada_Pellard_Shimoji_2015_Dunan_grammar.pdf"
+          ],
+          "verification_status": "draft",
+          "note": "Fungsi dasar tercatat dalam grammar; distribusi sosial, tingkat kesopanan, dan penggunaan aktual belum dikaji dalam profil ini."
+        }
+      ],
+      "coverage_note": "Pragmatik percakapan belum dipetakan. Jangan mengisi sapaan atau tingkat kesopanan dengan menerjemahkan langsung dari Japanese."
+    },
+    "standard_language": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "JP-YOI-STD-001",
+          "term": "Dunan word classes",
+          "explanation_id": "Grammar membedakan nomina, verba (termasuk kata sifat statif), adverbia, penanda peran, adnomina, konjungsi, dan interjeksi.",
+          "indonesian_learning_link": "Gunakan kelas kata sebagai panduan memahami susunan bahasa Indonesia, bukan menyalin kategori Japanese.",
+          "region": "Dunan",
+          "register": "Grammar",
+          "usage_context": "Mengenali fungsi kata.",
+          "example_source_language": "noun / verb / stative verb / role marker",
+          "example_indonesian": "nomina / verba / verba statif / penanda peran",
+          "sources": [
+            "https://altaica.ru/LIBRARY/JAPANESE/Yamada_Pellard_Shimoji_2015_Dunan_grammar.pdf"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "JP-YOI-STD-002",
+          "term": "Associative plural suffix -nta",
+          "explanation_id": "Sufiks -nta dapat menandai plural asosiatif atau kolektif; nomina Dunan sering netral jumlah tanpa penanda khusus.",
+          "indonesian_learning_link": "Bandingkan dengan bahasa Indonesia yang memakai reduplikasi atau kata seperti “para” dan “kelompok”.",
+          "region": "Dunan",
+          "register": "Morphology",
+          "usage_context": "Menandai kelompok atau plural.",
+          "example_source_language": "Tharu-nta; inu-nta",
+          "example_indonesian": "Taro dan yang lain; kelompok anjing",
+          "sources": [
+            "https://altaica.ru/LIBRARY/JAPANESE/Yamada_Pellard_Shimoji_2015_Dunan_grammar.pdf"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "JP-YOI-STD-003",
+          "term": "Diminutive suffix -ti",
+          "explanation_id": "Sufiks -ti dapat menyatakan kecil, muda, atau kedekatan/afeksi pada nomina.",
+          "indonesian_learning_link": "Padanan Indonesia bergantung konteks: “kecil”, “anak”, atau bentuk panggilan sayang.",
+          "region": "Dunan",
+          "register": "Morphology",
+          "usage_context": "Membentuk nomina diminutif.",
+          "example_source_language": "agami-ti; inu-ti",
+          "example_indonesian": "anak kecil; anak anjing",
+          "sources": [
+            "https://altaica.ru/LIBRARY/JAPANESE/Yamada_Pellard_Shimoji_2015_Dunan_grammar.pdf"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "JP-YOI-STD-004",
+          "term": "Verb tense and mood suffixes",
+          "explanation_id": "Grammar mencatat akhiran untuk present, indicative, past, perfect, imperative, conditional, dan larangan, dengan pola konjugasi tertentu.",
+          "indonesian_learning_link": "Bahasa Indonesia tidak menandai kala melalui sufiks verba Dunan; terjemahkan kala, aspek, dan modus menurut konteks.",
+          "region": "Dunan",
+          "register": "Grammar / morphology",
+          "usage_context": "Membaca bentuk verba.",
+          "example_source_language": "-u / -un / -tan / -an",
+          "example_indonesian": "penanda verba present / indicative / past / perfect",
+          "sources": [
+            "https://altaica.ru/LIBRARY/JAPANESE/Yamada_Pellard_Shimoji_2015_Dunan_grammar.pdf"
+          ],
+          "verification_status": "reviewed",
+          "note": "Daftar sufiks merangkum grammar 2015; setiap bentuk perlu dipelajari dalam paradigma lengkap."
+        },
+        {
+          "id": "JP-YOI-STD-005",
+          "term": "Orthographic tone marks",
+          "explanation_id": "Ortografi praktis grammar menggunakan aksen akut, grave, dan circumflex untuk menandai nada tinggi, rendah, dan turun.",
+          "indonesian_learning_link": "Pertahankan diakritik dalam materi; jangan menghapusnya saat mengonversi teks.",
+          "region": "Dunan; ortografi praktis akademik",
+          "register": "Orthography",
+          "usage_context": "Membaca nada leksikal.",
+          "example_source_language": "ná / khì / wâ",
+          "example_indonesian": "contoh kata dengan nada tinggi / rendah / turun",
+          "sources": [
+            "https://altaica.ru/LIBRARY/JAPANESE/Yamada_Pellard_Shimoji_2015_Dunan_grammar.pdf"
+          ],
+          "verification_status": "reviewed"
+        }
+      ]
+    },
+    "nonstandard_language_and_slang": {
+      "status": "community_research_required",
+      "entries": [],
+      "coverage_note": "Slang kontemporer tidak ditambahkan. Sumber yang tersedia terutama grammar dan teks dokumentasi; perlu data tutur modern dari penutur dan lokasi."
+    },
+    "profanity_and_vulgar_language": {
+      "status": "community_review_required",
+      "entries": [],
+      "coverage_note": "Umpatan belum ditambahkan karena belum tersedia inventaris leksikografi langsung dengan konteks komunitas yang cukup."
+    },
+    "regional_and_minority_languages": {
+      "status": "cross_reference_country_catalog",
+      "entries": [
+        {
+          "id": "JP-YOI-REG-001",
+          "term": "Dunan / Yonaguni Ryukyuan",
+          "explanation_id": "Dunan adalah bahasa Ryukyuan di Pulau Yonaguni, bagian barat Jepang; ISO 639-3 yang digunakan adalah yoi.",
+          "indonesian_learning_link": "Pilih Dunan sebagai bahasa asal tersendiri, bukan sebagai aksen Japanese atau Yaeyama.",
+          "region": "Yonaguni Island, Okinawa Prefecture",
+          "register": "Southern Ryukyuan language",
+          "usage_context": "Memilih bahasa sumber yang benar.",
+          "example_source_language": "Dunan munui",
+          "example_indonesian": "bahasa Dunan",
+          "sources": [
+            "https://altaica.ru/LIBRARY/JAPANESE/Yamada_Pellard_Shimoji_2015_Dunan_grammar.pdf",
+            "https://elcat.colo.hawaii.edu/lang/3170"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "JP-YOI-REG-002",
+          "term": "Sonai and Higawa dialects",
+          "explanation_id": "Grammar 2015 menyatakan dialek Sonai dan Higawa saling dapat dipahami dan menunjukkan sedikit variasi dalam data yang dirujuk.",
+          "indonesian_learning_link": "Simpan nama desa pada setiap rekaman; temuan ini tidak berarti semua ujaran di pulau identik.",
+          "region": "Sonai and Higawa, Yonaguni Island",
+          "register": "Local dialects",
+          "usage_context": "Menandai asal penutur.",
+          "example_source_language": "Sonai / Higawa",
+          "example_indonesian": "dua ragam lokal Dunan",
+          "sources": [
+            "https://altaica.ru/LIBRARY/JAPANESE/Yamada_Pellard_Shimoji_2015_Dunan_grammar.pdf"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "JP-YOI-REG-003",
+          "term": "Dunan differs from Yaeyama",
+          "explanation_id": "Dunan diklasifikasikan sebagai bahasa tersendiri dalam dokumentasi Ryukyuan; kedekatan genealogis dengan Yaeyama tidak menjadikan keduanya dialek yang sama.",
+          "indonesian_learning_link": "Gunakan profil terpisah dan jangan memindahkan kosakata Yaeyama ke Dunan.",
+          "region": "Yonaguni vs Yaeyama Islands",
+          "register": "Language distinction",
+          "usage_context": "Membedakan bahasa kerabat.",
+          "example_source_language": "Dunan ≠ Yaeyama",
+          "example_indonesian": "Dunan bukan Yaeyama",
+          "sources": [
+            "https://altaica.ru/LIBRARY/JAPANESE/Yamada_Pellard_Shimoji_2015_Dunan_grammar.pdf",
+            "https://asjp.clld.org/languages/YONAGUNI"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "JP-YOI-REG-004",
+          "term": "Intergenerational language shift",
+          "explanation_id": "Kajian 2015 mencatat gangguan transmisi antargenerasi dan penutur Dunan dalam sampel lapangan yang umumnya lebih tua; status vitalitas perlu dibaca dengan tanggal sumber.",
+          "indonesian_learning_link": "Jangan mengubah statistik historis menjadi angka populasi terkini tanpa survei terbaru.",
+          "region": "Yonaguni Island",
+          "register": "Endangerment / sociolinguistics",
+          "usage_context": "Memahami status dokumentasi.",
+          "example_source_language": "Dunan speakers and transmission",
+          "example_indonesian": "penutur dan transmisi bahasa Dunan",
+          "sources": [
+            "https://altaica.ru/LIBRARY/JAPANESE/Yamada_Pellard_Shimoji_2015_Dunan_grammar.pdf",
+            "https://elcat.colo.hawaii.edu/lang/3170"
+          ],
+          "verification_status": "reviewed",
+          "note": "Temuan historis bukan sensus terkini."
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "Yamada, Pellard & Shimoji (2015) — Dunan Grammar (Yonaguni Ryukyuan)",
+      "url": "https://altaica.ru/LIBRARY/JAPANESE/Yamada_Pellard_Shimoji_2015_Dunan_grammar.pdf",
+      "scope": "Geografi, dialek, fonologi, nada, morfologi, kelas kata, sufiks dan contoh."
+    },
+    {
+      "title": "Endangered Languages Project — Dunan",
+      "url": "https://elcat.colo.hawaii.edu/lang/3170",
+      "scope": "ISO 639-3 yoi, klasifikasi, status keterancaman, dan sumber bibliografi."
+    },
+    {
+      "title": "JLect — Yonaguni resources",
+      "url": "https://www.jlect.com/resources.php",
+      "scope": "Bibliografi grammar, aksen verba, fonologi, morfologi, dan teks alami."
+    },
+    {
+      "title": "ASJP Database — Yonaguni",
+      "url": "https://asjp.clld.org/languages/YONAGUNI",
+      "scope": "Wordlist dan klasifikasi Yonaguni."
+    },
+    {
+      "title": "JMIC — An Illustrated Cosmology of Yonaguni Island",
+      "url": "https://doi.org/10.21463/jmic.2023.12.3.06",
+      "scope": "Budaya dan dokumentasi Dunan, serta ringkasan inventaris bunyi."
+    }
+  ],
+  "indonesian_learning_design": {
+    "direction": "Dunan (Yonaguni) → Indonesian",
+    "learner_support": [
+      "Ajarkan nada tinggi, rendah, dan turun sebagai bagian dari kata.",
+      "Bandingkan sufiks Dunan dengan pilihan kata dan struktur Indonesia.",
+      "Gunakan contoh dengan diakritik serta glos yang mempertahankan makna dan struktur."
+    ]
+  },
+  "verification": {
+    "status": "content_seeded_reviewed_not_native_validated",
+    "last_reviewed": "2026-11-19",
+    "notes": "Profil memiliki sumber grammar deskriptif 2015. Status keterancaman dan transmisi antargenerasi merupakan temuan historis. Slang, umpatan dan pragmatik sosial belum diisi tanpa sumber langsung dan validasi penutur."
+  }
+}
