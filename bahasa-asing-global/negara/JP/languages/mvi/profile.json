@@ -1,0 +1,252 @@
+{
+  "schema_version": "1.1.0",
+  "record_type": "language_profile",
+  "language": {
+    "name": "Miyako Ryukyuan",
+    "native_name": "ミャークフツ / Miyāku-futsu (local names vary)",
+    "iso_639_3": "mvi",
+    "bcp47_tags": [
+      "mvi-JP"
+    ],
+    "family": "Japonic > Ryukyuan > Southern Ryukyuan"
+  },
+  "country_context": {
+    "country_code": "JP",
+    "role": [
+      "regional",
+      "Ryukyuan",
+      "endangered"
+    ],
+    "note": "Profil ini mencakup bahasa Miyako dan menautkan contoh berbasis lokasi. Ikema, Tarama, Hisamatsu, Taira, Irabu, dan ragam lokal lainnya tidak boleh digabung tanpa metadata dialek."
+  },
+  "categories": {
+    "accent_and_pronunciation": {
+      "status": "research_required",
+      "entries": [
+        {
+          "id": "JP-MVI-ACC-001",
+          "term": "Dialect-labelled audio pronunciation",
+          "explanation_id": "Kamus Ikema dan basis data audio NINJAL menyediakan rekaman lema dan contoh kalimat dari dialek Ikema; pelafalan harus mengikuti lokasi rekaman.",
+          "indonesian_learning_link": "Bandingkan bunyi bahasa Indonesia dengan audio penutur, bukan dengan ejaan Japanese atau romanisasi umum.",
+          "region": "Ikema, Miyako Island",
+          "register": "Pronunciation / dialect-specific",
+          "usage_context": "Mendengar pelafalan lema dan kalimat.",
+          "example_source_language": "Ikema headword audio",
+          "example_indonesian": "audio lema dialek Ikema",
+          "sources": [
+            "https://mmsrv.ninjal.ac.jp/ikema/en/index.html",
+            "https://cir.nii.ac.jp/crid/1460589221486214016"
+          ],
+          "verification_status": "reviewed",
+          "note": "Ikema adalah satu ragam Miyako; audio tidak otomatis mewakili seluruh bahasa Miyako."
+        },
+        {
+          "id": "JP-MVI-ACC-002",
+          "term": "Local phonological variation across Miyako",
+          "explanation_id": "Dokumentasi linguistik Miyako memakai rekaman, daftar kata, dan contoh per lokasi; pola bunyi harus dibaca dengan label dialek.",
+          "indonesian_learning_link": "Ajarkan bahwa satu label bahasa dapat menyimpan variasi antarpulau dan desa.",
+          "region": "Ikema, Hisamatsu, Tarama, Taira, Irabu",
+          "register": "Regional phonology",
+          "usage_context": "Membandingkan model audio.",
+          "example_source_language": "Miyako dialect sound data",
+          "example_indonesian": "data bunyi dialek Miyako",
+          "sources": [
+            "https://mmsrv.ninjal.ac.jp/ikema/en/index.html",
+            "https://odjl.net/",
+            "https://libguides.gwu.edu/okinawa/languages"
+          ],
+          "verification_status": "draft",
+          "note": "Belum ada tabel perbandingan fonem antar-dialek yang dikurasi dalam profil ini."
+        }
+      ]
+    },
+    "speaking_style_and_pragmatics": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "JP-MVI-PRAG-001",
+          "term": "tandigaa tandi",
+          "explanation_id": "Bahan pengantar Okinawan membandingkan ungkapan terima kasih: bentuk yang dicatat untuk Miyako adalah tandigaa tandi, berbeda dari Shuri Okinawan nifee deebiru.",
+          "indonesian_learning_link": "Padanan Indonesianya ‘terima kasih’; ajarkan sebagai bentuk pembanding yang harus dikaitkan dengan dialek sumber.",
+          "region": "Miyako; dialek tidak dirinci dalam bahan pengantar",
+          "register": "Polite / appreciative",
+          "usage_context": "Mengucapkan terima kasih.",
+          "example_source_language": "tandigaa tandi",
+          "example_indonesian": "terima kasih",
+          "sources": [
+            "https://u-ryukyu.repo.nii.ac.jp/record/2017798/files/All%20About%20Okinawan%202nd%20Edition%202021.pdf"
+          ],
+          "verification_status": "draft",
+          "note": "Sumber pengantar tidak menyebut pulau/dialek spesifik; wajib dikonfirmasi dengan penutur sebelum dipakai untuk pelajaran dialek tertentu."
+        }
+      ]
+    },
+    "standard_language": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "JP-MVI-STD-001",
+          "term": "Ikema dictionary datasets",
+          "explanation_id": "NINJAL menyediakan Dictionary of Ikema beserta data teks dan audio lema serta contoh kalimat; dataset ini berguna sebagai referensi belajar dialek Ikema.",
+          "indonesian_learning_link": "Materi Indonesia perlu mengutip lema beserta label dialek, audio, contoh, dan lisensi dataset.",
+          "region": "Ikema, Miyako Island",
+          "register": "Lexicography / learning resource",
+          "usage_context": "Menelusuri lema dan contoh kalimat.",
+          "example_source_language": "Dictionary of Ikema",
+          "example_indonesian": "Kamus Ikema",
+          "sources": [
+            "https://mmsrv.ninjal.ac.jp/ikema/en/index.html"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "JP-MVI-STD-002",
+          "term": "Ikema audio database license",
+          "explanation_id": "Basis data audio kepala lema dan contoh kalimat Ikema tersedia dengan lisensi CC BY-SA 4.0; atribusi dan ketentuan berbagi serupa wajib dijaga saat digunakan ulang.",
+          "indonesian_learning_link": "Jika membuat audio flashcard Indonesia, cantumkan atribusi sumber dan lisensi sebagaimana metadata repositori.",
+          "region": "Ikema dialect",
+          "register": "Documentation / licensing",
+          "usage_context": "Memakai audio sumber dalam materi belajar.",
+          "example_source_language": "Ikema lexical and example-sentence audio",
+          "example_indonesian": "audio kosakata dan contoh Ikema",
+          "sources": [
+            "https://cir.nii.ac.jp/crid/1460589221486214016"
+          ],
+          "verification_status": "reviewed",
+          "note": "Entri ini menjelaskan status sumber; bukan klaim bahwa seluruh data Miyako tersedia dengan lisensi yang sama."
+        },
+        {
+          "id": "JP-MVI-STD-003",
+          "term": "Tarama Miyako dictionary",
+          "explanation_id": "Panduan riset GWU mencatat kamus khusus dialek Tarama Miyako; Tarama perlu dibedakan dari Ikema dan dialek lain.",
+          "indonesian_learning_link": "Simpan data Tarama di profil/dialek tersendiri dan jangan campur contoh dengan Ikema.",
+          "region": "Tarama Island",
+          "register": "Lexicography / regional variety",
+          "usage_context": "Memilih rujukan leksikal Tarama.",
+          "example_source_language": "Tarama dialect dictionary",
+          "example_indonesian": "kamus dialek Tarama",
+          "sources": [
+            "https://libguides.gwu.edu/okinawa/languages"
+          ],
+          "verification_status": "reviewed"
+        }
+      ]
+    },
+    "nonstandard_language_and_slang": {
+      "status": "community_research_required",
+      "entries": [],
+      "coverage_note": "Slang modern belum dimasukkan. Butuh data penggunaan per pulau, kelompok usia, dan komunitas."
+    },
+    "profanity_and_vulgar_language": {
+      "status": "community_review_required",
+      "entries": [],
+      "coverage_note": "Umpatan belum dimasukkan tanpa sumber leksikografi serta peninjauan penutur Miyako."
+    },
+    "regional_and_minority_languages": {
+      "status": "cross_reference_country_catalog",
+      "entries": [
+        {
+          "id": "JP-MVI-REG-001",
+          "term": "Miyako Ryukyuan",
+          "explanation_id": "Miyako termasuk Southern Ryukyuan; penamaan bahasa dan dialek dapat berbeda menurut pulau dan komunitas.",
+          "indonesian_learning_link": "Pilih bahasa asal Miyako dan lanjutkan ke ragam lokal sebelum mengajarkan kosakata.",
+          "region": "Miyako Islands",
+          "register": "Southern Ryukyuan language",
+          "usage_context": "Mengenali kelompok bahasa regional.",
+          "example_source_language": "Miyako Ryukyuan",
+          "example_indonesian": "bahasa Miyako",
+          "sources": [
+            "https://mmsrv.ninjal.ac.jp/ikema/en/index.html",
+            "https://u-ryukyu.repo.nii.ac.jp/record/2017798/files/All%20About%20Okinawan%202nd%20Edition%202021.pdf"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "JP-MVI-REG-002",
+          "term": "Ikema dialect",
+          "explanation_id": "NINJAL mendefinisikan dataset Ikema sebagai satu varietas Miyako Ryukyuan dan menyediakan kamus, teks, serta audio.",
+          "indonesian_learning_link": "Tag seluruh entri Ikema sebagai Ikema, tidak sebagai kata universal seluruh Miyako.",
+          "region": "Ikema Island / Ikema community",
+          "register": "Regional dialect",
+          "usage_context": "Menandai sumber audio.",
+          "example_source_language": "Ikema dialect",
+          "example_indonesian": "dialek Ikema",
+          "sources": [
+            "https://mmsrv.ninjal.ac.jp/ikema/en/index.html"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "JP-MVI-REG-003",
+          "term": "Hisamatsu and Taira data points",
+          "explanation_id": "ODJL melaporkan data baru dari Hisamatsu dan Taira di Miyako pada pembaruan 2026; titik data lokal ini mendukung pengembangan subprofil.",
+          "indonesian_learning_link": "Catat lokasi pengumpulan dan penutur sebelum menggabungkan data leksikal.",
+          "region": "Hisamatsu and Taira, Miyako Island",
+          "register": "Local varieties",
+          "usage_context": "Menavigasi dokumentasi berbasis lokasi.",
+          "example_source_language": "Hisamatsu / Taira records",
+          "example_indonesian": "data Hisamatsu / Taira",
+          "sources": [
+            "https://odjl.net/"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "JP-MVI-REG-004",
+          "term": "Miyako differs from Okinawan and Yaeyama",
+          "explanation_id": "Bahan pengantar Ryukyuan memperlihatkan bahwa kosakata untuk konsep sama dapat berbeda antara Okinawan, Miyako, Ishigaki/Yaeyama dan Yonaguni.",
+          "indonesian_learning_link": "Jangan memindahkan kata dari Shuri ke Miyako hanya karena keduanya bagian dari Ryukyuan.",
+          "region": "Miyako vs Okinawa / Yaeyama / Yonaguni",
+          "register": "Language distinction",
+          "usage_context": "Memilih bahasa dan ragam sumber.",
+          "example_source_language": "tandigaa tandi (Miyako) vs nifee deebiru (Okinawan)",
+          "example_indonesian": "terima kasih dalam dua ragam berbeda",
+          "sources": [
+            "https://u-ryukyu.repo.nii.ac.jp/record/2017798/files/All%20About%20Okinawan%202nd%20Edition%202021.pdf"
+          ],
+          "verification_status": "reviewed"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "NINJAL — Dictionary of Ikema Datasets",
+      "url": "https://mmsrv.ninjal.ac.jp/ikema/en/index.html",
+      "scope": "Kamus Ikema, data teks, data audio lema dan contoh kalimat."
+    },
+    {
+      "title": "Kyushu University — Audio Database of Ikema Example Sentences",
+      "url": "https://cir.nii.ac.jp/crid/1460589221486214016",
+      "scope": "Dataset contoh kalimat Ikema dengan rekaman audio CC BY-SA 4.0."
+    },
+    {
+      "title": "Online Dictionary of the Japonic Languages",
+      "url": "https://odjl.net/",
+      "scope": "Data lokal yang terus diperbarui, termasuk Hisamatsu dan Taira."
+    },
+    {
+      "title": "GWU — Okinawan Studies: Languages",
+      "url": "https://libguides.gwu.edu/okinawa/languages",
+      "scope": "Rujukan kamus Tarama Miyako dan buku percakapan bahasa Ryukyuan."
+    },
+    {
+      "title": "University of the Ryukyus — All About Okinawan",
+      "url": "https://u-ryukyu.repo.nii.ac.jp/record/2017798/files/All%20About%20Okinawan%202nd%20Edition%202021.pdf",
+      "scope": "Perbandingan contoh kosakata Okinawan, Miyako, Ishigaki dan Yonaguni."
+    }
+  ],
+  "indonesian_learning_design": {
+    "direction": "Miyako Ryukyuan → Indonesian",
+    "learner_support": [
+      "Tampilkan audio dialek bersama transkripsi dan makna Indonesian.",
+      "Bedakan kosakata Ikema, Tarama, dan ragam Miyako lain.",
+      "Gunakan perbandingan Shuri, Miyako, Yaeyama, dan Yonaguni untuk mencegah salah generalisasi."
+    ]
+  },
+  "verification": {
+    "status": "content_seeded_reviewed_not_native_validated",
+    "last_reviewed": "2026-11-19",
+    "notes": "Dokumentasi sumber kuat untuk Ikema, Tarama, Hisamatsu dan Taira; beberapa entri masih draft karena contoh pragmatik belum punya label dialek yang rinci. Belum divalidasi penutur/ahli untuk keseluruhan profil."
+  }
+}
