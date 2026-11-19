@@ -59,13 +59,13 @@ bahasa-asing-global/
     ├── README.md
     ├── US/
     │   ├── country.json
-    │   └── languages/eng/profile.json
+    │   └── languages/<kode-bahasa>/profile.json
     ├── JP/
     │   ├── country.json
-    │   └── languages/jpn/profile.json
+    │   └── languages/<kode-bahasa>/profile.json
     └── CN/
         ├── country.json
-        └── languages/cmn/profile.json
+        └── languages/<kode-bahasa>/profile.json
 ```
 
 Profil negara baru dibuat di dalam `negara/` menggunakan kode negara ISO 3166-1 alpha-2, misalnya `US/`, `JP/`, atau `BR/`. Di dalamnya, pisahkan profil negara dari profil bahasa/komunitas agar bahasa yang digunakan lintas negara tidak diduplikasi secara keliru.
@@ -73,8 +73,9 @@ Profil negara baru dibuat di dalam `negara/` menggunakan kode negara ISO 3166-1 
 ## Standar identifikasi
 
 - Gunakan **ISO 3166-1 alpha-2** untuk identitas negara.
-- Gunakan **ISO 639** untuk identitas bahasa.
+- Gunakan **ISO 639-3** jika identitas bahasa terkonfirmasi.
 - Gunakan tag bahasa/region BCP 47 jika perlu menandai variasi bahasa berdasarkan wilayah, misalnya `en-US`.
+- Jika kode ISO 639-3 belum terkonfirmasi, jangan mengarang kode. Glottocode dapat dicatat sebagai pengenal tambahan yang berbeda dari ISO.
 - Dialek atau aksen tidak otomatis dianggap bahasa terpisah. Catat sebagai variasi dari bahasa terkait kecuali ada dasar linguistik yang dapat dipertanggungjawabkan.
 
 Rujukan:
@@ -93,11 +94,28 @@ Rujukan:
 7. Hormati penutur dan komunitas bahasa; hindari stereotip nasional atau etnis.
 8. Perubahan skema harus menjaga kompatibilitas data lama.
 
-## Status
+## Status Fase 1
 
-- [Status Fase 1](./FASE-01-README.md) — 33 profil bahasa untuk tiga negara dan 499 entri pembelajaran.
-- [Validator data](./tools/validate_language_data.py) — pemeriksaan JSON, skema, entri, dan katalog negara.
+Audit ulang seluruh 33 profil pada branch `main` tanggal **19 November 2026** menghasilkan:
 
-Audit terakhir: **397 reviewed, 102 draft, 0 verified**. Dua record AS masih berupa label payung Chinese language groups dan Arabic varieties, bukan profil bahasa individual. Hachijo sudah memiliki profil menggunakan Glottocode `hach1239`, sementara `iso_639_3` tetap `null` karena tidak ada kode ISO 639-3 yang terkonfirmasi.
+| Negara | Record katalog | Profil | Entri |
+|---|---:|---:|---:|
+| Amerika Serikat | 12 | 10 | 228 |
+| Jepang | 9 | 9 | 141 |
+| Tiongkok | 14 | 14 | 130 |
+| **Total** | **35** | **33** | **499** |
 
-Cakupan katalog ini masih terpilih dan bukan inventaris lengkap seluruh bahasa, dialek, atau kosakata di ketiga negara. Validasi penutur asli/ahli, penambahan rekaman berlisensi, dan pengembangan bahasa komunitas lainnya tetap diperlukan.
+Status entri: **397 reviewed, 102 draft, 0 verified**. Distribusi kategori: 112 accent/pronunciation, 68 speaking style/pragmatics, 120 standard language, 44 nonstandard/slang, 37 profanity/vulgar language, dan 118 regional/minority languages.
+
+Dua record AS masih berupa label payung Chinese language groups dan Arabic varieties, bukan profil bahasa individual. Hachijo sudah memiliki profil menggunakan Glottocode `hach1239`, sementara `iso_639_3` tetap `null` karena tidak ada kode ISO 639-3 yang terkonfirmasi.
+
+[Dokumentasi rinci Fase 1](./FASE-01-README.md) memuat daftar profil, batas cakupan varietas, distribusi entri, dan pekerjaan yang masih terbuka.
+
+## Validasi
+
+- [Validator data](./tools/validate_language_data.py) — pemeriksaan JSON, kategori, field entri, status, sumber, ID unik, dan hubungan katalog/profil.
+- Jalankan dari root repository: `python bahasa-asing-global/tools/validate_language_data.py`.
+
+Pemeriksaan otomatis hanya menguji struktur dan konsistensi data. Pemeriksaan itu tidak membuktikan ketepatan linguistik, kewajaran contoh, atau penerimaan komunitas. Belum ada entri berstatus `verified` karena proses validasi penutur asli/ahli belum terdokumentasi.
+
+Cakupan katalog ini masih terpilih dan bukan inventaris lengkap seluruh bahasa, dialek, atau kosakata di ketiga negara. Peninjauan penutur asli/ahli, penambahan rekaman berlisensi, dan pengembangan bahasa komunitas lainnya tetap diperlukan.
