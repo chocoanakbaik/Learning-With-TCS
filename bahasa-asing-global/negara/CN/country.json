@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0.0",
+  "record_type": "country_profile",
+  "country": {
+    "name_en": "People's Republic of China",
+    "name_local": "中华人民共和国",
+    "iso_3166_1_alpha2": "CN",
+    "iso_3166_1_alpha3": "CHN",
+    "regions": ["province-level divisions", "autonomous regions", "municipalities", "special administrative regions documented separately where appropriate"]
+  },
+  "language_context": {
+    "national_language_note": "Putonghua (Standard Mandarin) and standardized Chinese characters are identified by the PRC as the national common spoken and written language.",
+    "diversity_note": "China is home to 56 officially recognized ethnic groups and extensive linguistic diversity. The Ministry of Education describes multiple language families, regional Sinitic varieties, and minority languages. A language family, language, and dialect/variety must not be conflated.",
+    "classification_note": "Some Sinitic varieties traditionally called fangyan are not mutually intelligible. LWT records their specific names and scholarly classification notes rather than assuming every variety is mutually intelligible with Mandarin."
+  },
+  "languages": [
+    {"name":"Standard Mandarin (Putonghua)","iso_639_3":"cmn","role":["national_common_language","standard"],"profile_status":"planned"},
+    {"name":"Yue (including Cantonese)","iso_639_3":"yue","role":["regional","Sinitic"],"regions":["Guangdong","Guangxi","Hong Kong","Macau"],"profile_status":"planned"},
+    {"name":"Wu (including Shanghainese)","iso_639_3":"wuu","role":["regional","Sinitic"],"regions":["Shanghai","Zhejiang","southern Jiangsu"],"profile_status":"planned"},
+    {"name":"Min varieties","iso_639_3":"nan","role":["regional","Sinitic"],"regions":["Fujian","eastern Guangdong","Hainan and diaspora communities"],"note":"Split into Min Nan, Min Dong and other varieties when building detailed profiles; this umbrella code is not a substitute for subvariety identification.","profile_status":"planned"},
+    {"name":"Hakka (Kejia)","iso_639_3":"hak","role":["regional","Sinitic"],"regions":["Guangdong","Fujian","Jiangxi and other communities"],"profile_status":"planned"},
+    {"name":"Xiang","iso_639_3":"hsn","role":["regional","Sinitic"],"regions":["Hunan"],"profile_status":"planned"},
+    {"name":"Gan","iso_639_3":"gan","role":["regional","Sinitic"],"regions":["Jiangxi and neighboring areas"],"profile_status":"planned"},
+    {"name":"Jin","iso_639_3":"cjy","role":["regional","Sinitic"],"regions":["Shanxi and neighboring areas"],"profile_status":"planned"},
+    {"name":"Tibetan","iso_639_3":"bod","role":["regional","minority"],"regions":["Tibet and Tibetan communities in neighboring provinces"],"profile_status":"planned"},
+    {"name":"Uyghur","iso_639_3":"uig","role":["regional","minority"],"regions":["Xinjiang"],"profile_status":"planned"},
+    {"name":"Mongolian","iso_639_3":"mon","role":["regional","minority"],"regions":["Inner Mongolia and other communities"],"profile_status":"planned"},
+    {"name":"Zhuang","iso_639_3":"zha","role":["regional","minority"],"regions":["Guangxi"],"profile_status":"planned"},
+    {"name":"Korean","iso_639_3":"kor","role":["regional","minority"],"regions":["Northeast China"],"profile_status":"planned"},
+    {"name":"Kazakh","iso_639_3":"kaz","role":["regional","minority"],"regions":["Xinjiang"],"profile_status":"planned"}
+  ],
+  "sources": [
+    {"title":"PRC Ministry of Education: Overview of Chinese Language and Writing Systems","url":"https://www.moe.gov.cn/jyb_xxgk/xxgk/neirong/fenlei/sxml_zwgk/yuyanwenzi/202610/t20261023_1455676.html","supports":"56 ethnic groups, language families, Sinitic regional varieties, minority languages and writing systems."},
+    {"title":"European Commission: Country Compendium, China","url":"https://commission.europa.eu/system/files/2023-11/styleguide_english_dgt_country_compendium_en.pdf","supports":"Putonghua and selected recognized regional-language contexts."},
+    {"title":"Center for Applied Linguistics: The Chinese Language and Language Planning in China","url":"https://www.cal.org/wp-content/uploads/2022/05/HeritageBriefChineseLanguageandLanguagePlanninginChina.pdf","supports":"Major Sinitic variety groups and mutual intelligibility considerations."}
+  ],
+  "verification": {"status":"reviewed_initial_catalog","last_reviewed":"2026-11-19","reviewed_by":"LWT research setup","notes":"Initial index only, not a complete list. Several codes identify broad varieties and require more granular profile decisions before detailed content is added."}
+}
