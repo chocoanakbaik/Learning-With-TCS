@@ -1,0 +1,256 @@
+{
+  "schema_version": "1.1.0",
+  "record_type": "language_profile",
+  "language": {
+    "name": "Jin Chinese (Northern Shaanxi focus)",
+    "native_name": "晋语",
+    "iso_639_3": "cjy",
+    "bcp47_tags": [
+      "cjy-CN"
+    ],
+    "family": "Sino-Tibetan > Sinitic > Jin"
+  },
+  "country_context": {
+    "country_code": "CN",
+    "role": [
+      "regional",
+      "Sinitic"
+    ],
+    "note": "Kode cjy mencakup Jin Chinese. Profil ini menggunakan Northern Shaanxi Jin dan korpus tiga varietas Yu, Pingding, dan Jiaoqu sebagai titik dokumentasi. Data wajib diberi label lokasi."
+  },
+  "categories": {
+    "accent_and_pronunciation": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "CN-CJY-ACC-001",
+          "term": "Tone and phonation variation in Jin",
+          "explanation_id": "Jin dialects exhibit tone systems that vary by locality; tone categories, onset voicing and phonation must be documented by the selected village/city rather than generalized to all Jin.",
+          "indonesian_learning_link": "Bahasa Indonesia tidak memakai nada leksikal seperti ini; latih nada melalui audio dengan label lokal yang jelas.",
+          "region": "Northern Shaanxi Jin; corpus varieties Yu, Pingding, Jiaoqu",
+          "register": "Pronunciation",
+          "usage_context": "Membedakan kata melalui nada dan fonasi.",
+          "example_source_language": "local Jin tone categories",
+          "example_indonesian": "kategori nada Jin setempat",
+          "sources": [
+            "https://refubium.fu-berlin.de/bitstream/handle/fub188/31554/A%20comprehensive%20corpus%20of%20three%20varieties%20of%20Jin%20Dialects.pdf?sequence=1",
+            "https://www.routledge.com/Jin-Chinese-Grammar-I-Referent-and-Tense-of-Northern-Shaanxi-Dialects/Xiangdong/p/book/9781032357782"
+          ],
+          "verification_status": "reviewed",
+          "note": "Sumber korpus mencakup tiga varietas; jangan menyatakan jumlah nada universal untuk semua Jin."
+        },
+        {
+          "id": "CN-CJY-ACC-002",
+          "term": "Initials, finals and tone sandhi corpus",
+          "explanation_id": "Korpus Yu, Pingding, dan Jiaoqu mendokumentasikan inventaris inisial/final serta kategori nada secara terpisah dan menyediakan metadata untuk perbandingan.",
+          "indonesian_learning_link": "Ajarkan perbedaan bunyi melalui contoh dari satu varietas, bukan gabungan tiga lokasi.",
+          "region": "Yu, Pingding, Jiaoqu",
+          "register": "Pronunciation / corpus",
+          "usage_context": "Mendengar konsonan dan final lokal.",
+          "example_source_language": "Jin initials and finals",
+          "example_indonesian": "inisial dan final dialek Jin",
+          "sources": [
+            "https://refubium.fu-berlin.de/bitstream/handle/fub188/31554/A%20comprehensive%20corpus%20of%20three%20varieties%20of%20Jin%20Dialects.pdf?sequence=1"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-CJY-ACC-003",
+          "term": "Sound variation in grammatical constituents",
+          "explanation_id": "Grammar Northern Shaanxi Jin mencatat variasi bunyi pada unsur gramatikal dan perubahan bentuk ketika kata bergabung dalam konstruksi.",
+          "indonesian_learning_link": "Jelaskan bahwa bentuk lisan dapat berubah pada batas morfem atau konstruksi; gunakan rekaman dan transkripsi dialek.",
+          "region": "Northern Shaanxi Jin",
+          "register": "Phonological variation",
+          "usage_context": "Mengenali variasi dalam ujaran tersambung.",
+          "example_source_language": "sound alternation in grammatical constituents",
+          "example_indonesian": "alternasi bunyi pada unsur gramatikal",
+          "sources": [
+            "https://www.routledge.com/Jin-Chinese-Grammar-II-Syntax-and-Modality-of-Northern-Shaanxi-Dialects/Xiangdong/p/book/9781003328377"
+          ],
+          "verification_status": "reviewed"
+        }
+      ]
+    },
+    "speaking_style_and_pragmatics": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "CN-CJY-PRAG-001",
+          "term": "Personal pronouns in Northern Shaanxi Jin",
+          "explanation_id": "Grammar Northern Shaanxi Jin membahas pronomina personal, demonstratif dan interogatif serta perbedaan semantik dan dialektalnya.",
+          "indonesian_learning_link": "Bandingkan dengan saya/kamu/dia dan kata tanya Indonesia, tetapi bentuk pronomina harus dilabeli varietas.",
+          "region": "Northern Shaanxi; Yellow River counties",
+          "register": "Conversational pronouns",
+          "usage_context": "Menyebut penutur, lawan bicara, dan referen.",
+          "example_source_language": "Northern Shaanxi Jin pronoun paradigms",
+          "example_indonesian": "paradigma pronomina Jin Shaanxi Utara",
+          "sources": [
+            "https://www.routledge.com/Jin-Chinese-Grammar-I-Referent-and-Tense-of-Northern-Shaanxi-Dialects/Xiangdong/p/book/9781032357782"
+          ],
+          "verification_status": "reviewed",
+          "note": "Contoh bentuk spesifik harus diambil dari tabel lengkap buku dan ditandai desa/kabupaten."
+        },
+        {
+          "id": "CN-CJY-PRAG-002",
+          "term": "Imperative modal particle zhe",
+          "explanation_id": "Jin Chinese Grammar II membahas pembentukan partikel modal imperatif zhe (着) dalam sejumlah dialek modern; fungsi dan distribusinya berbeda dari Mandarin standar.",
+          "indonesian_learning_link": "Bandingkan dengan partikel perintah atau penekanan dalam bahasa Indonesia berdasarkan konteks ujaran.",
+          "region": "Northern Shaanxi Jin; dialect-dependent",
+          "register": "Imperative / modal particle",
+          "usage_context": "Memahami perintah atau ajakan.",
+          "example_source_language": "zhe (着) imperative modal particle",
+          "example_indonesian": "partikel modal imperatif zhe",
+          "sources": [
+            "https://www.routledge.com/Jin-Chinese-Grammar-II-Syntax-and-Modality-of-Northern-Shaanxi-Dialects/Xiangdong/p/book/9781003328377"
+          ],
+          "verification_status": "reviewed",
+          "note": "Hanya menyebut bentuk analitis yang diteliti; jangan menganggapnya partikel seluruh kelompok Jin."
+        }
+      ]
+    },
+    "standard_language": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "CN-CJY-STD-001",
+          "term": "Jin is a Sinitic regional language group",
+          "explanation_id": "Jin adalah kelompok bahasa Sinitik di wilayah Shanxi dan daerah sekitarnya; profil ini menggunakan Jin Shaanxi Utara sebagai titik studi, bukan satu standar untuk semua Jin.",
+          "indonesian_learning_link": "Pilih kode cjy sebagai identitas kelompok dan tag nama lokal pada setiap entri.",
+          "region": "Shanxi and adjacent northern Shaanxi areas",
+          "register": "Sinitic language group",
+          "usage_context": "Menentukan bahasa sumber.",
+          "example_source_language": "晋语",
+          "example_indonesian": "bahasa Jin",
+          "sources": [
+            "https://www.routledge.com/Jin-Chinese-Grammar-I-Referent-and-Tense-of-Northern-Shaanxi-Dialects/Xiangdong/p/book/9781032357782",
+            "https://refubium.fu-berlin.de/bitstream/handle/fub188/31554/A%20comprehensive%20corpus%20of%20three%20varieties%20of%20Jin%20Dialects.pdf?sequence=1"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-CJY-STD-002",
+          "term": "Northern Shaanxi Jin grammar reference",
+          "explanation_id": "Dua volume grammar Xing Xiangdong meneliti pronomina, aspek, kala, mood, konstruksi kalimat, pertanyaan kompleks dan variasi fonetik dalam Jin Shaanxi Utara.",
+          "indonesian_learning_link": "Gunakan referensi tata bahasa dialek, bukan tata bahasa Putonghua, untuk memahami pola ini.",
+          "region": "Northern Shaanxi; Yellow River dialects",
+          "register": "Grammar reference",
+          "usage_context": "Mempelajari struktur kalimat dan kala.",
+          "example_source_language": "Jin Chinese Grammar, Volumes I–II",
+          "example_indonesian": "Tata bahasa Jin Tiongkok, jilid I–II",
+          "sources": [
+            "https://www.routledge.com/Jin-Chinese-Grammar-I-Referent-and-Tense-of-Northern-Shaanxi-Dialects/Xiangdong/p/book/9781032357782",
+            "https://www.routledge.com/Jin-Chinese-Grammar-II-Syntax-and-Modality-of-Northern-Shaanxi-Dialects/Xiangdong/p/book/9781003328377"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-CJY-STD-003",
+          "term": "Jin dialect corpus documentation",
+          "explanation_id": "Korpus komparatif Jin mencakup varietas Yu, Pingding, dan Jiaoqu serta data inisial, final, nada, dan contoh tutur.",
+          "indonesian_learning_link": "Setiap data LWT perlu mempertahankan kode lokasi, varietas, transkripsi dan sumber audio.",
+          "region": "Yu, Pingding, Jiaoqu",
+          "register": "Corpus / documentation",
+          "usage_context": "Mencari bukti penggunaan.",
+          "example_source_language": "Jin dialect corpus entries",
+          "example_indonesian": "entri korpus dialek Jin",
+          "sources": [
+            "https://refubium.fu-berlin.de/bitstream/handle/fub188/31554/A%20comprehensive%20corpus%20of%20three%20varieties%20of%20Jin%20Dialects.pdf?sequence=1"
+          ],
+          "verification_status": "reviewed"
+        }
+      ]
+    },
+    "nonstandard_language_and_slang": {
+      "status": "research_required",
+      "entries": [],
+      "coverage_note": "Slang kontemporer belum dimasukkan. Korpus dan grammar yang ditemukan berfokus pada dokumentasi dialek; perlu data percakapan modern dengan wilayah dan generasi."
+    },
+    "profanity_and_vulgar_language": {
+      "status": "community_review_required",
+      "entries": [],
+      "coverage_note": "Umpatan belum dimasukkan tanpa bukti kamus/korpus langsung tentang makna, intensitas, sasaran, dan wilayah penggunaan Jin."
+    },
+    "regional_and_minority_languages": {
+      "status": "cross_reference_country_catalog",
+      "entries": [
+        {
+          "id": "CN-CJY-REG-001",
+          "term": "Northern Shaanxi Jin",
+          "explanation_id": "Sumber Routledge berfokus pada Jin dari tujuh kabupaten di sepanjang Sungai Kuning di Shaanxi Utara dan membahas ciri grammar secara sinkronis serta diakronis.",
+          "indonesian_learning_link": "Contoh dari buku harus diberi tag Shaanxi Utara, bukan dipakai sebagai ciri Jin seluruh Tiongkok.",
+          "region": "Northern Shaanxi; Yellow River counties",
+          "register": "Regional variety",
+          "usage_context": "Menentukan cakupan dialek.",
+          "example_source_language": "Northern Shaanxi Jin",
+          "example_indonesian": "Jin Shaanxi Utara",
+          "sources": [
+            "https://www.routledge.com/Jin-Chinese-Grammar-I-Referent-and-Tense-of-Northern-Shaanxi-Dialects/Xiangdong/p/book/9781032357782",
+            "https://www.routledge.com/Jin-Chinese-Grammar-II-Syntax-and-Modality-of-Northern-Shaanxi-Dialects/Xiangdong/p/book/9781003328377"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-CJY-REG-002",
+          "term": "Yu, Pingding and Jiaoqu corpus varieties",
+          "explanation_id": "Korpus komprehensif mendeskripsikan tiga varietas Jin secara terpisah dan menyimpan perbedaan bunyi/nada.",
+          "indonesian_learning_link": "Jangan memindahkan kata atau aturan nada antarvarietas tanpa pemeriksaan.",
+          "region": "Yu, Pingding, Jiaoqu",
+          "register": "Regional varieties",
+          "usage_context": "Mengenali titik dokumentasi.",
+          "example_source_language": "Yu / Pingding / Jiaoqu Jin",
+          "example_indonesian": "Jin Yu / Pingding / Jiaoqu",
+          "sources": [
+            "https://refubium.fu-berlin.de/bitstream/handle/fub188/31554/A%20comprehensive%20corpus%20of%20three%20varieties%20of%20Jin%20Dialects.pdf?sequence=1"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-CJY-REG-003",
+          "term": "Jin is distinct from Putonghua",
+          "explanation_id": "Jin memiliki ciri fonologi dan tata bahasa regional yang tidak dapat direduksi menjadi aksen Mandarin standar.",
+          "indonesian_learning_link": "Gunakan profil Jin secara terpisah dari Mandarin Putonghua.",
+          "region": "Shanxi and neighboring regions",
+          "register": "Language distinction",
+          "usage_context": "Memilih bahasa asal yang tepat.",
+          "example_source_language": "Jin ≠ Putonghua",
+          "example_indonesian": "Jin bukan Putonghua",
+          "sources": [
+            "https://www.routledge.com/Jin-Chinese-Grammar-I-Referent-and-Tense-of-Northern-Shaanxi-Dialects/Xiangdong/p/book/9781032357782",
+            "https://refubium.fu-berlin.de/bitstream/handle/fub188/31554/A%20comprehensive%20corpus%20of%20three%20varieties%20of%20Jin%20Dialects.pdf?sequence=1"
+          ],
+          "verification_status": "reviewed"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "Xing Xiangdong — Jin Chinese Grammar I: Referent and Tense of Northern Shaanxi Dialects",
+      "url": "https://www.routledge.com/Jin-Chinese-Grammar-I-Referent-and-Tense-of-Northern-Shaanxi-Dialects/Xiangdong/p/book/9781032357782",
+      "scope": "Pronouns, aspect, realization, and tense in seven northern Shaanxi counties."
+    },
+    {
+      "title": "Xing Xiangdong — Jin Chinese Grammar II: Syntax and Modality of Northern Shaanxi Dialects",
+      "url": "https://www.routledge.com/Jin-Chinese-Grammar-II-Syntax-and-Modality-of-Northern-Shaanxi-Dialects/Xiangdong/p/book/9781003328377",
+      "scope": "Subjunctive, complex clauses, embedded clauses, A-not-A questions, imperative modal particle zhe, and phonetic variation."
+    },
+    {
+      "title": "A Comprehensive Corpus of Three Varieties of Jin Dialects",
+      "url": "https://refubium.fu-berlin.de/bitstream/handle/fub188/31554/A%20comprehensive%20corpus%20of%20three%20varieties%20of%20Jin%20Dialects.pdf?sequence=1",
+      "scope": "Yu, Pingding and Jiaoqu; initials, finals, tones and dialect metadata."
+    }
+  ],
+  "indonesian_learning_design": {
+    "direction": "Jin Chinese (Northern Shaanxi focus) → Indonesian",
+    "learner_support": [
+      "Ajarkan pronomina dan kala Jin melalui contoh lokal berlabel kabupaten.",
+      "Gunakan rekaman untuk membedakan nada dan perubahan bunyi.",
+      "Bedakan Jin dari Putonghua dan ragam Sinitik lain."
+    ]
+  },
+  "verification": {
+    "status": "content_seeded_reviewed_not_native_validated",
+    "last_reviewed": "2026-11-19",
+    "notes": "Materi grammar dan korpus mengacu sumber khusus Jin Shaanxi Utara serta korpus Yu/Pingding/Jiaoqu. Slang dan profanity belum diisi; belum ada validasi penutur asli/ahli untuk profil."
+  }
+}
