@@ -109,7 +109,7 @@ Validator tersedia pada `bahasa-asing-global/tools/validate_language_data.py` da
 python bahasa-asing-global/tools/validate_language_data.py
 ```
 
-Validator memeriksa struktur JSON, enam kategori, field wajib, ID unik, status entri, URL sumber, dan relasi katalog/profil. Hasil validator bersifat pemeriksaan struktur dan konsistensi data; ia tidak membuktikan ketepatan linguistik, kewajaran contoh, atau penerimaan komunitas.
+Validator memeriksa struktur JSON, enam kategori, field wajib, keunikan ID entri secara global, duplikasi nama/kode dalam katalog negara, format ISO 3166-1/ISO 639-3/Glottocode/BCP 47, URL HTTPS, keamanan dan keberadaan `profile_path`, kecocokan identitas katalog/profil, serta profil yang yatim atau ditautkan berulang. Pemeriksaan URL hanya memvalidasi bentuk URL, bukan memastikan situs dapat diakses atau isi sumber benar-benar mendukung klaim. Hasil validator tetap merupakan pemeriksaan struktur dan konsistensi data; ia tidak membuktikan ketepatan linguistik, kewajaran contoh, atau penerimaan komunitas.
 
 Aturan editorial:
 - Gunakan ISO 3166-1 alpha-2 untuk kode negara.
