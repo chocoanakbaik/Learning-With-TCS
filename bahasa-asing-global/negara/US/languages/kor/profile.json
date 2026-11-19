@@ -1,0 +1,338 @@
+{
+  "schema_version": "1.1.0",
+  "record_type": "language_profile",
+  "language": {
+    "name": "Korean",
+    "native_name": "한국어",
+    "iso_639_3": "kor",
+    "bcp47_tags": [
+      "ko-KR"
+    ],
+    "family": "Koreanic"
+  },
+  "country_context": {
+    "country_code": "US",
+    "role": [
+      "community",
+      "heritage"
+    ],
+    "note": "Profil ini mencakup Korean yang digunakan komunitas diaspora di AS. Standard Korean menjadi rujukan awal, sementara dialek keluarga/daerah asal tetap dicatat."
+  },
+  "categories": {
+    "accent_and_pronunciation": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "US-KOR-ACC-001",
+          "term": "Batchim",
+          "explanation_id": "Konsonan akhir suku kata Hangul disebut batchim; bunyinya dapat mengalami netralisasi atau perubahan saat bertemu suku kata berikutnya.",
+          "indonesian_learning_link": "Latih konsonan akhir tanpa menambahkan vokal.",
+          "region": "Korean standar",
+          "register": "Pronunciation",
+          "usage_context": "Membaca kata dengan konsonan akhir.",
+          "example_source_language": "한국",
+          "example_indonesian": "Korea",
+          "sources": [
+            "https://korean.go.kr/kornorms/m/m_regltn.do?regltn_code=0002",
+            "https://www.korean.go.kr/front_eng/roman/roman_01.do"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-KOR-ACC-002",
+          "term": "Consonant assimilation and liaison",
+          "explanation_id": "Konsonan akhir dapat berubah atau tersambung ke vokal awal suku kata berikutnya sesuai aturan pelafalan standar.",
+          "indonesian_learning_link": "Jelaskan bahwa ejaan dan bunyi lisan tidak selalu sama.",
+          "region": "Korean standar",
+          "register": "Pronunciation",
+          "usage_context": "Membaca gabungan suku kata.",
+          "example_source_language": "한국어",
+          "example_indonesian": "bahasa Korea",
+          "sources": [
+            "https://korean.go.kr/kornorms/m/m_regltn.do?regltn_code=0002"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-KOR-ACC-003",
+          "term": "Tense and aspirated consonants",
+          "explanation_id": "Hangul membedakan konsonan polos, tegang, dan beraspirasi; kontras ini tidak sama dengan sistem konsonan Indonesia.",
+          "indonesian_learning_link": "Latih perbedaan tekanan dan hembusan udara dengan audio.",
+          "region": "Korean standar",
+          "register": "Pronunciation",
+          "usage_context": "Membedakan pasangan bunyi.",
+          "example_source_language": "가 / 까 / 카",
+          "example_indonesian": "latihan kontras bunyi",
+          "sources": [
+            "https://www.korean.go.kr/front_eng/roman/roman_01.do"
+          ],
+          "verification_status": "reviewed"
+        }
+      ]
+    },
+    "speaking_style_and_pragmatics": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "US-KOR-PRAG-001",
+          "term": "-요 speech level",
+          "explanation_id": "Akhiran -요 lazim pada gaya sopan nonformal dan sering dipakai dalam interaksi sehari-hari.",
+          "indonesian_learning_link": "Padanan Indonesia dapat memakai pilihan kata sopan dan sapaan, bukan akhiran verba.",
+          "region": "Korean",
+          "register": "Polite informal",
+          "usage_context": "Berbicara kepada orang yang belum akrab.",
+          "example_source_language": "먹어요.",
+          "example_indonesian": "Saya makan.",
+          "sources": [
+            "https://www.korean.go.kr/common/download.do%3Bfront%3DB029F6F336DD2A9103CEAEF8E4DF384E?c_file_name=cbc640af-c543-4ddb-9352-8fd869d31be0_1.pdf&file_path=reportData&o_file_name=Korean-Polite-Language.pdf"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-KOR-PRAG-002",
+          "term": "-습니다 speech level",
+          "explanation_id": "Akhiran -습니다 merupakan bentuk formal untuk situasi resmi, presentasi, pengumuman, atau konteks profesional.",
+          "indonesian_learning_link": "Bandingkan dengan bahasa Indonesia formal.",
+          "region": "Korean",
+          "register": "Formal polite",
+          "usage_context": "Berbicara dalam konteks resmi.",
+          "example_source_language": "알겠습니다.",
+          "example_indonesian": "Saya mengerti.",
+          "sources": [
+            "https://www.korean.go.kr/common/download.do%3Bfront%3DB029F6F336DD2A9103CEAEF8E4DF384E?c_file_name=cbc640af-c543-4ddb-9352-8fd869d31be0_1.pdf&file_path=reportData&o_file_name=Korean-Polite-Language.pdf"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-KOR-PRAG-003",
+          "term": "Honorific marker -(으)시-",
+          "explanation_id": "Morfem -(으)시- menandai penghormatan terhadap subjek; digunakan bersama sistem akhiran kalimat.",
+          "indonesian_learning_link": "Terangkan bahwa Indonesia menggunakan sapaan dan pilihan kata, bukan morfem honorifik serupa.",
+          "region": "Korean",
+          "register": "Honorific",
+          "usage_context": "Menghormati subjek kalimat.",
+          "example_source_language": "선생님이 오세요.",
+          "example_indonesian": "Guru datang (bentuk hormat).",
+          "sources": [
+            "https://www.korean.go.kr/common/download.do?c_file_name=935447da-0094-4f24-9b07-6571ac2fc0db_0.pdf&file_path=etcData",
+            "https://www.korean.go.kr/common/download.do%3Bfront%3DB029F6F336DD2A9103CEAEF8E4DF384E?c_file_name=cbc640af-c543-4ddb-9352-8fd869d31be0_1.pdf&file_path=reportData&o_file_name=Korean-Polite-Language.pdf"
+          ],
+          "verification_status": "reviewed"
+        }
+      ]
+    },
+    "standard_language": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "US-KOR-STD-001",
+          "term": "Hangul",
+          "explanation_id": "Hangul adalah sistem tulisan Korea; huruf disusun dalam blok suku kata.",
+          "indonesian_learning_link": "Ajarkan Hangul sebagai sistem tulisan utama, bukan hanya romanisasi.",
+          "region": "Korean standar",
+          "register": "Writing system",
+          "usage_context": "Membaca kata Korea.",
+          "example_source_language": "한국어",
+          "example_indonesian": "bahasa Korea",
+          "sources": [
+            "https://www.korean.go.kr/front_eng/roman/roman_01.do"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-KOR-STD-002",
+          "term": "Revised Romanization",
+          "explanation_id": "Sistem romanisasi resmi didasarkan pada pelafalan standar Korea dan mengatur representasi vokal/konsonan dengan huruf Latin.",
+          "indonesian_learning_link": "Gunakan romanisasi hanya sebagai alat bantu.",
+          "region": "Korea Selatan; standar resmi",
+          "register": "Transcription",
+          "usage_context": "Menuliskan nama/tempat dalam huruf Latin.",
+          "example_source_language": "부산 → Busan",
+          "example_indonesian": "Busan",
+          "sources": [
+            "https://www.korean.go.kr/front_eng/roman/roman_01.do"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-KOR-STD-003",
+          "term": "Verb endings",
+          "explanation_id": "Akar verba Korean bergabung dengan berbagai akhiran untuk menandai deklaratif, honorifik, lampau, dan fungsi lain.",
+          "indonesian_learning_link": "Bahasa Indonesia tidak mengubah verba dengan pola akhiran serupa.",
+          "region": "Korean standar",
+          "register": "Grammar",
+          "usage_context": "Membaca informasi kala dan kesopanan.",
+          "example_source_language": "먹었다.",
+          "example_indonesian": "Sudah makan.",
+          "sources": [
+            "https://www.korean.go.kr/common/download.do?c_file_name=935447da-0094-4f24-9b07-6571ac2fc0db_0.pdf&file_path=etcData"
+          ],
+          "verification_status": "reviewed"
+        }
+      ]
+    },
+    "nonstandard_language_and_slang": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "US-KOR-SLANG-001",
+          "term": "대박 (daebak)",
+          "explanation_id": "Ungkapan percakapan untuk keterkejutan, kekaguman, atau sesuatu yang luar biasa; maknanya bergantung konteks.",
+          "indonesian_learning_link": "Padanan Indonesia: wah, gila, atau keren banget.",
+          "region": "Korean kontemporer",
+          "register": "Colloquial / slang",
+          "usage_context": "Bereaksi terhadap sesuatu.",
+          "example_source_language": "대박!",
+          "example_indonesian": "Wah, keren!",
+          "sources": [],
+          "verification_status": "draft",
+          "note": "Perlu rujukan lema langsung dan catatan pragmatik."
+        },
+        {
+          "id": "US-KOR-SLANG-002",
+          "term": "진짜 (jinjja)",
+          "explanation_id": "Secara leksikal berarti benar/sungguh; dalam percakapan dapat menjadi penegas atau pertanyaan ‘serius?’.",
+          "indonesian_learning_link": "Padanan Indonesia: benar-benar, serius, atau beneran?",
+          "region": "Korean kontemporer",
+          "register": "Colloquial",
+          "usage_context": "Menegaskan atau mempertanyakan informasi.",
+          "example_source_language": "진짜?",
+          "example_indonesian": "Serius?",
+          "sources": [
+            "https://krdict.korean.go.kr/m/eng/help"
+          ],
+          "verification_status": "draft",
+          "note": "Sumber kamus perlu ditautkan ke lema khusus."
+        }
+      ]
+    },
+    "profanity_and_vulgar_language": {
+      "status": "seeded_educational_with_context",
+      "entries": [
+        {
+          "id": "US-KOR-PROF-001",
+          "term": "바보 (babo)",
+          "explanation_id": "Sebutan untuk orang yang dianggap bodoh; dapat terasa bercanda atau menghina bergantung relasi.",
+          "indonesian_learning_link": "Padanan Indonesia: bodoh atau konyol; konteks sangat menentukan.",
+          "region": "Korean",
+          "register": "Insult; context-sensitive",
+          "usage_context": "Memahami ejekan.",
+          "example_source_language": "그 사람을 바보라고 부르지 마세요.",
+          "example_indonesian": "Jangan menyebut orang itu bodoh.",
+          "sources": [
+            "https://krdict.korean.go.kr/m/eng/help"
+          ],
+          "verification_status": "draft",
+          "note": "Perlu rujukan lema khusus dan penilaian register langsung."
+        },
+        {
+          "id": "US-KOR-PROF-002",
+          "term": "씨발 (ssibal)",
+          "explanation_id": "Umpatan sangat vulgar yang digunakan sebagai seruan atau makian; berisiko tinggi menyinggung.",
+          "indonesian_learning_link": "Jelaskan hanya untuk pemahaman media/dialog, bukan sebagai kata pengisi.",
+          "region": "Korean",
+          "register": "Very strong profanity",
+          "usage_context": "Memahami dialog kasar.",
+          "example_source_language": "이 말은 매우 심한 욕설입니다.",
+          "example_indonesian": "Kata ini adalah makian yang sangat kasar.",
+          "sources": [],
+          "verification_status": "draft",
+          "note": "Belum ada sumber kamus langsung pada entri; perlu verifikasi sebelum rilis."
+        }
+      ]
+    },
+    "regional_and_minority_languages": {
+      "status": "cross_reference_country_catalog",
+      "entries": [
+        {
+          "id": "US-KOR-REG-001",
+          "term": "Seoul and regional Korean",
+          "explanation_id": "Bahasa Korea memiliki variasi regional; Seoul menjadi dasar sebagian standar pelafalan, tetapi bukan satu-satunya pola tutur.",
+          "indonesian_learning_link": "Bandingkan dengan variasi regional bahasa Indonesia.",
+          "region": "Korea Selatan; komunitas diaspora",
+          "register": "Regional variation",
+          "usage_context": "Mengenali asal penutur.",
+          "example_source_language": "서울말",
+          "example_indonesian": "tuturan Seoul",
+          "sources": [
+            "https://korean.go.kr/kornorms/m/m_regltn.do?regltn_code=0002",
+            "https://www.korean.go.kr/front_eng/roman/roman_01.do"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-KOR-REG-002",
+          "term": "Gyeongsang dialects",
+          "explanation_id": "Ragam Gyeongsang memiliki pola intonasi dan kosakata berbeda dari Seoul Korean.",
+          "indonesian_learning_link": "Jangan menilai perbedaan dialek sebagai kesalahan.",
+          "region": "Gyeongsang; diaspora keluarga",
+          "register": "Regional dialect",
+          "usage_context": "Mengenali penanda wilayah.",
+          "example_source_language": "경상도 사투리",
+          "example_indonesian": "dialek Gyeongsang",
+          "sources": [
+            "https://dialect.korean.go.kr"
+          ],
+          "verification_status": "draft",
+          "note": "Fitur khusus perlu dicantumkan bersama audio dan sumber."
+        },
+        {
+          "id": "US-KOR-REG-003",
+          "term": "Jeju language",
+          "explanation_id": "Jeju memiliki karakteristik kebahasaan tersendiri dan tidak tepat dianggap sekadar aksen Seoul.",
+          "indonesian_learning_link": "Buat profil bahasa tersendiri; jangan gabungkan dengan Korean standar.",
+          "region": "Pulau Jeju",
+          "register": "Regional / minority language",
+          "usage_context": "Mengenali keragaman bahasa.",
+          "example_source_language": "제주어",
+          "example_indonesian": "bahasa Jeju",
+          "sources": [
+            "https://dialect.korean.go.kr"
+          ],
+          "verification_status": "draft",
+          "note": "Klasifikasi/status perlu rincian sumber akademik dan komunitas."
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "National Institute of Korean Language — Romanization of Korean",
+      "url": "https://www.korean.go.kr/front_eng/roman/roman_01.do",
+      "scope": "Sistem romanisasi berdasarkan pelafalan standar."
+    },
+    {
+      "title": "National Institute of Korean Language — Everything You Wanted to Know about the Korean Language",
+      "url": "https://www.korean.go.kr/common/download.do?c_file_name=935447da-0094-4f24-9b07-6571ac2fc0db_0.pdf&file_path=etcData",
+      "scope": "Struktur kata, akhiran verba, dan honorifik."
+    },
+    {
+      "title": "National Institute of Korean Language — Polite Korean Language",
+      "url": "https://www.korean.go.kr/common/download.do%3Bfront%3DB029F6F336DD2A9103CEAEF8E4DF384E?c_file_name=cbc640af-c543-4ddb-9352-8fd869d31be0_1.pdf&file_path=reportData&o_file_name=Korean-Polite-Language.pdf",
+      "scope": "Tingkat tutur formal/informal dan penanda hormat."
+    },
+    {
+      "title": "National Institute of Korean Language — Learners' Dictionaries",
+      "url": "https://krdict.korean.go.kr/m/eng/help",
+      "scope": "Kamus belajar resmi dan informasi kosakata."
+    },
+    {
+      "title": "National Institute of Korean Language — Standard Pronunciation Rules",
+      "url": "https://korean.go.kr/kornorms/m/m_regltn.do?regltn_code=0002",
+      "scope": "Aturan pelafalan standar Korea."
+    }
+  ],
+  "indonesian_learning_design": {
+    "direction": "Korean (US communities) → Indonesian",
+    "learner_support": [
+      "Bandingkan tingkat tutur Korea dengan sapaan Indonesia.",
+      "Ajarkan bunyi akhir suku kata dan konsonan tegang dengan audio.",
+      "Jelaskan variasi bahasa warisan keluarga."
+    ]
+  },
+  "verification": {
+    "status": "content_seeded_reviewed_not_native_validated",
+    "last_reviewed": "2026-11-19",
+    "notes": "Standar bunyi/tulisan dan pragmatik ditopang NIKL. Slang, profanity, dan beberapa dialek masih draft; belum ada validasi penutur Korean diaspora di AS."
+  }
+}
