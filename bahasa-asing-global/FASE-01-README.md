@@ -46,7 +46,9 @@ Audit data terakhir: **97 entri**, terdiri dari **63 reviewed**, **34 draft**, d
 - `draft` berarti sumber langsung, sebaran regional, atau konteks pemakaian belum cukup.
 - `verified` belum diberikan karena belum ada proses validasi penutur asli/ahli yang terdokumentasi untuk entri-entri tersebut.
 
-Pemeriksaan struktur terakhir menemukan nol kesalahan JSON/struktur, nol ID kosong/duplikat, dan seluruh katalog inti terhubung ke profil bahasa yang sesuai.
+Katalog yang saat ini tercatat memuat **35 record bahasa/kelompok bahasa** di tiga negara. Tiga bahasa utama telah memiliki profil; **32 record lainnya masih menunggu profil individual**. Angka ini adalah hitungan record katalog saat ini, bukan klaim bahwa semua bahasa di ketiga negara sudah terdaftar.
+
+Pemeriksaan struktur terakhir menemukan nol kesalahan JSON/struktur, nol ID kosong/duplikat, dan seluruh tiga profil inti terhubung ke kode bahasa yang sesuai.
 
 **Masih terbuka sebelum seluruh inventaris tiga negara dapat disebut lengkap:**
 - Profil individual bahasa lain yang tercantum dalam katalog negara, termasuk bahasa komunitas, Indigenous, regional, dan minoritas.
