@@ -95,7 +95,9 @@ Rujukan:
 
 ## Status
 
-- [Status Fase 1](./FASE-01-README.md) — paket inti English (AS), Japanese, dan Mandarin Putonghua.
+- [Status Fase 1](./FASE-01-README.md) — 33 profil bahasa untuk tiga negara dan 499 entri pembelajaran.
 - [Validator data](./tools/validate_language_data.py) — pemeriksaan JSON, skema, entri, dan katalog negara.
 
-Direktori ini belum mengklaim mencakup seluruh bahasa, negara, dialek, atau kosakata dunia. Katalog dan profil diperluas bertahap dengan sumber serta validasi yang sesuai.
+Audit terakhir: **397 reviewed, 102 draft, 0 verified**. Dua record AS masih berupa label payung Chinese language groups dan Arabic varieties, bukan profil bahasa individual. Hachijo sudah memiliki profil menggunakan Glottocode `hach1239`, sementara `iso_639_3` tetap `null` karena tidak ada kode ISO 639-3 yang terkonfirmasi.
+
+Cakupan katalog ini masih terpilih dan bukan inventaris lengkap seluruh bahasa, dialek, atau kosakata di ketiga negara. Validasi penutur asli/ahli, penambahan rekaman berlisensi, dan pengembangan bahasa komunitas lainnya tetap diperlukan.
