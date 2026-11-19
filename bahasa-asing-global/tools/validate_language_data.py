@@ -87,12 +87,13 @@ def valid_https_url(value: Any) -> bool:
         return False
     try:
         parsed = urlsplit(value)
+        # Accessing .port also rejects malformed/out-of-range port values.
+        _ = parsed.port
         return (
             parsed.scheme.lower() == "https"
             and bool(parsed.hostname)
             and parsed.username is None
             and parsed.password is None
-            and parsed.port in (None, 443)
         )
     except ValueError:
         return False
@@ -236,9 +237,7 @@ def check_profile(path: Path, country_code: str, report: Report) -> None:
     if profile.get("schema_version") != SCHEMA_VERSION:
         report.error(f"{label}: schema_version harus {SCHEMA_VERSION}.")
 
-    language_iso, language_glottocode = check_language_identity(
-        profile.get("language"), label, report
-    )
+    check_language_identity(profile.get("language"), label, report)
 
     context = profile.get("country_context")
     if not isinstance(context, dict):
@@ -285,8 +284,6 @@ def check_profile(path: Path, country_code: str, report: Report) -> None:
     elif "not_native_validated" in verification["status"]:
         report.warn(f"{label}: profil belum divalidasi penutur asli/ahli.")
 
-    # Returned for catalog/profile identity comparison by the caller.
-    return language_iso, language_glottocode
 
 
 def resolve_profile_path(
