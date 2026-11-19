@@ -1,0 +1,297 @@
+{
+  "schema_version": "1.1.0",
+  "record_type": "language_profile",
+  "language": {
+    "name": "Ainu (Hokkaido varieties)",
+    "native_name": "アイヌ・イタㇰ / aynu itak",
+    "iso_639_3": "ain",
+    "bcp47_tags": [
+      "ain-JP"
+    ],
+    "family": "Language isolate (classification status according to NINJAL)"
+  },
+  "country_context": {
+    "country_code": "JP",
+    "role": [
+      "indigenous",
+      "endangered"
+    ],
+    "note": "Profil ini berfokus pada dokumentasi Ainu Hokkaido. Materi Saru diberi label eksplisit dan tidak digeneralisasi ke semua dialek atau ke Sakhalin Ainu."
+  },
+  "categories": {
+    "accent_and_pronunciation": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "JP-AIN-ACC-001",
+          "term": "Five-vowel system",
+          "explanation_id": "Hokkaido Ainu memiliki lima fonem vokal /a, i, u, e, o/. Perbedaan panjang vokal tidak bersifat fonemik dalam deskripsi Hokkaido Ainu yang dirujuk sumber ini.",
+          "indonesian_learning_link": "Pelajar Indonesia dapat membandingkan kualitas lima vokal, tetapi tidak boleh menganggap panjang vokal sebagai pembeda makna Hokkaido Ainu.",
+          "region": "Hokkaido Ainu; kualitas aktual dapat bervariasi per penutur",
+          "register": "Pronunciation",
+          "usage_context": "Mengenali sistem vokal.",
+          "example_source_language": "/a, i, u, e, o/",
+          "example_indonesian": "lima fonem vokal",
+          "sources": [
+            "https://grammar.aynu.org/grammar/vowel-inventory"
+          ],
+          "verification_status": "draft",
+          "note": "Halaman grammar menyatakan masih draft/revisi; gunakan sebagai petunjuk fonologi, bukan rujukan final tunggal."
+        },
+        {
+          "id": "JP-AIN-ACC-002",
+          "term": "Glottal stop and laryngeals",
+          "explanation_id": "Hokkaido Ainu memiliki hentian glotal dan distribusi /h/ yang perlu dibedakan dari tanda apostrof pada transkripsi.",
+          "indonesian_learning_link": "Ajarkan tanda glotal bersama audio penutur; jangan menganggap apostrof sekadar tanda baca.",
+          "region": "Hokkaido Ainu; perbedaan dialek perlu label",
+          "register": "Pronunciation",
+          "usage_context": "Mengenali konsonan laringal.",
+          "example_source_language": "glottal stop /ʔ/",
+          "example_indonesian": "hentian glotal",
+          "sources": [
+            "https://grammar.aynu.org/grammar/consonant-inventory"
+          ],
+          "verification_status": "draft",
+          "note": "Rujukan grammar masih dalam penyusunan; contoh fonetik memerlukan rekaman/dialek."
+        },
+        {
+          "id": "JP-AIN-ACC-003",
+          "term": "Pitch-accent and dialect differences",
+          "explanation_id": "Sumber grammar Hokkaido Ainu memisahkan dialek yang memiliki pola aksen dan dialek tanpa aksen; posisi aksen tidak boleh digeneralisasi tanpa dialek.",
+          "indonesian_learning_link": "Gunakan audio dengan label dialek dan pembicara.",
+          "region": "Hokkaido Ainu; dialek yang terdokumentasi",
+          "register": "Prosody",
+          "usage_context": "Mendengar perbedaan kontur ujaran.",
+          "example_source_language": "Ainu pitch accent",
+          "example_indonesian": "aksen nada Ainu",
+          "sources": [
+            "https://grammar.aynu.org/grammar/vowel-inventory"
+          ],
+          "verification_status": "draft",
+          "note": "Perlu audio dan rujukan dialek tertentu sebelum dibuat latihan."
+        }
+      ]
+    },
+    "speaking_style_and_pragmatics": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "JP-AIN-PRAG-001",
+          "term": "Irankarapte",
+          "explanation_id": "Irankarapte dikenal sebagai ungkapan sapaan, tetapi historisnya memiliki konteks formal dan tidak dipakai/diterima sama oleh semua komunitas Ainu. Jangan mengajarkannya sebagai padanan universal 'halo'.",
+          "indonesian_learning_link": "Pelajar Indonesia harus memahami bahwa sapaan dipengaruhi komunitas dan hubungan; ‘halo’ tidak selalu punya padanan langsung.",
+          "region": "Asosiasi historis Hokkaido; variasi lokal dan pendapat penutur berbeda",
+          "register": "Formal / community-sensitive",
+          "usage_context": "Memahami sapaan dan batas penggunaannya.",
+          "example_source_language": "irankarapte",
+          "example_indonesian": "sapaan formal; bukan padanan universal halo",
+          "sources": [
+            "https://www.aynuitak.org/vocabulary-phrases/ainu-phrases"
+          ],
+          "verification_status": "reviewed",
+          "note": "Sumber Ainu Language Grammar Guide secara eksplisit menyatakan sebagian penutur tidak menerima pemakaian umum modern."
+        },
+        {
+          "id": "JP-AIN-PRAG-002",
+          "term": "Family-term greeting + he?",
+          "explanation_id": "Dalam dialek Saru, sapaan yang didokumentasikan dapat memakai istilah kekerabatan yang sesuai lalu partikel tanya he?; pola ini ditujukan kepada orang yang sudah dikenal.",
+          "indonesian_learning_link": "Bandingkan dengan penggunaan Kak, Mbak, Om, atau Tante sebagai sapaan dalam bahasa Indonesia.",
+          "region": "Saru dialect; hubungan akrab",
+          "register": "Familiar / contextual",
+          "usage_context": "Menyapa kerabat atau orang yang dikenal.",
+          "example_source_language": "huci he?",
+          "example_indonesian": "Nenek?/Apa kabar, Nek? (bergantung konteks)",
+          "sources": [
+            "https://www.aynuitak.org/vocabulary-phrases/ainu-phrases"
+          ],
+          "verification_status": "reviewed",
+          "note": "Pola ini tidak tepat dipakai kepada orang asing; sumber menyebut distribusi Saru."
+        },
+        {
+          "id": "JP-AIN-PRAG-003",
+          "term": "Iyayraykere",
+          "explanation_id": "Iyayraykere dicatat sebagai bentuk sopan untuk mengucapkan terima kasih; sumber juga mencatat hioy'oy sebagai bentuk informal yang penggunaannya memiliki batas komunitas/gender.",
+          "indonesian_learning_link": "Padanan Indonesia: ‘terima kasih’; ajarkan perbedaan formal dan informal hanya dengan konteks komunitas.",
+          "region": "Hokkaido Ainu; rincian pemakaian dapat bervariasi",
+          "register": "Polite / appreciative",
+          "usage_context": "Berterima kasih atas bantuan.",
+          "example_source_language": "iyayraykere",
+          "example_indonesian": "terima kasih",
+          "sources": [
+            "https://www.aynuitak.org/vocabulary-phrases/ainu-phrases"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "JP-AIN-PRAG-004",
+          "term": "Apunno paye yan / apunno oka yan",
+          "explanation_id": "Ungkapan perpisahan dibedakan menurut siapa yang tetap tinggal dan siapa yang pergi; bukan satu kata universal untuk ‘selamat tinggal’.",
+          "indonesian_learning_link": "Bandingkan dengan bahasa Indonesia yang dapat memakai ‘hati-hati di jalan’ atau ‘jaga diri’ sesuai situasi.",
+          "region": "Sumber pengajaran Hokkaido Ainu",
+          "register": "Context-sensitive farewell",
+          "usage_context": "Berpisah ketika satu pihak pergi atau tinggal.",
+          "example_source_language": "apunno paye yan / apunno oka yan",
+          "example_indonesian": "pergilah dengan selamat / tinggallah dengan selamat",
+          "sources": [
+            "https://www.aynuitak.org/vocabulary-phrases/ainu-phrases"
+          ],
+          "verification_status": "reviewed"
+        }
+      ]
+    },
+    "standard_language": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "JP-AIN-STD-001",
+          "term": "Latin and katakana transcription",
+          "explanation_id": "Sumber Ainu menggunakan sistem transkripsi Latin dan katakana; penulisan harus mengikuti pedoman sumber/dialek tertentu dan mempertahankan tanda khusus.",
+          "indonesian_learning_link": "Jangan menghapus tanda glotal atau mengubah ejaan Ainu menjadi ejaan Japanese tanpa menandai konversi.",
+          "region": "Hokkaido Ainu; konvensi transkripsi berbeda",
+          "register": "Orthography",
+          "usage_context": "Membaca materi kamus dan korpus.",
+          "example_source_language": "Ainu Latin / katakana",
+          "example_indonesian": "transkripsi Latin / katakana",
+          "sources": [
+            "https://ainu.ninjal.ac.jp/topic/en/",
+            "https://ainugo.nam.go.jp/"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "JP-AIN-STD-002",
+          "term": "Saru conversational dictionary",
+          "explanation_id": "NINJAL Topical Dictionary menyajikan bahan percakapan Saru, transkripsi, glos, terjemahan, dan rekaman audio dari penutur asli Saru.",
+          "indonesian_learning_link": "Materi Indonesia sebaiknya menautkan contoh ke audio serta label dialek; jangan mengambil bentuk Saru sebagai bentuk universal seluruh Hokkaido.",
+          "region": "Saru dialect, Nukibetsu",
+          "register": "Reference / learning resource",
+          "usage_context": "Memverifikasi bentuk percakapan dan contoh.",
+          "example_source_language": "Saru Ainu conversational entry",
+          "example_indonesian": "entri percakapan dialek Saru",
+          "sources": [
+            "https://ainu.ninjal.ac.jp/topic/en/"
+          ],
+          "verification_status": "reviewed",
+          "note": "NINJAL menjelaskan sumber historisnya telah diperiksa dan beberapa bentuk meragukan dihapus."
+        },
+        {
+          "id": "JP-AIN-STD-003",
+          "term": "Person marking and verbal predicates",
+          "explanation_id": "Ainu memakai penanda persona pada verba; contoh seperti k-eramasu dan e-eramasu menunjukkan siapa yang mengalami atau melakukan tindakan.",
+          "indonesian_learning_link": "Bandingkan dengan penanda persona dan afiks dalam bahasa Indonesia, namun jangan menganggap sistemnya identik.",
+          "region": "Saru Ainu examples; Hokkaido Ainu material",
+          "register": "Grammar",
+          "usage_context": "Memahami penanda orang pada verba.",
+          "example_source_language": "k-eramasu / e-eramasu",
+          "example_indonesian": "saya menganggap menyenangkan / kamu menganggap menyenangkan",
+          "sources": [
+            "https://www.aynuitak.org/vocabulary-phrases/ainu-phrases"
+          ],
+          "verification_status": "reviewed"
+        }
+      ]
+    },
+    "nonstandard_language_and_slang": {
+      "status": "community_research_required",
+      "entries": [],
+      "coverage_note": "Belum ada kumpulan slang modern lintas komunitas yang layak digeneralisasi. Bentuk lokal harus dimasukkan hanya dengan label dialek, generasi, penutur, dan bukti pemakaian."
+    },
+    "profanity_and_vulgar_language": {
+      "status": "community_review_required",
+      "entries": [],
+      "coverage_note": "Umpatan tidak ditambahkan tanpa sumber leksikografi dan tinjauan penutur Ainu. Kata untuk fungsi tubuh atau humor tidak otomatis diklasifikasikan sebagai profanity."
+    },
+    "regional_and_minority_languages": {
+      "status": "cross_reference_country_catalog",
+      "entries": [
+        {
+          "id": "JP-AIN-REG-001",
+          "term": "Hokkaido Ainu",
+          "explanation_id": "Ainu di Hokkaido memiliki dokumentasi dialek dan sumber pembelajaran tersendiri. Profil ini tidak mencakup secara otomatis Sakhalin Ainu atau Kuril Ainu.",
+          "indonesian_learning_link": "Pilih profil berdasarkan wilayah/dialek penutur, bukan hanya label Ainu umum.",
+          "region": "Hokkaido, Jepang",
+          "register": "Indigenous language",
+          "usage_context": "Memilih sumber bahasa Ainu yang tepat.",
+          "example_source_language": "Hokkaido Ainu",
+          "example_indonesian": "Ainu Hokkaido",
+          "sources": [
+            "https://grammar.aynu.org/grammar/vowel-inventory",
+            "https://ainu.ninjal.ac.jp/topic/en/"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "JP-AIN-REG-002",
+          "term": "Saru dialect",
+          "explanation_id": "NINJAL Topical Dictionary mendeskripsikan bahasa percakapan dialek Saru, dengan kontribusi penutur asli Setsu Kurokawa dari Nukibetsu.",
+          "indonesian_learning_link": "Tandai contoh sebagai Saru; jangan memindahkan kosakata ke dialek lain tanpa pembuktian.",
+          "region": "Saru / Nukibetsu, Hokkaido",
+          "register": "Regional dialect",
+          "usage_context": "Memahami label sumber leksikal/audio.",
+          "example_source_language": "Saru Ainu",
+          "example_indonesian": "Ainu dialek Saru",
+          "sources": [
+            "https://ainu.ninjal.ac.jp/topic/en/"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "JP-AIN-REG-003",
+          "term": "Sakhalin Ainu is distinct in documentation",
+          "explanation_id": "Sumber grammar Hokkaido secara terpisah membahas panjang vokal Sakhalin Ainu sebagai perbandingan; jangan memasukkan ciri tersebut ke profil Hokkaido tanpa alasan.",
+          "indonesian_learning_link": "Pisahkan profil berdasar varietas/komunitas dan identitas linguistik sumber.",
+          "region": "Hokkaido vs Sakhalin; perbandingan",
+          "register": "Language variety distinction",
+          "usage_context": "Menghindari pencampuran data.",
+          "example_source_language": "Hokkaido Ainu / Sakhalin Ainu",
+          "example_indonesian": "Ainu Hokkaido / Ainu Sakhalin",
+          "sources": [
+            "https://grammar.aynu.org/grammar/vowel-inventory"
+          ],
+          "verification_status": "draft",
+          "note": "Butuh profil tersendiri dan tinjauan sumber khusus Sakhalin; entri ini hanya peringatan klasifikasi."
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "National Institute for Japanese Language and Linguistics — Topical Dictionary of Conversational Ainu",
+      "url": "https://ainu.ninjal.ac.jp/topic/en/",
+      "scope": "Kosakata percakapan, dialek Saru, transkripsi, glos, dan audio penutur."
+    },
+    {
+      "title": "National Ainu Museum — Ainu Language Archive",
+      "url": "https://ainugo.nam.go.jp/",
+      "scope": "Kamus, dokumen lisan, rekaman audio/video, dan materi berbasis komunitas."
+    },
+    {
+      "title": "Ainu Language Grammar Guide — Common Phrases",
+      "url": "https://www.aynuitak.org/vocabulary-phrases/ainu-phrases",
+      "scope": "Sapaan, ungkapan terima kasih, perpisahan, serta catatan konteks dan penerimaan komunitas."
+    },
+    {
+      "title": "A Grammar of Hokkaido Ainu — Vowel Inventory",
+      "url": "https://grammar.aynu.org/grammar/vowel-inventory",
+      "scope": "Lima fonem vokal dan catatan fonetik; halaman menyatakan grammar masih draft."
+    },
+    {
+      "title": "A Grammar of Hokkaido Ainu — Consonant Inventory",
+      "url": "https://grammar.aynu.org/grammar/consonant-inventory",
+      "scope": "Inventaris konsonan; sumber masih dalam revisi."
+    }
+  ],
+  "indonesian_learning_design": {
+    "direction": "Ainu (Hokkaido communities) → Indonesian",
+    "learner_support": [
+      "Jelaskan bunyi bahasa Indonesia melalui audio dan contoh, bukan analogi huruf semata.",
+      "Bandingkan sapaan dan perpisahan sesuai hubungan sosial.",
+      "Tampilkan penanda persona pada verba dengan gloss yang hati-hati."
+    ]
+  },
+  "verification": {
+    "status": "content_seeded_reviewed_not_native_validated",
+    "last_reviewed": "2026-11-19",
+    "notes": "Pragmatik dan contoh percakapan merujuk Ainu Language Grammar Guide; bahan Saru mengacu NINJAL. Penjelasan fonologi memakai grammar Hokkaido Ainu yang menyatakan masih draft. Belum ada validasi ahli/penutur untuk seluruh entri."
+  }
+}
