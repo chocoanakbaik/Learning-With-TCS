@@ -1,0 +1,367 @@
+{
+  "schema_version": "1.1.0",
+  "record_type": "language_profile",
+  "language": {
+    "name": "Tagalog",
+    "native_name": "Tagalog / Wikang Tagalog",
+    "iso_639_3": "tgl",
+    "bcp47_tags": [
+      "tl-PH"
+    ],
+    "family": "Austronesian > Malayo-Polynesian > Philippine"
+  },
+  "country_context": {
+    "country_code": "US",
+    "role": [
+      "community",
+      "heritage"
+    ],
+    "note": "Profil ini mendokumentasikan Tagalog dalam komunitas Filipino di Amerika Serikat. Filipino adalah bahasa nasional terstandar yang berakar pada Tagalog; konteks istilah harus dibedakan."
+  },
+  "categories": {
+    "accent_and_pronunciation": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "US-TGL-ACC-001",
+          "term": "Unaspirated p, t, k",
+          "explanation_id": "Konsonan /p t k/ Tagalog umumnya tidak memiliki hembusan aspirasi sekuat bunyi English pada posisi awal kata.",
+          "indonesian_learning_link": "Latih pelepasan udara secara terkontrol saat mengucapkan konsonan Indonesia.",
+          "region": "Tagalog",
+          "register": "Pronunciation",
+          "usage_context": "Membedakan aspirasi.",
+          "example_source_language": "pito; tawa; kita",
+          "example_indonesian": "tujuh; tawa; kita",
+          "sources": [
+            "https://manifold.uhpress.hawaii.edu/read/tagalog-for-beginners/section/e056cfa3-e72c-420c-8799-a8b5c18febcb"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-TGL-ACC-002",
+          "term": "Initial ng",
+          "explanation_id": "Bunyi nasal velar /ŋ/ yang ditulis ng dapat muncul di awal kata Tagalog.",
+          "indonesian_learning_link": "Pelajar Indonesia mengenal /ŋ/ dalam ‘ngopi’; perhatikan posisi awal kata.",
+          "region": "Tagalog",
+          "register": "Pronunciation",
+          "usage_context": "Melafalkan kata berawalan ng.",
+          "example_source_language": "ngayon",
+          "example_indonesian": "sekarang",
+          "sources": [
+            "https://manifold.uhpress.hawaii.edu/read/tagalog-for-beginners/section/e056cfa3-e72c-420c-8799-a8b5c18febcb"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-TGL-ACC-003",
+          "term": "Glottal stop and stress",
+          "explanation_id": "Hentian glotal dan tekanan suku kata dapat membedakan bentuk kata Tagalog.",
+          "indonesian_learning_link": "Ajarkan lewat audio dan pasangan kata, bukan hanya ejaan Latin.",
+          "region": "Tagalog",
+          "register": "Pronunciation",
+          "usage_context": "Mengenali batas bunyi dan tekanan.",
+          "example_source_language": "bataʼ",
+          "example_indonesian": "contoh bentuk dengan hentian glotal akhir",
+          "sources": [
+            "https://manifold.uhpress.hawaii.edu/read/tagalog-for-beginners/section/e056cfa3-e72c-420c-8799-a8b5c18febcb"
+          ],
+          "verification_status": "reviewed"
+        }
+      ]
+    },
+    "speaking_style_and_pragmatics": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "US-TGL-PRAG-001",
+          "term": "po / opo",
+          "explanation_id": "Partikel po dan jawaban opo menandai hormat/deferensi; posisi po sebagai enklitik dipengaruhi struktur ujaran.",
+          "indonesian_learning_link": "Padankan sesuai situasi dengan sapaan atau penanda kesantunan bahasa Indonesia.",
+          "region": "Tagalog",
+          "register": "Respectful / polite",
+          "usage_context": "Berbicara kepada orang yang dihormati.",
+          "example_source_language": "Opo, naiintindihan ko po.",
+          "example_indonesian": "Ya, saya mengerti.",
+          "sources": [
+            "https://journals.uvic.ca/index.php/WPLC/article/download/5039/1946"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-TGL-PRAG-002",
+          "term": "Tao po",
+          "explanation_id": "Ungkapan konvensional untuk memanggil dari luar rumah atau mengumumkan kehadiran.",
+          "indonesian_learning_link": "Padanan fungsi Indonesia: ‘Permisi, ada orang?’",
+          "region": "Tagalog; konteks rumah",
+          "register": "Polite formula",
+          "usage_context": "Memanggil penghuni rumah.",
+          "example_source_language": "Tao po!",
+          "example_indonesian": "Permisi, ada orang?",
+          "sources": [
+            "https://journals.uvic.ca/index.php/WPLC/article/download/5039/1946"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-TGL-PRAG-003",
+          "term": "Kinship terms as address",
+          "explanation_id": "Kata kekerabatan dapat dipakai sebagai sapaan sosial untuk menandai usia, kedekatan, atau hormat.",
+          "indonesian_learning_link": "Bandingkan dengan Kak, Tante, Om, Bapak, dan Ibu.",
+          "region": "Tagalog; keluarga dan komunitas",
+          "register": "Context-sensitive",
+          "usage_context": "Menyapa seseorang.",
+          "example_source_language": "Ate, puwede po ba?",
+          "example_indonesian": "Kak, bolehkah?",
+          "sources": [
+            "https://www.degruyterbrill.com/document/doi/10.1525/9780520321205/html"
+          ],
+          "verification_status": "reviewed"
+        }
+      ]
+    },
+    "standard_language": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "US-TGL-STD-001",
+          "term": "Filipino and Tagalog",
+          "explanation_id": "Filipino adalah bahasa nasional terstandar yang berakar pada Tagalog dan terus diperkaya bahasa Filipina lain; konteks kedua istilah perlu dibedakan.",
+          "indonesian_learning_link": "Bedakan bahasa nasional dan bahasa daerah sebagaimana konteks bahasa Indonesia.",
+          "region": "Filipina dan diaspora",
+          "register": "Standard language",
+          "usage_context": "Memahami label bahasa dalam bahan belajar.",
+          "example_source_language": "Wikang Filipino",
+          "example_indonesian": "Bahasa Filipino",
+          "sources": [
+            "https://kwf.gov.ph/wp-content/uploads/Balarila-ng-Wikang-Pambansa-1.pdf"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-TGL-STD-002",
+          "term": "Focus and voice morphology",
+          "explanation_id": "Afiks verba Tagalog menandai aspek dan relasi fokus/voice; sistemnya tidak sama dengan konjugasi bahasa Eropa.",
+          "indonesian_learning_link": "Terangkan peran pelaku dan sasaran tanpa memaksakan terjemahan morfem satu per satu.",
+          "region": "Tagalog",
+          "register": "Standard grammar",
+          "usage_context": "Menganalisis peran sintaksis.",
+          "example_source_language": "Kumain ang bata ng mangga.",
+          "example_indonesian": "Anak itu makan mangga.",
+          "sources": [
+            "https://www.degruyterbrill.com/document/doi/10.1525/9780520321205/html"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-TGL-STD-003",
+          "term": "Orthography and ng",
+          "explanation_id": "Tagalog memakai ejaan Latin; ng merupakan digraf yang mewakili satu bunyi nasal velar dalam banyak konteks.",
+          "indonesian_learning_link": "Bandingkan penggunaan digraf dengan ejaan Indonesia.",
+          "region": "Tagalog/Filipino",
+          "register": "Orthography",
+          "usage_context": "Membaca bentuk tertulis.",
+          "example_source_language": "ngayon; ngiti",
+          "example_indonesian": "sekarang; senyum",
+          "sources": [
+            "https://kwf.gov.ph/wp-content/uploads/Balarila-ng-Wikang-Pambansa-1.pdf"
+          ],
+          "verification_status": "reviewed"
+        }
+      ]
+    },
+    "nonstandard_language_and_slang": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "US-TGL-SLANG-001",
+          "term": "lodi",
+          "explanation_id": "Bentuk slang dari idol melalui permainan urutan bunyi/huruf; digunakan untuk memuji sosok yang dikagumi.",
+          "indonesian_learning_link": "Padanan Indonesia: idola, jagoan, atau panutan.",
+          "region": "Filipina; media sosial",
+          "register": "Slang / backslang",
+          "usage_context": "Memuji seseorang.",
+          "example_source_language": "Lodi talaga siya.",
+          "example_indonesian": "Dia memang idola.",
+          "sources": [
+            "https://bcsdjournals.com/index.php/ijecls/article/view/148"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-TGL-SLANG-002",
+          "term": "petmalu",
+          "explanation_id": "Bentuk slang dari malupet/malupit untuk menyebut sesuatu yang hebat atau keren.",
+          "indonesian_learning_link": "Padanan Indonesia: keren banget atau mantap.",
+          "region": "Filipina; slang anak muda",
+          "register": "Slang / backslang",
+          "usage_context": "Memberi pujian.",
+          "example_source_language": "Petmalu ang performance mo.",
+          "example_indonesian": "Penampilanmu keren sekali.",
+          "sources": [
+            "https://www.randwickresearch.com/index.php/rissj/article/download/1236/1559/"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-TGL-SLANG-003",
+          "term": "werpa",
+          "explanation_id": "Bentuk slang dari power untuk mengungkapkan dukungan, energi, atau semangat.",
+          "indonesian_learning_link": "Padanan Indonesia: semangat, tenaga, atau dukungan.",
+          "region": "Filipina; slang anak muda",
+          "register": "Slang / backslang",
+          "usage_context": "Memberi dukungan.",
+          "example_source_language": "Werpa sa exam!",
+          "example_indonesian": "Semangat menghadapi ujian!",
+          "sources": [
+            "https://bcsdjournals.com/index.php/ijecls/article/view/148"
+          ],
+          "verification_status": "reviewed"
+        }
+      ]
+    },
+    "profanity_and_vulgar_language": {
+      "status": "seeded_educational_with_context",
+      "entries": [
+        {
+          "id": "US-TGL-PROF-001",
+          "term": "gago / gaga",
+          "explanation_id": "Hinaan informal untuk orang yang dianggap bodoh atau bertindak tolol; intensitasnya bergantung intonasi dan hubungan.",
+          "indonesian_learning_link": "Padanan Indonesia: bodoh, tolol, atau brengsek menurut konteks.",
+          "region": "Tagalog; diaspora",
+          "register": "Insult / colloquial",
+          "usage_context": "Memahami hinaan dalam percakapan.",
+          "example_source_language": "Huwag mo akong tawaging gago.",
+          "example_indonesian": "Jangan menyebut saya bodoh.",
+          "sources": [
+            "https://www.tagalog-dictionary.com/search?word=gago"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-TGL-PROF-002",
+          "term": "tanga",
+          "explanation_id": "Hinaan yang berarti bodoh atau tidak paham; dapat menyerang seseorang secara langsung.",
+          "indonesian_learning_link": "Padanan Indonesia: bodoh atau tolol.",
+          "region": "Tagalog; diaspora",
+          "register": "Insult",
+          "usage_context": "Memahami ujaran kasar.",
+          "example_source_language": "Huwag mong sabihing tanga siya.",
+          "example_indonesian": "Jangan mengatakan bahwa dia bodoh.",
+          "sources": [
+            "https://www.tagalog-dictionary.com/search?word=tanga"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-TGL-PROF-003",
+          "term": "putang ina",
+          "explanation_id": "Umpatan vulgar yang merujuk pada penghinaan terhadap ibu; digunakan sebagai seruan emosi dan dianggap sangat kasar dalam banyak konteks.",
+          "indonesian_learning_link": "Tandai sebagai umpatan sangat kuat, bukan padanan tetap untuk setiap ekspresi frustrasi.",
+          "region": "Tagalog; diaspora",
+          "register": "Very strong profanity",
+          "usage_context": "Memahami kutipan atau luapan emosi.",
+          "example_source_language": "Ang salitang iyon ay napakabastos.",
+          "example_indonesian": "Kata itu sangat kasar.",
+          "sources": [
+            "https://en.wiktionary.org/wiki/putang_ina"
+          ],
+          "verification_status": "reviewed",
+          "note": "Rujukan leksikografi mencantumkan definisi vulgar dan merujuk pada entri KWF; perlu validasi komunitas diaspora."
+        }
+      ]
+    },
+    "regional_and_minority_languages": {
+      "status": "cross_reference_country_catalog",
+      "entries": [
+        {
+          "id": "US-TGL-REG-001",
+          "term": "Tagalog in the United States",
+          "explanation_id": "Tagalog digunakan oleh komunitas migran dan keturunan Filipino; pola antar-generasi dapat dipengaruhi English dan bahasa keluarga lain.",
+          "indonesian_learning_link": "Kenali variasi diaspora tanpa menyimpulkan satu bentuk untuk semua keluarga.",
+          "region": "Komunitas Filipino di AS",
+          "register": "Heritage language",
+          "usage_context": "Memahami bahasa keluarga.",
+          "example_source_language": "Tagalog sa pamilya",
+          "example_indonesian": "Tagalog dalam keluarga",
+          "sources": [
+            "https://www.census.gov/topics/population/language-use.html"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-TGL-REG-002",
+          "term": "Taglish",
+          "explanation_id": "Praktik alih kode Tagalog/Filipino-English yang bervariasi menurut komunitas dan situasi.",
+          "indonesian_learning_link": "Bandingkan dengan campur kode Indonesia-Inggris.",
+          "region": "Filipina dan diaspora",
+          "register": "Bilingual / informal",
+          "usage_context": "Percakapan bilingual.",
+          "example_source_language": "Mag-meeting tayo later.",
+          "example_indonesian": "Kita rapat nanti.",
+          "sources": [],
+          "verification_status": "draft",
+          "note": "Contoh ilustratif; perlu sumber khusus Taglish di komunitas diaspora AS."
+        },
+        {
+          "id": "US-TGL-REG-003",
+          "term": "Other Philippine languages",
+          "explanation_id": "Cebuano, Ilocano, Hiligaynon, dan Waray adalah bahasa berbeda, bukan sekadar dialek Tagalog.",
+          "indonesian_learning_link": "Buat profil tersendiri untuk setiap bahasa dan komunitas.",
+          "region": "Filipina dan diaspora",
+          "register": "Language diversity",
+          "usage_context": "Memilih identitas bahasa sumber yang benar.",
+          "example_source_language": "Cebuano ≠ Tagalog",
+          "example_indonesian": "Cebuano bukan dialek Tagalog.",
+          "sources": [],
+          "verification_status": "draft",
+          "note": "Perlu inventaris resmi bahasa Filipina dan kode ISO diperiksa sebelum ditautkan."
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "University of Hawaiʻi Press — Tagalog for Beginners",
+      "url": "https://manifold.uhpress.hawaii.edu/read/tagalog-for-beginners/section/e056cfa3-e72c-420c-8799-a8b5c18febcb",
+      "scope": "Pelafalan, ng awal, hentian glotal, vokal, dan struktur kata."
+    },
+    {
+      "title": "Schachter & Otanes — Tagalog Reference Grammar",
+      "url": "https://www.degruyterbrill.com/document/doi/10.1525/9780520321205/html",
+      "scope": "Fonologi, struktur kalimat, afiks, dan tata bahasa Tagalog."
+    },
+    {
+      "title": "Komisyon sa Wikang Filipino — Balarila ng Wikang Pambansa",
+      "url": "https://kwf.gov.ph/wp-content/uploads/Balarila-ng-Wikang-Pambansa-1.pdf",
+      "scope": "Istilah gramatikal dan ejaan bahasa nasional."
+    },
+    {
+      "title": "On the Origins of Philippine Particle/Pronominal Sociolinguistic Use",
+      "url": "https://journals.uvic.ca/index.php/WPLC/article/download/5039/1946",
+      "scope": "Fungsi partikel hormat po/ho dan opo/oho."
+    },
+    {
+      "title": "The Lexical Trend of Backward Speech among Filipino Millennials on Facebook",
+      "url": "https://bcsdjournals.com/index.php/ijecls/article/view/148",
+      "scope": "Slang lodi dan werpa."
+    },
+    {
+      "title": "Tagalog Dictionary",
+      "url": "https://www.tagalog-dictionary.com/",
+      "scope": "Lema gago dan tanga."
+    }
+  ],
+  "indonesian_learning_design": {
+    "direction": "Tagalog (US Filipino communities) → Indonesian",
+    "learner_support": [
+      "Jelaskan penanda hormat Tagalog dibanding sapaan Indonesia.",
+      "Bandingkan sistem afiks/aspek Tagalog dengan verba bahasa Indonesia.",
+      "Ajarkan slang dan umpatan dengan label intensitas dan konteks."
+    ]
+  },
+  "verification": {
+    "status": "content_seeded_reviewed_not_native_validated",
+    "last_reviewed": "2026-11-19",
+    "notes": "Paket awal bersumber pada universitas, KWF, penelitian pragmatik, dan kamus. Entri Taglish dan bahasa Filipina lain masih draft; belum ada validasi penutur asli diaspora."
+  }
+}
