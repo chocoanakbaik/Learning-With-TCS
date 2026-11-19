@@ -1,0 +1,370 @@
+{
+  "schema_version": "1.1.0",
+  "record_type": "language_profile",
+  "language": {
+    "name": "Vietnamese",
+    "native_name": "Tiếng Việt",
+    "iso_639_3": "vie",
+    "bcp47_tags": [
+      "vi-VN"
+    ],
+    "family": "Austroasiatic > Vietic"
+  },
+  "country_context": {
+    "country_code": "US",
+    "role": [
+      "community",
+      "heritage"
+    ],
+    "note": "Profil ini mencakup Vietnamese dalam komunitas diaspora di Amerika Serikat. Penutur dapat berasal dari wilayah utara, tengah, atau selatan Vietnam; variasi tidak boleh disatukan menjadi satu aksen."
+  },
+  "categories": {
+    "accent_and_pronunciation": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "US-VIE-ACC-001",
+          "term": "Regional tone systems",
+          "explanation_id": "Tiếng Việt bersifat tonal; jumlah dan realisasi kontras nada serta kontur dapat berbeda menurut varietas utara, tengah, dan selatan.",
+          "indonesian_learning_link": "Latih nada sebagai bagian dari pengucapan kata, bukan sekadar intonasi emosi. Bahasa Indonesia tidak memakai nada leksikal seperti Vietnamese.",
+          "region": "Vietnamese; varietas regional di diaspora AS",
+          "register": "Pronunciation",
+          "usage_context": "Membedakan kata melalui nada.",
+          "example_source_language": "ma / mà / má (contoh kontras tanda nada)",
+          "example_indonesian": "Contoh latihan bunyi; makna perlu diperiksa melalui kamus dan audio.",
+          "sources": [
+            "https://pubs.asha.org/doi/10.1044/2023_JSLHR-21-00669",
+            "https://catalog.ldc.upenn.edu/docs/LDC2017S01/LSP_107_final.pdf"
+          ],
+          "verification_status": "reviewed",
+          "note": "Contoh hanya menunjukkan fungsi diakritik, bukan pasangan minimal lengkap."
+        },
+        {
+          "id": "US-VIE-ACC-002",
+          "term": "Regional realization of r",
+          "explanation_id": "Bunyi yang ditulis r memiliki realisasi yang berbeda: sumber ASHA melaporkan bentuk retrofleks di varietas standar/tengah, frikatif alveolar atau getar di utara, dan velar di selatan.",
+          "indonesian_learning_link": "Tunjukkan bahwa ejaan sama tidak menjamin bunyi sama; jangan meminta pelajar meniru satu aksen sebagai satu-satunya bentuk benar.",
+          "region": "Utara, tengah, selatan Vietnam",
+          "register": "Regional pronunciation",
+          "usage_context": "Mendengarkan variasi /r/.",
+          "example_source_language": "r trong từ tiếng Việt",
+          "example_indonesian": "Bunyi r dalam kata Vietnamese.",
+          "sources": [
+            "https://pubs.asha.org/doi/10.1044/2023_JSLHR-21-00669"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-VIE-ACC-003",
+          "term": "Northern, Central, Southern Vietnamese",
+          "explanation_id": "Tiga pengelompokan regional utama memiliki perbedaan fonologi dan kosakata; hingga sembilan dialek pernah didokumentasikan menurut literatur yang dirangkum penelitian.",
+          "indonesian_learning_link": "Beri label aksen asal penutur dan latih pemahaman lintas-varietas.",
+          "region": "Vietnamese diaspora; latar asal beragam",
+          "register": "Regional pronunciation",
+          "usage_context": "Memilih audio sesuai latar dialek.",
+          "example_source_language": "Giọng Bắc / giọng Trung / giọng Nam",
+          "example_indonesian": "Logat Utara / Tengah / Selatan.",
+          "sources": [
+            "https://pubs.asha.org/doi/10.1044/2023_JSLHR-21-00669",
+            "https://catalog.ldc.upenn.edu/docs/LDC2017S01/LSP_107_final.pdf"
+          ],
+          "verification_status": "reviewed"
+        }
+      ],
+      "coverage_note": "Gunakan sampel audio yang dilisensikan dan beri label dialek; jangan menyebut ragam utara sebagai satu-satunya varietas yang benar."
+    },
+    "speaking_style_and_pragmatics": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "US-VIE-PRAG-001",
+          "term": "Anh / chị / em",
+          "explanation_id": "Bentuk kekerabatan dapat berfungsi sebagai pronomina orang pertama atau kedua sesuai usia, gender, dan relasi sosial penutur.",
+          "indonesian_learning_link": "Bandingkan dengan Kak, Adik, Mas, Mbak, Bapak, dan Ibu dalam bahasa Indonesia.",
+          "region": "Vietnamese; relasi sosial",
+          "register": "Context-sensitive / polite",
+          "usage_context": "Memilih sapaan dan kata ganti.",
+          "example_source_language": "Chị có giúp em được không?",
+          "example_indonesian": "Kakak perempuan dapat membantu saya?",
+          "sources": [
+            "https://s3.us-west-1.wasabisys.com/p-library/books/8cb147eea7a7ebf9a2f093d608c2d529.pdf",
+            "https://openresearch-repository.anu.edu.au/server/api/core/bitstreams/dc753490-4034-4f09-9f0e-d683fadd48e6/content"
+          ],
+          "verification_status": "reviewed",
+          "note": "Terjemahan bergantung posisi usia dan siapa yang berbicara; bentuk ini bukan kata ganti universal."
+        },
+        {
+          "id": "US-VIE-PRAG-002",
+          "term": "Kinship terms as pronouns",
+          "explanation_id": "Kata kekerabatan dapat dipakai untuk menyebut diri sendiri, lawan bicara, atau orang ketiga; pilihan ditentukan umur, status, dan kedekatan.",
+          "indonesian_learning_link": "Ajarkan bahwa sapaan Indonesia juga memilih bentuk berdasarkan relasi, tetapi pemetaan kata tidak satu-satu.",
+          "region": "Vietnamese; percakapan dan keluarga",
+          "register": "Polite / relational",
+          "usage_context": "Memahami referensi diri dan lawan bicara.",
+          "example_source_language": "Con muốn bố đánh thức con dậy lúc sáu giờ.",
+          "example_indonesian": "Anak ingin Ayah membangunkannya pukul enam.",
+          "sources": [
+            "https://s3.us-west-1.wasabisys.com/p-library/books/8cb147eea7a7ebf9a2f093d608c2d529.pdf"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-VIE-PRAG-003",
+          "term": "Politeness markers and softeners",
+          "explanation_id": "Penanda kesopanan dalam Vietnamese mencakup partikel afektif, kata kekerabatan, bentuk terima kasih, dan strategi melunakkan pendapat.",
+          "indonesian_learning_link": "Bandingkan dengan pilihan ‘tolong’, ‘silakan’, ‘terima kasih’, serta sapaan Indonesia.",
+          "region": "Vietnamese; konteks keluarga dan sosial",
+          "register": "Polite / contextual",
+          "usage_context": "Melunakkan permintaan dan pendapat.",
+          "example_source_language": "cảm ơn",
+          "example_indonesian": "terima kasih",
+          "sources": [
+            "https://openresearch-repository.anu.edu.au/server/api/core/bitstreams/dc753490-4034-4f09-9f0e-d683fadd48e6/content"
+          ],
+          "verification_status": "reviewed"
+        }
+      ],
+      "coverage_note": "Sapaan harus dipilih menurut umur relatif, hubungan, status, wilayah, dan situasi; jangan mengandalkan kata ganti universal."
+    },
+    "standard_language": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "US-VIE-STD-001",
+          "term": "Quốc ngữ",
+          "explanation_id": "Sistem tulisan Vietnamese modern memakai aksara Latin dengan tanda diakritik untuk vokal dan nada.",
+          "indonesian_learning_link": "Jelaskan fungsi tanda diakritik dan jangan menghilangkannya dalam contoh bahasa Indonesia atau Vietnamese.",
+          "region": "Vietnamese tertulis",
+          "register": "Orthography",
+          "usage_context": "Membaca dan menulis kata.",
+          "example_source_language": "tiếng Việt",
+          "example_indonesian": "bahasa Vietnam",
+          "sources": [
+            "https://catalog.ldc.upenn.edu/docs/LDC2017S01/LSP_107_final.pdf"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-VIE-STD-002",
+          "term": "Northern reference variety and standards",
+          "explanation_id": "Sebagian referensi pengajaran memakai pelafalan utara/Hanoi sebagai acuan, tetapi ini tidak membuat varietas tengah dan selatan tidak baku atau salah.",
+          "indonesian_learning_link": "Terangkan perbedaan standar pembelajaran dan keragaman tutur nyata.",
+          "region": "Vietnamese; pengajaran dan media",
+          "register": "Standard / reference variety",
+          "usage_context": "Memilih model audio awal.",
+          "example_source_language": "Hà Nội",
+          "example_indonesian": "Hanoi",
+          "sources": [
+            "https://catalog.ldc.upenn.edu/docs/LDC2017S01/LSP_107_final.pdf",
+            "https://pubs.asha.org/doi/10.1044/2023_JSLHR-21-00669"
+          ],
+          "verification_status": "reviewed",
+          "note": "Penggunaan standar berbeda menurut sumber, institusi, dan tujuan pembelajaran."
+        },
+        {
+          "id": "US-VIE-STD-003",
+          "term": "Address terms in grammar",
+          "explanation_id": "Tata bahasa Vietnamese menggunakan kata kekerabatan dan nama sebagai unsur rujukan orang; bentuknya bekerja sebagai sistem gramatikal dan pragmatik.",
+          "indonesian_learning_link": "Dalam bahasa Indonesia, kata ganti seperti saya/Anda dan sapaan kekerabatan tidak selalu berfungsi seperti sistem Vietnamese.",
+          "region": "Vietnamese standard and conversational grammar",
+          "register": "Grammar",
+          "usage_context": "Membentuk kalimat dengan sapaan yang sesuai.",
+          "example_source_language": "Tôi là người Indonesia.",
+          "example_indonesian": "Saya orang Indonesia.",
+          "sources": [
+            "https://s3.us-west-1.wasabisys.com/p-library/books/8cb147eea7a7ebf9a2f093d608c2d529.pdf"
+          ],
+          "verification_status": "reviewed"
+        }
+      ],
+      "coverage_note": "Ejaan Quoc Ngu dipertahankan termasuk tanda nada; contoh audio harus mencatat dialek."
+    },
+    "nonstandard_language_and_slang": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "US-VIE-SLANG-001",
+          "term": "trời ơi",
+          "explanation_id": "Seruan percakapan yang secara literal menyebut ‘langit/surga’, tetapi berfungsi sebagai ekspresi terkejut, frustrasi, atau heran.",
+          "indonesian_learning_link": "Padanan Indonesia dapat ‘ya ampun’, ‘astaga’, atau ‘waduh’ sesuai emosi.",
+          "region": "Vietnamese; percakapan",
+          "register": "Colloquial interjection",
+          "usage_context": "Mengekspresikan keterkejutan.",
+          "example_source_language": "Trời ơi!",
+          "example_indonesian": "Ya ampun!",
+          "sources": [],
+          "verification_status": "draft",
+          "note": "Perlu rujukan kamus/korpus langsung untuk fungsi dan register kontemporer."
+        },
+        {
+          "id": "US-VIE-SLANG-002",
+          "term": "xịn",
+          "explanation_id": "Slang informal yang sering dipakai untuk sesuatu yang bagus, berkualitas, atau terlihat keren.",
+          "indonesian_learning_link": "Padanan Indonesia: keren, bagus, berkualitas.",
+          "region": "Vietnamese kontemporer; terutama internet dan percakapan",
+          "register": "Slang",
+          "usage_context": "Memuji barang atau pengalaman.",
+          "example_source_language": "Cái này xịn quá.",
+          "example_indonesian": "Ini keren sekali.",
+          "sources": [],
+          "verification_status": "draft",
+          "note": "Perlu sumber leksikografi dan penanda usia/wilayah."
+        },
+        {
+          "id": "US-VIE-SLANG-003",
+          "term": "đỉnh",
+          "explanation_id": "Kata yang secara literal dapat berarti puncak; dalam slang dapat berarti sangat bagus atau luar biasa.",
+          "indonesian_learning_link": "Padanan Indonesia: top, keren banget, luar biasa.",
+          "region": "Vietnamese kontemporer",
+          "register": "Slang",
+          "usage_context": "Memuji hasil atau penampilan.",
+          "example_source_language": "Bài hát này đỉnh.",
+          "example_indonesian": "Lagu ini keren sekali.",
+          "sources": [],
+          "verification_status": "draft",
+          "note": "Pemakaian slang perlu rujukan khusus dan validasi penutur."
+        }
+      ],
+      "coverage_note": "Slang masih target riset; jangan tayangkan sebagai materi tervalidasi sebelum ada sumber lema dan data komunitas."
+    },
+    "profanity_and_vulgar_language": {
+      "status": "seeded_educational_with_context",
+      "entries": [
+        {
+          "id": "US-VIE-PROF-001",
+          "term": "đồ ngu",
+          "explanation_id": "Hinaan yang secara umum berarti orang bodoh atau ‘dasar bodoh’; intensitas bergantung intonasi dan hubungan.",
+          "indonesian_learning_link": "Padanan Indonesia: ‘dasar bodoh’ atau ‘tolol’; jelaskan risiko menghina orang.",
+          "region": "Vietnamese; lintas wilayah",
+          "register": "Insult",
+          "usage_context": "Memahami konflik atau dialog media.",
+          "example_source_language": "Đừng gọi người khác là đồ ngu.",
+          "example_indonesian": "Jangan menyebut orang lain bodoh.",
+          "sources": [],
+          "verification_status": "draft",
+          "note": "Perlu kamus Vietnamese tepercaya dan validasi native untuk intensitas."
+        },
+        {
+          "id": "US-VIE-PROF-002",
+          "term": "địt mẹ",
+          "explanation_id": "Umpatan sangat vulgar yang secara literal merujuk pada hubungan seksual dengan ibu; dipakai sebagai makian kuat dalam sebagian konteks.",
+          "indonesian_learning_link": "Tandai sebagai sangat kasar dan berisiko tinggi; jangan gunakan dalam percakapan sopan.",
+          "region": "Vietnamese; distribusi/regional nuance perlu diperiksa",
+          "register": "Very strong profanity",
+          "usage_context": "Memahami kutipan media/konflik.",
+          "example_source_language": "Đây là một câu chửi rất tục.",
+          "example_indonesian": "Ini adalah makian yang sangat vulgar.",
+          "sources": [],
+          "verification_status": "draft",
+          "note": "Tidak ada sumber leksikografi langsung yang berhasil diverifikasi pada tahap ini; jangan tampilkan sebagai entri final."
+        },
+        {
+          "id": "US-VIE-PROF-003",
+          "term": "chửi thề",
+          "explanation_id": "Istilah umum untuk mengumpat atau mengeluarkan kata makian; bukan satu lema umpatan tertentu.",
+          "indonesian_learning_link": "Padanan Indonesia: mengumpat atau berkata kasar.",
+          "region": "Vietnamese; istilah umum",
+          "register": "Neutral meta-language",
+          "usage_context": "Membahas kategori kata kasar secara netral.",
+          "example_source_language": "Không nên chửi thề trong cuộc họp.",
+          "example_indonesian": "Sebaiknya jangan mengumpat dalam rapat.",
+          "sources": [
+            "https://openresearch-repository.anu.edu.au/server/api/core/bitstreams/dc753490-4034-4f09-9f0e-d683fadd48e6/content"
+          ],
+          "verification_status": "draft",
+          "note": "Sumber mendukung pragmatik/kesopanan umum, bukan entri kamus khusus; perlu verifikasi langsung."
+        }
+      ],
+      "coverage_note": "Konten kasar dicatat agar pembelajar memahami dialog, tetapi intensitas dan sumber belum divalidasi untuk sebagian entri."
+    },
+    "regional_and_minority_languages": {
+      "status": "cross_reference_country_catalog",
+      "entries": [
+        {
+          "id": "US-VIE-REG-001",
+          "term": "Northern Vietnamese",
+          "explanation_id": "Varietas utara, termasuk Hanoi, memiliki ciri fonologi dan leksikal tertentu; tidak mewakili semua Vietnamese di AS.",
+          "indonesian_learning_link": "Labeli sumber audio dengan asal wilayah agar siswa memahami variasi.",
+          "region": "Vietnam Utara; diaspora asal utara",
+          "register": "Regional variety",
+          "usage_context": "Mengenali pelafalan asal penutur.",
+          "example_source_language": "giọng Bắc",
+          "example_indonesian": "logat utara",
+          "sources": [
+            "https://pubs.asha.org/doi/10.1044/2023_JSLHR-21-00669",
+            "https://catalog.ldc.upenn.edu/docs/LDC2017S01/LSP_107_final.pdf"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-VIE-REG-002",
+          "term": "Central Vietnamese",
+          "explanation_id": "Varietas tengah memiliki perbedaan bunyi dan kosakata dari utara dan selatan; variasi internal wilayah tengah cukup besar.",
+          "indonesian_learning_link": "Ajarkan variasi tanpa merendahkan aksen daerah.",
+          "region": "Vietnam Tengah; diaspora asal tengah",
+          "register": "Regional variety",
+          "usage_context": "Mengenali variasi regional.",
+          "example_source_language": "giọng Trung",
+          "example_indonesian": "logat tengah",
+          "sources": [
+            "https://pubs.asha.org/doi/10.1044/2023_JSLHR-21-00669",
+            "https://catalog.ldc.upenn.edu/docs/LDC2017S01/LSP_107_final.pdf"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-VIE-REG-003",
+          "term": "Southern Vietnamese",
+          "explanation_id": "Varietas selatan memiliki sejumlah realisasi konsonan dan nada yang berbeda dari utara; sebaran komunitas diaspora juga beragam.",
+          "indonesian_learning_link": "Gunakan contoh penutur selatan sebagai model tersendiri, bukan dianggap salah ucap.",
+          "region": "Vietnam Selatan; diaspora asal selatan",
+          "register": "Regional variety",
+          "usage_context": "Mengenali variasi regional.",
+          "example_source_language": "giọng Nam",
+          "example_indonesian": "logat selatan",
+          "sources": [
+            "https://pubs.asha.org/doi/10.1044/2023_JSLHR-21-00669",
+            "https://catalog.ldc.upenn.edu/docs/LDC2017S01/LSP_107_final.pdf"
+          ],
+          "verification_status": "reviewed"
+        }
+      ],
+      "coverage_note": "Profil US ini mencatat variasi asal Vietnam yang dibawa komunitas diaspora; bahasa minoritas di Vietnam memerlukan profil tersendiri."
+    }
+  },
+  "sources": [
+    {
+      "title": "ASHA — Multilingual Speech Acquisition by Vietnamese-English-Speaking Children and Adult Family Members",
+      "url": "https://pubs.asha.org/doi/10.1044/2023_JSLHR-21-00669",
+      "scope": "Variasi dialek Northern/Central/Southern dan perbedaan fonologi."
+    },
+    {
+      "title": "LDC — Language Specific Peculiarities Document for Vietnamese",
+      "url": "https://catalog.ldc.upenn.edu/docs/LDC2017S01/LSP_107_final.pdf",
+      "scope": "Ragam regional dan perbandingan konsonan/pelafalan."
+    },
+    {
+      "title": "ANU — Variation in Linguistic Politeness in Vietnamese",
+      "url": "https://openresearch-repository.anu.edu.au/server/api/core/bitstreams/dc753490-4034-4f09-9f0e-d683fadd48e6/content",
+      "scope": "Penanda kesopanan, partikel, dan strategi pragmatik."
+    },
+    {
+      "title": "Vietnamese: An Essential Grammar",
+      "url": "https://s3.us-west-1.wasabisys.com/p-library/books/8cb147eea7a7ebf9a2f093d608c2d529.pdf",
+      "scope": "Kata kekerabatan sebagai kata ganti dan relasi sosial."
+    }
+  ],
+  "indonesian_learning_design": {
+    "direction": "Vietnamese (US communities) → Indonesian",
+    "learner_support": [
+      "Latih ejaan dan pelafalan bahasa Indonesia tanpa nada leksikal.",
+      "Bandingkan sistem sapaan Vietnamese dengan pilihan kata ganti Indonesia.",
+      "Sediakan variasi contoh dari penutur utara, tengah, dan selatan."
+    ]
+  },
+  "verification": {
+    "status": "content_seeded_reviewed_not_native_validated",
+    "last_reviewed": "2026-11-19",
+    "notes": "Fonologi dan pragmatik awal didukung penelitian akademik. Slang dan umpatan tetap draft karena sumber langsung dan validasi komunitas belum tersedia."
+  }
+}
