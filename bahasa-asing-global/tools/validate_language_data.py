@@ -154,7 +154,7 @@ def check_entry(
                 report.error(
                     f"{label} [sumber {index}]: setiap sumber harus berupa URL HTTPS yang valid."
                 )
-        if status in {"reviewed", "verified"} and not sources:
+        if isinstance(status, str) and status in {"reviewed", "verified"} and not sources:
             report.error(
                 f"{label}: status {status} membutuhkan setidaknya satu sumber."
             )
@@ -206,7 +206,7 @@ def check_language_identity(
     if iso_code is None and glottocode is None:
         report.error(f"{label}: profil harus memiliki ISO 639-3 atau Glottocode.")
 
-    tags = language.get("bcp47_tags", [])
+    tags = language.get("bcp47_tags")
     if not isinstance(tags, list):
         report.error(f"{label}: bcp47_tags harus berupa array.")
     else:
@@ -349,13 +349,13 @@ def check_country_catalog(
 
     alpha2 = country_data.get("iso_3166_1_alpha2")
     alpha3 = country_data.get("iso_3166_1_alpha3")
-    if not ISO_3166_1_ALPHA2_RE.fullmatch(alpha2 or ""):
+    if not isinstance(alpha2, str) or not ISO_3166_1_ALPHA2_RE.fullmatch(alpha2):
         report.error(f"{relative(country_file)}: kode ISO 3166-1 alpha-2 tidak valid.")
     if alpha2 != folder_code:
         report.error(
             f"{relative(country_file)}: kode ISO negara tidak cocok dengan nama folder."
         )
-    if not ISO_3166_1_ALPHA3_RE.fullmatch(alpha3 or ""):
+    if not isinstance(alpha3, str) or not ISO_3166_1_ALPHA3_RE.fullmatch(alpha3):
         report.error(f"{relative(country_file)}: kode ISO 3166-1 alpha-3 tidak valid.")
     for field in ("name_en", "name_local"):
         if not isinstance(country_data.get(field), str) or not country_data[field].strip():
@@ -434,7 +434,7 @@ def check_country_catalog(
         if "profile_path" not in language or language["profile_path"] is None:
             stats["without_profile"] += 1
             status = language.get("profile_status")
-            if status not in {"cross_reference_only", "split_required"}:
+            if status not in ("cross_reference_only", "split_required"):
                 report.warn(
                     f"{relative(country_file)}: {name!r} belum memiliki profile_path; periksa alasan/statusnya."
                 )
