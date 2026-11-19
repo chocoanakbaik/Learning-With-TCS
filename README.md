@@ -40,6 +40,6 @@ Bahasa kasar tidak otomatis dihapus. Materi tersebut dibahas secara edukatif dan
 
 ## Status proyek
 
-Paket inti awal untuk English AS, Japanese, dan Mandarin Putonghua telah diisi. Katalog negara masih mencakup bahasa/komunitas terpilih dan belum mengklaim inventaris nasional yang lengkap. Penambahan bahasa dan validasi penutur asli dilakukan secara bertahap.
+Fase 1 saat ini memiliki 12 profil bahasa untuk tiga negara dan 236 entri pembelajaran. Materi mencakup bahasa komunitas serta Indigenous di Amerika Serikat, Japanese, dan Mandarin Putonghua. Audit terakhir mencatat 165 reviewed, 71 draft, dan 0 verified; inventaris tiga negara belum lengkap dan validasi penutur asli/ahli masih diperlukan.
 
 Lihat [status Fase 1](./bahasa-asing-global/FASE-01-README.md) untuk rincian cakupan.
