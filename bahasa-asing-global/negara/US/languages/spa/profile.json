@@ -79,11 +79,11 @@
           "region": "Komunitas Spanish di AS; pola dipengaruhi asal keluarga",
           "register": "Context-sensitive",
           "usage_context": "Memilih tingkat keakraban dalam percakapan.",
-          "example_source_language": "¿Tú necesita ayuda? (campuran bentuk ini tidak baku)",
-          "example_indonesian": "Bentuk baku: Apakah Anda membutuhkan bantuan?",
+          "example_source_language": "¿Tú necesitas ayuda? / ¿Usted necesita ayuda?",
+          "example_indonesian": "Apakah kamu membutuhkan bantuan? / Apakah Anda membutuhkan bantuan?",
           "sources": "https://www.rae.es/gtg/tuteo; https://www.rae.es/gtg/ustedeo",
           "verification_status": "reviewed",
-          "note": "Contoh pertama sengaja diberi label salah agar tidak dipakai sebagai bentuk benar; ganti dengan ¿Tú necesitas ayuda? atau ¿Usted necesita ayuda?."
+          "note": "Kedua bentuk contoh masing-masing konsisten secara gramatikal; pemilihan tú/usted dipengaruhi komunitas dan hubungan."
         },
         {
           "id": "US-SPA-PRAG-002",
