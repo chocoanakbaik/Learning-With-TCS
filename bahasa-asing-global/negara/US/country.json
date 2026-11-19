@@ -6,31 +6,159 @@
     "name_local": "United States of America",
     "iso_3166_1_alpha2": "US",
     "iso_3166_1_alpha3": "USA",
-    "regions": ["50 states", "District of Columbia", "American territories (to be documented separately)"]
+    "regions": [
+      "50 states",
+      "District of Columbia",
+      "American territories (to be documented separately)"
+    ]
   },
   "language_context": {
-    "national_language_note": "The United States has no single federal official language established by the U.S. Constitution. English is the predominant language and is used for most federal government functions.",
+    "national_language_note": "English is the official language of the United States under Executive Order 14224, signed March 1, 2025. The designation is by executive order, not by an amendment to the U.S. Constitution.",
     "diversity_note": "The U.S. Census Bureau's 2017–2021 detailed language tables cover more than 500 individual languages and language groups spoken at home. This catalog is a starting index, not a complete inventory.",
     "documentation_unit": "Language and community profiles are separate from the country record. A language used in multiple countries must not be duplicated as a different language."
   },
   "languages": [
-    {"name":"English","iso_639_3":"eng","role":["predominant","widely_used"],"profile_status":"planned"},
-    {"name":"Spanish","iso_639_3":"spa","role":["widely_used","heritage","community"],"profile_status":"planned"},
-    {"name":"Chinese language groups","iso_639_3":null,"role":["community"],"note":"Split into specific language profiles such as Mandarin, Yue/Cantonese, and other varieties; do not treat this umbrella label as one language.","profile_status":"planned"},
-    {"name":"Tagalog","iso_639_3":"tgl","role":["community","heritage"],"profile_status":"planned"},
-    {"name":"Vietnamese","iso_639_3":"vie","role":["community","heritage"],"profile_status":"planned"},
-    {"name":"Arabic varieties","iso_639_3":null,"role":["community"],"note":"Create individual profiles for varieties when evidence and scope are established.","profile_status":"planned"},
-    {"name":"French","iso_639_3":"fra","role":["community","heritage"],"profile_status":"planned"},
-    {"name":"Korean","iso_639_3":"kor","role":["community","heritage"],"profile_status":"planned"},
-    {"name":"Russian","iso_639_3":"rus","role":["community","heritage"],"profile_status":"planned"},
-    {"name":"Navajo (Diné Bizaad)","iso_639_3":"nav","role":["indigenous","regional"],"profile_status":"planned"},
-    {"name":"Central Yupik","iso_639_3":"esu","role":["indigenous","regional"],"profile_status":"planned"},
-    {"name":"Western Apache","iso_639_3":"apw","role":["indigenous","regional"],"profile_status":"planned"}
+    {
+      "name": "English",
+      "iso_639_3": "eng",
+      "role": [
+        "predominant",
+        "widely_used"
+      ],
+      "profile_status": "planned"
+    },
+    {
+      "name": "Spanish",
+      "iso_639_3": "spa",
+      "role": [
+        "widely_used",
+        "heritage",
+        "community"
+      ],
+      "profile_status": "planned"
+    },
+    {
+      "name": "Chinese language groups",
+      "iso_639_3": null,
+      "role": [
+        "community"
+      ],
+      "note": "Split into specific language profiles such as Mandarin, Yue/Cantonese, and other varieties; do not treat this umbrella label as one language.",
+      "profile_status": "planned"
+    },
+    {
+      "name": "Tagalog",
+      "iso_639_3": "tgl",
+      "role": [
+        "community",
+        "heritage"
+      ],
+      "profile_status": "planned"
+    },
+    {
+      "name": "Vietnamese",
+      "iso_639_3": "vie",
+      "role": [
+        "community",
+        "heritage"
+      ],
+      "profile_status": "planned"
+    },
+    {
+      "name": "Arabic varieties",
+      "iso_639_3": null,
+      "role": [
+        "community"
+      ],
+      "note": "Create individual profiles for varieties when evidence and scope are established.",
+      "profile_status": "planned"
+    },
+    {
+      "name": "French",
+      "iso_639_3": "fra",
+      "role": [
+        "community",
+        "heritage"
+      ],
+      "profile_status": "planned"
+    },
+    {
+      "name": "Korean",
+      "iso_639_3": "kor",
+      "role": [
+        "community",
+        "heritage"
+      ],
+      "profile_status": "planned"
+    },
+    {
+      "name": "Russian",
+      "iso_639_3": "rus",
+      "role": [
+        "community",
+        "heritage"
+      ],
+      "profile_status": "planned"
+    },
+    {
+      "name": "Navajo (Diné Bizaad)",
+      "iso_639_3": "nav",
+      "role": [
+        "indigenous",
+        "regional"
+      ],
+      "profile_status": "planned"
+    },
+    {
+      "name": "Central Yupik",
+      "iso_639_3": "esu",
+      "role": [
+        "indigenous",
+        "regional"
+      ],
+      "profile_status": "planned"
+    },
+    {
+      "name": "Western Apache",
+      "iso_639_3": "apw",
+      "role": [
+        "indigenous",
+        "regional"
+      ],
+      "profile_status": "planned"
+    }
   ],
   "sources": [
-    {"title":"U.S. Census Bureau: Detailed Languages Spoken at Home, 2017–2021","url":"https://www.census.gov/newsroom/press-releases/2025/2017-2021-acs-language-use-tables.html","supports":"More than 500 individual languages and language groups; examples of Native North American languages and state-level patterns."},
-    {"title":"U.S. Census Bureau: Language Use","url":"https://www.census.gov/topics/population/language-use.html","supports":"Official Census Bureau language-use data program."},
-    {"title":"U.S. Census Bureau: ACS S1601 Language Spoken at Home","url":"https://data.census.gov/table/ACSST5Y2023.S1601","supports":"Population estimates for languages spoken at home."}
+    {
+      "title": "U.S. Census Bureau: Detailed Languages Spoken at Home, 2017–2021",
+      "url": "https://www.census.gov/newsroom/press-releases/2025/2017-2021-acs-language-use-tables.html",
+      "supports": "More than 500 individual languages and language groups; examples of Native North American languages and state-level patterns."
+    },
+    {
+      "title": "U.S. Census Bureau: Language Use",
+      "url": "https://www.census.gov/topics/population/language-use.html",
+      "supports": "Official Census Bureau language-use data program."
+    },
+    {
+      "title": "U.S. Census Bureau: ACS S1601 Language Spoken at Home",
+      "url": "https://data.census.gov/table/ACSST5Y2023.S1601",
+      "supports": "Population estimates for languages spoken at home."
+    },
+    {
+      "title": "USAGov: Official language of the United States",
+      "url": "https://www.usa.gov/official-language-of-us",
+      "supports": "Confirms the March 1, 2025 designation of English as the official language."
+    },
+    {
+      "title": "Federal Register: Executive Order 14224",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2025-03-06/html/2025-03694.htm",
+      "supports": "Primary legal text designating English as the official language."
+    }
   ],
-  "verification": {"status":"reviewed_initial_catalog","last_reviewed":"2026-11-19","reviewed_by":"LWT research setup","notes":"Initial catalog only. Each language, regional variety, accent, register, slang and profanity entry requires its own sources and review."}
+  "verification": {
+    "status": "reviewed_initial_catalog",
+    "last_reviewed": "2026-11-19",
+    "reviewed_by": "LWT research setup",
+    "notes": "Initial catalog only. Each language, regional variety, accent, register, slang and profanity entry requires its own sources and review."
+  }
 }
