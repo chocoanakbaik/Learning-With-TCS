@@ -32,9 +32,9 @@
           "usage_context": "Membedakan aksen rhotic dan non-rhotic.",
           "example_source_language": "car; hard",
           "example_indonesian": "Rasa; rumah",
-          "sources": "https://dare.wisc.edu/about/what-is-dare/",
-          "verification_status": "reviewed",
-          "note": "Sebagian wilayah New England dan New York memiliki pola non-rhotic atau variasi sosial; jangan menjadikan satu pola sebagai standar semua orang."
+          "sources": [],
+          "verification_status": "draft",
+          "note": "Label rhotic diperkenalkan sebagai konsep umum; sumber spesifik untuk pola rhotic/non-rhotic di AS belum dicantumkan. Perlu sumber fonetik langsung."
         },
         {
           "id": "US-ACC-002",
@@ -117,7 +117,9 @@
           "usage_context": "Sapaan singkat saat bertemu.",
           "example_source_language": "Hi, how are you?",
           "example_indonesian": "Halo, apa kabar?",
-          "sources": "https://dictionary.cambridge.org/dictionary/english/how-are-you",
+          "sources": [
+            "https://dictionary.cambridge.org/dictionary/english/how-are-you"
+          ],
           "verification_status": "reviewed",
           "note": "Respons seperti ‘Good, thanks. How about you?’ lazim untuk sapaan singkat."
         },
@@ -131,7 +133,9 @@
           "usage_context": "Meminta bantuan tanpa terdengar memerintah.",
           "example_source_language": "Could you help me, please?",
           "example_indonesian": "Bisakah Anda membantu saya?",
-          "sources": "https://dictionary.cambridge.org/grammar/british-grammar/requests",
+          "sources": [
+            "https://dictionary.cambridge.org/grammar/british-grammar/requests"
+          ],
           "verification_status": "reviewed"
         },
         {
@@ -144,7 +148,9 @@
           "usage_context": "Menyela, lewat, atau memulai pertanyaan.",
           "example_source_language": "Excuse me, where is the station?",
           "example_indonesian": "Permisi, stasiun ada di mana?",
-          "sources": "https://dictionary.cambridge.org/dictionary/english/excuse-me",
+          "sources": [
+            "https://dictionary.cambridge.org/dictionary/english/excuse-me"
+          ],
           "verification_status": "reviewed"
         },
         {
@@ -157,7 +163,9 @@
           "usage_context": "Mengakui bantuan atau usaha.",
           "example_source_language": "I appreciate your help.",
           "example_indonesian": "Saya menghargai bantuan Anda.",
-          "sources": "https://dictionary.cambridge.org/dictionary/english/appreciate",
+          "sources": [
+            "https://dictionary.cambridge.org/dictionary/english/appreciate"
+          ],
           "verification_status": "reviewed"
         },
         {
@@ -170,7 +178,9 @@
           "usage_context": "Memulai percakapan ringan.",
           "example_source_language": "How was your weekend?",
           "example_indonesian": "Bagaimana akhir pekan Anda?",
-          "sources": "https://www.dare.wisc.edu/about/what-is-dare/",
+          "sources": [
+            "https://www.dare.wisc.edu/about/what-is-dare/"
+          ],
           "verification_status": "draft",
           "note": "Perlu contoh berbasis konteks, bukan stereotip budaya."
         }
@@ -190,7 +200,9 @@
           "usage_context": "Dokumen, sekolah, media, dan pekerjaan.",
           "example_source_language": "The color is blue. The center is open.",
           "example_indonesian": "Warnanya biru. Pusatnya buka.",
-          "sources": "https://www.merriam-webster.com/dictionary/color",
+          "sources": [
+            "https://www.merriam-webster.com/dictionary/color"
+          ],
           "verification_status": "reviewed"
         },
         {
@@ -203,7 +215,9 @@
           "usage_context": "Memilih register sesuai tujuan komunikasi.",
           "example_source_language": "I do not know the answer.",
           "example_indonesian": "Saya tidak mengetahui jawabannya.",
-          "sources": "https://www.merriam-webster.com/grammar/what-is-standard-english",
+          "sources": [
+            "https://www.merriam-webster.com/grammar/what-is-standard-english"
+          ],
           "verification_status": "reviewed",
           "note": "Ragam seperti African American English memiliki pola sistematis; jangan dinilai sebagai kesalahan hanya karena berbeda dari standar editorial."
         },
@@ -217,7 +231,9 @@
           "usage_context": "Membedakan tulisan resmi dan percakapan.",
           "example_source_language": "I am not available today.",
           "example_indonesian": "Saya tidak tersedia hari ini.",
-          "sources": "https://dictionary.cambridge.org/grammar/british-grammar/contractions",
+          "sources": [
+            "https://dictionary.cambridge.org/grammar/british-grammar/contractions"
+          ],
           "verification_status": "reviewed"
         },
         {
@@ -230,7 +246,9 @@
           "usage_context": "Membaca bentuk perfect dan perubahan keadaan.",
           "example_source_language": "I have gotten your message.",
           "example_indonesian": "Saya sudah menerima pesan Anda.",
-          "sources": "https://www.merriam-webster.com/dictionary/gotten",
+          "sources": [
+            "https://www.merriam-webster.com/dictionary/gotten"
+          ],
           "verification_status": "reviewed"
         },
         {
@@ -243,7 +261,9 @@
           "usage_context": "Membaca tanggal dan dokumen.",
           "example_source_language": "November 19, 2026",
           "example_indonesian": "19 November 2026",
-          "sources": "https://www.chicagomanualofstyle.org/tools_citationguide.html",
+          "sources": [
+            "https://www.chicagomanualofstyle.org/tools_citationguide.html"
+          ],
           "verification_status": "draft",
           "note": "Format bergantung style guide; bukan aturan tata bahasa tunggal."
         }
@@ -263,7 +283,9 @@
           "usage_context": "Menyatakan rencana atau prediksi.",
           "example_source_language": "I'm gonna call you later.",
           "example_indonesian": "Saya akan menelepon Anda nanti.",
-          "sources": "https://www.merriam-webster.com/dictionary/gonna",
+          "sources": [
+            "https://www.merriam-webster.com/dictionary/gonna"
+          ],
           "verification_status": "reviewed",
           "note": "Bentuk lisan/nonstandar; jangan menandainya sebagai bentuk ejaan formal."
         },
@@ -277,7 +299,9 @@
           "usage_context": "Menyatakan keinginan.",
           "example_source_language": "I wanna go home.",
           "example_indonesian": "Saya ingin pulang.",
-          "sources": "https://www.merriam-webster.com/dictionary/wanna",
+          "sources": [
+            "https://www.merriam-webster.com/dictionary/wanna"
+          ],
           "verification_status": "reviewed"
         },
         {
@@ -290,7 +314,9 @@
           "usage_context": "Menyapa atau menyebut lebih dari satu lawan bicara.",
           "example_source_language": "Are y'all ready?",
           "example_indonesian": "Apakah kalian siap?",
-          "sources": "https://www.merriam-webster.com/dictionary/y%27all",
+          "sources": [
+            "https://www.merriam-webster.com/dictionary/y%27all"
+          ],
           "verification_status": "reviewed"
         },
         {
@@ -303,7 +329,9 @@
           "usage_context": "Menyapa teman atau menyebut seseorang.",
           "example_source_language": "Hey, dude, what's up?",
           "example_indonesian": "Hei, kawan, ada apa?",
-          "sources": "https://www.merriam-webster.com/dictionary/dude",
+          "sources": [
+            "https://www.merriam-webster.com/dictionary/dude"
+          ],
           "verification_status": "reviewed"
         },
         {
@@ -316,7 +344,9 @@
           "usage_context": "Menekankan klaim.",
           "example_source_language": "That was the best meal, no cap.",
           "example_indonesian": "Itu makanan terbaik, serius.",
-          "sources": "https://www.merriam-webster.com/dictionary/cap",
+          "sources": [
+            "https://www.merriam-webster.com/dictionary/cap"
+          ],
           "verification_status": "draft",
           "note": "Asal dan distribusi komunitas perlu dijelaskan hati-hati; jangan menghapus hubungan istilah dengan African American English."
         },
@@ -330,7 +360,9 @@
           "usage_context": "Menerima ajakan atau menyatakan kesediaan.",
           "example_source_language": "Meet at six? Bet.",
           "example_indonesian": "Bertemu pukul enam? Siap.",
-          "sources": "https://www.merriam-webster.com/dictionary/bet",
+          "sources": [
+            "https://www.merriam-webster.com/dictionary/bet"
+          ],
           "verification_status": "draft",
           "note": "Pemakaian ini berbeda dari makna taruhan; konteks menentukan makna."
         }
@@ -350,7 +382,9 @@
           "usage_context": "Menunjukkan frustrasi atau penekanan.",
           "example_source_language": "Damn, I forgot my keys.",
           "example_indonesian": "Sial, saya lupa membawa kunci.",
-          "sources": "https://www.merriam-webster.com/dictionary/damn",
+          "sources": [
+            "https://www.merriam-webster.com/dictionary/damn"
+          ],
           "verification_status": "reviewed",
           "note": "Tingkat kekasaran bersifat perkiraan dan dapat berubah menurut audiens."
         },
@@ -364,7 +398,9 @@
           "usage_context": "Ekspresi emosi atau idiom.",
           "example_source_language": "What the hell happened?",
           "example_indonesian": "Apa yang sebenarnya terjadi?",
-          "sources": "https://www.merriam-webster.com/dictionary/hell",
+          "sources": [
+            "https://www.merriam-webster.com/dictionary/hell"
+          ],
           "verification_status": "reviewed"
         },
         {
@@ -377,7 +413,9 @@
           "usage_context": "Mengumpat, mengeluh, atau menyebut sesuatu sebagai hal buruk.",
           "example_source_language": "This is a mess; I messed up.",
           "example_indonesian": "Ini berantakan; saya melakukan kesalahan.",
-          "sources": "https://www.merriam-webster.com/dictionary/shit",
+          "sources": [
+            "https://www.merriam-webster.com/dictionary/shit"
+          ],
           "verification_status": "reviewed",
           "note": "Contoh netral dipilih untuk mengajarkan makna tanpa menjadikan umpatan sebagai sasaran."
         },
@@ -391,7 +429,9 @@
           "usage_context": "Ledakan emosi atau ujaran agresif.",
           "example_source_language": "He told me to leave.",
           "example_indonesian": "Dia menyuruh saya pergi.",
-          "sources": "https://www.merriam-webster.com/dictionary/fuck",
+          "sources": [
+            "https://www.merriam-webster.com/dictionary/fuck"
+          ],
           "verification_status": "reviewed"
         },
         {
@@ -404,7 +444,9 @@
           "usage_context": "Penghinaan langsung atau kutipan ujaran.",
           "example_source_language": "That word can be deeply insulting.",
           "example_indonesian": "Kata itu dapat sangat menghina.",
-          "sources": "https://www.merriam-webster.com/dictionary/bitch",
+          "sources": [
+            "https://www.merriam-webster.com/dictionary/bitch"
+          ],
           "verification_status": "reviewed"
         },
         {
@@ -417,7 +459,9 @@
           "usage_context": "Percakapan informal atau hinaan.",
           "example_source_language": "Move your bag, please.",
           "example_indonesian": "Tolong pindahkan tas Anda.",
-          "sources": "https://www.merriam-webster.com/dictionary/ass",
+          "sources": [
+            "https://www.merriam-webster.com/dictionary/ass"
+          ],
           "verification_status": "reviewed"
         }
       ],
@@ -453,7 +497,9 @@
           "usage_context": "Membandingkan bahasa komunitas dengan English.",
           "example_source_language": "Buenos días.",
           "example_indonesian": "Selamat pagi.",
-          "sources": "https://www.census.gov/topics/population/language-use.html",
+          "sources": [
+            "https://www.census.gov/topics/population/language-use.html"
+          ],
           "verification_status": "reviewed"
         },
         {
@@ -466,7 +512,9 @@
           "usage_context": "Pengakuan keberadaan dan pemisahan profil bahasa.",
           "example_source_language": "Diné Bizaad",
           "example_indonesian": "Bahasa Navajo / Diné",
-          "sources": "https://www.census.gov/newsroom/press-releases/2025/2017-2021-acs-language-use-tables.html",
+          "sources": [
+            "https://www.census.gov/newsroom/press-releases/2025/2017-2021-acs-language-use-tables.html"
+          ],
           "verification_status": "reviewed"
         },
         {
@@ -479,7 +527,9 @@
           "usage_context": "Pengindeksan bahasa komunitas.",
           "example_source_language": "Central Yupik",
           "example_indonesian": "Bahasa Central Yupik",
-          "sources": "https://www.census.gov/newsroom/press-releases/2025/2017-2021-acs-language-use-tables.html",
+          "sources": [
+            "https://www.census.gov/newsroom/press-releases/2025/2017-2021-acs-language-use-tables.html"
+          ],
           "verification_status": "reviewed"
         },
         {
@@ -492,7 +542,9 @@
           "usage_context": "Mengenali istilah yang tidak universal.",
           "example_source_language": "Regional word choice varies.",
           "example_indonesian": "Pilihan kata dapat berbeda menurut daerah.",
-          "sources": "https://dare.wisc.edu/about/what-is-dare/",
+          "sources": [
+            "https://dare.wisc.edu/about/what-is-dare/"
+          ],
           "verification_status": "reviewed"
         }
       ],
