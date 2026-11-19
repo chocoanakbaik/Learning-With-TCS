@@ -1,0 +1,329 @@
+{
+  "schema_version": "1.1.0",
+  "record_type": "language_profile",
+  "language": {
+    "name": "Spanish (United States varieties)",
+    "native_name": "Español",
+    "iso_639_3": "spa",
+    "bcp47_tags": [
+      "es-US"
+    ],
+    "family": "Indo-European > Italic > Romance"
+  },
+  "country_context": {
+    "country_code": "US",
+    "role": [
+      "widely_used",
+      "community",
+      "heritage"
+    ],
+    "note": "Spanish di Amerika Serikat bukan satu varietas tunggal. Profil ini memakai pendekatan payung untuk komunitas Meksiko-Amerika, Puerto Rico, Kuba, Republik Dominika, Amerika Tengah, serta varietas historis New Mexico dan Louisiana. Materi tiap komunitas harus diberi lokasi tersendiri."
+  },
+  "categories": {
+    "accent_and_pronunciation": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "US-SPA-ACC-001",
+          "term": "Seseo",
+          "explanation_id": "Dalam sebagian besar varietas Spanish di Amerika, bunyi yang ditulis s, z, dan c sebelum e/i direalisasikan sama atau mendekati /s/; ini berbeda dari distinción di sebagian wilayah Spanyol.",
+          "indonesian_learning_link": "Bandingkan dengan bahasa Indonesia yang juga memakai fonem /s/; jangan membuat bunyi interdental θ sebagai kewajiban bagi penutur Spanish Amerika.",
+          "region": "Banyak komunitas Spanish Amerika di AS",
+          "register": "Pronunciation",
+          "usage_context": "Mengenali perbedaan regional Spanish.",
+          "example_source_language": "casa / caza",
+          "example_indonesian": "rumah / perburuan (pelafalan dapat sama pada seseo)",
+          "sources": "https://www.rae.es/dpd/seseo; https://www.pbs.org/speak/seatosea/americanvarieties/spanglish/usa/",
+          "verification_status": "reviewed",
+          "note": "Fenomena ini tidak universal untuk setiap penutur di AS; komunitas dan asal keluarga memengaruhi pola."
+        },
+        {
+          "id": "US-SPA-ACC-002",
+          "term": "Aspiration or weakening of syllable-final /s/",
+          "explanation_id": "Sejumlah varietas Caribbean dan beberapa varietas regional melemahkan atau mengaspirasikan /s/ di akhir suku kata; pola ini tidak mewakili semua Spanish di AS.",
+          "indonesian_learning_link": "Materi pendengaran Indonesia perlu menekankan bahwa konsonan akhir dapat berubah menurut aksen, sedangkan ejaan tetap sama.",
+          "region": "Komunitas Puerto Rican, Cuban, Dominican, dan wilayah tertentu",
+          "register": "Regional pronunciation",
+          "usage_context": "Mengenali variasi pelafalan ujaran spontan.",
+          "example_source_language": "estás → ehtá (representasi pendekatan)",
+          "example_indonesian": "kamu sedang / kamu berada",
+          "sources": "https://www.pbs.org/speak/seatosea/americanvarieties/spanglish/usa/; https://www.jstor.org/stable/j.ctt2tt5q1",
+          "verification_status": "reviewed",
+          "note": "Transkripsi ejaan pendekatan bukan ejaan baku dan tidak boleh dipakai sebagai bentuk tulis."
+        },
+        {
+          "id": "US-SPA-ACC-003",
+          "term": "Regional vowel and consonant patterns",
+          "explanation_id": "New Mexican, Colorado, Arizona, Texas, dan komunitas lain memiliki sejarah serta fitur fonologi yang tidak sama; jangan menyamakan Spanish AS dengan satu aksen nasional.",
+          "indonesian_learning_link": "Latih pemahaman aksen Indonesia regional dengan menghubungkan setiap contoh ke lokasi penutur, bukan menggeneralisasi satu daerah.",
+          "region": "Southwest AS dan komunitas diaspora",
+          "register": "Regional pronunciation",
+          "usage_context": "Membedakan sumber penutur dan sejarah bahasa.",
+          "example_source_language": "Audio penutur New Mexican Spanish",
+          "example_indonesian": "Contoh rekaman perlu diberi transkripsi dan lokasi.",
+          "sources": "https://www.pbs.org/speak/seatosea/americanvarieties/spanglish/usa/; https://www.si.edu/object/varieties-spanish-united-states-john-m-lipski%3Asiris_sil_1170533",
+          "verification_status": "reviewed",
+          "note": "Entri ini memetakan variasi, bukan memberikan transkripsi fonetik universal."
+        }
+      ],
+      "coverage_note": "Belum tersedia audio. Setiap aksen wajib memiliki label komunitas, kota/wilayah, tanggal, serta izin penggunaan rekaman."
+    },
+    "speaking_style_and_pragmatics": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "US-SPA-PRAG-001",
+          "term": "Tú / usted",
+          "explanation_id": "Pilihan pronomina orang kedua dapat menandai jarak, keakraban, hormat, dan kebiasaan komunitas; penggunaan berbeda menurut negara asal serta generasi diaspora.",
+          "indonesian_learning_link": "Bandingkan dengan pilihan sapaan Indonesia ‘kamu’, ‘Anda’, ‘Bapak/Ibu’, dan penghilangan pronomina.",
+          "region": "Komunitas Spanish di AS; pola dipengaruhi asal keluarga",
+          "register": "Context-sensitive",
+          "usage_context": "Memilih tingkat keakraban dalam percakapan.",
+          "example_source_language": "¿Tú necesita ayuda? (campuran bentuk ini tidak baku)",
+          "example_indonesian": "Bentuk baku: Apakah Anda membutuhkan bantuan?",
+          "sources": "https://www.rae.es/gtg/tuteo; https://www.rae.es/gtg/ustedeo",
+          "verification_status": "reviewed",
+          "note": "Contoh pertama sengaja diberi label salah agar tidak dipakai sebagai bentuk benar; ganti dengan ¿Tú necesitas ayuda? atau ¿Usted necesita ayuda?."
+        },
+        {
+          "id": "US-SPA-PRAG-002",
+          "term": "Code-switching Spanish-English",
+          "explanation_id": "Penutur bilingual dapat berpindah bahasa di dalam percakapan atau antar-klausa. Praktik ini dipengaruhi peserta, topik, identitas, dan situasi; bukan bukti kekurangan kemampuan bahasa.",
+          "indonesian_learning_link": "Bandingkan dengan alih kode Indonesia-Inggris. Ajarkan pengguna untuk memahami kedua sistem tanpa mengejek penutur.",
+          "region": "Komunitas bilingual di AS",
+          "register": "Bilingual conversational practice",
+          "usage_context": "Percakapan antarpenutur bilingual.",
+          "example_source_language": "Voy al store después del trabajo.",
+          "example_indonesian": "Saya pergi ke toko setelah bekerja.",
+          "sources": "https://www.pbs.org/speak/seatosea/americanvarieties/spanglish/usa/; https://www.verbumetlingua.cucsh.udg.mx/index.php/VerLin/article/view/259",
+          "verification_status": "reviewed",
+          "note": "Contoh code-switching dibuat untuk ilustrasi dan bukan kutipan korpus."
+        },
+        {
+          "id": "US-SPA-PRAG-003",
+          "term": "Community-specific address forms",
+          "explanation_id": "Sapaan dan gelar seperti señor/señora, don/doña, atau nama depan dipilih menurut wilayah, usia, relasi, dan kebiasaan keluarga.",
+          "indonesian_learning_link": "Bandingkan dengan ‘Pak/Bu’, ‘Kak’, nama depan, dan gelar di Indonesia.",
+          "region": "Komunitas Spanish di AS; bergantung negara asal",
+          "register": "Polite / contextual",
+          "usage_context": "Menyapa orang yang belum akrab atau lebih tua.",
+          "example_source_language": "Buenos días, señora.",
+          "example_indonesian": "Selamat pagi, Bu.",
+          "sources": "https://www.rae.es/dpd/tratamientos",
+          "verification_status": "reviewed"
+        }
+      ],
+      "coverage_note": "Pilih register berdasarkan komunitas dan hubungan; hindari menganggap semua penutur Latinx memiliki kebiasaan sapaan yang sama."
+    },
+    "standard_language": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "US-SPA-STD-001",
+          "term": "Pan-Hispanic spelling and punctuation",
+          "explanation_id": "Ejaan Spanish memiliki aturan bersama yang dikembangkan melalui RAE dan ASALE, dengan variasi leksikal dan pengucapan antarwilayah.",
+          "indonesian_learning_link": "Arahkan ke ejaan baku Indonesia; tunjukkan bahwa bahasa standar dapat memiliki variasi regional yang sah.",
+          "region": "Standar tertulis Spanish; semua komunitas",
+          "register": "Standard written language",
+          "usage_context": "Menulis pesan resmi dan membaca teks.",
+          "example_source_language": "¿Cómo está usted?",
+          "example_indonesian": "Apa kabar Anda?",
+          "sources": "https://www.asale.org/obras-academicas/ortografia/gramatica-y-ortografia-basicas-de-la-lengua-espanola",
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-SPA-STD-002",
+          "term": "Accent marks (tildes)",
+          "explanation_id": "Tanda aksen tertulis menandai tekanan atau membedakan bentuk tertentu, misalnya sí/si dan tú/tu; aturan mengikuti ortografi Spanish.",
+          "indonesian_learning_link": "Bandingkan dengan tanda baca dan ejaan bahasa Indonesia; jangan menghapus tanda aksen dalam materi Spanish.",
+          "region": "Spanish standar; seluruh wilayah",
+          "register": "Orthography",
+          "usage_context": "Membedakan kata dan membaca tekanan.",
+          "example_source_language": "sí / si; tú / tu",
+          "example_indonesian": "ya / jika; kamu / milikmu",
+          "sources": "https://www.rae.es/ortografia",
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-SPA-STD-003",
+          "term": "Verb agreement and pronouns",
+          "explanation_id": "Bentuk verba Spanish berubah menurut persona, jumlah, kala, dan modus; pronomina subjek dapat dihilangkan saat bentuk verba sudah cukup jelas.",
+          "indonesian_learning_link": "Bahasa Indonesia tidak mengubah bentuk verba menurut persona; pelajar perlu belajar mengekspresikan subjek tanpa menyalin konjugasi Spanish.",
+          "region": "Spanish standar",
+          "register": "Grammar",
+          "usage_context": "Memahami perbedaan sistem verba.",
+          "example_source_language": "Yo hablo español.",
+          "example_indonesian": "Saya berbicara bahasa Spanyol.",
+          "sources": "https://www.asale.org/obras-academicas/gramatica-y-ortografia-basicas-de-la-lengua-espanola",
+          "verification_status": "reviewed"
+        }
+      ],
+      "coverage_note": "Profil ini menggunakan ortografi akademik Spanish sebagai acuan tulis, tanpa menyatakan bahwa satu varietas lisan menjadi yang paling benar."
+    },
+    "nonstandard_language_and_slang": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "US-SPA-SLANG-001",
+          "term": "Spanglish",
+          "explanation_id": "Istilah payung populer untuk praktik bahasa campuran Spanish-English; bukan satu sistem slang atau satu varietas seragam.",
+          "indonesian_learning_link": "Ajarkan sebagai fenomena bilingual dan variasi komunikasi, bukan sebagai bahasa Indonesia yang keliru.",
+          "region": "Komunitas bilingual di AS",
+          "register": "Informal / bilingual",
+          "usage_context": "Percakapan yang menggabungkan dua bahasa.",
+          "example_source_language": "Voy a parquear el carro.",
+          "example_indonesian": "Saya akan memarkir mobil.",
+          "sources": "https://www.pbs.org/speak/seatosea/americanvarieties/spanglish/usa/; https://www.jstor.org/stable/j.ctt2tt5q1",
+          "verification_status": "reviewed",
+          "note": "Contoh parquear adalah bentuk yang digunakan di sejumlah wilayah Spanish Amerika; label US harus dijelaskan menurut komunitas."
+        },
+        {
+          "id": "US-SPA-SLANG-002",
+          "term": "Regional vocabulary",
+          "explanation_id": "Kosakata seperti carro, auto, coche, computadora, dan ordenador memiliki sebaran regional; pilihan penutur AS dipengaruhi keluarga, negara asal, dan komunitas.",
+          "indonesian_learning_link": "Bandingkan sinonim regional Indonesia seperti ‘mobil’ dan istilah lokal, tanpa menilai salah satu lebih rendah.",
+          "region": "Spanish diaspora di AS",
+          "register": "Regional lexical variation",
+          "usage_context": "Memilih kata sesuai audiens.",
+          "example_source_language": "carro / coche",
+          "example_indonesian": "mobil",
+          "sources": "https://www.asale.org/obras-academicas/diccionarios/diccionario-de-americanismos; https://www.jstor.org/stable/j.ctt2tt5q1",
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-SPA-SLANG-003",
+          "term": "Calques and English-contact forms",
+          "explanation_id": "Kontak dengan English dapat menghasilkan peminjaman, terjemahan literal, dan pergeseran makna; bentuknya tidak seragam antar komunitas.",
+          "indonesian_learning_link": "Arahkan pembelajar mengenali perbedaan bahasa baku dan bentuk kontak, mirip pengaruh bahasa asing pada bahasa Indonesia sehari-hari.",
+          "region": "Komunitas bilingual di AS",
+          "register": "Contact-induced informal usage",
+          "usage_context": "Menganalisis bentuk yang dipengaruhi English.",
+          "example_source_language": "Aplicar para un trabajo (calque in some bilingual speech)",
+          "example_indonesian": "Melamar pekerjaan (bentuk Indonesia alami)",
+          "sources": "https://www.verbumetlingua.cucsh.udg.mx/index.php/VerLin/article/view/259",
+          "verification_status": "reviewed",
+          "note": "Contoh adalah ilustrasi fenomena dan tidak diklaim sebagai bentuk standar atau prevalen di semua komunitas."
+        }
+      ],
+      "coverage_note": "Slang dan Spanglish harus diberi komunitas, tahun, dan konteks; jangan membingkai bilingualisme sebagai bahasa rusak."
+    },
+    "profanity_and_vulgar_language": {
+      "status": "seeded_educational_with_context",
+      "entries": [
+        {
+          "id": "US-SPA-PROF-001",
+          "term": "mierda",
+          "explanation_id": "Umpatan vulgar yang secara literal merujuk pada tinja dan digunakan untuk menyatakan frustrasi atau merendahkan sesuatu; tingkat kekasaran tinggi pada konteks formal.",
+          "indonesian_learning_link": "Terangkan perbedaan ‘sial’, ‘brengsek’, dan bentuk vulgar Indonesia; jangan padankan otomatis tanpa konteks.",
+          "region": "Spanish lintas wilayah; penggunaan di AS mengikuti komunitas",
+          "register": "Vulgar",
+          "usage_context": "Kutipan, film, atau penjelasan ujaran kasar.",
+          "example_source_language": "¡Mierda!",
+          "example_indonesian": "Sial! (padanan lebih ringan; konteks menentukan)",
+          "sources": "https://dle.rae.es/mierda",
+          "verification_status": "reviewed",
+          "note": "Sumber kamus adalah cakupan Spanish umum, bukan frekuensi khusus Amerika Serikat."
+        },
+        {
+          "id": "US-SPA-PROF-002",
+          "term": "joder",
+          "explanation_id": "Kata vulgar yang dapat menjadi kata kerja atau seruan umpatan; nuansa dan intensitasnya berbeda menurut wilayah Spanish.",
+          "indonesian_learning_link": "Jelaskan bahwa makna literal, idiom, dan intensitas berubah regional; hindari memakainya tanpa tahu audiens.",
+          "region": "Spanish lintas wilayah; penggunaan diaspora bervariasi",
+          "register": "Vulgar / region-sensitive",
+          "usage_context": "Memahami dialog media dan konflik.",
+          "example_source_language": "No uses esa palabra en una reunión formal.",
+          "example_indonesian": "Jangan gunakan kata itu dalam rapat formal.",
+          "sources": "https://dle.rae.es/joder",
+          "verification_status": "reviewed"
+        }
+      ],
+      "coverage_note": "Kamus RAE memberi definisi bahasa umum; intensitas dan frekuensi khusus diaspora AS harus diperiksa secara regional."
+    },
+    "regional_and_minority_languages": {
+      "status": "cross_reference_country_catalog",
+      "entries": [
+        {
+          "id": "US-SPA-REG-001",
+          "term": "Mexican-origin Spanish",
+          "explanation_id": "Banyak komunitas Spanish di AS memiliki hubungan historis dengan Meksiko; variasi regional internal Meksiko juga beragam.",
+          "indonesian_learning_link": "Jangan merangkum semua penutur Spanish di AS sebagai Mexican Spanish.",
+          "region": "Southwest, California, Texas, serta kota-kota lain",
+          "register": "Community variety",
+          "usage_context": "Mengenali sejarah dan variasi komunitas.",
+          "example_source_language": "Variedad mexicana de español",
+          "example_indonesian": "Varietas Spanish Meksiko",
+          "sources": "https://www.si.edu/object/varieties-spanish-united-states-john-m-lipski%3Asiris_sil_1170533",
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-SPA-REG-002",
+          "term": "Puerto Rican and Cuban Spanish",
+          "explanation_id": "Spanish Puerto Rico dan Kuba hadir melalui migrasi dan komunitas diaspora; pola fonologi dan kosakatanya memiliki variasi internal.",
+          "indonesian_learning_link": "Jangan menyebut semua komunitas Caribbean di AS satu kelompok bahasa.",
+          "region": "Florida, New York, dan komunitas lain; tidak eksklusif",
+          "register": "Community variety",
+          "usage_context": "Membandingkan variasi Caribbean Spanish.",
+          "example_source_language": "Variedades puertorriqueñas y cubanas",
+          "example_indonesian": "Varietas Spanish Puerto Rico dan Kuba",
+          "sources": "https://www.jstor.org/stable/j.ctt2tt5q1",
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-SPA-REG-003",
+          "term": "New Mexican and Louisiana Spanish",
+          "explanation_id": "Varietas historis di New Mexico dan Louisiana memiliki sejarah lokal yang berbeda dari pola migrasi modern.",
+          "indonesian_learning_link": "Ajarkan konteks wilayah dan sejarah sebelum mengajarkan kosakata khas.",
+          "region": "New Mexico dan Louisiana",
+          "register": "Heritage / regional variety",
+          "usage_context": "Mengenali bahasa warisan komunitas.",
+          "example_source_language": "Español tradicional de Nuevo México",
+          "example_indonesian": "Spanish tradisional New Mexico",
+          "sources": "https://www.si.edu/object/varieties-spanish-united-states-john-m-lipski%3Asiris_sil_1170533",
+          "verification_status": "reviewed"
+        }
+      ],
+      "coverage_note": "Profil ini menautkan varietas regional yang perlu dikembangkan menjadi subprofil tersendiri jika LWT menambah materi audio dan kosakata."
+    }
+  },
+  "sources": [
+    {
+      "title": "ASALE — Diccionario de americanismos",
+      "url": "https://www.asale.org/obras-academicas/diccionarios/diccionario-de-americanismos",
+      "scope": "Kosakata Spanish Amerika dan penanda geografi/sosial."
+    },
+    {
+      "title": "ASALE/RAE — Gramática y ortografía básicas",
+      "url": "https://www.asale.org/obras-academicas/ortografia/gramatica-y-ortografia-basicas-de-la-lengua-espanola",
+      "scope": "Ejaan dan tata bahasa Spanish standar."
+    },
+    {
+      "title": "PBS — Spanish Language Variation in the United States",
+      "url": "https://www.pbs.org/speak/seatosea/americanvarieties/spanglish/usa/",
+      "scope": "Variasi historis dan fonologis Spanish AS serta code-switching."
+    },
+    {
+      "title": "John M. Lipski — Varieties of Spanish in the United States",
+      "url": "https://www.jstor.org/stable/j.ctt2tt5q1",
+      "scope": "Ragam Mexican, Puerto Rican, Cuban, Dominican, Central American, New Mexican, dan Louisiana Spanish."
+    },
+    {
+      "title": "Linguistic Perspectives on Spanish in the United States",
+      "url": "https://www.verbumetlingua.cucsh.udg.mx/index.php/VerLin/article/view/259",
+      "scope": "Kontak Spanish-English, bilingualisme, variasi dan perubahan bahasa."
+    }
+  ],
+  "indonesian_learning_design": {
+    "direction": "Spanish (US communities) → Indonesian",
+    "learner_support": [
+      "Gunakan bilingual gloss yang menjelaskan variasi Spanish, bukan hanya menerjemahkan kata.",
+      "Bandingkan formalitas Spanish dengan pilihan sapaan Indonesia.",
+      "Ajarkan bahasa Indonesia baku dan nonbaku melalui situasi kerja, keluarga, dan percakapan sehari-hari."
+    ]
+  },
+  "verification": {
+    "status": "content_seeded_reviewed_not_native_validated",
+    "last_reviewed": "2026-11-19",
+    "notes": "Profil berbasis rujukan akademik, ASALE/RAE, dan sumber dokumentasi variasi Spanish AS. Tidak mewakili seluruh komunitas; entri profanity memakai kamus Spanish umum dan perlu kajian register komunitas di AS."
+  }
+}
