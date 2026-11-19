@@ -1,0 +1,246 @@
+{
+  "schema_version": "1.1.0",
+  "record_type": "language_profile",
+  "language": {
+    "name": "Western Apache",
+    "native_name": "Ndee biyátiʼ / Western Apache",
+    "iso_639_3": "apw",
+    "bcp47_tags": [
+      "apw-US"
+    ],
+    "family": "Na-Dené > Athabaskan > Southern Athabaskan"
+  },
+  "country_context": {
+    "country_code": "US",
+    "role": [
+      "indigenous",
+      "regional"
+    ],
+    "note": "Profil ini berfokus pada Western Apache di Arizona dan sumber komunitas terkait. Western Apache mencakup kelompok dialek Dilzheʼe, White Mountain, dan San Carlos; contoh perlu label dialek."
+  },
+  "categories": {
+    "accent_and_pronunciation": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "US-APW-ACC-001",
+          "term": "Lexical tone in Western Apache",
+          "explanation_id": "Western Apache adalah bahasa bernada; sumber deskripsi menyebut nada tinggi, rendah, naik, dan turun, dengan nada tinggi/rendah lebih umum.",
+          "indonesian_learning_link": "Bahasa Indonesia tidak memakai nada leksikal dengan sistem yang sama; pelajar harus mendengar nada sebagai bagian dari bentuk kata.",
+          "region": "Western Apache; kelompok dialek barat",
+          "register": "Pronunciation",
+          "usage_context": "Membedakan nada dalam kata.",
+          "example_source_language": "high / low / rising / falling tone",
+          "example_indonesian": "nada tinggi / rendah / naik / turun",
+          "sources": [
+            "https://westernapache.omeka.net/exhibits/show/wasounds/aboutlanguage"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-APW-ACC-002",
+          "term": "Vowel length",
+          "explanation_id": "Western Apache memiliki empat kualitas vokal fonemik /i, e, o, a/ dengan kontras panjang-pendek.",
+          "indonesian_learning_link": "Latih durasi bunyi dengan audio; jangan menambahkan suku kata saat menirukan vokal panjang.",
+          "region": "Western Apache",
+          "register": "Pronunciation",
+          "usage_context": "Mendengar kontras vokal.",
+          "example_source_language": "short / long vowels",
+          "example_indonesian": "vokal pendek / panjang",
+          "sources": [
+            "https://westernapache.omeka.net/exhibits/show/wasounds/waphono"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-APW-ACC-003",
+          "term": "Consonant inventory",
+          "explanation_id": "Inventaris konsonan Western Apache mencakup kontras letup, afrikat, frikatif, dan bunyi glotal/ejective; pelafalan memerlukan panduan audio.",
+          "indonesian_learning_link": "Jangan menyamakan huruf Latin dengan bunyi Indonesia tanpa pemeriksaan fonetik.",
+          "region": "Western Apache",
+          "register": "Pronunciation",
+          "usage_context": "Melatih konsonan khusus.",
+          "example_source_language": "glottalized / ejective consonants",
+          "example_indonesian": "konsonan glotal/ejective",
+          "sources": [
+            "https://westernapache.omeka.net/exhibits/show/wasounds/waphono"
+          ],
+          "verification_status": "reviewed"
+        }
+      ]
+    },
+    "speaking_style_and_pragmatics": {
+      "status": "community_research_required",
+      "entries": [],
+      "coverage_note": "Sapaan, formula kesopanan, dan gaya komunikasi belum ditambahkan karena diperlukan contoh langsung dari penutur serta konteks komunitas San Carlos/White Mountain/Dilzheʼe."
+    },
+    "standard_language": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "US-APW-STD-001",
+          "term": "Western Apache dictionary and spelling resources",
+          "explanation_id": "Apache Language Consortium mengembangkan kamus Apache yang mencakup tiga kelompok dialek Western Apache serta perangkat belajar dengan audio.",
+          "indonesian_learning_link": "Gunakan bentuk ejaan dan pelafalan dari kamus komunitas/consortium, bukan transkripsi yang ditebak.",
+          "region": "Western Apache",
+          "register": "Orthography / lexicography",
+          "usage_context": "Membaca dan memverifikasi kata.",
+          "example_source_language": "Western Apache Dictionary",
+          "example_indonesian": "Kamus Western Apache",
+          "sources": [
+            "https://apachelanguage.org/projects/",
+            "https://linktr.ee/apachelanguage"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-APW-STD-002",
+          "term": "Community-developed vocabulary learning",
+          "explanation_id": "Apache Vocab Builder dikembangkan melalui kerja sama komunitas San Carlos Apache Tribe dan Arizona State University serta menyertakan audio dan bantuan visual.",
+          "indonesian_learning_link": "Pelafalan Indonesia sebaiknya dibandingkan dengan audio komunitas, bukan audio otomatis.",
+          "region": "San Carlos Apache and Western Apache language resources",
+          "register": "Learning standard",
+          "usage_context": "Mempelajari kosakata dasar.",
+          "example_source_language": "Apache Vocab Builder",
+          "example_indonesian": "aplikasi pembelajaran kosakata Apache",
+          "sources": [
+            "https://apachelanguage.org/projects/"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-APW-STD-003",
+          "term": "Practical grammar resources",
+          "explanation_id": "Rujukan tata bahasa San Carlos Apache dan kamus Western Apache tersedia dalam daftar sumber consortium; profil khusus perlu mengikuti dialek sumber masing-masing.",
+          "indonesian_learning_link": "Ajarkan hubungan morfologi dan konteks melalui contoh yang diizinkan komunitas.",
+          "region": "Western Apache dialect groups",
+          "register": "Grammar reference",
+          "usage_context": "Memilih bahan tata bahasa.",
+          "example_source_language": "A Practical Grammar of the San Carlos Apache Language",
+          "example_indonesian": "Tata bahasa praktis San Carlos Apache",
+          "sources": [
+            "https://linktr.ee/apachelanguage"
+          ],
+          "verification_status": "reviewed",
+          "note": "San Carlos Apache adalah salah satu kelompok dalam cakupan Western Apache; label dialek harus tetap terlihat."
+        }
+      ]
+    },
+    "nonstandard_language_and_slang": {
+      "status": "community_research_required",
+      "entries": [],
+      "coverage_note": "Belum ada daftar slang yang disertai sumber komunitas dan label dialek. Tidak akan dibuat dari kata Apache bahasa lain."
+    },
+    "profanity_and_vulgar_language": {
+      "status": "community_review_required",
+      "entries": [],
+      "coverage_note": "Belum dimasukkan. Umpatan memerlukan rujukan langsung dan peninjauan komunitas/penutur sebelum diterbitkan."
+    },
+    "regional_and_minority_languages": {
+      "status": "cross_reference_country_catalog",
+      "entries": [
+        {
+          "id": "US-APW-REG-001",
+          "term": "Dilzheʼe Apache",
+          "explanation_id": "Apache Language Consortium menyatakan kamus yang dikembangkan mencakup kelompok dialek Dilzheʼe, White Mountain, dan San Carlos.",
+          "indonesian_learning_link": "Catat dialek sumber pada setiap lema; jangan gabungkan contoh tanpa label.",
+          "region": "Western Apache; Dilzheʼe group",
+          "register": "Regional dialect group",
+          "usage_context": "Memilih ragam bahasa.",
+          "example_source_language": "Dilzheʼe",
+          "example_indonesian": "kelompok dialek Dilzheʼe",
+          "sources": [
+            "https://apachelanguage.org/projects/"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-APW-REG-002",
+          "term": "White Mountain Apache",
+          "explanation_id": "White Mountain termasuk dalam kelompok dialek Western Apache yang menjadi cakupan proyek kamus consortium.",
+          "indonesian_learning_link": "Sediakan label komunitas dan wilayah pada materi audio/teks.",
+          "region": "White Mountain Apache community",
+          "register": "Regional dialect group",
+          "usage_context": "Mengenali variasi komunitas.",
+          "example_source_language": "White Mountain Apache",
+          "example_indonesian": "kelompok White Mountain Apache",
+          "sources": [
+            "https://apachelanguage.org/projects/"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-APW-REG-003",
+          "term": "San Carlos Apache",
+          "explanation_id": "San Carlos termasuk dalam kelompok dialek Western Apache; sumber grammar praktis khusus San Carlos harus tetap diberi label spesifik.",
+          "indonesian_learning_link": "Jangan menyamakan semua istilah San Carlos dengan White Mountain atau Dilzheʼe tanpa bukti.",
+          "region": "San Carlos Apache community",
+          "register": "Regional dialect group",
+          "usage_context": "Mengenali variasi komunitas.",
+          "example_source_language": "San Carlos Apache",
+          "example_indonesian": "kelompok San Carlos Apache",
+          "sources": [
+            "https://apachelanguage.org/projects/",
+            "https://linktr.ee/apachelanguage"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-APW-REG-004",
+          "term": "Other Apachean languages are distinct",
+          "explanation_id": "Chiricahua, Mescalero, Jicarilla, dan Navajo termasuk rumpun Apachean/Athabaskan Selatan, tetapi bukan otomatis dialek Western Apache.",
+          "indonesian_learning_link": "Buat profil tersendiri untuk setiap bahasa atau kelompok sesuai klasifikasi dan bukti sumber.",
+          "region": "Southwestern United States",
+          "register": "Language family distinction",
+          "usage_context": "Membedakan bahasa berkerabat.",
+          "example_source_language": "Western Apache ≠ Navajo",
+          "example_indonesian": "Western Apache bukan Navajo",
+          "sources": [
+            "https://api.pageplace.de/preview/DT0400.9781136258466_A23817185/preview-9781136258466_A23817185.pdf"
+          ],
+          "verification_status": "reviewed"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "Sounds of Western Apache — About the Language",
+      "url": "https://westernapache.omeka.net/exhibits/show/wasounds/aboutlanguage",
+      "scope": "Nada dalam Western Apache dan gambaran fonologi."
+    },
+    {
+      "title": "Sounds of Western Apache — Phonological Analysis",
+      "url": "https://westernapache.omeka.net/exhibits/show/wasounds/waphono",
+      "scope": "Inventaris vokal, panjang vokal, dan pola fonologis."
+    },
+    {
+      "title": "Apache Language Consortium — Projects",
+      "url": "https://apachelanguage.org/projects/",
+      "scope": "Kamus Apache dan proyek pembelajaran yang dikembangkan bersama komunitas."
+    },
+    {
+      "title": "Apache Language Consortium — Dictionary and Learning Resources",
+      "url": "https://linktr.ee/apachelanguage",
+      "scope": "Kamus, tata bahasa San Carlos, kamus Western Apache, dan aplikasi kosakata."
+    },
+    {
+      "title": "Cambridge — Apachean languages overview",
+      "url": "https://api.pageplace.de/preview/DT0400.9781136258466_A23817185/preview-9781136258466_A23817185.pdf",
+      "scope": "Hubungan bahasa-bahasa Apachean dan Navajo."
+    }
+  ],
+  "indonesian_learning_design": {
+    "direction": "Western Apache → Indonesian",
+    "learner_support": [
+      "Gunakan audio komunitas untuk mempelajari nada dan panjang vokal.",
+      "Berikan label dialek setiap kali menyajikan kosakata.",
+      "Jelaskan bunyi bahasa Indonesia yang perlu dilatih berdasarkan kebutuhan penutur Western Apache setelah ada data pelafalan."
+    ]
+  },
+  "verification": {
+    "status": "content_seeded_reviewed_not_native_validated",
+    "last_reviewed": "2026-11-19",
+    "notes": "Materi fonologi, kelompok dialek, dan sumber belajar mengacu pada proyek dokumentasi Western Apache dan Apache Language Consortium. Pragmatik, slang, dan umpatan belum diisi karena memerlukan sumber serta peninjauan komunitas."
+  }
+}
