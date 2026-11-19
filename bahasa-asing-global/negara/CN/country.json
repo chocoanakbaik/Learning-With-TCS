@@ -16,11 +16,11 @@
   "language_context": {
     "national_language_note": "Putonghua (Standard Mandarin) and standardized Chinese characters are identified by the PRC as the national common spoken and written language.",
     "diversity_note": "China is home to 56 officially recognized ethnic groups and extensive linguistic diversity. The Ministry of Education describes multiple language families, regional Sinitic varieties, and minority languages. A language family, language, and dialect/variety must not be conflated.",
-    "classification_note": "Some Sinitic varieties traditionally called fangyan are not mutually intelligible. LWT records their specific names and scholarly classification notes rather than assuming every variety is mutually intelligible with Mandarin."
+    "classification_note": "Some Sinitic varieties traditionally called fangyan are not mutually intelligible. LWT separates each selected language/group and attaches a local profile focus (for example Hong Kong Cantonese, Shanghai Wu, Meixian Hakka, Xiangxiang, Nanchang Gan and Zhangzhou Southern Min). These profiles do not claim to cover every variety in a code group."
   },
   "languages": [
     {
-      "name": "Standard Mandarin (Putonghua)",
+      "name": "Mandarin Putonghua",
       "iso_639_3": "cmn",
       "role": [
         "national_common_language",
@@ -30,7 +30,7 @@
       "profile_path": "languages/cmn/profile.json"
     },
     {
-      "name": "Yue (including Cantonese)",
+      "name": "Yue (Hong Kong Cantonese focus)",
       "iso_639_3": "yue",
       "role": [
         "regional",
@@ -42,10 +42,11 @@
         "Hong Kong",
         "Macau"
       ],
-      "profile_status": "planned"
+      "profile_status": "seeded_content_review_required",
+      "profile_path": "languages/yue/profile.json"
     },
     {
-      "name": "Wu (including Shanghainese)",
+      "name": "Wu Chinese (Shanghai focus)",
       "iso_639_3": "wuu",
       "role": [
         "regional",
@@ -56,10 +57,11 @@
         "Zhejiang",
         "southern Jiangsu"
       ],
-      "profile_status": "planned"
+      "profile_status": "seeded_content_review_required",
+      "profile_path": "languages/wuu/profile.json"
     },
     {
-      "name": "Min varieties",
+      "name": "Min Nan (Southern Min; Zhangzhou focus)",
       "iso_639_3": "nan",
       "role": [
         "regional",
@@ -70,11 +72,12 @@
         "eastern Guangdong",
         "Hainan and diaspora communities"
       ],
-      "note": "Split into Min Nan, Min Dong and other varieties when building detailed profiles; this umbrella code is not a substitute for subvariety identification.",
-      "profile_status": "planned"
+      "note": "ISO 639-3 nan identifies Min Nan/Southern Min at group level. The linked profile focuses on Zhangzhou Southern Min; Min Dong, other Min groups, Teochew/Chaoshan, Leizhou and Hainan varieties must not be collapsed into this profile.",
+      "profile_status": "seeded_content_review_required",
+      "profile_path": "languages/nan/profile.json"
     },
     {
-      "name": "Hakka (Kejia)",
+      "name": "Hakka (Meixian focus)",
       "iso_639_3": "hak",
       "role": [
         "regional",
@@ -85,10 +88,11 @@
         "Fujian",
         "Jiangxi and other communities"
       ],
-      "profile_status": "planned"
+      "profile_status": "seeded_content_review_required",
+      "profile_path": "languages/hak/profile.json"
     },
     {
-      "name": "Xiang",
+      "name": "Xiang (Xiangxiang and Hunan varieties)",
       "iso_639_3": "hsn",
       "role": [
         "regional",
@@ -97,10 +101,11 @@
       "regions": [
         "Hunan"
       ],
-      "profile_status": "planned"
+      "profile_status": "seeded_content_review_required",
+      "profile_path": "languages/hsn/profile.json"
     },
     {
-      "name": "Gan",
+      "name": "Gan (Nanchang focus)",
       "iso_639_3": "gan",
       "role": [
         "regional",
@@ -109,10 +114,11 @@
       "regions": [
         "Jiangxi and neighboring areas"
       ],
-      "profile_status": "planned"
+      "profile_status": "seeded_content_review_required",
+      "profile_path": "languages/gan/profile.json"
     },
     {
-      "name": "Jin",
+      "name": "Jin (Northern Shaanxi focus)",
       "iso_639_3": "cjy",
       "role": [
         "regional",
@@ -121,10 +127,11 @@
       "regions": [
         "Shanxi and neighboring areas"
       ],
-      "profile_status": "planned"
+      "profile_status": "seeded_content_review_required",
+      "profile_path": "languages/cjy/profile.json"
     },
     {
-      "name": "Tibetan",
+      "name": "Tibetan (Lhasa colloquial focus)",
       "iso_639_3": "bod",
       "role": [
         "regional",
@@ -133,10 +140,11 @@
       "regions": [
         "Tibet and Tibetan communities in neighboring provinces"
       ],
-      "profile_status": "planned"
+      "profile_status": "seeded_content_review_required",
+      "profile_path": "languages/bod/profile.json"
     },
     {
-      "name": "Uyghur",
+      "name": "Uyghur (Central Uyghur focus)",
       "iso_639_3": "uig",
       "role": [
         "regional",
@@ -145,10 +153,11 @@
       "regions": [
         "Xinjiang"
       ],
-      "profile_status": "planned"
+      "profile_status": "seeded_content_review_required",
+      "profile_path": "languages/uig/profile.json"
     },
     {
-      "name": "Mongolian",
+      "name": "Mongolian (Inner Mongolia focus)",
       "iso_639_3": "mon",
       "role": [
         "regional",
@@ -157,10 +166,11 @@
       "regions": [
         "Inner Mongolia and other communities"
       ],
-      "profile_status": "planned"
+      "profile_status": "seeded_content_review_required",
+      "profile_path": "languages/mon/profile.json"
     },
     {
-      "name": "Zhuang",
+      "name": "Zhuang (Standard Wuming focus)",
       "iso_639_3": "zha",
       "role": [
         "regional",
@@ -169,10 +179,11 @@
       "regions": [
         "Guangxi"
       ],
-      "profile_status": "planned"
+      "profile_status": "seeded_content_review_required",
+      "profile_path": "languages/zha/profile.json"
     },
     {
-      "name": "Korean",
+      "name": "Korean (Yanbian / Chosŏnmal focus)",
       "iso_639_3": "kor",
       "role": [
         "regional",
@@ -181,10 +192,11 @@
       "regions": [
         "Northeast China"
       ],
-      "profile_status": "planned"
+      "profile_status": "seeded_content_review_required",
+      "profile_path": "languages/kor/profile.json"
     },
     {
-      "name": "Kazakh",
+      "name": "Kazakh (Xinjiang focus)",
       "iso_639_3": "kaz",
       "role": [
         "regional",
@@ -193,7 +205,8 @@
       "regions": [
         "Xinjiang"
       ],
-      "profile_status": "planned"
+      "profile_status": "seeded_content_review_required",
+      "profile_path": "languages/kaz/profile.json"
     }
   ],
   "sources": [
@@ -217,7 +230,7 @@
     "status": "reviewed_initial_catalog",
     "last_reviewed": "2026-11-19",
     "reviewed_by": "LWT research setup",
-    "notes": "Katalog awal. Profil bahasa utama telah memiliki materi enam kategori; bahasa/varietas lainnya tetap berstatus rencana dan memerlukan profil terpisah. Daftar nasional tidak diklaim lengkap."
+    "notes": "All 14 current catalog records are linked to profile files. Profiles represent selected regional varieties and are not exhaustive surveys of the language groups or all languages in China."
   },
   "language_catalog_status": "selected_catalog_not_exhaustive"
 }
