@@ -32,7 +32,9 @@
           "usage_context": "Mengenali tinggi-rendah pada kata.",
           "example_source_language": "雨 (あめ, ame) / 飴 (あめ, ame)",
           "example_indonesian": "Hujan / permen",
-          "sources": "https://www.ninjal.ac.jp/english/info/aboutus/organization-chart/clrd/",
+          "sources": [
+            "https://www.ninjal.ac.jp/english/info/aboutus/organization-chart/clrd/"
+          ],
           "verification_status": "draft",
           "note": "Pasangan minimal dan posisi penurunan pitch perlu dicek pada kamus aksen seperti NHK/Japanese Accent Dictionary sebelum dipakai sebagai latihan audio."
         },
@@ -46,7 +48,9 @@
           "usage_context": "Mendengar perbedaan panjang bunyi.",
           "example_source_language": "おばさん (obasan) / おばあさん (obaasan)",
           "example_indonesian": "Bibi / nenek",
-          "sources": "https://clrd.ninjal.ac.jp/csj/en/",
+          "sources": [
+            "https://clrd.ninjal.ac.jp/csj/en/"
+          ],
           "verification_status": "reviewed",
           "note": "Terjemahan hanya menunjukkan perbedaan bentuk; latihan audio diperlukan untuk akurasi."
         },
@@ -60,7 +64,9 @@
           "usage_context": "Membedakan kata yang hampir sama.",
           "example_source_language": "おじさん (ojisan) / おじいさん (ojiisan)",
           "example_indonesian": "Paman / kakek",
-          "sources": "https://clrd.ninjal.ac.jp/csj/en/",
+          "sources": [
+            "https://clrd.ninjal.ac.jp/csj/en/"
+          ],
           "verification_status": "reviewed"
         },
         {
@@ -73,7 +79,9 @@
           "usage_context": "Mendengar pengurangan suara vokal.",
           "example_source_language": "です (desu) dan ます (masu)",
           "example_indonesian": "Bentuk sopan ‘desu’ dan ‘masu’",
-          "sources": "https://clrd.ninjal.ac.jp/csj/en/",
+          "sources": [
+            "https://clrd.ninjal.ac.jp/csj/en/"
+          ],
           "verification_status": "draft",
           "note": "Perlu audio dan transkripsi fonetik contoh spesifik."
         },
@@ -87,7 +95,9 @@
           "usage_context": "Mengenali perbedaan regional dalam media dan percakapan.",
           "example_source_language": "ほんま (honma)",
           "example_indonesian": "Benar / sungguh (bentuk Kansai tertentu)",
-          "sources": "https://clrd.ninjal.ac.jp/en/",
+          "sources": [
+            "https://clrd.ninjal.ac.jp/en/"
+          ],
           "verification_status": "draft",
           "note": "Kata ini juga termasuk variasi leksikal, bukan contoh pitch accent murni."
         }
@@ -108,7 +118,9 @@
           "usage_context": "Menyapa pada pagi hari.",
           "example_source_language": "おはようございます。",
           "example_indonesian": "Selamat pagi.",
-          "sources": "https://www.irodori.jpf.go.jp/assets/data/starter/pdf/X_L01.pdf",
+          "sources": [
+            "https://www.irodori.jpf.go.jp/assets/data/starter/pdf/X_L01.pdf"
+          ],
           "verification_status": "reviewed"
         },
         {
@@ -122,7 +134,9 @@
           "usage_context": "Memanggil staf atau meminta jalan.",
           "example_source_language": "すみません、駅はどこですか。",
           "example_indonesian": "Permisi, stasiun ada di mana?",
-          "sources": "https://www.irodori.jpf.go.jp/en/about.html",
+          "sources": [
+            "https://www.irodori.jpf.go.jp/en/about.html"
+          ],
           "verification_status": "reviewed",
           "note": "Contoh selaras dengan komunikasi sehari-hari; variasi situasi perlu diajarkan."
         },
@@ -137,7 +151,9 @@
           "usage_context": "Berbicara dengan orang yang belum akrab atau dalam layanan.",
           "example_source_language": "これは本です。",
           "example_indonesian": "Ini buku.",
-          "sources": "https://www.irodori.jpf.go.jp/en/about.html",
+          "sources": [
+            "https://www.irodori.jpf.go.jp/en/about.html"
+          ],
           "verification_status": "reviewed"
         },
         {
@@ -151,7 +167,9 @@
           "usage_context": "Menunjukkan bahwa pembicara sedang diikuti.",
           "example_source_language": "そうですか。",
           "example_indonesian": "Oh begitu.",
-          "sources": "https://clrd.ninjal.ac.jp/csj/en/",
+          "sources": [
+            "https://clrd.ninjal.ac.jp/csj/en/"
+          ],
           "verification_status": "draft",
           "note": "Pemilihan respons dan makna persetujuan harus dilihat dalam konteks dialog."
         },
@@ -166,7 +184,9 @@
           "usage_context": "Menyebut orang lain dengan sopan.",
           "example_source_language": "田中さん",
           "example_indonesian": "Tuan/Nyonya Tanaka (bergantung konteks)",
-          "sources": "https://www.irodori.jpf.go.jp/en/about.html",
+          "sources": [
+            "https://www.irodori.jpf.go.jp/en/about.html"
+          ],
           "verification_status": "reviewed",
           "note": "Hindari menambahkan -san pada diri sendiri dalam perkenalan biasa."
         }
@@ -187,7 +207,9 @@
           "usage_context": "Perkenalan, layanan, percakapan profesional.",
           "example_source_language": "私はインドネシア人です。",
           "example_indonesian": "Saya orang Indonesia.",
-          "sources": "https://www.irodori.jpf.go.jp/en/about.html",
+          "sources": [
+            "https://www.irodori.jpf.go.jp/en/about.html"
+          ],
           "verification_status": "reviewed"
         },
         {
@@ -201,7 +223,9 @@
           "usage_context": "Membedakan gaya sopan dan biasa.",
           "example_source_language": "明日行く。",
           "example_indonesian": "Besok saya pergi.",
-          "sources": "https://www.irodori.jpf.go.jp/en/about.html",
+          "sources": [
+            "https://www.irodori.jpf.go.jp/en/about.html"
+          ],
           "verification_status": "reviewed",
           "note": "Hubungan usia, status, dan kedekatan harus dipertimbangkan."
         },
@@ -216,7 +240,9 @@
           "usage_context": "Membaca kalimat dan nama serapan.",
           "example_source_language": "私はコーヒーを飲みます。",
           "example_indonesian": "Saya minum kopi.",
-          "sources": "https://www.irodori.jpf.go.jp/en/about.html",
+          "sources": [
+            "https://www.irodori.jpf.go.jp/en/about.html"
+          ],
           "verification_status": "reviewed"
         },
         {
@@ -230,7 +256,9 @@
           "usage_context": "Membentuk kalimat informatif.",
           "example_source_language": "私は学生です。",
           "example_indonesian": "Saya adalah pelajar.",
-          "sources": "https://www.irodori.jpf.go.jp/en/about.html",
+          "sources": [
+            "https://www.irodori.jpf.go.jp/en/about.html"
+          ],
           "verification_status": "draft",
           "note": "Butuh uraian lanjutan untuk kontras, fokus, dan klausa relatif."
         },
@@ -245,7 +273,9 @@
           "usage_context": "Memahami istilah kebijakan bahasa.",
           "example_source_language": "標準語について学ぶ。",
           "example_indonesian": "Belajar tentang bahasa standar.",
-          "sources": "https://www.bunka.go.jp/english/policy/japanese_language/policy/index.html",
+          "sources": [
+            "https://www.bunka.go.jp/english/policy/japanese_language/policy/index.html"
+          ],
           "verification_status": "draft",
           "note": "Perlu rujukan sosiolinguistik khusus untuk membedakan istilah."
         }
@@ -266,7 +296,9 @@
           "usage_context": "Reaksi spontan terhadap situasi atau kualitas sesuatu.",
           "example_source_language": "このケーキ、やばい。",
           "example_indonesian": "Kue ini enak banget / luar biasa.",
-          "sources": "https://crd.ndl.go.jp/reference/entry/index.php?id=1000206172&page=ref_view",
+          "sources": [
+            "https://crd.ndl.go.jp/reference/entry/index.php?id=1000206172&page=ref_view"
+          ],
           "verification_status": "reviewed",
           "note": "Perpustakaan Diet Nasional Jepang mengutip kamus percakapan yang mencatat arti negatif dan positif."
         },
@@ -368,7 +400,9 @@
           "usage_context": "Mengkritik atau mengejek seseorang.",
           "example_source_language": "そんなことを言うのはばかげている。",
           "example_indonesian": "Mengatakan hal seperti itu adalah tindakan bodoh.",
-          "sources": "https://kotobank.jp/word/%E3%81%B0%E3%81%8B-356888",
+          "sources": [
+            "https://kotobank.jp/word/%E3%81%B0%E3%81%8B-356888"
+          ],
           "verification_status": "reviewed",
           "note": "Kutipan makna kamus tidak berarti kata ini aman dipakai kepada orang lain."
         },
@@ -383,7 +417,9 @@
           "usage_context": "Ejekan atau teguran kasar.",
           "example_source_language": "あほなことを言わないで。",
           "example_indonesian": "Jangan mengatakan hal bodoh.",
-          "sources": "https://kotobank.jp/word/%E9%98%BF%E5%91%86-426781",
+          "sources": [
+            "https://kotobank.jp/word/%E9%98%BF%E5%91%86-426781"
+          ],
           "verification_status": "reviewed"
         },
         {
@@ -463,7 +499,9 @@
           "usage_context": "Mengenali keberadaan bahasa minoritas dan sejarah revitalisasi.",
           "example_source_language": "アイヌ語",
           "example_indonesian": "Bahasa Ainu",
-          "sources": "https://www.ninjal.ac.jp/english/research/cr-project/project-4/endangered-languages/",
+          "sources": [
+            "https://www.ninjal.ac.jp/english/research/cr-project/project-4/endangered-languages/"
+          ],
           "verification_status": "reviewed"
         },
         {
@@ -477,7 +515,9 @@
           "usage_context": "Mengenali variasi dan klasifikasi bahasa.",
           "example_source_language": "沖縄のことば",
           "example_indonesian": "Bahasa-bahasa Okinawa",
-          "sources": "https://www.jstage.jst.go.jp/article/jactfl/4/0/4_110/_article/-char/ja/",
+          "sources": [
+            "https://www.jstage.jst.go.jp/article/jactfl/4/0/4_110/_article/-char/ja/"
+          ],
           "verification_status": "reviewed"
         },
         {
@@ -491,7 +531,9 @@
           "usage_context": "Pengenalan bahasa setempat.",
           "example_source_language": "うちなーぐち",
           "example_indonesian": "Uchināguchi / bahasa Okinawa",
-          "sources": "https://www.bunka.go.jp/english/policy/japanese_language/policy/index.html",
+          "sources": [
+            "https://www.bunka.go.jp/english/policy/japanese_language/policy/index.html"
+          ],
           "verification_status": "reviewed"
         },
         {
@@ -505,7 +547,9 @@
           "usage_context": "Pengindeksan bahasa yang memerlukan dokumentasi.",
           "example_source_language": "八丈のことば",
           "example_indonesian": "Bahasa Hachijo",
-          "sources": "https://www.ninjal.ac.jp/english/research/cr-project/project-4/endangered-languages/",
+          "sources": [
+            "https://www.ninjal.ac.jp/english/research/cr-project/project-4/endangered-languages/"
+          ],
           "verification_status": "reviewed",
           "note": "Kode bahasa tetap null sampai diverifikasi pada registri ISO 639-3 terkini."
         },
@@ -520,7 +564,9 @@
           "usage_context": "Memverifikasi bentuk dialek dan pelafalan.",
           "example_source_language": "方言の資料を調べる。",
           "example_indonesian": "Meneliti bahan tentang dialek.",
-          "sources": "https://www.ninjal.ac.jp/english/resources/search/",
+          "sources": [
+            "https://www.ninjal.ac.jp/english/resources/search/"
+          ],
           "verification_status": "reviewed"
         }
       ],
