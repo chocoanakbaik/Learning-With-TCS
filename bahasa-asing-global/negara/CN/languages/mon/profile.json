@@ -1,0 +1,294 @@
+{
+  "schema_version": "1.1.0",
+  "record_type": "language_profile",
+  "language": {
+    "name": "Mongolian (Inner Mongolia / Traditional Script focus)",
+    "native_name": "ᠮᠣᠩᠭᠣᠯ",
+    "iso_639_3": "mon",
+    "bcp47_tags": [
+      "mn-CN"
+    ],
+    "family": "Mongolic > Mongolian"
+  },
+  "country_context": {
+    "country_code": "CN",
+    "role": [
+      "regional",
+      "minority"
+    ],
+    "note": "Profil ini berfokus pada tradisi bahasa tulis Mongolian di Mongolia Dalam dan aksara tradisional vertikal. Ragam tutur Inner Mongolian dan Khalkha Mongolian tidak boleh dicampur; subdialek seperti Baarin/Shiliingol membutuhkan label terpisah."
+  },
+  "categories": {
+    "accent_and_pronunciation": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "CN-MON-ACC-001",
+          "term": "Vowel harmony in modern East Mongolian",
+          "explanation_id": "Penelitian fonetik menunjukkan harmoni vokal Mongolian modern di wilayah timur, termasuk Mongolia Dalam, mengalami pergeseran dari harmoni palatal/front-back historis menuju harmoni berbasis tongue-root/pharyngeal pada sejumlah varietas.",
+          "indonesian_learning_link": "Bahasa Indonesia tidak memiliki harmoni vokal seperti ini; pelajar perlu mengamati hubungan vokal akar dan akhiran.",
+          "region": "Inner Mongolian varieties; study includes East Mongolian",
+          "register": "Pronunciation / phonology",
+          "usage_context": "Mengenali perubahan vokal dalam kata berimbuhan.",
+          "example_source_language": "front-back / tongue-root harmony",
+          "example_indonesian": "harmoni vokal depan-belakang / akar lidah",
+          "sources": [
+            "https://www.sciencedirect.com/science/article/abs/pii/0024384185900026",
+            "https://brill.com/downloadpdf/view/journals/jeal/1/1/article-p46_4.pdf"
+          ],
+          "verification_status": "reviewed",
+          "note": "Sumber membahas pergeseran lintas beberapa varietas; jangan menerapkannya secara sama pada setiap dialek Inner Mongolian."
+        },
+        {
+          "id": "CN-MON-ACC-002",
+          "term": "Dialect vowel inventory variation",
+          "explanation_id": "Inventaris vokal dapat berbeda antar-dialek Mongolia Dalam; beberapa dialek mencatat vokal tambahan dan perbedaan rounded/unrounded.",
+          "indonesian_learning_link": "Jangan membuat satu tabel IPA universal untuk seluruh Mongolian di Mongolia Dalam.",
+          "region": "Baarin, Shiliingol and other Inner Mongolian varieties",
+          "register": "Regional pronunciation",
+          "usage_context": "Membandingkan bunyi antardialek.",
+          "example_source_language": "Inner Mongolian vowel contrasts",
+          "example_indonesian": "kontras vokal ragam Mongolia Dalam",
+          "sources": [
+            "https://brill.com/downloadpdf/view/journals/jeal/1/1/article-p46_4.pdf"
+          ],
+          "verification_status": "draft",
+          "note": "Sumber membahas varietas tertentu; perlu pilih dialek yang jelas sebelum menambahkan tabel IPA."
+        },
+        {
+          "id": "CN-MON-ACC-003",
+          "term": "Traditional script does not map one-to-one to modern pronunciation",
+          "explanation_id": "Ejaan tradisional Mongolian mempertahankan bentuk sastra historis dan tidak selalu memiliki hubungan satu-ke-satu dengan pelafalan modern; sebagian teks tradisional merepresentasikan bahasa sastra yang lebih tua.",
+          "indonesian_learning_link": "Pisahkan transliterasi ejaan dari transkripsi fonetik; jangan membaca aksara tradisional seperti romanisasi Latin.",
+          "region": "Inner Mongolia; traditional written Mongolian",
+          "register": "Orthographic pronunciation",
+          "usage_context": "Membaca kata dalam aksara tradisional.",
+          "example_source_language": "traditional written form vs contemporary spoken pronunciation",
+          "example_indonesian": "bentuk tulis tradisional vs pelafalan lisan modern",
+          "sources": [
+            "https://www.unicode.org/mwg/mwg3docs/mwg3-2UnicodeV12MongolianBlockR.pdf",
+            "https://www.cjvlang.com/Writing/writmongol/mongolalphadict.html"
+          ],
+          "verification_status": "reviewed"
+        }
+      ]
+    },
+    "speaking_style_and_pragmatics": {
+      "status": "research_required",
+      "entries": [],
+      "coverage_note": "Sapaan, honorifik, dan gaya percakapan belum dimasukkan karena profil ini berfokus pada bahasa tulis tradisional di Mongolia Dalam; diperlukan sumber tutur yang secara spesifik menyebut varietas lokal."
+    },
+    "standard_language": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "CN-MON-STD-001",
+          "term": "Traditional Mongolian vertical script",
+          "explanation_id": "Aksara Mongolian tradisional ditulis secara vertikal dari atas ke bawah, dengan kolom berjalan dari kiri ke kanan. Aksara ini tetap digunakan untuk menulis Mongolian di Mongolia Dalam.",
+          "indonesian_learning_link": "Antarmuka LWT harus mendukung tulisan vertikal dan urutan kolom yang benar; jangan merender sebagai tulisan horizontal biasa.",
+          "region": "Inner Mongolia, China",
+          "register": "Writing system",
+          "usage_context": "Membaca teks tradisional.",
+          "example_source_language": "ᠮᠣᠩᠭᠣᠯ",
+          "example_indonesian": "Mongolian",
+          "sources": [
+            "https://www.unicode.org/mwg/mwg3docs/mwg3-2UnicodeV12MongolianBlockR.pdf",
+            "https://www.cjvlang.com/Writing/writmongol/mongolalphadict.html"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-MON-STD-002",
+          "term": "Traditional script and Cyrillic are not equivalent spellings",
+          "explanation_id": "Cyrillic Mongolian yang dipakai di negara Mongolia dan aksara tradisional Inner Mongolia tidak mempunyai hubungan satu-ke-satu; keduanya mewakili konvensi bahasa tulis/ucapan yang berbeda.",
+          "indonesian_learning_link": "Jangan mengubah otomatis teks Mongolia Dalam menjadi Cyrillic tanpa aturan transliterasi dan metadata asal.",
+          "region": "Inner Mongolia vs Mongolia",
+          "register": "Orthography distinction",
+          "usage_context": "Membedakan sumber teks.",
+          "example_source_language": "Traditional Mongolian script / Cyrillic Mongolian",
+          "example_indonesian": "aksara tradisional / Cyrillic Mongolian",
+          "sources": [
+            "https://www.unicode.org/mwg/mwg3docs/mwg3-2UnicodeV12MongolianBlockR.pdf",
+            "https://www.mongoliajol.info/index.php/JIMDT/article/view/3599/3910"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-MON-STD-003",
+          "term": "Mongolian-Chinese dictionary",
+          "explanation_id": "Mongolian-Chinese Dictionary revisi yang digunakan di Mongolia Dalam memuat puluhan ribu headword dan idiom; kamus ini juga memiliki lampiran tata bahasa dan tabel aksara.",
+          "indonesian_learning_link": "Gunakan kamus untuk menelusuri lema serta makna, simpan ejaan asli dan lokasi publikasinya.",
+          "region": "Inner Mongolia",
+          "register": "Lexicography",
+          "usage_context": "Mencari kosakata dalam bahasa tulis tradisional.",
+          "example_source_language": "Mongolian-Chinese Dictionary",
+          "example_indonesian": "kamus Mongolian-Tionghoa",
+          "sources": [
+            "https://www.gerel.net/guide/p01/menghan_dic_guide_english.pdf"
+          ],
+          "verification_status": "reviewed",
+          "note": "Panduan menjelaskan edisi kamus 1999; cek metadata hak cipta sebelum memindahkan entri ke LWT."
+        },
+        {
+          "id": "CN-MON-STD-004",
+          "term": "Inner Mongolian dictionary lookup conventions",
+          "explanation_id": "Kamus aksara tradisional sering disusun menurut urutan suku kata yang diajarkan untuk aksara dan ejaan tradisional; pencarian tidak sama dengan alfabet Latin.",
+          "indonesian_learning_link": "Sediakan pencarian berbasis aksara, transliterasi dan variasi bentuk kata.",
+          "region": "Inner Mongolia; dictionary practice",
+          "register": "Lexicography / orthography",
+          "usage_context": "Mencari bentuk kata dalam kamus.",
+          "example_source_language": "traditional Mongolian dictionary index",
+          "example_indonesian": "indeks kamus aksara tradisional",
+          "sources": [
+            "https://www.cjvlang.com/Writing/writmongol/mongolalphadict.html"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-MON-STD-005",
+          "term": "Agglutinative morphology",
+          "explanation_id": "Mongolian membentuk kata dengan menambahkan morfem/sufiks pada akar; hubungan morfologi harus dipahami bersama harmoni vokal dan aturan fonologinya.",
+          "indonesian_learning_link": "Bandingkan dengan afiks bahasa Indonesia, tetapi jangan menyamakan struktur dan urutannya.",
+          "region": "Mongolic languages; apply only after dialect is specified",
+          "register": "Grammar / morphology",
+          "usage_context": "Menganalisis akar dan sufiks.",
+          "example_source_language": "stem + suffix sequence",
+          "example_indonesian": "akar kata dan rangkaian sufiks",
+          "sources": [
+            "https://www.mongoliajol.info/index.php/JIMDT/article/view/3599/3910",
+            "https://turuz.com/storage/Language/2011/0214-Mongolic_languages%28moghol_dili%29%28juha_janhunen%29.pdf"
+          ],
+          "verification_status": "draft",
+          "note": "Sumber morphology modern yang ditemukan mencakup Mongolian umum/Cyrillic; perlu sumber khusus Inner Mongolian sebelum menjadi pelajaran dialek."
+        }
+      ]
+    },
+    "nonstandard_language_and_slang": {
+      "status": "research_required",
+      "entries": [],
+      "coverage_note": "Slang lisan modern tidak dimasukkan karena fokus profil ini adalah bahasa tulis tradisional. Slang harus ditambahkan pada profil ragam tutur tertentu dengan lokasi dan generasi."
+    },
+    "profanity_and_vulgar_language": {
+      "status": "community_review_required",
+      "entries": [],
+      "coverage_note": "Umpatan tidak dimasukkan tanpa kamus/rekaman yang secara khusus mengidentifikasi dialek dan konteks Mongolia Dalam."
+    },
+    "regional_and_minority_languages": {
+      "status": "cross_reference_country_catalog",
+      "entries": [
+        {
+          "id": "CN-MON-REG-001",
+          "term": "Mongolian in Inner Mongolia",
+          "explanation_id": "Mongolian digunakan oleh komunitas di Inner Mongolia dan memiliki tradisi tulis vertikal yang tetap digunakan di China; cakupan penutur dan ragam lokal lebih luas daripada satu varietas tulisan.",
+          "indonesian_learning_link": "Pilih `mon` sebagai identitas payung dan simpan varietas lisan sebagai metadata terpisah.",
+          "region": "Inner Mongolia Autonomous Region",
+          "register": "Mongolic language",
+          "usage_context": "Memilih bahasa sumber.",
+          "example_source_language": "ᠮᠣᠩᠭᠣᠯ",
+          "example_indonesian": "Mongolian Mongolia Dalam",
+          "sources": [
+            "https://www.unicode.org/mwg/mwg3docs/mwg3-2UnicodeV12MongolianBlockR.pdf",
+            "https://turuz.com/storage/Language/2011/0214-Mongolic_languages%28moghol_dili%29%28juha_janhunen%29.pdf"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-MON-REG-002",
+          "term": "Written Mongol versus spoken local varieties",
+          "explanation_id": "Sumber linguistik membedakan norma Written Mongol dari variasi tutur; norma tertulis memiliki stabilitas historis dan tidak boleh dianggap sama dengan satu dialek lisan modern.",
+          "indonesian_learning_link": "Jelaskan konteks tulisan akademik/sastra dan percakapan lokal secara terpisah.",
+          "region": "Inner Mongolia; written and spoken domains",
+          "register": "Language variety distinction",
+          "usage_context": "Membaca teks historis dan dialog modern.",
+          "example_source_language": "Written Mongol / spoken dialect",
+          "example_indonesian": "Mongolian tulis / dialek lisan",
+          "sources": [
+            "https://turuz.com/storage/Language/2011/0214-Mongolic_languages%28moghol_dili%29%28juha_janhunen%29.pdf"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-MON-REG-003",
+          "term": "Inner Mongolian vs Khalkha Mongolian",
+          "explanation_id": "Mongolian di Mongolia Dalam menggunakan aksara tradisional dalam ranah tulis utama, sedangkan Khalkha di negara Mongolia umumnya memakai Cyrillic; ada perbedaan konvensi dan ragam tutur.",
+          "indonesian_learning_link": "Jangan menukar contoh tulisan atau pelafalan antara kedua konteks tanpa label.",
+          "region": "Inner Mongolia, China vs Mongolia",
+          "register": "Regional and orthographic variation",
+          "usage_context": "Menentukan sumber teks.",
+          "example_source_language": "Inner Mongolian / Khalkha",
+          "example_indonesian": "Mongolian Mongolia Dalam / Khalkha",
+          "sources": [
+            "https://www.unicode.org/mwg/mwg3docs/mwg3-2UnicodeV12MongolianBlockR.pdf",
+            "https://www.mongoliajol.info/index.php/JIMDT/article/view/3599/3910"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-MON-REG-004",
+          "term": "Inner Mongolian dialect diversity",
+          "explanation_id": "Dialek di Mongolia Dalam memiliki inventaris vokal dan pola harmoni yang dapat bervariasi, termasuk data Baarin dan Shiliingol dalam penelitian akustik.",
+          "indonesian_learning_link": "Labeli contoh menurut lokasi dan sumber penelitian; jangan gabungkan semua ke satu standar lisan.",
+          "region": "Baarin, Shiliingol and other regions",
+          "register": "Regional dialects",
+          "usage_context": "Menandai asal penutur.",
+          "example_source_language": "Baarin / Shiliingol",
+          "example_indonesian": "varietas Baarin / Shiliingol",
+          "sources": [
+            "https://brill.com/downloadpdf/view/journals/jeal/1/1/article-p46_4.pdf"
+          ],
+          "verification_status": "reviewed"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "Unicode — Mongolian Block and Directionality",
+      "url": "https://www.unicode.org/mwg/mwg3docs/mwg3-2UnicodeV12MongolianBlockR.pdf",
+      "scope": "Aksara tradisional, penulisan vertikal, perbedaan penggunaan di Inner Mongolia dan Mongolia."
+    },
+    {
+      "title": "Svantesson — Vowel Harmony Shift in Mongolian",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/0024384185900026",
+      "scope": "Data akustik tentang harmoni vokal dan pergeseran fonetik di Mongolian Timur/Inner Mongolian."
+    },
+    {
+      "title": "Barrere & Janhunen — Mongolian Vowel Harmony in a Eurasian Context",
+      "url": "https://brill.com/downloadpdf/view/journals/jeal/1/1/article-p46_4.pdf",
+      "scope": "Harmoni vokal, perubahan sistem dan variasi dalam bahasa Mongolic modern."
+    },
+    {
+      "title": "Inner Mongolia University — Mongolian-Chinese Dictionary supplement guide",
+      "url": "https://www.gerel.net/guide/p01/menghan_dic_guide_english.pdf",
+      "scope": "Edisi kamus, jumlah lema, lampiran grammar dan aksara."
+    },
+    {
+      "title": "CJVL — Looking up dictionaries using the Mongolian Script",
+      "url": "https://www.cjvlang.com/Writing/writmongol/mongolalphadict.html",
+      "scope": "Konvensi pencarian kamus dengan aksara tradisional dan urutan suku kata."
+    },
+    {
+      "title": "Janhunen — The Mongolic Languages",
+      "url": "https://turuz.com/storage/Language/2011/0214-Mongolic_languages%28moghol_dili%29%28juha_janhunen%29.pdf",
+      "scope": "Norma tertulis, sejarah, dan variasi bahasa Mongolic."
+    },
+    {
+      "title": "Mongolia Journal — Digitalizing Mongolian Language",
+      "url": "https://www.mongoliajol.info/index.php/JIMDT/article/view/3599/3910",
+      "scope": "Morfologi aglutinatif dan konversi Cyrillic ke aksara tradisional."
+    }
+  ],
+  "indonesian_learning_design": {
+    "direction": "Mongolian (Inner Mongolia) → Indonesian",
+    "learner_support": [
+      "Tampilkan aksara tradisional dengan rendering vertikal dan transliterasi terpisah.",
+      "Jelaskan harmoni vokal menurut subdialek yang digunakan.",
+      "Pisahkan bahasa tulis tradisional dari bentuk tutur lokal dan Cyrillic Khalkha."
+    ]
+  },
+  "verification": {
+    "status": "content_seeded_reviewed_not_native_validated",
+    "last_reviewed": "2026-11-19",
+    "notes": "Sumber utama membahas aksara tradisional dan norma tertulis Mongolia Dalam. Materi morphology dan dialek tutur ditandai draft bila sumbernya tidak spesifik Inner Mongolia. Pragmatik, slang, dan profanity belum diisi."
+  }
+}
