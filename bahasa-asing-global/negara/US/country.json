@@ -45,8 +45,15 @@
       "role": [
         "community"
       ],
-      "note": "This is a navigation umbrella, not a single language record. Split into individually identified languages such as cmn, yue, wuu, nan and hak as supported by community and region-specific research.",
-      "profile_status": "split_required"
+      "note": "Umbrella label, not one language and therefore no ISO 639-3 code or single profile. Related language identities are documented in the Tiongkok catalog; US diaspora-specific pronunciation and vocabulary need community evidence before separate profiles are added.",
+      "profile_status": "cross_reference_only",
+      "related_profiles": [
+        "CN/languages/cmn/profile.json",
+        "CN/languages/yue/profile.json",
+        "CN/languages/wuu/profile.json",
+        "CN/languages/nan/profile.json",
+        "CN/languages/hak/profile.json"
+      ]
     },
     {
       "name": "Tagalog",
@@ -74,7 +81,7 @@
       "role": [
         "community"
       ],
-      "note": "Arabic varieties are not one language profile. Identify individual varieties and communities (for example, Egyptian, Levantine, Iraqi or other groups) only after confirming the catalog evidence and language-code scope.",
+      "note": "Arabic is a macrolanguage with distinct spoken varieties and writing/register differences. Identify the US communities and target varieties (for example Egyptian, Levantine, Iraqi, or Gulf) before choosing ISO 639-3 identifiers and creating profiles. Do not assign one code/profile to all Arabic varieties.",
       "profile_status": "split_required"
     },
     {
@@ -169,7 +176,7 @@
     "status": "reviewed_initial_catalog",
     "last_reviewed": "2026-11-19",
     "reviewed_by": "LWT research setup",
-    "notes": "Katalog awal. Profil bahasa utama telah memiliki materi enam kategori; bahasa/varietas lainnya tetap berstatus rencana dan memerlukan profil terpisah. Daftar nasional tidak diklaim lengkap."
+    "notes": "Ten language/community profiles are linked. Chinese language groups is an umbrella cross-reference to related Chinese language profiles in the CN catalog; Arabic varieties remains pending identification of specific US community varieties."
   },
   "language_catalog_status": "selected_catalog_not_exhaustive"
 }
