@@ -47,13 +47,25 @@ Materi bahasa Indonesia yang diajarkan tetap dibagi menjadi:
 ```text
 bahasa-asing-global/
 ├── README.md
+├── FASE-01-README.md
 ├── template-negara/
 │   ├── README.md
 │   └── profil-negara.template.json
 ├── skema-data/
 │   └── README.md
+├── tools/
+│   └── validate_language_data.py
 └── negara/
-    └── README.md
+    ├── README.md
+    ├── US/
+    │   ├── country.json
+    │   └── languages/eng/profile.json
+    ├── JP/
+    │   ├── country.json
+    │   └── languages/jpn/profile.json
+    └── CN/
+        ├── country.json
+        └── languages/cmn/profile.json
 ```
 
 Profil negara baru dibuat di dalam `negara/` menggunakan kode negara ISO 3166-1 alpha-2, misalnya `US/`, `JP/`, atau `BR/`. Di dalamnya, pisahkan profil negara dari profil bahasa/komunitas agar bahasa yang digunakan lintas negara tidak diduplikasi secara keliru.
@@ -83,4 +95,7 @@ Rujukan:
 
 ## Status
 
-Direktori dan rancangan skema ini adalah fondasi awal. Isinya belum mengklaim telah mencakup seluruh bahasa, negara, dialek, atau kosakata dunia. Cakupan diperluas bertahap dengan verifikasi sumber untuk setiap entri.
+- [Status Fase 1](./FASE-01-README.md) — paket inti English (AS), Japanese, dan Mandarin Putonghua.
+- [Validator data](./tools/validate_language_data.py) — pemeriksaan JSON, skema, entri, dan katalog negara.
+
+Direktori ini belum mengklaim mencakup seluruh bahasa, negara, dialek, atau kosakata dunia. Katalog dan profil diperluas bertahap dengan sumber serta validasi yang sesuai.
