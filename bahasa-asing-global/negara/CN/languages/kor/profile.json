@@ -1,0 +1,362 @@
+{
+  "schema_version": "1.1.0",
+  "record_type": "language_profile",
+  "language": {
+    "name": "Korean (Yanbian / Chosŏnmal focus)",
+    "native_name": "연변 조선어 / 중국조선어",
+    "iso_639_3": "kor",
+    "bcp47_tags": [
+      "ko-CN"
+    ],
+    "family": "Koreanic"
+  },
+  "country_context": {
+    "country_code": "CN",
+    "role": [
+      "regional",
+      "minority"
+    ],
+    "note": "Profil ini berfokus pada Korean yang digunakan komunitas di Yanbian, Jilin, China (Chosŏnmal). Ragam ini berakar pada dialek Hamgyong dan dipengaruhi Mandarin serta norma Korea Utara/Selatan; jangan disamakan dengan Seoul Korean."
+  },
+  "categories": {
+    "accent_and_pronunciation": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "CN-KOR-ACC-001",
+          "term": "/e/ versus /ɛ/ distinction",
+          "explanation_id": "Yanbian Korean mempertahankan perbedaan fonemik /e/ dan /ɛ/ dalam sebagian analisis, sedangkan banyak penutur Seoul Korean telah menggabungkan keduanya menjadi [e].",
+          "indonesian_learning_link": "Bahasa Indonesia juga memiliki /e/ dan /ɛ/ pada banyak aksen; pelajar dapat menggunakan kontras ini untuk mengenali variasi bunyi, tanpa menyamakan inventarisnya.",
+          "region": "Yanbian Korean; comparison with Contemporary Standard Korean",
+          "register": "Pronunciation",
+          "usage_context": "Membedakan vokal pada kata.",
+          "example_source_language": "/e/ vs /ɛ/",
+          "example_indonesian": "vokal e tertutup vs e terbuka",
+          "sources": [
+            "https://koreanhistory.humspace.ucla.edu/items/show/87",
+            "https://www.sciencedirect.com/science/article/pii/S0167639324000827"
+          ],
+          "verification_status": "reviewed",
+          "note": "Penelitian menyebut realisasi dapat berubah karena kontak dengan Seoul Korean atau Mandarin; status vokal lain /y/ dan /ø/ masih dibahas."
+        },
+        {
+          "id": "CN-KOR-ACC-002",
+          "term": "Pitch accent in Yanbian speech",
+          "explanation_id": "Yanbian Korean dijelaskan memiliki pola pitch accent, bukan sistem nada leksikal seperti Mandarin; loanword dari English, Japanese dan Mandarin disesuaikan dengan sistem prosodi Korean.",
+          "indonesian_learning_link": "Jelaskan bahwa pengaruh bahasa sumber dapat mengubah aksen kata, tetapi hasilnya mengikuti pola prosodi Yanbian Korean.",
+          "region": "Yanbian; multilingual contact",
+          "register": "Prosody",
+          "usage_context": "Memahami adaptasi kata serapan.",
+          "example_source_language": "English stress / Mandarin tones → Korean pitch patterns",
+          "example_indonesian": "tekanan English dan nada Mandarin diadaptasi ke pola pitch Korean",
+          "sources": [
+            "https://koreanhistory.humspace.ucla.edu/items/show/87",
+            "https://journal.kci.go.kr/semantics/archive/articleView?artiId=ART000963421"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-KOR-ACC-003",
+          "term": "Loanword phonology",
+          "explanation_id": "Kata serapan dari Mandarin, English, Japanese, dan bahasa lain dapat menunjukkan pola pelafalan yang berbeda dari bentuk yang sama di Seoul Korean.",
+          "indonesian_learning_link": "Ajarkan kata serapan beserta asal dan komunitasnya, bukan sekadar daftar kata yang dianggap salah ucap.",
+          "region": "Yanbian Korean",
+          "register": "Pronunciation / contact",
+          "usage_context": "Mengenali kata serapan.",
+          "example_source_language": "loanword adaptation",
+          "example_indonesian": "adaptasi kata serapan",
+          "sources": [
+            "https://koreanhistory.humspace.ucla.edu/items/show/87",
+            "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003022220"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-KOR-ACC-004",
+          "term": "Regional and generational phonetic variation",
+          "explanation_id": "Penelitian akustik kontemporer menunjukkan produksi vokal Yanbian dapat bervariasi menurut paparan Seoul Korean, kontak Mandarin, dan karakteristik dialek dasar Hamgyong.",
+          "indonesian_learning_link": "Catat usia, latar pendidikan, lokasi, dan model bahasa dalam setiap rekaman.",
+          "region": "Yanbian; sequential bilingual speakers",
+          "register": "Sociophonetic variation",
+          "usage_context": "Membandingkan pelafalan antarpenutur.",
+          "example_source_language": "Yanbian vowel realization",
+          "example_indonesian": "realisasi vokal Yanbian",
+          "sources": [
+            "https://www.sciencedirect.com/science/article/pii/S0167639324000827"
+          ],
+          "verification_status": "reviewed"
+        }
+      ]
+    },
+    "speaking_style_and_pragmatics": {
+      "status": "research_required",
+      "entries": [
+        {
+          "id": "CN-KOR-PRAG-001",
+          "term": "Yanbian-specific address and politeness",
+          "explanation_id": "Praktik sapaan dan kesantunan Yanbian Korean dipengaruhi bahasa dasar Hamgyong, norma Korea di Tiongkok, dan lingkungan bilingual Mandarin; perlu dibedakan dari Seoul dan Pyongyang.",
+          "indonesian_learning_link": "Gunakan sapaan Indonesia sesuai relasi dan status, tetapi jangan memetakan satu bentuk Korean secara otomatis ke Bapak/Ibu.",
+          "region": "Yanbian Korean; community setting",
+          "register": "Context-sensitive / politeness",
+          "usage_context": "Menentukan sapaan dalam relasi sosial.",
+          "example_source_language": "Yanbian address forms",
+          "example_indonesian": "sapaan komunitas Yanbian",
+          "sources": [],
+          "verification_status": "draft",
+          "note": "Belum ada sumber pragmatik langsung yang cukup pada tahap ini; diperlukan dialog dan contoh penutur."
+        },
+        {
+          "id": "CN-KOR-PRAG-002",
+          "term": "Code and register choice in Yanbian",
+          "explanation_id": "Penutur Yanbian dapat memilih Korean atau Mandarin sesuai ranah sekolah, kerja, administrasi, keluarga, dan audiens; pilihan bahasa tidak sama dengan variasi aksen.",
+          "indonesian_learning_link": "Jelaskan alih kode Indonesia-Jawa/Indonesia-Inggris sebagai perbandingan, bukan sebagai bukti struktur yang sama.",
+          "region": "Yanbian Korean-Chinese bilingual context",
+          "register": "Bilingual pragmatics",
+          "usage_context": "Memilih bahasa sesuai situasi.",
+          "example_source_language": "Korean / Mandarin code choice",
+          "example_indonesian": "pilihan kode Korean / Mandarin",
+          "sources": [
+            "https://koreanhistory.humspace.ucla.edu/items/show/87"
+          ],
+          "verification_status": "draft",
+          "note": "Sumber mendokumentasikan bilingualisme dan pengaruh Mandarin, tetapi perlu data interaksi pragmatik langsung untuk status reviewed."
+        }
+      ]
+    },
+    "standard_language": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "CN-KOR-STD-001",
+          "term": "Yanbian Korean written norms",
+          "explanation_id": "Korean Yanbian memiliki norma ejaan, kosakata, dan gaya tulis tersendiri di media dan pendidikan; perbedaannya tidak dapat direduksi menjadi kesalahan terhadap standar Seoul.",
+          "indonesian_learning_link": "Bedakan standar tertulis komunitas Yanbian dari standar Korea Selatan dan Korea Utara.",
+          "region": "Yanbian Korean; education and publication",
+          "register": "Written standard",
+          "usage_context": "Membaca materi pendidikan atau koran lokal.",
+          "example_source_language": "Yanbian Chosŏnmal",
+          "example_indonesian": "bahasa Korean Yanbian",
+          "sources": [
+            "https://koreanhistory.humspace.ucla.edu/items/show/87",
+            "https://www.asialex.org/pdf/Asialex-Proceedings-2024.pdf"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-KOR-STD-002",
+          "term": "Negation and syntactic differences",
+          "explanation_id": "UCLA mencatat contoh perbedaan urutan negasi: pola Yanbian/Chosŏnmal dapat berbeda dari Contemporary Standard Korean yang menempatkan partikel negatif sebelum verba pada konstruksi terkait.",
+          "indonesian_learning_link": "Bandingkan urutan kata dengan bahasa Indonesia dan jangan memakai aturan Seoul untuk memeriksa semua kalimat Yanbian.",
+          "region": "Yanbian vs South Korean standard",
+          "register": "Grammar / syntax",
+          "usage_context": "Menyusun kalimat negatif.",
+          "example_source_language": "Yanbian negative-construction pattern",
+          "example_indonesian": "pola konstruksi negatif Yanbian",
+          "sources": [
+            "https://koreanhistory.humspace.ucla.edu/items/show/87"
+          ],
+          "verification_status": "reviewed",
+          "note": "Sumber UCLA mengutip Barnes-Sadler dan Yeon (2019); contoh kalimat lengkap harus diambil dari artikel aslinya sebelum dijadikan soal."
+        },
+        {
+          "id": "CN-KOR-STD-003",
+          "term": "Script and consonant-name conventions",
+          "explanation_id": "Nama huruf Hangul tertentu berbeda antara norma Yanbian dan norma Contemporary Standard Korean; contoh yang disebut adalah ㄱ, ㄷ dan ㅅ.",
+          "indonesian_learning_link": "Ajarkan pembaca bahwa nama huruf Hangul dapat berbeda menurut standar komunitas.",
+          "region": "Yanbian Korean",
+          "register": "Orthography / literacy",
+          "usage_context": "Menyebut nama huruf Hangul.",
+          "example_source_language": "기윽 / 디읃 / 시읏",
+          "example_indonesian": "nama huruf menurut konvensi Yanbian",
+          "sources": [
+            "https://koreanhistory.humspace.ucla.edu/items/show/87"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-KOR-STD-004",
+          "term": "Vocabulary standardization and lexical layers",
+          "explanation_id": "Yanbian Korean menggabungkan warisan dialek Hamgyong, kosakata Sino-Korean, pinjaman Mandarin, dan pengaruh norma Korea Utara/ Selatan; pilihan kata dipengaruhi ranah serta generasi.",
+          "indonesian_learning_link": "Gunakan label sumber dan asal kata ketika membandingkan padanan bahasa Indonesia.",
+          "region": "Yanbian Korean",
+          "register": "Lexicography / standard language",
+          "usage_context": "Membandingkan kosakata.",
+          "example_source_language": "native / Sino-Korean / Mandarin loanwords",
+          "example_indonesian": "kosakata asli / Sino-Korean / pinjaman Mandarin",
+          "sources": [
+            "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003022220",
+            "https://journal.kci.go.kr/semantics/archive/articleView?artiId=ART000963421"
+          ],
+          "verification_status": "reviewed"
+        }
+      ]
+    },
+    "nonstandard_language_and_slang": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "CN-KOR-SLANG-001",
+          "term": "되놀이 (doenori)",
+          "explanation_id": "ASIALEX mencatat 되놀이 sebagai kosakata yang digunakan di Yanbian untuk sejenis perayaan atau jamuan desa; contoh ini menunjukkan lema lokal yang kurang terwakili dalam kamus umum Korea Utara/Selatan.",
+          "indonesian_learning_link": "Padanan Indonesia perlu melihat konteks sosial: perayaan atau jamuan desa, bukan terjemahan satu kata universal.",
+          "region": "Yanbian Korean; local vocabulary",
+          "register": "Regional colloquial",
+          "usage_context": "Memahami kosakata lokal dalam komunitas.",
+          "example_source_language": "되놀이",
+          "example_indonesian": "perayaan/jamuan desa tradisional",
+          "sources": [
+            "https://www.asialex.org/pdf/Asialex-Proceedings-2024.pdf"
+          ],
+          "verification_status": "reviewed",
+          "note": "Sumber mengutip temuan kamus Yanbian MalMo'I; perlu cek lema kamus primer sebelum memberi definisi budaya lebih rinci."
+        },
+        {
+          "id": "CN-KOR-SLANG-002",
+          "term": "Chinese-contact loanwords",
+          "explanation_id": "Studi leksikal Yanbian menemukan pinjaman Mandarin serta campuran bentuk dari norma Korea Utara dan Selatan; sebagian bentuk tidak digunakan dengan cara sama di Seoul.",
+          "indonesian_learning_link": "Ajarkan asal kata dan pilihan register; kata serapan tidak otomatis dianggap slang.",
+          "region": "Yanbian Korean; multilingual vocabulary",
+          "register": "Contact-induced colloquial usage",
+          "usage_context": "Mengenali kosakata hasil kontak.",
+          "example_source_language": "Mandarin-derived vocabulary",
+          "example_indonesian": "kosakata yang dipinjam dari Mandarin",
+          "sources": [
+            "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003022220",
+            "https://journal.kci.go.kr/semantics/archive/articleView?artiId=ART000963421"
+          ],
+          "verification_status": "reviewed",
+          "note": "Entri ini adalah fenomena dan bukan daftar lema spesifik; butuh kamus Yanbian untuk contoh terkurasi."
+        },
+        {
+          "id": "CN-KOR-SLANG-003",
+          "term": "Local Yanbian lexical variants",
+          "explanation_id": "Survei kosakata tertulis menemukan variasi pada kata asli, kata Sino-Korean, dan loanword; perubahan alat/kehidupan sehari-hari dapat menimbulkan varian baru.",
+          "indonesian_learning_link": "Bandingkan dengan perubahan kosakata Indonesian akibat teknologi dan budaya lokal.",
+          "region": "Yanbian; community lexicon",
+          "register": "Regional variation",
+          "usage_context": "Membandingkan variasi kata.",
+          "example_source_language": "sot and its regional forms",
+          "example_indonesian": "panci dan variasi leksikalnya",
+          "sources": [
+            "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003022220"
+          ],
+          "verification_status": "reviewed",
+          "note": "Contoh sot berkaitan dengan perubahan alat memasak; bentuk varian satu per satu belum dimasukkan."
+        }
+      ]
+    },
+    "profanity_and_vulgar_language": {
+      "status": "community_review_required",
+      "entries": [],
+      "coverage_note": "Umpatan Yanbian belum dimasukkan. Sumber yang ada berfokus pada ejaan, kosakata, dan perubahan leksikal; diperlukan dokumentasi langsung tingkat kekasaran serta konteks sosial."
+    },
+    "regional_and_minority_languages": {
+      "status": "cross_reference_country_catalog",
+      "entries": [
+        {
+          "id": "CN-KOR-REG-001",
+          "term": "Yanbian Korean / Chosŏnmal",
+          "explanation_id": "Yanbian Korean adalah ragam Korean yang digunakan komunitas Korean di Yanbian, Jilin, China, dengan dasar dialek Hamgyong Utara dan pengaruh Mandarin serta standar Korea lain.",
+          "indonesian_learning_link": "Pilih Korean China sebagai konteks sumber; jangan menganggapnya identik dengan Seoul Korean.",
+          "region": "Yanbian Korean Autonomous Prefecture, Jilin",
+          "register": "Regional Korean variety",
+          "usage_context": "Menetapkan asal bahasa.",
+          "example_source_language": "연변 조선어",
+          "example_indonesian": "Korean Yanbian / Chosŏnmal",
+          "sources": [
+            "https://koreanhistory.humspace.ucla.edu/items/show/87",
+            "https://journal.kci.go.kr/semantics/archive/articleView?artiId=ART000963421"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-KOR-REG-002",
+          "term": "Hamgyong dialect basis",
+          "explanation_id": "UCLA menjelaskan bahwa Yanbian Korean berakar pada dialek Hamgyong dan kemudian mengalami kontak dengan Mandarin serta norma Korea Utara dan Selatan.",
+          "indonesian_learning_link": "Gunakan label asal dialek dan kontak, bukan label ‘aksen China’ yang terlalu umum.",
+          "region": "Yanbian; Hamgyong-origin dialect base",
+          "register": "Regional variety",
+          "usage_context": "Menelusuri sejarah dialek.",
+          "example_source_language": "Hamgyong-based Yanbian Korean",
+          "example_indonesian": "Korean Yanbian berbasis Hamgyong",
+          "sources": [
+            "https://koreanhistory.humspace.ucla.edu/items/show/87"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-KOR-REG-003",
+          "term": "Yanbian lexical variation",
+          "explanation_id": "Penelitian kosakata mengumpulkan data dari penutur Yanbian dan menjelaskan pengaruh Mandarin, Korea Utara, dan Korea Selatan pada kata asli, Sino-Korean dan pinjaman.",
+          "indonesian_learning_link": "Simpan sumber, generasi, lokasi, dan kategori kata untuk setiap lema.",
+          "region": "Yanbian Korean; written vocabulary surveys",
+          "register": "Regional lexicon",
+          "usage_context": "Mengidentifikasi kata lokal.",
+          "example_source_language": "Yanbian-specific lexical forms",
+          "example_indonesian": "bentuk leksikal khusus Yanbian",
+          "sources": [
+            "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003022220",
+            "https://www.asialex.org/pdf/Asialex-Proceedings-2024.pdf"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-KOR-REG-004",
+          "term": "Yanbian and Seoul Korean are not interchangeable",
+          "explanation_id": "Studi fonologi menunjukkan perbedaan realisasi /e/ dan /ɛ/ serta adaptasi loanword; sebagian kontras dapat bergeser oleh paparan Seoul Korean atau Mandarin.",
+          "indonesian_learning_link": "Jangan mengoreksi semua bentuk Yanbian menjadi Seoul Korean tanpa mempertahankan konteks komunitas.",
+          "region": "Yanbian vs Seoul",
+          "register": "Language variety distinction",
+          "usage_context": "Membedakan model bahasa.",
+          "example_source_language": "Yanbian / Contemporary Standard Korean",
+          "example_indonesian": "Yanbian / Korean standar kontemporer",
+          "sources": [
+            "https://www.sciencedirect.com/science/article/pii/S0167639324000827",
+            "https://koreanhistory.humspace.ucla.edu/items/show/87"
+          ],
+          "verification_status": "reviewed"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "UCLA — Linguistics of Yanbian Korean",
+      "url": "https://koreanhistory.humspace.ucla.edu/items/show/87",
+      "scope": "Dialect basis, phonology, syntax, negation, orthography, loanwords and bilingual context."
+    },
+    {
+      "title": "Lei et al. / ScienceDirect — Yanbian Korean speakers and vowel merger under Seoul exposure",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0167639324000827",
+      "scope": "Current vowel realization and contact-related variation in /e/ and /ɛ/."
+    },
+    {
+      "title": "KCI — A Study on the Vocabulary Variations of Korean Language in Yanbian",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003022220",
+      "scope": "Written vocabulary survey, Chinese/North Korean/South Korean influences and local variants."
+    },
+    {
+      "title": "ASIALEX 2023 Proceedings — Yanbian MalMo'I dictionary and user participation",
+      "url": "https://www.asialex.org/pdf/Asialex-Proceedings-2024.pdf",
+      "scope": "Yanbian-specific vocabulary gaps and local entries such as doenori."
+    },
+    {
+      "title": "KCI — A Study on Korean in Yanbian China",
+      "url": "https://journal.kci.go.kr/semantics/archive/articleView?artiId=ART000963421",
+      "scope": "Historical vocabulary shift and influence from South Korean standard after 1990s contact."
+    }
+  ],
+  "indonesian_learning_design": {
+    "direction": "Yanbian Korean → Indonesian",
+    "learner_support": [
+      "Bandingkan pelafalan vokal dan sistem bunyi Indonesian tanpa menghapus ciri Yanbian.",
+      "Ajarkan pilihan kata berdasarkan komunitas, generasi, dan sumber media.",
+      "Bedakan standar tulis Yanbian dari Seoul/Pyongyang dan pengaruh Mandarin."
+    ]
+  },
+  "verification": {
+    "status": "content_seeded_reviewed_not_native_validated",
+    "last_reviewed": "2026-11-19",
+    "notes": "Fonologi, variasi kosakata, dan pengaruh Mandarin ditopang sumber UCLA, KCI, ScienceDirect dan ASIALEX. Contoh local lexical membutuhkan verifikasi kamus Yanbian; pragmatik interpersonal dan profanity belum diisi tanpa sumber langsung."
+  }
+}
