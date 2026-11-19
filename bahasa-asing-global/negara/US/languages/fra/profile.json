@@ -1,0 +1,362 @@
+{
+  "schema_version": "1.1.0",
+  "record_type": "language_profile",
+  "language": {
+    "name": "French",
+    "native_name": "Français",
+    "iso_639_3": "fra",
+    "bcp47_tags": [
+      "fr-US"
+    ],
+    "family": "Indo-European > Italic > Romance"
+  },
+  "country_context": {
+    "country_code": "US",
+    "role": [
+      "community",
+      "heritage"
+    ],
+    "note": "French di Amerika Serikat hadir melalui komunitas warisan seperti Cajun dan Franco-American serta migrasi modern. French Louisiana, Louisiana Creole, dan French standar harus dibedakan."
+  },
+  "categories": {
+    "accent_and_pronunciation": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "US-FRA-ACC-001",
+          "term": "Nasal vowels",
+          "explanation_id": "French memiliki vokal nasal yang dapat membedakan kata; kualitas bunyinya bergantung kata dan varietas.",
+          "indonesian_learning_link": "Latih perbedaan vokal oral dan nasal; jangan menambahkan konsonan n/m setelah vokal nasal.",
+          "region": "French; model standar",
+          "register": "Pronunciation",
+          "usage_context": "Mendengar kontras vokal.",
+          "example_source_language": "bon",
+          "example_indonesian": "baik",
+          "sources": [
+            "https://www.dictionnaire-academie.fr/prononciationAPI.html"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-FRA-ACC-002",
+          "term": "Liaison",
+          "explanation_id": "Konsonan akhir yang biasanya tidak diucapkan dapat muncul saat kata berikutnya dimulai vokal dalam lingkungan tertentu.",
+          "indonesian_learning_link": "Jelaskan bahwa bunyi antar-kata dapat berubah.",
+          "region": "French standar",
+          "register": "Pronunciation",
+          "usage_context": "Mendengar ujaran tersambung.",
+          "example_source_language": "les amis",
+          "example_indonesian": "teman-teman",
+          "sources": [
+            "https://www.dictionnaire-academie.fr/prononciationAPI.html"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-FRA-ACC-003",
+          "term": "Louisiana French pronunciation",
+          "explanation_id": "French Louisiana memiliki ragam penutur dan sejarah tersendiri; bukan sekadar French Paris dengan aksen.",
+          "indonesian_learning_link": "Gunakan rekaman komunitas Cajun/Creole yang berlabel lokasi.",
+          "region": "Louisiana",
+          "register": "Regional pronunciation",
+          "usage_context": "Mengenali rekaman bahasa warisan.",
+          "example_source_language": "français louisianais",
+          "example_indonesian": "French Louisiana",
+          "sources": [
+            "https://www.jstor.org/stable/j.ctt2tv922",
+            "https://www.crt.state.la.us/Assets/OCD/codofil/resources/TF_Guide_mar2025.pdf"
+          ],
+          "verification_status": "reviewed"
+        }
+      ]
+    },
+    "speaking_style_and_pragmatics": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "US-FRA-PRAG-001",
+          "term": "tu / vous",
+          "explanation_id": "Pilihan tu atau vous menandai keakraban, jumlah, jarak sosial, dan kesopanan; norma berbeda menurut komunitas.",
+          "indonesian_learning_link": "Bandingkan dengan kamu, kalian, Anda, dan Bapak/Ibu.",
+          "region": "French; lintas komunitas",
+          "register": "Context-sensitive",
+          "usage_context": "Memilih kata ganti.",
+          "example_source_language": "Vous pouvez m'aider ?",
+          "example_indonesian": "Bisakah Anda membantu saya?",
+          "sources": [
+            "https://www.dictionnaire-academie.fr/prononciationAPI.html"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-FRA-PRAG-002",
+          "term": "Bonjour",
+          "explanation_id": "Sapaan umum dan pembuka interaksi layanan; fungsi sosialnya lebih luas daripada terjemahan literal.",
+          "indonesian_learning_link": "Padanan Indonesia: selamat pagi/siang atau sapaan pembuka.",
+          "region": "French; komunitas berbahasa French",
+          "register": "Polite / neutral",
+          "usage_context": "Memulai interaksi.",
+          "example_source_language": "Bonjour, madame.",
+          "example_indonesian": "Selamat siang, Bu.",
+          "sources": [
+            "https://www.dictionnaire-academie.fr/prononciationAPI.html"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-FRA-PRAG-003",
+          "term": "Politeness formulas",
+          "explanation_id": "Rangkaian seperti s'il vous plaît dan merci dipakai untuk permintaan dan ucapan terima kasih.",
+          "indonesian_learning_link": "Ajarkan padanan fungsi Indonesia, bukan terjemahan kata demi kata.",
+          "region": "French; formal dan layanan",
+          "register": "Polite",
+          "usage_context": "Meminta bantuan.",
+          "example_source_language": "Merci beaucoup.",
+          "example_indonesian": "Terima kasih banyak.",
+          "sources": [
+            "https://www.dictionnaire-academie.fr/prononciationAPI.html"
+          ],
+          "verification_status": "reviewed"
+        }
+      ]
+    },
+    "standard_language": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "US-FRA-STD-001",
+          "term": "Gender and number agreement",
+          "explanation_id": "Nomina, artikel, adjektiva, dan bentuk tertentu menunjukkan kesesuaian gender dan jumlah.",
+          "indonesian_learning_link": "Bahasa Indonesia tidak memiliki gender gramatikal; jelaskan informasi yang tersimpan dalam bentuk kata.",
+          "region": "French standard",
+          "register": "Grammar",
+          "usage_context": "Menyusun frasa nomina.",
+          "example_source_language": "une maison blanche",
+          "example_indonesian": "sebuah rumah putih",
+          "sources": [
+            "https://www.dictionnaire-academie.fr/prononciationAPI.html"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-FRA-STD-002",
+          "term": "Written accents",
+          "explanation_id": "Aksen tertulis é, è, ê, ë dan ç merupakan bagian dari ejaan serta membantu membedakan bunyi/bentuk kata.",
+          "indonesian_learning_link": "Jangan menghilangkan diakritik dalam materi French.",
+          "region": "French written standard",
+          "register": "Orthography",
+          "usage_context": "Membaca dan menulis.",
+          "example_source_language": "école; garçon",
+          "example_indonesian": "sekolah; anak laki-laki",
+          "sources": [
+            "https://www.dictionnaire-academie.fr/prononciationAPI.html"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-FRA-STD-003",
+          "term": "Negation ne ... pas",
+          "explanation_id": "Konstruksi negatif standar sering memakai ne dan pas; percakapan spontan dapat menghilangkan ne, bergantung register.",
+          "indonesian_learning_link": "Bandingkan tidak/bukan dan pilihan bahasa Indonesia formal/nonformal.",
+          "region": "French standard and colloquial",
+          "register": "Grammar / register",
+          "usage_context": "Menyusun kalimat negatif.",
+          "example_source_language": "Je ne sais pas.",
+          "example_indonesian": "Saya tidak tahu.",
+          "sources": [
+            "https://www.dictionnaire-academie.fr/prononciationAPI.html"
+          ],
+          "verification_status": "reviewed"
+        }
+      ]
+    },
+    "nonstandard_language_and_slang": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "US-FRA-SLANG-001",
+          "term": "Franglais",
+          "explanation_id": "Istilah payung untuk pengaruh/campuran French-English; bukan satu sistem slang tunggal.",
+          "indonesian_learning_link": "Bandingkan dengan campur kode Indonesia-Inggris.",
+          "region": "Komunitas bilingual AS",
+          "register": "Bilingual informal",
+          "usage_context": "Menganalisis alih kode.",
+          "example_source_language": "Franglais",
+          "example_indonesian": "campur French-English",
+          "sources": [
+            "https://www.jstor.org/stable/j.ctt2tv922"
+          ],
+          "verification_status": "draft",
+          "note": "Sumber Louisiana tidak cukup untuk mendefinisikan semua Franglais di AS; perlu studi code-switching khusus."
+        },
+        {
+          "id": "US-FRA-SLANG-002",
+          "term": "Louisiana French regional vocabulary",
+          "explanation_id": "Kosakata French Louisiana dapat berbeda dari French standar; kamus regional menghimpun contoh kontekstual.",
+          "indonesian_learning_link": "Gunakan lema lokal hanya dengan penanda wilayah dan sumber khusus.",
+          "region": "Louisiana",
+          "register": "Regional / informal",
+          "usage_context": "Memahami bahan budaya lokal.",
+          "example_source_language": "Louisiana French vocabulary",
+          "example_indonesian": "kosakata French Louisiana",
+          "sources": [
+            "https://www.jstor.org/stable/j.ctt2tv922",
+            "https://www.crt.state.la.us/Assets/OCD/codofil/resources/TF_Guide_mar2025.pdf"
+          ],
+          "verification_status": "draft",
+          "note": "Ini pengarah cakupan; belum memilih lema tunggal tanpa pemeriksaan kamus."
+        },
+        {
+          "id": "US-FRA-SLANG-003",
+          "term": "Community code-switching",
+          "explanation_id": "Penutur bilingual dapat berpindah antara French dan English sesuai audiens/topik.",
+          "indonesian_learning_link": "Bandingkan dengan bilingualisme Indonesia.",
+          "region": "AS; komunitas heritage dan migran",
+          "register": "Bilingual informal",
+          "usage_context": "Percakapan bilingual.",
+          "example_source_language": "French-English switching",
+          "example_indonesian": "alih kode French-English",
+          "sources": [],
+          "verification_status": "draft",
+          "note": "Perlu sumber penelitian khusus komunitas bilingual AS."
+        }
+      ]
+    },
+    "profanity_and_vulgar_language": {
+      "status": "seeded_educational_with_context",
+      "entries": [
+        {
+          "id": "US-FRA-PROF-001",
+          "term": "merde",
+          "explanation_id": "Umpatan kasar yang secara literal berarti kotoran/tinja dan dapat menyatakan frustrasi.",
+          "indonesian_learning_link": "Padanan Indonesia berubah menurut situasi, dari sial sampai vulgar.",
+          "region": "French lintas wilayah",
+          "register": "Vulgar",
+          "usage_context": "Memahami dialog kasar.",
+          "example_source_language": "C'est de la merde.",
+          "example_indonesian": "Itu buruk sekali.",
+          "sources": [
+            "https://www.dictionnaire-academie.fr/prononciationAPI.html"
+          ],
+          "verification_status": "draft",
+          "note": "Sumber langsung lemma dan intensitas perlu ditambahkan."
+        },
+        {
+          "id": "US-FRA-PROF-002",
+          "term": "putain",
+          "explanation_id": "Kata vulgar yang dapat berfungsi sebagai makian atau seruan emosi.",
+          "indonesian_learning_link": "Jangan terjemahkan sebagai satu umpatan tetap; jelaskan fungsi menurut frasa/audiens.",
+          "region": "French lintas wilayah",
+          "register": "Strong profanity",
+          "usage_context": "Memahami luapan emosi.",
+          "example_source_language": "C'est une expression très vulgaire.",
+          "example_indonesian": "Itu ungkapan yang sangat vulgar.",
+          "sources": [],
+          "verification_status": "draft",
+          "note": "Belum ada sumber langsung lema/usage."
+        },
+        {
+          "id": "US-FRA-PROF-003",
+          "term": "con / conne",
+          "explanation_id": "Kata hinaan yang dapat menyebut seseorang bodoh atau menyebalkan.",
+          "indonesian_learning_link": "Padanan Indonesia: bodoh/tolol, tetapi konteks menentukan intensitas.",
+          "region": "French lintas wilayah",
+          "register": "Insult / vulgar",
+          "usage_context": "Memahami hinaan.",
+          "example_source_language": "Ne l'insulte pas.",
+          "example_indonesian": "Jangan menghina dia.",
+          "sources": [],
+          "verification_status": "draft",
+          "note": "Perlu sumber kamus langsung."
+        }
+      ]
+    },
+    "regional_and_minority_languages": {
+      "status": "cross_reference_country_catalog",
+      "entries": [
+        {
+          "id": "US-FRA-REG-001",
+          "term": "Cajun French",
+          "explanation_id": "Varietas French warisan di Louisiana dengan sejarah dan kosakata tersendiri.",
+          "indonesian_learning_link": "Jangan menganggap Cajun French sebagai Louisiana Creole atau French standar beraksen.",
+          "region": "Louisiana; komunitas Cajun",
+          "register": "Heritage / regional",
+          "usage_context": "Mengenali bahasa warisan.",
+          "example_source_language": "français cadien",
+          "example_indonesian": "French Cajun",
+          "sources": [
+            "https://www.jstor.org/stable/j.ctt2tv922",
+            "https://www.crt.state.la.us/Assets/OCD/codofil/resources/TF_Guide_mar2025.pdf"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-FRA-REG-002",
+          "term": "Louisiana Creole",
+          "explanation_id": "Louisiana Creole adalah bahasa Creole yang berbeda dari Louisiana French; perlu profil bahasa tersendiri.",
+          "indonesian_learning_link": "Jangan memasukkannya sebagai dialek French.",
+          "region": "Louisiana; komunitas Creole",
+          "register": "Creole language",
+          "usage_context": "Memisahkan dua bahasa yang berbeda.",
+          "example_source_language": "Kréyòl La Lwizyàn",
+          "example_indonesian": "Louisiana Creole",
+          "sources": [
+            "https://www.crt.state.la.us/Assets/OCD/codofil/resources/TF_Guide_mar2025.pdf"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-FRA-REG-003",
+          "term": "Franco-American heritage varieties",
+          "explanation_id": "Komunitas Franco-American memiliki sejarah bahasa dan pola pergeseran antargenerasi yang berbeda-beda.",
+          "indonesian_learning_link": "Catat komunitas dan asal wilayah, bukan satu aksen nasional.",
+          "region": "New England dan wilayah lain",
+          "register": "Heritage variety",
+          "usage_context": "Memahami bahasa warisan.",
+          "example_source_language": "French heritage speech",
+          "example_indonesian": "tuturan French warisan",
+          "sources": [
+            "https://www.jstor.org/stable/j.ctt2tv922"
+          ],
+          "verification_status": "draft",
+          "note": "Sumber Louisiana tidak cukup untuk New England French; perlu penelitian regional."
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "Académie française — Dictionnaire pronunciation and IPA",
+      "url": "https://www.dictionnaire-academie.fr/prononciationAPI.html",
+      "scope": "Transkripsi fonetik dan audio untuk lema French standar."
+    },
+    {
+      "title": "Académie française — 10th edition",
+      "url": "https://www.academie-francaise.fr/la-10e-edition-du-dictionnaire-de-lacademie-francaise",
+      "scope": "Rujukan leksikografi French modern."
+    },
+    {
+      "title": "Dictionary of Louisiana French",
+      "url": "https://www.jstor.org/stable/j.ctt2tv922",
+      "scope": "Kosakata Louisiana French dan contoh autentik."
+    },
+    {
+      "title": "Louisiana Office of Cultural Development — French language resources",
+      "url": "https://www.crt.state.la.us/Assets/OCD/codofil/resources/TF_Guide_mar2025.pdf",
+      "scope": "Bahan pembelajaran dan rujukan Louisiana French serta Louisiana Creole."
+    }
+  ],
+  "indonesian_learning_design": {
+    "direction": "French (US communities) → Indonesian",
+    "learner_support": [
+      "Bandingkan tu/vous dengan sapaan bahasa Indonesia.",
+      "Jelaskan perbedaan French standar, Cajun French, dan Louisiana Creole.",
+      "Gunakan contoh Indonesia baku dan nonbaku menurut situasi."
+    ]
+  },
+  "verification": {
+    "status": "content_seeded_reviewed_not_native_validated",
+    "last_reviewed": "2026-11-19",
+    "notes": "Profil awal bersumber pada Académie française dan dokumentasi Louisiana. Slang, umpatan, dan Franco-American varieties masih draft; belum divalidasi penutur komunitas AS."
+  }
+}
