@@ -17,7 +17,7 @@
   },
   "language_context": {
     "national_language_note": "Japanese is the predominant language of public life. The country's linguistic landscape also includes Indigenous Ainu and Ryukyuan languages, as well as regional varieties and community languages.",
-    "diversity_note": "UNESCO's endangered-language references for Japan include Ainu and several Ryukyuan varieties, as well as Hachijo. Linguistic classification is contested in some cases; LWT records community and scholarly distinctions instead of automatically labelling all varieties as mere dialects. Profiles currently distinguish Hokkaido Ainu, Kunigami, Shuri Okinawan, Southern Amami-Oshima, Miyako, Yaeyama and Yonaguni. Hachijo remains uncoded pending current ISO verification.",
+    "diversity_note": "UNESCO's endangered-language references for Japan include Ainu and several Ryukyuan varieties, as well as Hachijo. Linguistic classification is contested in some cases; LWT records community and scholarly distinctions instead of automatically labelling all varieties as mere dialects. Profiles currently distinguish Hokkaido Ainu, Kunigami, Shuri Okinawan, Southern Amami-Oshima, Miyako, Yaeyama and Yonaguni. Hachijo remains uncoded pending current ISO verification. Hachijo now has a profile keyed internally by Glottocode hach1239; it remains without an ISO 639-3 identifier.",
     "documentation_unit": "Use individual language/community profiles. Keep Japanese regional dialects distinct from separate Ryukyuan languages where the cited linguistic source does so."
   },
   "languages": [
@@ -139,8 +139,10 @@
       "regions": [
         "Hachijo Islands"
       ],
-      "note": "ISO 639-3 identifier not yet confirmed; retain null until checked against the current ISO 639-3 registry.",
-      "profile_status": "needs_code_verification"
+      "note": "Glottolog identifies Hachijo as hach1239. No ISO 639-3 identifier or BCP 47 language tag was confirmed; iso_639_3 remains null and no code is invented.",
+      "profile_status": "profiled_without_iso_639_3",
+      "profile_path": "languages/hach1239/profile.json",
+      "glottocode": "hach1239"
     }
   ],
   "sources": [
@@ -164,7 +166,7 @@
     "status": "reviewed_initial_catalog",
     "last_reviewed": "2026-11-19",
     "reviewed_by": "LWT research setup",
-    "notes": "Seven non-Japanese language profiles have been added and linked. Hachijo remains unprofiled pending ISO 639-3 identifier verification. Catalog is selected and not exhaustive."
+    "notes": "Eight non-Japanese language profiles are linked, including Hachijo under Glottocode hach1239. No ISO 639-3 code is assigned to Hachijo."
   },
   "language_catalog_status": "selected_catalog_not_exhaustive"
 }
