@@ -84,7 +84,8 @@
         "community",
         "heritage"
       ],
-      "profile_status": "planned"
+      "profile_status": "seeded_content_review_required",
+      "profile_path": "languages/fra/profile.json"
     },
     {
       "name": "Korean",
@@ -93,7 +94,8 @@
         "community",
         "heritage"
       ],
-      "profile_status": "planned"
+      "profile_status": "seeded_content_review_required",
+      "profile_path": "languages/kor/profile.json"
     },
     {
       "name": "Russian",
@@ -102,7 +104,8 @@
         "community",
         "heritage"
       ],
-      "profile_status": "planned"
+      "profile_status": "seeded_content_review_required",
+      "profile_path": "languages/rus/profile.json"
     },
     {
       "name": "Navajo (Diné Bizaad)",
@@ -111,7 +114,8 @@
         "indigenous",
         "regional"
       ],
-      "profile_status": "planned"
+      "profile_status": "seeded_content_review_required",
+      "profile_path": "languages/nav/profile.json"
     },
     {
       "name": "Central Yupik",
@@ -120,7 +124,8 @@
         "indigenous",
         "regional"
       ],
-      "profile_status": "planned"
+      "profile_status": "seeded_content_review_required",
+      "profile_path": "languages/esu/profile.json"
     },
     {
       "name": "Western Apache",
@@ -129,7 +134,8 @@
         "indigenous",
         "regional"
       ],
-      "profile_status": "planned"
+      "profile_status": "seeded_content_review_required",
+      "profile_path": "languages/apw/profile.json"
     }
   ],
   "sources": [
