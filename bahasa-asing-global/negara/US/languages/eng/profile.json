@@ -1,19 +1,529 @@
 {
-  "schema_version":"1.0.0",
-  "record_type":"language_profile",
-  "language":{"name":"English","native_name":"English","iso_639_3":"eng","bcp47_tags":["en-US"],"family":"Indo-European > Germanic > West Germanic"},
-  "country_context":{"country_code":"US","role":["predominant","widely_used"],"note":"This profile documents English as used in the United States. It must not be treated as a description of every English-speaking country."},
-  "categories":{
-    "accent_and_pronunciation":{"status":"research_required","coverage_targets":["General American as a broad reference label, not a uniform accent","regional patterns such as Southern, New England, New York City, Inland North, and Western varieties","African American English pronunciation patterns, documented without treating the variety as incorrect English","rhoticity, vowel shifts, stress, rhythm, and connected speech"],"entries":[]},
-    "speaking_style_and_pragmatics":{"status":"research_required","coverage_targets":["greetings and leave-taking","directness and indirectness by context","politeness, requests, disagreement, small talk","regional, generational, and community variation"],"entries":[]},
-    "standard_language":{"status":"research_required","coverage_targets":["standard written American English","spelling differences from other national standards","grammar and punctuation in formal contexts","formal, academic, workplace, and public-service registers"],"entries":[]},
-    "nonstandard_language_and_slang":{"status":"research_required","coverage_targets":["colloquial contractions and reductions","regional and community vocabulary","youth and internet slang with dated usage labels","African American English and other community varieties described on their own terms"],"entries":[]},
-    "profanity_and_vulgar_language":{"status":"research_required","coverage_targets":["common profanity and taboo expressions","severity, target, and pragmatic force","reclaimed or in-group usage versus hostile use","regional and generational variation; neutral Indonesian explanations"],"entries":[]},
-    "regional_and_minority_languages":{"status":"cross_reference_country_catalog","coverage_targets":["Do not classify Indigenous languages as English dialects","Create linked profiles for Navajo, Central Yupik, Western Apache, and other documented languages","Record language contact and bilingual usage only with community-specific evidence"],"entries":[]}
+  "schema_version": "1.1.0",
+  "record_type": "language_profile",
+  "language": {
+    "name": "English",
+    "native_name": "English",
+    "iso_639_3": "eng",
+    "bcp47_tags": [
+      "en-US"
+    ],
+    "family": "Indo-European > Germanic > West Germanic"
   },
-  "sources":[
-    {"title":"U.S. Census Bureau: Detailed Languages Spoken at Home, 2017–2021","url":"https://www.census.gov/newsroom/press-releases/2025/2017-2021-acs-language-use-tables.html"},
-    {"title":"U.S. Census Bureau: Language Use","url":"https://www.census.gov/topics/population/language-use.html"}
+  "country_context": {
+    "country_code": "US",
+    "role": [
+      "predominant",
+      "widely_used"
+    ],
+    "note": "Dokumentasi ini berfokus pada English di Amerika Serikat. Istilah General American adalah label payung, bukan aksen tunggal yang dipakai semua warga."
+  },
+  "categories": {
+    "accent_and_pronunciation": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "US-ACC-001",
+          "term": "Rhotic /r/",
+          "explanation_id": "Banyak varietas English AS melafalkan bunyi /r/ setelah vokal, misalnya pada car dan hard.",
+          "indonesian_learning_link": "Latih bunyi r dalam kata Indonesia seperti ‘rapi’ tanpa mengubahnya menjadi vokal tambahan.",
+          "region": "Banyak wilayah AS; tidak universal",
+          "register": "Pronunciation",
+          "usage_context": "Membedakan aksen rhotic dan non-rhotic.",
+          "example_source_language": "car; hard",
+          "example_indonesian": "Rasa; rumah",
+          "sources": "https://dare.wisc.edu/about/what-is-dare/",
+          "verification_status": "reviewed",
+          "note": "Sebagian wilayah New England dan New York memiliki pola non-rhotic atau variasi sosial; jangan menjadikan satu pola sebagai standar semua orang."
+        },
+        {
+          "id": "US-ACC-002",
+          "term": "T-flapping",
+          "explanation_id": "Dalam banyak aksen Amerika, /t/ di antara bunyi vokal ketika suku kata berikutnya tidak bertekanan dapat terdengar seperti ketukan singkat [ɾ], misalnya water dan city.",
+          "indonesian_learning_link": "Perbandingan bunyi ini membantu pelajar memahami bahwa bunyi /t/ bahasa Indonesia umumnya tetap jelas pada kata seperti ‘tata’ dan ‘kota’.",
+          "region": "Banyak varietas AS, dengan variasi",
+          "register": "Informal speech / pronunciation",
+          "usage_context": "Ucapan cepat dan percakapan sehari-hari.",
+          "example_source_language": "water; city",
+          "example_indonesian": "Tata; kota",
+          "sources": "https://www.cambridge.org/core/what-we-publish/textbooks/american-english-pronunciation",
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-ACC-003",
+          "term": "Cot–caught merger",
+          "explanation_id": "Di sejumlah wilayah, vokal pada cot dan caught menyatu; di wilayah lain keduanya tetap dibedakan.",
+          "indonesian_learning_link": "Jangan menganggap perbedaan dua kata itu wajib terdengar sama atau berbeda; variasinya bersifat geografis.",
+          "region": "Sebagian besar wilayah Barat dan sejumlah wilayah lain; peta bervariasi",
+          "register": "Regional pronunciation",
+          "usage_context": "Mengenali variasi vokal antardaerah.",
+          "example_source_language": "cot; caught",
+          "example_indonesian": "Contoh latihan vokal bahasa Indonesia: ‘botol’ dan ‘bola’.",
+          "sources": "https://www.ling.upenn.edu/phono_atlas/ICSLP4.html",
+          "verification_status": "draft",
+          "note": "Peta merger harus diperiksa menurut wilayah dan generasi; entri ini bukan peta distribusi lengkap."
+        },
+        {
+          "id": "US-ACC-004",
+          "term": "Southern vowel glide / drawl",
+          "explanation_id": "Sebagian varietas Southern English memiliki realisasi vokal dan durasi yang khas; istilah drawl sering dipakai secara populer tetapi tidak menggambarkan seluruh penutur Selatan.",
+          "indonesian_learning_link": "Gunakan contoh audio bertanda lokasi, bukan imitasi aksen berdasarkan stereotip.",
+          "region": "Amerika Serikat bagian Selatan; beragam antarnegara bagian dan komunitas",
+          "register": "Regional pronunciation",
+          "usage_context": "Mendengar variasi durasi dan pergeseran vokal.",
+          "example_source_language": "time; ride",
+          "example_indonesian": "Saya sedang naik kendaraan.",
+          "sources": "https://dare.wisc.edu/about/what-is-dare/",
+          "verification_status": "draft",
+          "note": "Perlu sampel audio spesifik wilayah; tidak ada satu ‘aksen Selatan’ yang seragam."
+        },
+        {
+          "id": "US-ACC-005",
+          "term": "New York City /r/ variation",
+          "explanation_id": "Pelafalan /r/ pascavokal berbeda menurut komunitas, generasi, gaya bicara, dan situasi; beberapa pola New York historis non-rhotic.",
+          "indonesian_learning_link": "Ajarkan sebagai variasi sosial-regional, bukan sebagai ciri semua penduduk New York.",
+          "region": "New York City dan sekitarnya",
+          "register": "Regional pronunciation",
+          "usage_context": "Memahami perbedaan pembacaan kata seperti car dan fourth.",
+          "example_source_language": "car; fourth",
+          "example_indonesian": "Saya tinggal di kota.",
+          "sources": "https://dare.wisc.edu/about/what-is-dare/",
+          "verification_status": "draft",
+          "note": "Butuh rujukan sosiolinguistik khusus New York dan data audio."
+        }
+      ],
+      "coverage_note": "Benih materi pelafalan. Entri regional yang berstatus draft harus dilengkapi lokasi lebih presisi dan audio berlisensi."
+    },
+    "speaking_style_and_pragmatics": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "US-PRAG-001",
+          "term": "How are you?",
+          "explanation_id": "Sering berfungsi sebagai sapaan ringan/fatis, bukan selalu permintaan laporan kesehatan yang panjang.",
+          "indonesian_learning_link": "Dalam bahasa Indonesia, ‘Apa kabar?’ juga dapat menjadi sapaan; panjang jawaban menyesuaikan kedekatan dan konteks.",
+          "region": "AS; percakapan umum",
+          "register": "Neutral / conversational",
+          "usage_context": "Sapaan singkat saat bertemu.",
+          "example_source_language": "Hi, how are you?",
+          "example_indonesian": "Halo, apa kabar?",
+          "sources": "https://dictionary.cambridge.org/dictionary/english/how-are-you",
+          "verification_status": "reviewed",
+          "note": "Respons seperti ‘Good, thanks. How about you?’ lazim untuk sapaan singkat."
+        },
+        {
+          "id": "US-PRAG-002",
+          "term": "Could you ...?",
+          "explanation_id": "Bentuk permintaan yang lebih tidak langsung dan umumnya lebih sopan daripada perintah langsung.",
+          "indonesian_learning_link": "Bandingkan dengan ‘Bisakah Anda ...?’ atau ‘Tolong ...’ sesuai tingkat formalitas bahasa Indonesia.",
+          "region": "AS; konteks layanan, kerja, dan sehari-hari",
+          "register": "Polite request",
+          "usage_context": "Meminta bantuan tanpa terdengar memerintah.",
+          "example_source_language": "Could you help me, please?",
+          "example_indonesian": "Bisakah Anda membantu saya?",
+          "sources": "https://dictionary.cambridge.org/grammar/british-grammar/requests",
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-PRAG-003",
+          "term": "Excuse me",
+          "explanation_id": "Dapat dipakai untuk menarik perhatian, menyela dengan sopan, meminta jalan, atau meminta maaf ringan.",
+          "indonesian_learning_link": "Padanan Indonesia berubah menurut situasi: ‘permisi’, ‘maaf’, atau ‘boleh saya ...’.",
+          "region": "AS; konteks publik dan layanan",
+          "register": "Polite",
+          "usage_context": "Menyela, lewat, atau memulai pertanyaan.",
+          "example_source_language": "Excuse me, where is the station?",
+          "example_indonesian": "Permisi, stasiun ada di mana?",
+          "sources": "https://dictionary.cambridge.org/dictionary/english/excuse-me",
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-PRAG-004",
+          "term": "I appreciate it",
+          "explanation_id": "Ungkapan terima kasih yang menekankan penghargaan atas bantuan atau usaha seseorang.",
+          "indonesian_learning_link": "Padankan dengan ‘Saya sangat menghargainya’ atau ‘Terima kasih, saya menghargai bantuan Anda’.",
+          "region": "AS; pekerjaan dan percakapan sehari-hari",
+          "register": "Polite / appreciative",
+          "usage_context": "Mengakui bantuan atau usaha.",
+          "example_source_language": "I appreciate your help.",
+          "example_indonesian": "Saya menghargai bantuan Anda.",
+          "sources": "https://dictionary.cambridge.org/dictionary/english/appreciate",
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-PRAG-005",
+          "term": "Small talk",
+          "explanation_id": "Percakapan ringan tentang cuaca, perjalanan, acara, atau hal sehari-hari dapat membuka interaksi; tingkat kesediaan berbasa-basi berbeda antarindividu dan situasi.",
+          "indonesian_learning_link": "Bandingkan dengan basa-basi Indonesia. Jangan menyimpulkan semua orang Amerika senang berbincang dengan orang asing.",
+          "region": "AS; ruang kerja, layanan, pertemuan sosial",
+          "register": "Informal / contextual",
+          "usage_context": "Memulai percakapan ringan.",
+          "example_source_language": "How was your weekend?",
+          "example_indonesian": "Bagaimana akhir pekan Anda?",
+          "sources": "https://www.dare.wisc.edu/about/what-is-dare/",
+          "verification_status": "draft",
+          "note": "Perlu contoh berbasis konteks, bukan stereotip budaya."
+        }
+      ],
+      "coverage_note": "Pola pragmatik adalah kecenderungan kontekstual, bukan aturan yang berlaku bagi setiap penutur."
+    },
+    "standard_language": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "US-STD-001",
+          "term": "American spelling: color / center",
+          "explanation_id": "Ejaan standar AS umumnya memakai color dan center, berbeda dari colour dan centre dalam standar British English.",
+          "indonesian_learning_link": "LWT perlu mengajarkan bentuk Indonesia sesuai ejaan baku Indonesia, bukan menyalin pilihan ejaan English.",
+          "region": "AS; penulisan formal",
+          "register": "Standard written American English",
+          "usage_context": "Dokumen, sekolah, media, dan pekerjaan.",
+          "example_source_language": "The color is blue. The center is open.",
+          "example_indonesian": "Warnanya biru. Pusatnya buka.",
+          "sources": "https://www.merriam-webster.com/dictionary/color",
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-STD-002",
+          "term": "Standard American English",
+          "explanation_id": "Label untuk ragam standar yang lazim dalam pendidikan, penyuntingan, dan komunikasi formal; bukan berarti semua ragam nonstandar tidak memiliki tata bahasa.",
+          "indonesian_learning_link": "Terangkan perbedaan ragam formal dan nonformal tanpa menyebut ragam komunitas sebagai bahasa yang rusak.",
+          "region": "AS; sekolah, penerbitan, profesional",
+          "register": "Formal / standard",
+          "usage_context": "Memilih register sesuai tujuan komunikasi.",
+          "example_source_language": "I do not know the answer.",
+          "example_indonesian": "Saya tidak mengetahui jawabannya.",
+          "sources": "https://www.merriam-webster.com/grammar/what-is-standard-english",
+          "verification_status": "reviewed",
+          "note": "Ragam seperti African American English memiliki pola sistematis; jangan dinilai sebagai kesalahan hanya karena berbeda dari standar editorial."
+        },
+        {
+          "id": "US-STD-003",
+          "term": "Contractions in formal writing",
+          "explanation_id": "Bentuk seperti I'm, don't, dan we're umum dalam percakapan dan banyak tulisan informal; beberapa gaya editorial formal membatasi penggunaannya.",
+          "indonesian_learning_link": "Dalam bahasa Indonesia, bentuk seperti ‘nggak’ dan ‘enggak’ juga bergantung konteks; gunakan ‘tidak’ dalam tulisan formal bila sesuai.",
+          "region": "AS; tulisan dan percakapan",
+          "register": "Register-sensitive",
+          "usage_context": "Membedakan tulisan resmi dan percakapan.",
+          "example_source_language": "I am not available today.",
+          "example_indonesian": "Saya tidak tersedia hari ini.",
+          "sources": "https://dictionary.cambridge.org/grammar/british-grammar/contractions",
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-STD-004",
+          "term": "Gotten / got",
+          "explanation_id": "Gotten lazim sebagai past participle dalam banyak konteks American English; variasi penggunaan ada menurut makna dan konstruksi.",
+          "indonesian_learning_link": "Terjemahan tidak selalu mengikuti bentuk kata: ‘sudah mendapatkan’, ‘menjadi’, atau ‘telah tiba’ ditentukan oleh konteks.",
+          "region": "AS; standard American usage",
+          "register": "Standard",
+          "usage_context": "Membaca bentuk perfect dan perubahan keadaan.",
+          "example_source_language": "I have gotten your message.",
+          "example_indonesian": "Saya sudah menerima pesan Anda.",
+          "sources": "https://www.merriam-webster.com/dictionary/gotten",
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-STD-005",
+          "term": "American punctuation and dates",
+          "explanation_id": "Gaya editorial AS sering menulis tanggal bulan-hari-tahun dan memiliki konvensi tanda baca tersendiri; gaya institusi dapat berbeda.",
+          "indonesian_learning_link": "Ajarkan format tanggal Indonesia yang lazim, misalnya 19 November 2026, dan jelaskan format AS agar tidak tertukar.",
+          "region": "AS; dokumen dan korespondensi",
+          "register": "Formal / editorial",
+          "usage_context": "Membaca tanggal dan dokumen.",
+          "example_source_language": "November 19, 2026",
+          "example_indonesian": "19 November 2026",
+          "sources": "https://www.chicagomanualofstyle.org/tools_citationguide.html",
+          "verification_status": "draft",
+          "note": "Format bergantung style guide; bukan aturan tata bahasa tunggal."
+        }
+      ],
+      "coverage_note": "Gunakan English editorial standard untuk contoh, tetapi jelaskan pluralitas ragam English dan bedakan standar institusional dari nilai sosial penuturnya."
+    },
+    "nonstandard_language_and_slang": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "US-SLANG-001",
+          "term": "gonna",
+          "explanation_id": "Reduksi percakapan dari going to, terutama untuk rencana atau masa depan; tidak cocok untuk semua tulisan formal.",
+          "indonesian_learning_link": "Contoh Indonesia: ‘Saya akan pulang nanti’; bentuk ‘bakal’ dapat dipakai dalam percakapan nonformal.",
+          "region": "AS; percakapan luas",
+          "register": "Informal",
+          "usage_context": "Menyatakan rencana atau prediksi.",
+          "example_source_language": "I'm gonna call you later.",
+          "example_indonesian": "Saya akan menelepon Anda nanti.",
+          "sources": "https://www.merriam-webster.com/dictionary/gonna",
+          "verification_status": "reviewed",
+          "note": "Bentuk lisan/nonstandar; jangan menandainya sebagai bentuk ejaan formal."
+        },
+        {
+          "id": "US-SLANG-002",
+          "term": "wanna",
+          "explanation_id": "Reduksi percakapan dari want to; ejaan ini merepresentasikan pengucapan, bukan bentuk formal tertulis.",
+          "indonesian_learning_link": "Bandingkan ‘Saya ingin pergi’ dengan ‘Saya mau pergi’.",
+          "region": "AS; percakapan",
+          "register": "Informal",
+          "usage_context": "Menyatakan keinginan.",
+          "example_source_language": "I wanna go home.",
+          "example_indonesian": "Saya ingin pulang.",
+          "sources": "https://www.merriam-webster.com/dictionary/wanna",
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-SLANG-003",
+          "term": "y'all",
+          "explanation_id": "Bentuk jamak orang kedua yang sangat terkait dengan English Amerika Selatan dan juga menyebar ke komunitas lain.",
+          "indonesian_learning_link": "Bahasa Indonesia ‘kalian’ adalah padanan dasar; jangan menganggap y'all hanya dipakai satu kelompok atau seluruh AS.",
+          "region": "Berakar kuat di Selatan; pemakaian meluas",
+          "register": "Informal",
+          "usage_context": "Menyapa atau menyebut lebih dari satu lawan bicara.",
+          "example_source_language": "Are y'all ready?",
+          "example_indonesian": "Apakah kalian siap?",
+          "sources": "https://www.merriam-webster.com/dictionary/y%27all",
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-SLANG-004",
+          "term": "dude",
+          "explanation_id": "Sapaan informal yang dapat merujuk pada orang atau teman; nuansanya berubah menurut hubungan dan intonasi.",
+          "indonesian_learning_link": "Padanan Indonesia dapat berupa ‘kawan’, ‘bro’, atau nama orang; pilih menurut relasi dan situasi.",
+          "region": "AS; percakapan informal",
+          "register": "Informal",
+          "usage_context": "Menyapa teman atau menyebut seseorang.",
+          "example_source_language": "Hey, dude, what's up?",
+          "example_indonesian": "Hei, kawan, ada apa?",
+          "sources": "https://www.merriam-webster.com/dictionary/dude",
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-SLANG-005",
+          "term": "no cap",
+          "explanation_id": "Slang untuk menegaskan bahwa pembicara serius atau tidak berbohong; terutama diasosiasikan dengan pemakaian muda dan internet.",
+          "indonesian_learning_link": "Padanan Indonesia bisa ‘serius’, ‘sungguh’, atau ‘enggak bohong’, tergantung nada.",
+          "region": "AS; slang kontemporer dan internet",
+          "register": "Slang",
+          "usage_context": "Menekankan klaim.",
+          "example_source_language": "That was the best meal, no cap.",
+          "example_indonesian": "Itu makanan terbaik, serius.",
+          "sources": "https://www.merriam-webster.com/dictionary/cap",
+          "verification_status": "draft",
+          "note": "Asal dan distribusi komunitas perlu dijelaskan hati-hati; jangan menghapus hubungan istilah dengan African American English."
+        },
+        {
+          "id": "US-SLANG-006",
+          "term": "bet",
+          "explanation_id": "Respons informal yang berarti setuju, siap, atau ‘oke’; makna lain mungkin muncul dari konteks.",
+          "indonesian_learning_link": "Padanan Indonesia dapat berupa ‘oke’, ‘siap’, atau ‘deal’.",
+          "region": "AS; percakapan dan internet",
+          "register": "Slang",
+          "usage_context": "Menerima ajakan atau menyatakan kesediaan.",
+          "example_source_language": "Meet at six? Bet.",
+          "example_indonesian": "Bertemu pukul enam? Siap.",
+          "sources": "https://www.merriam-webster.com/dictionary/bet",
+          "verification_status": "draft",
+          "note": "Pemakaian ini berbeda dari makna taruhan; konteks menentukan makna."
+        }
+      ],
+      "coverage_note": "Slang diberi label periode dan komunitas. Jangan menampilkan daftar ini sebagai bahasa gaul universal semua penutur AS."
+    },
+    "profanity_and_vulgar_language": {
+      "status": "seeded_educational_with_context",
+      "entries": [
+        {
+          "id": "US-PROF-001",
+          "term": "damn",
+          "explanation_id": "Umpatan ringan sampai sedang untuk frustrasi, penekanan, atau kecaman; dapat menyinggung dalam konteks religius atau formal.",
+          "indonesian_learning_link": "Padanan Indonesia berkisar dari ‘sial’ hingga umpatan yang lebih keras; jangan menerjemahkan tanpa melihat situasi.",
+          "region": "AS; luas, tetapi sensitivitas individu berbeda",
+          "register": "Mild profanity",
+          "usage_context": "Menunjukkan frustrasi atau penekanan.",
+          "example_source_language": "Damn, I forgot my keys.",
+          "example_indonesian": "Sial, saya lupa membawa kunci.",
+          "sources": "https://www.merriam-webster.com/dictionary/damn",
+          "verification_status": "reviewed",
+          "note": "Tingkat kekasaran bersifat perkiraan dan dapat berubah menurut audiens."
+        },
+        {
+          "id": "US-PROF-002",
+          "term": "hell",
+          "explanation_id": "Dapat menjadi kata tabu dalam ekspresi marah atau penekanan; frasa tertentu juga sudah sangat idiomatis.",
+          "indonesian_learning_link": "Jelaskan sebagai ‘neraka’ secara literal, tetapi ‘apa-apaan’ atau ‘sangat’ dalam idiom tertentu.",
+          "region": "AS; luas",
+          "register": "Mild to moderate profanity",
+          "usage_context": "Ekspresi emosi atau idiom.",
+          "example_source_language": "What the hell happened?",
+          "example_indonesian": "Apa yang sebenarnya terjadi?",
+          "sources": "https://www.merriam-webster.com/dictionary/hell",
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-PROF-003",
+          "term": "shit",
+          "explanation_id": "Kata vulgar yang secara literal merujuk pada tinja; sebagai umpatan bisa berarti masalah, kesalahan, atau penekanan kasar.",
+          "indonesian_learning_link": "Padanan Indonesia bergantung konteks; tingkatnya lebih keras daripada ‘sial’ dan tidak cocok untuk situasi profesional.",
+          "region": "AS; luas",
+          "register": "Strong profanity",
+          "usage_context": "Mengumpat, mengeluh, atau menyebut sesuatu sebagai hal buruk.",
+          "example_source_language": "This is a mess; I messed up.",
+          "example_indonesian": "Ini berantakan; saya melakukan kesalahan.",
+          "sources": "https://www.merriam-webster.com/dictionary/shit",
+          "verification_status": "reviewed",
+          "note": "Contoh netral dipilih untuk mengajarkan makna tanpa menjadikan umpatan sebagai sasaran."
+        },
+        {
+          "id": "US-PROF-004",
+          "term": "fuck",
+          "explanation_id": "Umpatan sangat vulgar yang dapat berfungsi sebagai kata kerja, seruan, intensifier, atau serangan; dampaknya tinggi dalam ruang formal.",
+          "indonesian_learning_link": "Jangan memakai sebagai padanan generik untuk semua ‘sial’; jelaskan fungsi dan target ujaran secara spesifik.",
+          "region": "AS; luas",
+          "register": "Very strong profanity",
+          "usage_context": "Ledakan emosi atau ujaran agresif.",
+          "example_source_language": "He told me to leave.",
+          "example_indonesian": "Dia menyuruh saya pergi.",
+          "sources": "https://www.merriam-webster.com/dictionary/fuck",
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-PROF-005",
+          "term": "bitch",
+          "explanation_id": "Dapat menjadi hinaan misoginis atau sebutan merendahkan; penggunaan in-group/reclaimed tidak menghapus risiko menyakiti orang lain.",
+          "indonesian_learning_link": "Terangkan bahwa kata ini sering menyerang perempuan atau merendahkan seseorang; hindari menerjemahkan otomatis sebagai ‘jalang’ di semua konteks.",
+          "region": "AS; luas",
+          "register": "Strong, gendered insult",
+          "usage_context": "Penghinaan langsung atau kutipan ujaran.",
+          "example_source_language": "That word can be deeply insulting.",
+          "example_indonesian": "Kata itu dapat sangat menghina.",
+          "sources": "https://www.merriam-webster.com/dictionary/bitch",
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-PROF-006",
+          "term": "ass",
+          "explanation_id": "Secara literal berarti pantat; juga muncul dalam hinaan atau intensifier informal.",
+          "indonesian_learning_link": "Padanan Indonesia dapat netral atau kasar bergantung gabungan katanya; cek frasa lengkap.",
+          "region": "AS; luas",
+          "register": "Mild to strong depending on phrase",
+          "usage_context": "Percakapan informal atau hinaan.",
+          "example_source_language": "Move your bag, please.",
+          "example_indonesian": "Tolong pindahkan tas Anda.",
+          "sources": "https://www.merriam-webster.com/dictionary/ass",
+          "verification_status": "reviewed"
+        }
+      ],
+      "coverage_note": "Kategori ini tidak menyensor lema, tetapi wajib menjelaskan sasaran, intensitas, kemungkinan diskriminasi, dan risiko sosial. Contoh tidak diarahkan untuk menyerang orang."
+    },
+    "regional_and_minority_languages": {
+      "status": "cross_reference_country_catalog",
+      "entries": [
+        {
+          "id": "US-REG-001",
+          "term": "African American English (AAE)",
+          "explanation_id": "Ragam English dengan pola tata bahasa, bunyi, dan kosakata yang sistematis; bukan English yang ‘salah’.",
+          "indonesian_learning_link": "Materi Indonesia perlu menerangkan variasi register dan identitas komunitas tanpa meniru atau mengkarikaturkan penutur.",
+          "region": "Komunitas African American; distribusi beragam",
+          "register": "Community variety",
+          "usage_context": "Memahami variasi English dalam musik, media, percakapan, dan sastra.",
+          "example_source_language": "She be working on Fridays.",
+          "example_indonesian": "Dalam konteks kebiasaan berulang: Dia biasanya bekerja setiap hari Jumat.",
+          "sources": "https://www.linguisticsociety.org/content/what-ebonics-african-american-english",
+          "verification_status": "draft",
+          "note": "Contoh memakai habitual be dan harus dijelaskan dengan konteks aspek; perlu pemeriksaan ahli sebelum dipakai sebagai latihan baku."
+        },
+        {
+          "id": "US-REG-002",
+          "term": "Spanish in the United States",
+          "explanation_id": "Spanish merupakan bahasa komunitas dan warisan yang luas; ragamnya beragam menurut sejarah migrasi dan wilayah.",
+          "indonesian_learning_link": "Profil bahasa Spanyol harus dipisahkan, bukan dimasukkan sebagai aksen English.",
+          "region": "AS; komunitas lintas negara",
+          "register": "Community language",
+          "usage_context": "Membandingkan bahasa komunitas dengan English.",
+          "example_source_language": "Buenos días.",
+          "example_indonesian": "Selamat pagi.",
+          "sources": "https://www.census.gov/topics/population/language-use.html",
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-REG-003",
+          "term": "Navajo (Diné Bizaad)",
+          "explanation_id": "Bahasa Indigenous yang berbeda dari English dan perlu profil tersendiri.",
+          "indonesian_learning_link": "Jangan mengajarkan Navajo sebagai variasi English; hubungan ke bahasa Indonesia harus dibuat dari profil Navajo tersendiri.",
+          "region": "Southwest AS; komunitas Diné",
+          "register": "Indigenous language",
+          "usage_context": "Pengakuan keberadaan dan pemisahan profil bahasa.",
+          "example_source_language": "Diné Bizaad",
+          "example_indonesian": "Bahasa Navajo / Diné",
+          "sources": "https://www.census.gov/newsroom/press-releases/2025/2017-2021-acs-language-use-tables.html",
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-REG-004",
+          "term": "Central Yupik",
+          "explanation_id": "Bahasa Indigenous Alaska; bukan dialek English.",
+          "indonesian_learning_link": "Buat profil sendiri dengan komunitas dan wilayah spesifik.",
+          "region": "Alaska barat daya",
+          "register": "Indigenous language",
+          "usage_context": "Pengindeksan bahasa komunitas.",
+          "example_source_language": "Central Yupik",
+          "example_indonesian": "Bahasa Central Yupik",
+          "sources": "https://www.census.gov/newsroom/press-releases/2025/2017-2021-acs-language-use-tables.html",
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "US-REG-005",
+          "term": "Regional English vocabulary",
+          "explanation_id": "DARE mendokumentasikan kata, frasa, pelafalan, dan distribusi regional yang berbeda di seluruh AS.",
+          "indonesian_learning_link": "LWT dapat mengajarkan bahwa makna dan padanan Indonesia harus mempertimbangkan tempat serta komunitas.",
+          "region": "Seluruh AS dengan perbedaan setempat",
+          "register": "Regional variety",
+          "usage_context": "Mengenali istilah yang tidak universal.",
+          "example_source_language": "Regional word choice varies.",
+          "example_indonesian": "Pilihan kata dapat berbeda menurut daerah.",
+          "sources": "https://dare.wisc.edu/about/what-is-dare/",
+          "verification_status": "reviewed"
+        }
+      ],
+      "coverage_note": "Ini indeks lintas-tautan, bukan upaya menjejalkan bahasa minoritas menjadi subbagian English."
+    }
+  },
+  "sources": [
+    {
+      "title": "U.S. Census Bureau — Detailed Languages Spoken at Home, 2017–2021",
+      "url": "https://www.census.gov/newsroom/press-releases/2025/2017-2021-acs-language-use-tables.html",
+      "scope": "Keragaman bahasa di Amerika Serikat."
+    },
+    {
+      "title": "Dictionary of American Regional English (DARE)",
+      "url": "https://dare.wisc.edu/about/what-is-dare/",
+      "scope": "Kosakata, frasa, pelafalan, dan sebaran regional AS."
+    },
+    {
+      "title": "Merriam-Webster Dictionary",
+      "url": "https://www.merriam-webster.com/dictionary/",
+      "scope": "Rujukan definisi lema English; tautan per entri mengarah ke lema tertentu."
+    },
+    {
+      "title": "Cambridge Dictionary",
+      "url": "https://dictionary.cambridge.org/",
+      "scope": "Definisi, tata bahasa, dan pragmatik English."
+    },
+    {
+      "title": "Linguistic Society of America — What is African American English?",
+      "url": "https://www.linguisticsociety.org/content/what-ebonics-african-american-english",
+      "scope": "Penjelasan bahwa AAE merupakan ragam bahasa sistematis."
+    }
   ],
-  "verification":{"status":"framework_reviewed","last_reviewed":"2026-11-19","notes":"Profile framework created. No lexical or slang entry is marked verified yet."}
+  "indonesian_learning_design": {
+    "direction": "English (US) → Indonesian",
+    "learner_support": [
+      "Bandingkan register formal dan percakapan Indonesia.",
+      "Jelaskan bunyi yang berpotensi sulit bagi penutur English, termasuk e pepet, ng, ny, dan konsistensi vokal.",
+      "Gunakan contoh Indonesia alami, bukan terjemahan kata demi kata."
+    ]
+  },
+  "verification": {
+    "status": "content_seeded_reviewed_not_native_validated",
+    "last_reviewed": "2026-11-19",
+    "notes": "Materi inti telah diisi dan ditautkan ke rujukan. Entri berstatus draft membutuhkan pemeriksaan lanjutan; seluruh data tetap memerlukan peninjauan penutur/ahli sebelum dipakai sebagai materi final berlabel verified."
+  }
 }
