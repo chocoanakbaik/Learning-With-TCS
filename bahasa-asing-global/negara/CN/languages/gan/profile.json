@@ -1,0 +1,285 @@
+{
+  "schema_version": "1.1.0",
+  "record_type": "language_profile",
+  "language": {
+    "name": "Gan Chinese (Nanchang focus)",
+    "native_name": "赣语",
+    "iso_639_3": "gan",
+    "bcp47_tags": [
+      "gan-CN"
+    ],
+    "family": "Sino-Tibetan > Sinitic > Gan"
+  },
+  "country_context": {
+    "country_code": "CN",
+    "role": [
+      "regional",
+      "Sinitic"
+    ],
+    "note": "Kode gan mencakup kelompok Gan. Profil ini berfokus pada Nanchang Gan di Jiangxi; bentuk Lichuan, Pingxiang dan wilayah Gan lainnya harus diberi label subdialek."
+  },
+  "categories": {
+    "accent_and_pronunciation": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "CN-GAN-ACC-001",
+          "term": "Seven-tone Nanchang Gan system",
+          "explanation_id": "Nanchang Gan memiliki tujuh kategori nada dalam deskripsi komparatif yang mencakup level, rising, falling, dan entering tones; nilai F0 ditentukan menurut kelas nada atas/bawah.",
+          "indonesian_learning_link": "Bahasa Indonesia tidak memakai nada leksikal seperti ini; pelajar perlu audio dan tabel nada yang secara khusus berlabel Nanchang.",
+          "region": "Nanchang, Jiangxi",
+          "register": "Pronunciation",
+          "usage_context": "Membedakan kata melalui nada.",
+          "example_source_language": "Nanchang Gan seven tones",
+          "example_indonesian": "tujuh kategori nada Nanchang Gan",
+          "sources": [
+            "https://assets.cambridge.org/97805218/23807/excerpt/9780521823807_excerpt.pdf",
+            "https://www.ling.sinica.edu.tw/upload/researcher_manager_result/0a8b8480514ba329b948ab5124057ec3.pdf"
+          ],
+          "verification_status": "reviewed",
+          "note": "Jumlah tujuh mengacu pada Nanchang; Gan di wilayah lain dapat memiliki jumlah dan kontur berbeda."
+        },
+        {
+          "id": "CN-GAN-ACC-002",
+          "term": "Checked and entering tones",
+          "explanation_id": "Nanchang Gan mempertahankan kategori entering tone dengan suku kata tertutup oleh coda stop/glottal; realisasi dapat berubah akibat merger tonal dan variasi sosial.",
+          "indonesian_learning_link": "Latih penutupan suku kata tanpa vokal tambahan dan dengarkan apakah final glotal/stop masih terdengar.",
+          "region": "Nanchang and nearby Gan varieties",
+          "register": "Pronunciation",
+          "usage_context": "Mengenali suku kata checked.",
+          "example_source_language": "entering tone / glottalized coda",
+          "example_indonesian": "nada entering / coda tertutup",
+          "sources": [
+            "https://www.ling.sinica.edu.tw/upload/researcher_manager_result/0a8b8480514ba329b948ab5124057ec3.pdf",
+            "https://d-scholarship.pitt.edu/7529/1/CuiJie2010MAThesis.pdf"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-GAN-ACC-003",
+          "term": "Initial consonant variation [w] and [f]",
+          "explanation_id": "Penelitian Nanchang Gan mengukur variasi dua inisial [w] dan [f] yang berbeda menurut penutur dan faktor sosial; perubahan fonetik tidak sama pada semua individu.",
+          "indonesian_learning_link": "Jangan memberi satu pelafalan tunggal sebagai aturan semua penutur; simpan umur, pekerjaan, dan gaya bicara jika tersedia.",
+          "region": "Nanchang urban and rural speakers",
+          "register": "Sociophonetic variation",
+          "usage_context": "Mengenali variasi pelafalan.",
+          "example_source_language": "[w] / [f] initial variation",
+          "example_indonesian": "variasi bunyi awal w dan f",
+          "sources": [
+            "https://d-scholarship.pitt.edu/7529/1/CuiJie2010MAThesis.pdf"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-GAN-ACC-004",
+          "term": "Dialect-specific phonological inventories",
+          "explanation_id": "Gan memiliki banyak dialek dengan sistem bunyi yang berbeda; data komparatif meliputi Nanchang, Lichuan, Pingxiang serta dialek lain.",
+          "indonesian_learning_link": "Setiap rekaman harus menyimpan lokasi/dialek, bukan hanya label Gan.",
+          "region": "Jiangxi and adjacent regions",
+          "register": "Regional phonology",
+          "usage_context": "Menandai model pelafalan.",
+          "example_source_language": "Nanchang / Lichuan / Pingxiang",
+          "example_indonesian": "dialek Nanchang / Lichuan / Pingxiang",
+          "sources": [
+            "https://www.ling.sinica.edu.tw/upload/researcher_manager_result/0a8b8480514ba329b948ab5124057ec3.pdf"
+          ],
+          "verification_status": "reviewed"
+        }
+      ]
+    },
+    "speaking_style_and_pragmatics": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "CN-GAN-PRAG-001",
+          "term": "Nanchang personal pronouns",
+          "explanation_id": "Deskripsi pronoun Nanchang Gan mencatat ŋo3 untuk orang pertama, n3 untuk orang kedua, dan tɕie3 untuk orang ketiga; bentuk jamak memiliki beberapa strategi pembentukan.",
+          "indonesian_learning_link": "Bandingkan dengan saya/kamu/dia dan kami/kita dalam bahasa Indonesia; jangan menganggap padanan satu-satu.",
+          "region": "Nanchang Gan",
+          "register": "Conversational pronouns",
+          "usage_context": "Menyebut penutur dan lawan bicara.",
+          "example_source_language": "ŋo3 / n3 / tɕie3",
+          "example_indonesian": "saya / kamu / dia",
+          "sources": [
+            "https://www.ling.sinica.edu.tw/upload/researcher_manager_result/0a8b8480514ba329b948ab5124057ec3.pdf"
+          ],
+          "verification_status": "draft",
+          "note": "Sumber yang ditemukan berupa kompilasi akademik pra-publikasi; verifikasi dengan kamus dialek Nanchang sebelum dipakai sebagai pelajaran final."
+        },
+        {
+          "id": "CN-GAN-PRAG-002",
+          "term": "Polite third-person form",
+          "explanation_id": "Sumber perbandingan Nanchang Gan mencatat n len sebagai bentuk hormat/penyebutan sopan dalam paradigma pronomina; distribusi sosialnya perlu diperiksa lebih lanjut.",
+          "indonesian_learning_link": "Bandingkan dengan kata ganti/sapaan hormat bahasa Indonesia, bukan menerjemahkan secara literal.",
+          "region": "Nanchang Gan; register tertentu",
+          "register": "Polite pronoun",
+          "usage_context": "Menghormati lawan bicara/referen.",
+          "example_source_language": "n len",
+          "example_indonesian": "bentuk pronomina sopan",
+          "sources": [
+            "https://www.ling.sinica.edu.tw/upload/researcher_manager_result/0a8b8480514ba329b948ab5124057ec3.pdf"
+          ],
+          "verification_status": "draft",
+          "note": "Perlu validasi sumber langsung dan penutur asli mengenai siapa yang dapat memakai bentuk ini dan kapan."
+        }
+      ]
+    },
+    "standard_language": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "CN-GAN-STD-001",
+          "term": "Gan is a Sinitic language group",
+          "explanation_id": "Gan merupakan kelompok bahasa Sinitik dengan wilayah inti Jiangxi dan beberapa komunitas di provinsi sekitar; Nanchang sering dijadikan titik rujuk utama, tetapi Gan tidak seragam.",
+          "indonesian_learning_link": "Pilih kode gan untuk identitas kelompok, lalu tambahkan nama subdialek dan kota.",
+          "region": "Jiangxi and adjacent areas",
+          "register": "Sinitic language group",
+          "usage_context": "Menentukan bahasa asal.",
+          "example_source_language": "赣语",
+          "example_indonesian": "bahasa Gan",
+          "sources": [
+            "https://www.ling.sinica.edu.tw/upload/researcher_manager_result/0a8b8480514ba329b948ab5124057ec3.pdf"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-GAN-STD-002",
+          "term": "Nanchang dialect lexicography",
+          "explanation_id": "Tiga kamus dialek Gan dari Nanchang, Lichuan dan Pingxiang serta Modern Chinese Dialect Grand Dictionary merupakan rujukan penting untuk kosakata Gan.",
+          "indonesian_learning_link": "Simpan nama kamus, tahun, dan subdialek untuk menghindari pencampuran lema.",
+          "region": "Nanchang, Lichuan, Pingxiang",
+          "register": "Lexicography",
+          "usage_context": "Mencari lema dan variasi.",
+          "example_source_language": "Nanchang dialect dictionary",
+          "example_indonesian": "kamus dialek Nanchang",
+          "sources": [
+            "https://www.ling.sinica.edu.tw/upload/researcher_manager_result/0a8b8480514ba329b948ab5124057ec3.pdf"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-GAN-STD-003",
+          "term": "Gan dialect corpus representation",
+          "explanation_id": "Gan Chinese Dialects Corpus menggunakan representasi dua tingkat yang memadukan karakter Han, Pinyin dan audio; koleksinya mencakup 131,5 jam rekaman, 310 dokumen dan 19 wilayah dialek.",
+          "indonesian_learning_link": "Materi LWT idealnya menyimpan aksara, romanisasi, audio, lokasi, dan varietas yang sama untuk tiap entri.",
+          "region": "19 Gan regions in Jiangxi",
+          "register": "Corpus / documentation",
+          "usage_context": "Membandingkan makna yang sama antarwilayah.",
+          "example_source_language": "jin li / jin jia / jin ning / jin dou / jin zhao",
+          "example_indonesian": "hari ini (variasi wilayah Gan)",
+          "sources": [
+            "https://aclanthology.org/L18-1036.pdf"
+          ],
+          "verification_status": "reviewed",
+          "note": "Contoh hari ini menunjukkan bentuk wilayah yang berbeda; selalu cantumkan lokasi asal."
+        }
+      ]
+    },
+    "nonstandard_language_and_slang": {
+      "status": "research_required",
+      "entries": [],
+      "coverage_note": "Slang kontemporer belum dimasukkan. Corpus Gan memiliki banyak genre, tetapi perlu penandaan sumber, wilayah, dan generasi sebelum slang dipilih."
+    },
+    "profanity_and_vulgar_language": {
+      "status": "community_review_required",
+      "entries": [],
+      "coverage_note": "Umpatan tidak ditambahkan tanpa kamus/korpus yang langsung mengidentifikasi lema, intensitas dan konteks subdialek."
+    },
+    "regional_and_minority_languages": {
+      "status": "cross_reference_country_catalog",
+      "entries": [
+        {
+          "id": "CN-GAN-REG-001",
+          "term": "Nanchang Gan",
+          "explanation_id": "Nanchang Gan adalah dialek utama di kota Nanchang, Jiangxi dan menjadi titik rujuk dalam sejumlah studi fonologi serta deskripsi nada.",
+          "indonesian_learning_link": "Gunakan subprofil Nanchang untuk contoh bunyi dan pronomina yang diteliti di kota ini.",
+          "region": "Nanchang, Jiangxi",
+          "register": "Regional variety",
+          "usage_context": "Menandai lokasi data.",
+          "example_source_language": "Nanchang Gan",
+          "example_indonesian": "Gan Nanchang",
+          "sources": [
+            "https://assets.cambridge.org/97805218/23807/excerpt/9780521823807_excerpt.pdf",
+            "https://d-scholarship.pitt.edu/7529/1/CuiJie2010MAThesis.pdf"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-GAN-REG-002",
+          "term": "Northern and Southern Gan",
+          "explanation_id": "Literatur membedakan kelompok Gan utara dan selatan berdasarkan sejarah serta sejumlah inovasi bunyi; perbedaan ini tidak selalu dapat diringkas ke satu aturan sederhana.",
+          "indonesian_learning_link": "Jangan menganggap fonologi Nanchang berlaku untuk Gan selatan.",
+          "region": "Jiangxi, Hunan, Hubei and neighboring regions",
+          "register": "Regional varieties",
+          "usage_context": "Mengenali variasi internal.",
+          "example_source_language": "Northern / Southern Gan",
+          "example_indonesian": "Gan Utara / Selatan",
+          "sources": [
+            "https://www.ling.sinica.edu.tw/upload/researcher_manager_result/0a8b8480514ba329b948ab5124057ec3.pdf"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-GAN-REG-003",
+          "term": "Nanchang sociophonetic variation",
+          "explanation_id": "Studi Nanchang menunjukkan variabel bunyi dapat berubah menurut umur, pekerjaan, dan konteks urban/rural; setiap penutur perlu dipahami sebagai individu.",
+          "indonesian_learning_link": "Saat memakai rekaman, simpan metadata penutur dan situasi, bukan memberi satu label sosial untuk seluruh kota.",
+          "region": "Nanchang city and surroundings",
+          "register": "Sociolinguistic variation",
+          "usage_context": "Membandingkan pelafalan antarpenutur.",
+          "example_source_language": "[w] / [f] and checked-tone merger",
+          "example_indonesian": "variasi bunyi awal dan merger nada checked",
+          "sources": [
+            "https://d-scholarship.pitt.edu/7529/1/CuiJie2010MAThesis.pdf"
+          ],
+          "verification_status": "reviewed"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "Cambridge — Chinese: A Linguistic Introduction",
+      "url": "https://assets.cambridge.org/97805218/23807/excerpt/9780521823807_excerpt.pdf",
+      "scope": "Comparative tone inventories; Nanchang Gan described with seven tone categories."
+    },
+    {
+      "title": "Sagart — Les dialectes Gan: Etudes sur la phonologie et le lexique",
+      "url": "https://www.ling.sinica.edu.tw/upload/researcher_manager_result/0a8b8480514ba329b948ab5124057ec3.pdf",
+      "scope": "Overview of Gan dialects, dictionaries and Nanchang phonology."
+    },
+    {
+      "title": "Building Parallel Monolingual Gan Chinese Dialects Corpus",
+      "url": "https://aclanthology.org/L18-1036.pdf",
+      "scope": "131.5 hours, 310 documents, six genres and 19 Gan regions; orthography, Pinyin and audio."
+    },
+    {
+      "title": "Cui (2010) — Variation in Nanchang Gan",
+      "url": "https://d-scholarship.pitt.edu/7529/1/CuiJie2010MAThesis.pdf",
+      "scope": "Sociophonetic variation in initials [w]/[f], checked tone merger and voice quality."
+    },
+    {
+      "title": "Zhou — Tone System of Gan Dialect in Nanchang",
+      "url": "https://lshk.org/wp-content/uploads/2022/11/ARF-2016_ProgramAbstracts.pdf",
+      "scope": "Tone categories and phonation types in Nanchang Gan."
+    },
+    {
+      "title": "Shajuan & Jiugen (2020) — Shigang phonetic system",
+      "url": "https://www.sciencepublishinggroup.com/article/10.11648/j.si.20200801.15",
+      "scope": "Local phonological features of Shigang in Xinjian/Nanchang; evidence for finer local variation."
+    }
+  ],
+  "indonesian_learning_design": {
+    "direction": "Gan (Nanchang focus) → Indonesian",
+    "learner_support": [
+      "Gunakan audio dan lokasi tiap dialek saat mengajarkan nada.",
+      "Bandingkan sistem pronomina Gan dengan saya/kamu/dia.",
+      "Jelaskan variasi regional dan sosial tanpa menyebut satu bentuk sebagai satu-satunya bahasa Gan."
+    ]
+  },
+  "verification": {
+    "status": "content_seeded_reviewed_not_native_validated",
+    "last_reviewed": "2026-11-19",
+    "notes": "Fonologi Nanchang didukung studi akademik dan korpus Gan; pronomina ditandai draft karena memerlukan validasi kamus/penutur. Slang dan profanity belum ditambahkan."
+  }
+}
