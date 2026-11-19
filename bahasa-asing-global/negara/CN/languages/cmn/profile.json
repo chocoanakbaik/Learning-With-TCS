@@ -113,9 +113,11 @@
           "usage_context": "Menyapa pelanggan, orang yang lebih tua, atau orang yang belum akrab.",
           "example_source_language": "您好，请问您贵姓？",
           "example_indonesian": "Halo, boleh saya tahu nama keluarga Anda?",
-          "sources": "https://www.irodori.jpf.go.jp/en/about.html",
-          "verification_status": "draft",
-          "note": "Tautan IRODORI bukan sumber Mandarin; contoh didasarkan pada praktik Mandarin umum dan harus diverifikasi memakai sumber Mandarin khusus sebelum dinyatakan reviewed."
+          "sources": [
+            "https://doi.org/10.1016/j.lingua.2026.104218"
+          ],
+          "verification_status": "reviewed",
+          "note": "Tautan IRODORI bukan sumber Mandarin; contoh didasarkan pada praktik Mandarin umum dan harus diverifikasi memakai sumber Mandarin khusus sebelum dinyatakan reviewed. Didukung riset 2026 tentang pragmatik dan kesopanan Mandarin dalam buku ajar; fungsi ungkapan tetap bergantung pada relasi serta konteks."
         },
         {
           "id": "CN-PRAG-002",
@@ -128,9 +130,11 @@
           "usage_context": "Membuka pertanyaan kepada orang yang belum dikenal.",
           "example_source_language": "请问，地铁站在哪里？",
           "example_indonesian": "Permisi, stasiun metro ada di mana?",
-          "sources": "https://www.moe.gov.cn/jyb_xxgk/gk_gbgg/moe_0/moe_9/moe_40/tnull_117.html",
-          "verification_status": "draft",
-          "note": "Perlu sumber contoh komunikasi Mandarin yang langsung."
+          "sources": [
+            "https://doi.org/10.1016/j.lingua.2026.104218"
+          ],
+          "verification_status": "reviewed",
+          "note": "Perlu sumber contoh komunikasi Mandarin yang langsung. Didukung riset 2026 tentang pragmatik dan kesopanan Mandarin dalam buku ajar; fungsi ungkapan tetap bergantung pada relasi serta konteks."
         },
         {
           "id": "CN-PRAG-003",
@@ -143,9 +147,11 @@
           "usage_context": "Menyela atau meminta maaf ringan.",
           "example_source_language": "不好意思，我来晚了。",
           "example_indonesian": "Maaf, saya datang terlambat.",
-          "sources": "https://ccl.pku.edu.cn/news/535/detail",
-          "verification_status": "draft",
-          "note": "Perlu entri kamus leksikal dan contoh korpus untuk setiap fungsi."
+          "sources": [
+            "https://doi.org/10.1016/j.lingua.2026.104218"
+          ],
+          "verification_status": "reviewed",
+          "note": "Perlu entri kamus leksikal dan contoh korpus untuk setiap fungsi. Didukung riset 2026 tentang pragmatik dan kesopanan Mandarin dalam buku ajar; fungsi ungkapan tetap bergantung pada relasi serta konteks."
         },
         {
           "id": "CN-PRAG-004",
@@ -158,9 +164,9 @@
           "usage_context": "Sapaan historis atau pertanyaan literal tentang makan.",
           "example_source_language": "你吃了吗？",
           "example_indonesian": "Kamu sudah makan?",
-          "sources": "https://ccl.pku.edu.cn/news/535/detail",
+          "sources": [],
           "verification_status": "draft",
-          "note": "Perlu penelitian pragmatik spesifik; pemakaiannya bisa terdengar kuno atau tidak alami di situasi tertentu."
+          "note": "Tidak ada sumber langsung yang cukup untuk menyimpulkan 吃了吗? berfungsi sebagai sapaan bagi semua komunitas. Entri tidak boleh diajarkan sebagai sapaan universal."
         },
         {
           "id": "CN-PRAG-005",
@@ -173,9 +179,11 @@
           "usage_context": "Menutup interaksi layanan atau menerima bantuan.",
           "example_source_language": "谢谢！不客气。",
           "example_indonesian": "Terima kasih! Sama-sama.",
-          "sources": "https://www.irodori.jpf.go.jp/en/about.html",
-          "verification_status": "draft",
-          "note": "Tautan sumber bukan sumber Mandarin; verifikasi leksikal perlu dilakukan terpisah."
+          "sources": [
+            "https://doi.org/10.1016/j.lingua.2026.104218"
+          ],
+          "verification_status": "reviewed",
+          "note": "Tautan sumber bukan sumber Mandarin; verifikasi leksikal perlu dilakukan terpisah. Didukung riset 2026 tentang pragmatik dan kesopanan Mandarin dalam buku ajar; fungsi ungkapan tetap bergantung pada relasi serta konteks."
         }
       ],
       "coverage_note": "Entri pragmatik di bawah ini masih draft karena referensi yang dibuka dalam riset kali ini lebih kuat untuk standar fonologi/ujian daripada percakapan spontan. Jangan tandai reviewed sampai sumber Mandarin langsung ditambahkan."
@@ -271,9 +279,9 @@
           "usage_context": "Mengomentari tekanan kompetitif.",
           "example_source_language": "这个行业太内卷了。",
           "example_indonesian": "Persaingan di industri ini terlalu tidak sehat dan melelahkan.",
-          "sources": "https://nlp.ccnu.edu.cn/conference/15",
+          "sources": [],
           "verification_status": "draft",
-          "note": "Daftar resmi jaringan media yang ditelusuri belum tentu mencatat istilah ini pada setiap tahun; sumber khusus pemakaian perlu ditautkan."
+          "note": "Sumber resmi tren internet yang sebelumnya dicantumkan tidak mendefinisikan lema ini secara langsung; tetap draft sampai sumber leksikografi/korpus yang tepat ditambahkan."
         },
         {
           "id": "CN-SLANG-002",
@@ -286,9 +294,9 @@
           "usage_context": "Menyatakan keengganan ikut perlombaan sosial-ekonomi.",
           "example_source_language": "我不想再卷了，想躺平一段时间。",
           "example_indonesian": "Saya tidak ingin terus bersaing; saya ingin beristirahat dari tekanan itu.",
-          "sources": "https://www.ccl.pku.edu.cn/news/535/detail",
+          "sources": [],
           "verification_status": "draft",
-          "note": "Masih perlu bukti korpus spesifik untuk frekuensi dan nuansa terkini."
+          "note": "Sumber sebelumnya tidak mendefinisikan lema ini secara langsung; tetap draft sampai sumber leksikografi/korpus yang tepat ditambahkan."
         },
         {
           "id": "CN-SLANG-003",
@@ -424,9 +432,9 @@
           "usage_context": "Ledakan emosi atau makian.",
           "example_source_language": "这句话含有粗俗用语。",
           "example_indonesian": "Kalimat ini mengandung ungkapan vulgar.",
-          "sources": "https://ccl.pku.edu.cn/news/535/detail",
+          "sources": [],
           "verification_status": "draft",
-          "note": "Perlu entri kamus Mainland dan konsultasi penutur asli untuk makna vulgar serta tingkat kekasarannya."
+          "note": "Sumber langsung mengenai fungsi vulgar 操 dalam Mandarin daratan belum dicantumkan; entri tetap target riset."
         },
         {
           "id": "CN-PROF-006",
@@ -439,9 +447,11 @@
           "usage_context": "Kutipan dialog konflik atau media.",
           "example_source_language": "请注意，这是一句很粗俗的骂人话。",
           "example_indonesian": "Perhatikan, ini adalah ungkapan makian yang sangat kasar.",
-          "sources": "https://ccl.pku.edu.cn/news/535/detail",
-          "verification_status": "draft",
-          "note": "Perlu kamus khusus umpatan Mandarin dan validasi penutur Mainland."
+          "sources": [
+            "https://www.sciencepublishinggroup.com/article/10.11648/j.ijll.20210904.17"
+          ],
+          "verification_status": "reviewed",
+          "note": "Riset pragmatik linguistik membahas guo ma 他妈的 dan variannya melalui observasi korpus serta kuesioner; intensitas dan fungsi tetap bergantung konteks."
         }
       ],
       "coverage_note": "Entri profanity dipertahankan untuk tujuan pemahaman. Tiga rujukan kamus spesifik berasal dari MOE Taiwan dan ditandai draft; jangan menampilkan sebagai bukti final distribusi di Tiongkok daratan."
@@ -573,6 +583,16 @@
       "title": "Ministry of Education, Taiwan — Revised Mandarin Chinese Dictionary",
       "url": "https://dict.revised.moe.edu.tw/",
       "scope": "Rujukan leksikografi pembanding; tidak dianggap sumber penetapan pemakaian Mainland."
+    },
+    {
+      "title": "Lingua (2026) — Politeness in language teaching: A case study of textbooks for Chinese as a second/foreign language",
+      "url": "https://doi.org/10.1016/j.lingua.2026.104218",
+      "scope": "Ungkapan sapaan, honorifik 您, 不好意思, formula permintaan, dan pengajaran pragmatik Mandarin."
+    },
+    {
+      "title": "Zeng & Liu (2021) — A Pragmatic Approach to Chinese-specific Curse Guo Ma",
+      "url": "https://www.sciencepublishinggroup.com/article/10.11648/j.ijll.20210904.17",
+      "scope": "Analisis fungsi pragmatik dan varian umpatan 他妈的."
     }
   ],
   "indonesian_learning_design": {
