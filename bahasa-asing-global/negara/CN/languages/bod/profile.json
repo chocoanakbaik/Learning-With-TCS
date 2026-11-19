@@ -1,0 +1,271 @@
+{
+  "schema_version": "1.1.0",
+  "record_type": "language_profile",
+  "language": {
+    "name": "Tibetan (Lhasa colloquial focus)",
+    "native_name": "བོད་སྐད་",
+    "iso_639_3": "bod",
+    "bcp47_tags": [
+      "bo-CN"
+    ],
+    "family": "Sino-Tibetan > Tibetic"
+  },
+  "country_context": {
+    "country_code": "CN",
+    "role": [
+      "regional",
+      "minority"
+    ],
+    "note": "Kode bod mencakup Tibetan. Profil ini berfokus pada Lhasa colloquial untuk pelafalan dan percakapan; Amdo, Kham, serta tradisi tulisan sastra harus tetap dibedakan."
+  },
+  "categories": {
+    "accent_and_pronunciation": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "CN-BOD-ACC-001",
+          "term": "Written clusters and spoken pronunciation",
+          "explanation_id": "Ejaan Tibetan mempertahankan konsonan historis dan gugus awal yang dalam pelafalan Lhasa modern dapat disederhanakan atau berubah. Bentuk tulis tidak selalu mencerminkan bunyi permukaan.",
+          "indonesian_learning_link": "Pelajar harus membedakan transkripsi ejaan dari pelafalan lisan; jangan mengucapkan seluruh huruf tertulis satu per satu.",
+          "region": "Central Tibetan / Lhasa",
+          "register": "Pronunciation",
+          "usage_context": "Membaca kata tertulis dan mendengar pelafalan.",
+          "example_source_language": "བཞེངས་ (spelling) / zhêng (spoken approximation)",
+          "example_indonesian": "bentuk tertulis dan pelafalan lisan yang berbeda",
+          "sources": [
+            "https://tibetanlanguage.school/learn/standard-tibetan/reference-grammar/",
+            "https://api.pageplace.de/preview/DT0400.9789027283061_A24763942/preview-9789027283061_A24763942.pdf"
+          ],
+          "verification_status": "reviewed",
+          "note": "Transkripsi Latin pada contoh hanya pendekatan; gunakan IPA/audio untuk materi final."
+        },
+        {
+          "id": "CN-BOD-ACC-002",
+          "term": "Lhasa tone contrast",
+          "explanation_id": "Tibetan Lhasa memiliki dua kelas nada utama dalam sejumlah analisis: tone 1 dan tone 2; sumber deskriptif menjelaskan kontras tinggi-rendah serta perubahan dalam konteks ujaran.",
+          "indonesian_learning_link": "Bahasa Indonesia tidak menggunakan nada leksikal dengan sistem yang sama; latih kontur bersama kata dan audio.",
+          "region": "Lhasa dialect",
+          "register": "Lexical tone / prosody",
+          "usage_context": "Membedakan kata melalui kelas nada.",
+          "example_source_language": "Tone 1 / Tone 2",
+          "example_indonesian": "kelas nada tinggi / rendah",
+          "sources": [
+            "https://api.pageplace.de/preview/DT0400.9789027283061_A24763942/preview-9789027283061_A24763942.pdf",
+            "https://tibetanlanguage.school/learn/standard-tibetan/reference-grammar/"
+          ],
+          "verification_status": "reviewed",
+          "note": "Sumber grammar dapat menggunakan analisis tonal berbeda; pertahankan model sumber yang sama pada satu modul."
+        },
+        {
+          "id": "CN-BOD-ACC-003",
+          "term": "Irregular vowel and consonant changes",
+          "explanation_id": "Lhasa Tibetan memiliki perubahan bunyi yang tidak selalu dapat diprediksi dari ejaan, misalnya perubahan kualitas vokal dan penyederhanaan gugus konsonan.",
+          "indonesian_learning_link": "Ajarkan pasangan ejaan-pelafalan melalui daftar kata dan audio, bukan aturan tunggal yang terlalu luas.",
+          "region": "Lhasa dialect",
+          "register": "Pronunciation",
+          "usage_context": "Membaca kata dengan bentuk lisan berbeda.",
+          "example_source_language": "མཁྲེག་པོ་ / spoken approximation",
+          "example_indonesian": "tebal / bentuk pelafalan menurut sumber",
+          "sources": [
+            "https://tibetanlanguage.school/learn/standard-tibetan/reference-grammar/"
+          ],
+          "verification_status": "reviewed"
+        }
+      ]
+    },
+    "speaking_style_and_pragmatics": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "CN-BOD-PRAG-001",
+          "term": "Honorific vocabulary",
+          "explanation_id": "Literary and colloquial Tibetan have honorific vocabulary and forms used when addressing people of higher status; selection can depend on social relation and context.",
+          "indonesian_learning_link": "Bandingkan dengan ‘Bapak/Ibu’, gelar, dan pilihan kata hormat bahasa Indonesia.",
+          "region": "Tibetan; formal and community settings",
+          "register": "Honorific",
+          "usage_context": "Berbicara kepada orang yang dihormati.",
+          "example_source_language": "honorific vocabulary",
+          "example_indonesian": "kosakata hormat",
+          "sources": [
+            "https://ignca.gov.in/Asi_data/9543.pdf",
+            "https://api.pageplace.de/preview/DT0400.9789027283061_A24763942/preview-9789027283061_A24763942.pdf"
+          ],
+          "verification_status": "reviewed",
+          "note": "Sumber manual historis membedakan kosakata honorifik; bentuk sosial kontemporer perlu diuji dengan komunitas."
+        },
+        {
+          "id": "CN-BOD-PRAG-002",
+          "term": "Written versus colloquial language",
+          "explanation_id": "Tibetan literary written language dapat berbeda cukup jauh dari bentuk percakapan Lhasa; materi lisan harus memisahkan bentuk tertulis dari dialog sehari-hari.",
+          "indonesian_learning_link": "Jangan menerjemahkan teks sastra langsung sebagai pola percakapan Indonesia tanpa menyesuaikan register.",
+          "region": "Tibetan; written and spoken domains",
+          "register": "Register distinction",
+          "usage_context": "Memilih bentuk tertulis/lisan.",
+          "example_source_language": "literary Tibetan / colloquial Lhasa",
+          "example_indonesian": "Tibetan sastra / percakapan Lhasa",
+          "sources": [
+            "https://ignca.gov.in/Asi_data/9543.pdf",
+            "https://api.pageplace.de/preview/DT0400.9789027283061_A24763942/preview-9789027283061_A24763942.pdf"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-BOD-PRAG-003",
+          "term": "Dialect-specific greetings",
+          "explanation_id": "Sapaan dan formula perkenalan dapat berbeda menurut dialek dan komunitas Tibetan; profil ini tidak mengangkat satu frasa sebagai salam universal tanpa sumber langsung.",
+          "indonesian_learning_link": "Gunakan sapaan Indonesia sesuai hubungan dan situasi; bentuk Tibetan perlu label dialek dan wilayah.",
+          "region": "Tibetan regions and communities",
+          "register": "Context-sensitive",
+          "usage_context": "Memilih salam pembuka.",
+          "example_source_language": "dialect-specific greeting",
+          "example_indonesian": "sapaan menurut dialek",
+          "sources": [],
+          "verification_status": "draft",
+          "note": "Belum ada sumber langsung yang cukup untuk menyebut satu formula sebagai sapaan universal Tibetan."
+        }
+      ]
+    },
+    "standard_language": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "CN-BOD-STD-001",
+          "term": "Standard written Tibetan",
+          "explanation_id": "Tibetan memiliki tradisi sastra dan ortografi tertulis yang mempertahankan bentuk historis; pedoman transliterasi seperti Wylie dapat membantu pembelajaran dan referensi.",
+          "indonesian_learning_link": "Bedakan aksara Tibetan, transliterasi, dan transkripsi fonetik sebagai tiga representasi berbeda.",
+          "region": "Tibetan literary / standard written forms",
+          "register": "Orthography",
+          "usage_context": "Membaca dan menyalin tulisan.",
+          "example_source_language": "བོད་སྐད་",
+          "example_indonesian": "bahasa Tibetan",
+          "sources": [
+            "https://api.pageplace.de/preview/DT0400.9789027283061_A24763942/preview-9789027283061_A24763942.pdf"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-BOD-STD-002",
+          "term": "Wylie transliteration",
+          "explanation_id": "Wylie adalah sistem transliterasi untuk mewakili ejaan Tibetan dengan alfabet Latin; sistem ini mempertahankan bentuk tulis, bukan selalu pelafalan modern.",
+          "indonesian_learning_link": "Gunakan transliterasi sebagai alat rujukan, bukan sebagai petunjuk pengucapan langsung.",
+          "region": "Tibetan written language",
+          "register": "Transliteration",
+          "usage_context": "Mencari lema dan membandingkan naskah.",
+          "example_source_language": "Wylie transliteration",
+          "example_indonesian": "transliterasi Wylie",
+          "sources": [
+            "https://api.pageplace.de/preview/DT0400.9789027283061_A24763942/preview-9789027283061_A24763942.pdf"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-BOD-STD-003",
+          "term": "Lhasa colloquial reference grammar",
+          "explanation_id": "Grammar percakapan Lhasa memuat aturan pengucapan, tata bahasa, kosakata umum, dan kosakata honorifik; sumbernya membedakan bahasa lisan dari tulisan sastra.",
+          "indonesian_learning_link": "Arahkan pelajar pada dialog lisan untuk belajar Indonesian sehari-hari, lalu bandingkan dengan ragam baku Indonesia.",
+          "region": "Lhasa dialect",
+          "register": "Grammar reference",
+          "usage_context": "Mempelajari pola percakapan.",
+          "example_source_language": "Manual of Colloquial Tibetan (Lhasa dialect)",
+          "example_indonesian": "manual percakapan Tibetan dialek Lhasa",
+          "sources": [
+            "https://ignca.gov.in/Asi_data/9543.pdf"
+          ],
+          "verification_status": "reviewed"
+        }
+      ]
+    },
+    "nonstandard_language_and_slang": {
+      "status": "community_research_required",
+      "entries": [],
+      "coverage_note": "Slang modern belum dimasukkan. Istilah slang perlu sumber lokal dan pelabelan wilayah/dialek, misalnya Lhasa, Amdo, atau Kham."
+    },
+    "profanity_and_vulgar_language": {
+      "status": "community_review_required",
+      "entries": [],
+      "coverage_note": "Umpatan tidak dimasukkan tanpa kamus atau data percakapan yang secara langsung mendukung lema, intensitas, dan konteks sosial tiap dialek."
+    },
+    "regional_and_minority_languages": {
+      "status": "cross_reference_country_catalog",
+      "entries": [
+        {
+          "id": "CN-BOD-REG-001",
+          "term": "Lhasa Tibetan",
+          "explanation_id": "Profil ini menggunakan Lhasa colloquial sebagai fokus pembelajaran lisan, bukan sebagai representasi seluruh bahasa Tibetan.",
+          "indonesian_learning_link": "Tag seluruh contoh lisan sebagai Lhasa; jangan menggabungkan bentuk Amdo/Kham tanpa pemeriksaan.",
+          "region": "Lhasa and central Tibet",
+          "register": "Regional variety",
+          "usage_context": "Menentukan model tutur.",
+          "example_source_language": "Lhasa Tibetan",
+          "example_indonesian": "Tibetan Lhasa",
+          "sources": [
+            "https://tibetanlanguage.school/learn/standard-tibetan/reference-grammar/",
+            "https://api.pageplace.de/preview/DT0400.9789027283061_A24763942/preview-9789027283061_A24763942.pdf"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-BOD-REG-002",
+          "term": "Amdo and Kham varieties",
+          "explanation_id": "Amdo dan Kham memiliki sistem fonologi dan bentuk tutur tersendiri; kategori Tibetan mencakup variasi luas dan tidak seragam.",
+          "indonesian_learning_link": "Gunakan profil terpisah atau subprofil sebelum memasukkan kosakata dan rekaman dialek.",
+          "region": "Amdo, Kham, and other Tibetan-speaking areas",
+          "register": "Regional varieties",
+          "usage_context": "Mengenali variasi dialek.",
+          "example_source_language": "Amdo / Kham Tibetan",
+          "example_indonesian": "varietas Tibetan Amdo / Kham",
+          "sources": [
+            "https://api.pageplace.de/preview/DT0400.9789027283061_A24763942/preview-9789027283061_A24763942.pdf"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-BOD-REG-003",
+          "term": "Literary Tibetan is not spoken Lhasa Tibetan",
+          "explanation_id": "Sumber manual colloquial menegaskan perbedaan leksikal, pengucapan, dan fungsi antara bahasa sastra tertulis dan bahasa lisan.",
+          "indonesian_learning_link": "Jangan menganggap terjemahan teks klasik sebagai contoh percakapan modern.",
+          "region": "Tibetan written and spoken traditions",
+          "register": "Register / language variety distinction",
+          "usage_context": "Membedakan tulisan dan percakapan.",
+          "example_source_language": "literary Tibetan vs colloquial Lhasa",
+          "example_indonesian": "Tibetan sastra vs Lhasa lisan",
+          "sources": [
+            "https://ignca.gov.in/Asi_data/9543.pdf",
+            "https://api.pageplace.de/preview/DT0400.9789027283061_A24763942/preview-9789027283061_A24763942.pdf"
+          ],
+          "verification_status": "reviewed"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "Tibetan Language School — Standard Tibetan Reference Grammar",
+      "url": "https://tibetanlanguage.school/learn/standard-tibetan/reference-grammar/",
+      "scope": "Pelafalan Lhasa, ejaan, perubahan bunyi, dan contoh tata bahasa."
+    },
+    {
+      "title": "Handbook / Grammar of Lhasa Tibetan",
+      "url": "https://api.pageplace.de/preview/DT0400.9789027283061_A24763942/preview-9789027283061_A24763942.pdf",
+      "scope": "Transliterasi, fonetik, kelas nada, dan dialek Lhasa."
+    },
+    {
+      "title": "Manual of Colloquial Tibetan (Lhasa Dialect)",
+      "url": "https://ignca.gov.in/Asi_data/9543.pdf",
+      "scope": "Pengucapan, struktur percakapan, vocabulary, honorific terms and written/spoken distinction."
+    }
+  ],
+  "indonesian_learning_design": {
+    "direction": "Tibetan (Lhasa focus) → Indonesian",
+    "learner_support": [
+      "Bedakan ejaan Tibetan dari pelafalan Lhasa.",
+      "Bandingkan kosakata honorifik dengan sapaan hormat bahasa Indonesia.",
+      "Sediakan audio berlabel Lhasa/Amdo/Kham; jangan menyatukan variasi."
+    ]
+  },
+  "verification": {
+    "status": "content_seeded_reviewed_not_native_validated",
+    "last_reviewed": "2026-11-19",
+    "notes": "Sumber fonologi dan grammar mencakup Lhasa; sejumlah manual yang dipakai bersifat historis. Slang, profanity, dan sapaan universal belum diisi tanpa bukti dan validasi komunitas."
+  }
+}
