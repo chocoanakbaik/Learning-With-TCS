@@ -1,0 +1,237 @@
+{
+  "schema_version": "1.1.0",
+  "record_type": "language_profile",
+  "language": {
+    "name": "Kunigami",
+    "native_name": "山原言葉 / ヤンバルクトゥーバ (Yanbaru Kutūba)",
+    "iso_639_3": "xug",
+    "bcp47_tags": [
+      "xug-JP"
+    ],
+    "family": "Japonic > Ryukyuan > Northern Ryukyuan"
+  },
+  "country_context": {
+    "country_code": "JP",
+    "role": [
+      "regional",
+      "Ryukyuan",
+      "endangered"
+    ],
+    "note": "Profil xug berfokus pada Kunigami di Okinawa utara. Sumber leksikal dan tata bahasa yang tersedia sering berfokus pada satu wilayah seperti Nakijin, Motobu/Gushiken, atau Oku; semua entri wajib mencantumkan lokasi."
+  },
+  "categories": {
+    "accent_and_pronunciation": {
+      "status": "research_required",
+      "entries": [
+        {
+          "id": "JP-XUG-ACC-001",
+          "term": "Local pitch and accent documentation",
+          "explanation_id": "Sumber dialektologi mendokumentasikan materi nada untuk dialek Oku di Kunigami-mura dan materi aksen untuk ragam lain; pola harus dikaitkan dengan lokasi spesifik.",
+          "indonesian_learning_link": "Jangan menggunakan satu kontur pitch sebagai ciri seluruh Kunigami; gunakan audio dan label titik survei.",
+          "region": "Oku, Nakijin, Motobu, serta komunitas utara Okinawa",
+          "register": "Regional prosody",
+          "usage_context": "Membandingkan pola aksen antarwilayah.",
+          "example_source_language": "Oku dialect tonal data",
+          "example_indonesian": "data nada dialek Oku",
+          "sources": [
+            "https://www.en.hosei.ac.jp/LUC2HOSEI/cdata/luc2hosei_19509_jaen.html"
+          ],
+          "verification_status": "draft",
+          "note": "Sumber Hosei mencantumkan proyek/material, tetapi entri ini belum memasukkan pasangan kata atau transkripsi pitch."
+        },
+        {
+          "id": "JP-XUG-ACC-002",
+          "term": "Phonological description by dialect",
+          "explanation_id": "Grammar Motobu dan kamus Nakijin menunjukkan bahwa deskripsi bunyi harus ditautkan pada satu varietas Kunigami tertentu.",
+          "indonesian_learning_link": "Arahkan pengguna ke model audio wilayahnya, bukan pelafalan Japanese standar.",
+          "region": "Motobu / Nakijin; Northern Okinawa",
+          "register": "Pronunciation research",
+          "usage_context": "Membedakan dokumentasi bunyi per lokasi.",
+          "example_source_language": "Motobu Kunigami phonology",
+          "example_indonesian": "fonologi Kunigami Motobu",
+          "sources": [
+            "https://www.okinawa-ct.ac.jp/userfiles/files/eng_20201012_5.pdf",
+            "https://glottolog.org/resource/reference/id/67812"
+          ],
+          "verification_status": "draft",
+          "note": "Belum dimasukkan inventaris IPA karena perlu pemeriksaan langsung isi grammar dan validasi penutur."
+        }
+      ]
+    },
+    "speaking_style_and_pragmatics": {
+      "status": "community_research_required",
+      "entries": [],
+      "coverage_note": "Belum ada contoh sapaan/ungkapan sopan yang cukup terverifikasi untuk Kunigami pada sumber yang diperiksa. Materi harus dikumpulkan per dialek dan komunitas."
+    },
+    "standard_language": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "JP-XUG-STD-001",
+          "term": "Nakijin Kunigami dictionary",
+          "explanation_id": "Kamus Nakijin mendokumentasikan bentuk leksikal dan informasi dialek; cakupannya adalah Nakijin dan tidak otomatis mewakili semua Kunigami.",
+          "indonesian_learning_link": "Gunakan sumber kosakata dengan label lokasi dan transliterasi aslinya.",
+          "region": "Nakijin, northern Okinawa",
+          "register": "Lexicography / reference",
+          "usage_context": "Memeriksa lema dan makna.",
+          "example_source_language": "Okinawa Nakijin-hōgen Jiten",
+          "example_indonesian": "Kamus dialek Nakijin Okinawa",
+          "sources": [
+            "https://glottolog.org/resource/reference/id/67812"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "JP-XUG-STD-002",
+          "term": "Motobu Kunigami grammar",
+          "explanation_id": "Grammar Motobu memberikan deskripsi struktur dan tata bahasa untuk varian Motobu; jangan memperlakukannya sebagai standar tertulis universal.",
+          "indonesian_learning_link": "Bandingkan fungsi tata bahasa dengan bahasa Indonesia setelah bentuk lokal terkonfirmasi.",
+          "region": "Motobu, northern Okinawa",
+          "register": "Grammar reference",
+          "usage_context": "Merujuk tata bahasa dialek tertentu.",
+          "example_source_language": "A Grammar of Motobu, Kunigami, Ryukyuan",
+          "example_indonesian": "Tata bahasa Motobu Kunigami",
+          "sources": [
+            "https://www.okinawa-ct.ac.jp/userfiles/files/eng_20201012_5.pdf"
+          ],
+          "verification_status": "reviewed",
+          "note": "PDF ini adalah grammar satu ragam; variasi lainnya perlu referensi masing-masing."
+        },
+        {
+          "id": "JP-XUG-STD-003",
+          "term": "Online Dictionary of Japonic Languages",
+          "explanation_id": "ODJL menambah lokasi dokumentasi termasuk Gushiken di Motobu dan lokasi lain di wilayah Ryukyuan; data diberikan oleh kontributor yang disebutkan.",
+          "indonesian_learning_link": "Manfaatkan data lokasi yang tercantum; jangan menghapus nama komunitas dan contributor metadata.",
+          "region": "Motobu Gushiken and other documented locations",
+          "register": "Reference / documentation",
+          "usage_context": "Menelusuri data leksikal lokal.",
+          "example_source_language": "ODJL Motobu Gushiken records",
+          "example_indonesian": "entri ODJL untuk Gushiken, Motobu",
+          "sources": [
+            "https://odjl.net/"
+          ],
+          "verification_status": "reviewed",
+          "note": "ODJL merupakan proyek riset yang terus diperbarui; cakupan lokasi dapat bertambah."
+        }
+      ]
+    },
+    "nonstandard_language_and_slang": {
+      "status": "community_research_required",
+      "entries": [],
+      "coverage_note": "Slang belum ditambahkan. Perlu data komunitas dan penanda tempat/generasi; jangan menyalin slang Okinawan Shuri atau Japanese ke profil Kunigami."
+    },
+    "profanity_and_vulgar_language": {
+      "status": "community_review_required",
+      "entries": [],
+      "coverage_note": "Belum ada lema umpatan yang dimasukkan tanpa sumber langsung dan tinjauan penutur Kunigami."
+    },
+    "regional_and_minority_languages": {
+      "status": "cross_reference_country_catalog",
+      "entries": [
+        {
+          "id": "JP-XUG-REG-001",
+          "term": "Kunigami / Yanbaru Kutūba",
+          "explanation_id": "Kunigami adalah bahasa Ryukyuan di Okinawa utara, terutama wilayah Kunigami dan Nago/Yanbaru; sumber yang berbeda dapat memakai label dialek/varietas sesuai cakupan.",
+          "indonesian_learning_link": "Pilih profil xug untuk sumber Kunigami yang sesuai, bukan untuk seluruh Shimakutuba.",
+          "region": "Northern Okinawa Island, Yanbaru",
+          "register": "Regional language",
+          "usage_context": "Menetapkan wilayah bahasa.",
+          "example_source_language": "Yanbaru Kutūba",
+          "example_indonesian": "bahasa Yanbaru",
+          "sources": [
+            "https://glottolog.org/resource/languoid/id/kuni1268"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "JP-XUG-REG-002",
+          "term": "Nakijin dialect",
+          "explanation_id": "Kamus Nakasone 1983 secara khusus mendokumentasikan dialek Nakijin; nama ini harus tetap dibawa saat mengutip contoh.",
+          "indonesian_learning_link": "Setiap lema harus diberi tag Nakijin jika sumber berasal dari kamus tersebut.",
+          "region": "Nakijin Village, Okinawa",
+          "register": "Regional variety",
+          "usage_context": "Menandai lokasi kata.",
+          "example_source_language": "Nakijin dialect wordlist",
+          "example_indonesian": "daftar kata dialek Nakijin",
+          "sources": [
+            "https://glottolog.org/resource/reference/id/67812"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "JP-XUG-REG-003",
+          "term": "Motobu dialect",
+          "explanation_id": "Grammar Motobu dan dokumentasi Gushiken merekam varian di wilayah Motobu; keduanya tidak boleh diratakan menjadi satu data tanpa label lokasi.",
+          "indonesian_learning_link": "Bedakan contoh Gushiken, Izumi, Oku, dan Nakijin sesuai sumber.",
+          "region": "Motobu Town, Okinawa",
+          "register": "Regional variety",
+          "usage_context": "Menandai lokasi dan sumber.",
+          "example_source_language": "Motobu / Gushiken variety",
+          "example_indonesian": "varietas Motobu / Gushiken",
+          "sources": [
+            "https://www.okinawa-ct.ac.jp/userfiles/files/eng_20201012_5.pdf",
+            "https://odjl.net/",
+            "https://www.en.hosei.ac.jp/LUC2HOSEI/cdata/luc2hosei_19509_jaen.html"
+          ],
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "JP-XUG-REG-004",
+          "term": "Kunigami is distinct from Shuri Okinawan",
+          "explanation_id": "Sumber tipologi/klasifikasi membedakan Kunigami dari Okinawan/Shuri sebagai bahasa/varietas Ryukyuan tersendiri untuk tujuan dokumentasi.",
+          "indonesian_learning_link": "Jangan memasukkan lema Kunigami ke profil ryu tanpa catatan komparatif.",
+          "region": "Northern vs central/southern Okinawa",
+          "register": "Language distinction",
+          "usage_context": "Memilih profil bahasa.",
+          "example_source_language": "Kunigami ≠ Shuri Okinawan",
+          "example_indonesian": "Kunigami bukan dialek Shuri",
+          "sources": [
+            "https://glottolog.org/resource/languoid/id/kuni1268",
+            "https://www.jstage.jst.go.jp/article/jactfl/4/0/4_110/_article/-char/ja/"
+          ],
+          "verification_status": "reviewed"
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "Okinawa College — A Grammar of Motobu, Kunigami, Ryukyuan",
+      "url": "https://www.okinawa-ct.ac.jp/userfiles/files/eng_20201012_5.pdf",
+      "scope": "Deskripsi tata bahasa Motobu Kunigami."
+    },
+    {
+      "title": "Nakasone (1983) — Okinawa Nakijin-hōgen Jiten",
+      "url": "https://glottolog.org/resource/reference/id/67812",
+      "scope": "Kamus dan sketsa grammar dialek Nakijin."
+    },
+    {
+      "title": "Glottolog — Kunigami",
+      "url": "https://glottolog.org/resource/languoid/id/kuni1268",
+      "scope": "Identitas bahasa dan klasifikasi Kunigami."
+    },
+    {
+      "title": "Online Dictionary of the Japonic Languages",
+      "url": "https://odjl.net/",
+      "scope": "Entri kosakata lokal dan titik dokumentasi di Ryukyuan."
+    },
+    {
+      "title": "Hosei University Institute for Okinawan Studies — Ryukyu Dialects No.49 (FY2025)",
+      "url": "https://www.en.hosei.ac.jp/LUC2HOSEI/cdata/luc2hosei_19509_jaen.html",
+      "scope": "Materi nada dialek Oku dan konjugasi verba dialek Izumi/Motobu."
+    }
+  ],
+  "indonesian_learning_design": {
+    "direction": "Kunigami → Indonesian",
+    "learner_support": [
+      "Gunakan tag lokasi pada semua materi pelafalan dan kosakata.",
+      "Jelaskan bunyi bahasa Indonesia dengan perbandingan audio dari dialek tertentu.",
+      "Ajarkan bahasa Indonesia baku/nonbaku tanpa menyebut Kunigami sebagai Japanese yang salah."
+    ]
+  },
+  "verification": {
+    "status": "content_seeded_reviewed_not_native_validated",
+    "last_reviewed": "2026-11-19",
+    "notes": "Profil menggunakan grammar Motobu, kamus Nakijin, Glottolog, ODJL, dan publikasi Hosei University. Fonologi rinci, pragmatik, slang, dan umpatan belum ditambah karena memerlukan materi per lokasi dan validasi penutur."
+  }
+}
