@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "1.1.0",
   "record_type": "country_profile",
   "country": {
     "name_en": "United States of America",
@@ -25,7 +25,8 @@
         "predominant",
         "widely_used"
       ],
-      "profile_status": "planned"
+      "profile_status": "seeded_content_review_required",
+      "profile_path": "languages/eng/profile.json"
     },
     {
       "name": "Spanish",
@@ -159,6 +160,7 @@
     "status": "reviewed_initial_catalog",
     "last_reviewed": "2026-11-19",
     "reviewed_by": "LWT research setup",
-    "notes": "Initial catalog only. Each language, regional variety, accent, register, slang and profanity entry requires its own sources and review."
-  }
+    "notes": "Katalog awal. Profil bahasa utama telah memiliki materi enam kategori; bahasa/varietas lainnya tetap berstatus rencana dan memerlukan profil terpisah. Daftar nasional tidak diklaim lengkap."
+  },
+  "language_catalog_status": "selected_catalog_not_exhaustive"
 }
