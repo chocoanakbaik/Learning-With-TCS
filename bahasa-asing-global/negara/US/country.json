@@ -36,7 +36,8 @@
         "heritage",
         "community"
       ],
-      "profile_status": "planned"
+      "profile_status": "seeded_content_review_required",
+      "profile_path": "languages/spa/profile.json"
     },
     {
       "name": "Chinese language groups",
@@ -54,7 +55,8 @@
         "community",
         "heritage"
       ],
-      "profile_status": "planned"
+      "profile_status": "seeded_content_review_required",
+      "profile_path": "languages/tgl/profile.json"
     },
     {
       "name": "Vietnamese",
@@ -63,7 +65,8 @@
         "community",
         "heritage"
       ],
-      "profile_status": "planned"
+      "profile_status": "seeded_content_review_required",
+      "profile_path": "languages/vie/profile.json"
     },
     {
       "name": "Arabic varieties",
