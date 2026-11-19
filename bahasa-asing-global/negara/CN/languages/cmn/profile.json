@@ -1,19 +1,591 @@
 {
-  "schema_version":"1.0.0",
-  "record_type":"language_profile",
-  "language":{"name":"Mandarin Chinese (Putonghua)","native_name":"普通话","iso_639_3":"cmn","bcp47_tags":["zh-CN"],"family":"Sino-Tibetan > Sinitic"},
-  "country_context":{"country_code":"CN","role":["national_common_language","standard"],"note":"This profile focuses on Putonghua in mainland China. Mandarin varieties outside mainland China and regional Sinitic languages require separate context profiles."},
-  "categories":{
-    "accent_and_pronunciation":{"status":"research_required","coverage_targets":["standard pronunciation reference and its relation to Beijing speech","regional Mandarin accents such as Northeastern, Southwestern, and Jianghuai varieties","four lexical tones and neutral tone","retroflex initials, erhua, tone sandhi, and connected-speech changes"],"entries":[]},
-    "speaking_style_and_pragmatics":{"status":"research_required","coverage_targets":["forms of address and kinship terms","politeness, indirect requests, refusal, and face-related interaction","sentence-final particles and discourse markers","regional and generational variation"],"entries":[]},
-    "standard_language":{"status":"research_required","coverage_targets":["Putonghua pronunciation and grammar standards","simplified Chinese characters in mainland standard writing","pinyin conventions","formal, academic, public-service, and everyday written registers"],"entries":[]},
-    "nonstandard_language_and_slang":{"status":"research_required","coverage_targets":["colloquial reductions and discourse particles","internet slang, abbreviations, and memes with date labels","regional vocabulary kept distinct from standard Putonghua","character-based wordplay and homophones with cultural context"],"entries":[]},
-    "profanity_and_vulgar_language":{"status":"research_required","coverage_targets":["common insults and profanity","literal meaning versus pragmatic force","severity, target, and situational appropriateness","regional differences and neutral Indonesian explanations"],"entries":[]},
-    "regional_and_minority_languages":{"status":"cross_reference_country_catalog","coverage_targets":["Yue/Cantonese, Wu, Min, Hakka, Xiang, Gan, Jin, and other Sinitic varieties","Tibetan, Uyghur, Mongolian, Zhuang, Kazakh, Korean, and other minority languages","Do not treat mutually unintelligible varieties as interchangeable accents of Putonghua"],"entries":[]}
+  "schema_version": "1.1.0",
+  "record_type": "language_profile",
+  "language": {
+    "name": "Mandarin Chinese (Putonghua)",
+    "native_name": "普通话",
+    "iso_639_3": "cmn",
+    "bcp47_tags": [
+      "zh-CN"
+    ],
+    "family": "Sino-Tibetan > Sinitic"
   },
-  "sources":[
-    {"title":"PRC Ministry of Education: Overview of Chinese Language and Writing Systems","url":"https://www.moe.gov.cn/jyb_xxgk/xxgk/neirong/fenlei/sxml_zwgk/yuyanwenzi/202610/t20261023_1455676.html"},
-    {"title":"Center for Applied Linguistics: The Chinese Language and Language Planning in China","url":"https://www.cal.org/wp-content/uploads/2022/05/HeritageBriefChineseLanguageandLanguagePlanninginChina.pdf"}
+  "country_context": {
+    "country_code": "CN",
+    "role": [
+      "national_common_language",
+      "standard"
+    ],
+    "note": "Berfokus pada Putonghua di Tiongkok daratan. Yue/Cantonese, Wu, Min, Hakka, Tibetan, Uyghur dan bahasa lain tidak boleh diperlakukan sebagai aksen Mandarin."
+  },
+  "categories": {
+    "accent_and_pronunciation": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "CN-ACC-001",
+          "term": "Four lexical tones",
+          "reading": "mā má mǎ mà",
+          "explanation_id": "Mandarin memakai empat nada utama yang membedakan kata/leksikal; pinyin menandai nada dengan diakritik.",
+          "indonesian_learning_link": "Bahasa Indonesia tidak memakai nada leksikal dengan pola yang sama. Pelajar perlu melatih nada sebagai bagian dari kata, bukan intonasi emosi saja.",
+          "region": "Putonghua; semua wilayah dengan variasi aksen",
+          "register": "Pronunciation",
+          "usage_context": "Membedakan makna berdasarkan nada.",
+          "example_source_language": "妈 (mā) / 麻 (má) / 马 (mǎ) / 骂 (mà)",
+          "example_indonesian": "Ibu / rami / kuda / memarahi",
+          "sources": "https://www.moe.gov.cn/jyb_xxgk/gk_gbgg/moe_0/moe_9/moe_40/tnull_117.html",
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-ACC-002",
+          "term": "Neutral tone",
+          "reading": "轻声 (qīngshēng)",
+          "explanation_id": "Sebagian suku kata kehilangan nada penuh dan diucapkan lebih ringan dalam kata atau pola tertentu; sifatnya dipengaruhi struktur dan leksikon.",
+          "indonesian_learning_link": "Jangan memberi nada penuh pada setiap suku kata; gunakan kamus audio dan contoh kata.",
+          "region": "Putonghua; variasi regional",
+          "register": "Pronunciation",
+          "usage_context": "Melatih suku kata ringan.",
+          "example_source_language": "妈妈 (māma)",
+          "example_indonesian": "Ibu",
+          "sources": "https://www.moe.gov.cn/jyb_xxgk/gk_gbgg/moe_0/moe_9/moe_40/tnull_117.html",
+          "verification_status": "reviewed",
+          "note": "Nada netral tidak berarti selalu tanpa pitch; kontur bergantung konteks."
+        },
+        {
+          "id": "CN-ACC-003",
+          "term": "Third-tone sandhi",
+          "reading": "三声变调 (sānshēng biàndiào)",
+          "explanation_id": "Nada ketiga sebelum nada ketiga lain biasanya berubah menjadi kontur naik seperti nada kedua; transkripsi pinyin pedagogis perlu menjelaskan perbedaan bentuk kamus dan realisasi.",
+          "indonesian_learning_link": "Latihan nada Indonesia harus dibangun dari bunyi Mandarin; jangan membuat aturan padanan huruf Indonesia.",
+          "region": "Putonghua",
+          "register": "Pronunciation",
+          "usage_context": "Membaca dua suku kata berturut dengan nada ketiga.",
+          "example_source_language": "你好 (nǐ hǎo), dibaca dengan nada pertama naik pada suku kata pertama",
+          "example_indonesian": "Halo.",
+          "sources": "https://www.moe.gov.cn/jyb_xxgk/gk_gbgg/moe_0/moe_9/moe_40/tnull_117.html",
+          "verification_status": "reviewed",
+          "note": "Pernyataan ini berlaku untuk sandhi umum dua nada ketiga; bentuk prosodik dan konteks lebih luas tetap perlu diajarkan."
+        },
+        {
+          "id": "CN-ACC-004",
+          "term": "Erhua",
+          "reading": "儿化 (érhuà)",
+          "explanation_id": "Akhiran -r dapat menyatu dengan suku kata sebelumnya dalam sejumlah kata dan varietas Mandarin, dengan distribusi geografis dan leksikal yang bervariasi.",
+          "indonesian_learning_link": "Pelajar Indonesia perlu mendengar apakah -r benar-benar bagian dari bentuk kata; jangan menambahkan r pada semua kata.",
+          "region": "Beijing dan sejumlah varietas Mandarin; tidak universal",
+          "register": "Regional pronunciation",
+          "usage_context": "Mengenali bentuk儿化 dalam ujaran.",
+          "example_source_language": "一点儿 (yìdiǎnr)",
+          "example_indonesian": "Sedikit",
+          "sources": "https://www.moe.gov.cn/jyb_xxgk/gk_gbgg/moe_0/moe_9/moe_40/tnull_117.html",
+          "verification_status": "draft",
+          "note": "Distribusi penggunaan tidak seragam; jangan menyajikan erhua sebagai ciri wajib semua penutur Putonghua."
+        },
+        {
+          "id": "CN-ACC-005",
+          "term": "Retroflex initials",
+          "reading": "zh, ch, sh, r",
+          "explanation_id": "Putonghua membedakan kelompok konsonan retrofleks zh/ch/sh/r dari z/c/s; sebagian aksen regional menggabungkan atau mengubah perbedaan tersebut.",
+          "indonesian_learning_link": "Bunyi retrofleks tidak sama dengan konsonan Indonesia; gunakan diagram posisi lidah dan audio.",
+          "region": "Putonghua; variasi regional",
+          "register": "Pronunciation",
+          "usage_context": "Melatih kontras bunyi awal.",
+          "example_source_language": "zī / zhī; cī / chī; sī / shī",
+          "example_indonesian": "Latihan bunyi; bukan terjemahan kosakata",
+          "sources": "https://www.moe.gov.cn/jyb_xxgk/gk_gbgg/moe_0/moe_9/moe_40/tnull_117.html",
+          "verification_status": "reviewed",
+          "note": "Perlu rekaman penutur dan IPA untuk latihan final."
+        }
+      ],
+      "coverage_note": "Kerangka pelafalan mengacu pada materi fonetik Putonghua. Setiap pelajaran audio harus memakai rekaman berlisensi dan menyebut varietas penuturnya."
+    },
+    "speaking_style_and_pragmatics": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "CN-PRAG-001",
+          "term": "您好",
+          "reading": "nín hǎo",
+          "explanation_id": "Sapaan sopan yang memakai 您 sebagai bentuk hormat dari 你; digunakan saat menunjukkan jarak atau rasa hormat.",
+          "indonesian_learning_link": "Padanan Indonesia biasanya ‘Halo, Pak/Bu’ atau ‘Selamat ...’ bergantung situasi.",
+          "region": "Tiongkok daratan; layanan dan situasi formal",
+          "register": "Polite / honorific",
+          "usage_context": "Menyapa pelanggan, orang yang lebih tua, atau orang yang belum akrab.",
+          "example_source_language": "您好，请问您贵姓？",
+          "example_indonesian": "Halo, boleh saya tahu nama keluarga Anda?",
+          "sources": "https://www.irodori.jpf.go.jp/en/about.html",
+          "verification_status": "draft",
+          "note": "Tautan IRODORI bukan sumber Mandarin; contoh didasarkan pada praktik Mandarin umum dan harus diverifikasi memakai sumber Mandarin khusus sebelum dinyatakan reviewed."
+        },
+        {
+          "id": "CN-PRAG-002",
+          "term": "请问",
+          "reading": "qǐngwèn",
+          "explanation_id": "Pembuka sopan untuk mengajukan pertanyaan, kira-kira ‘permisi, boleh bertanya’.",
+          "indonesian_learning_link": "Padanan Indonesia: ‘Permisi, boleh bertanya?’ atau ‘Boleh saya tahu ...?’",
+          "region": "Tiongkok daratan; layanan dan ruang publik",
+          "register": "Polite",
+          "usage_context": "Membuka pertanyaan kepada orang yang belum dikenal.",
+          "example_source_language": "请问，地铁站在哪里？",
+          "example_indonesian": "Permisi, stasiun metro ada di mana?",
+          "sources": "https://www.moe.gov.cn/jyb_xxgk/gk_gbgg/moe_0/moe_9/moe_40/tnull_117.html",
+          "verification_status": "draft",
+          "note": "Perlu sumber contoh komunikasi Mandarin yang langsung."
+        },
+        {
+          "id": "CN-PRAG-003",
+          "term": "不好意思",
+          "reading": "bù hǎo yìsi",
+          "explanation_id": "Dapat berfungsi sebagai ‘maaf’, ‘permisi’, atau ungkapan sungkan/malu; makna berubah berdasarkan situasi.",
+          "indonesian_learning_link": "Terjemahkan sesuai fungsi: ‘maaf’, ‘permisi’, atau ‘saya jadi tidak enak’.",
+          "region": "Mandarin; percakapan sehari-hari",
+          "register": "Polite / conversational",
+          "usage_context": "Menyela atau meminta maaf ringan.",
+          "example_source_language": "不好意思，我来晚了。",
+          "example_indonesian": "Maaf, saya datang terlambat.",
+          "sources": "https://ccl.pku.edu.cn/news/535/detail",
+          "verification_status": "draft",
+          "note": "Perlu entri kamus leksikal dan contoh korpus untuk setiap fungsi."
+        },
+        {
+          "id": "CN-PRAG-004",
+          "term": "吃了吗？",
+          "reading": "chī le ma?",
+          "explanation_id": "Secara literal ‘sudah makan?’; dalam sebagian konteks atau generasi dapat berfungsi sebagai sapaan sosial, tetapi tidak boleh diasumsikan universal atau selalu dipakai.",
+          "indonesian_learning_link": "Jangan menerjemahkan otomatis sebagai pertanyaan tentang makanan; pahami hubungan, wilayah, dan konteks.",
+          "region": "Sebagian komunitas dan konteks; bukan sapaan universal",
+          "register": "Contextual / conversational",
+          "usage_context": "Sapaan historis atau pertanyaan literal tentang makan.",
+          "example_source_language": "你吃了吗？",
+          "example_indonesian": "Kamu sudah makan?",
+          "sources": "https://ccl.pku.edu.cn/news/535/detail",
+          "verification_status": "draft",
+          "note": "Perlu penelitian pragmatik spesifik; pemakaiannya bisa terdengar kuno atau tidak alami di situasi tertentu."
+        },
+        {
+          "id": "CN-PRAG-005",
+          "term": "谢谢 / 不客气",
+          "reading": "xièxie / bú kèqi",
+          "explanation_id": "Pasangan ungkapan umum untuk berterima kasih dan merespons terima kasih; respons alami lain dapat muncul menurut relasi dan situasi.",
+          "indonesian_learning_link": "Padanan Indonesia: ‘terima kasih’ dan ‘sama-sama’.",
+          "region": "Putonghua; penggunaan umum",
+          "register": "Neutral / polite",
+          "usage_context": "Menutup interaksi layanan atau menerima bantuan.",
+          "example_source_language": "谢谢！不客气。",
+          "example_indonesian": "Terima kasih! Sama-sama.",
+          "sources": "https://www.irodori.jpf.go.jp/en/about.html",
+          "verification_status": "draft",
+          "note": "Tautan sumber bukan sumber Mandarin; verifikasi leksikal perlu dilakukan terpisah."
+        }
+      ],
+      "coverage_note": "Entri pragmatik di bawah ini masih draft karena referensi yang dibuka dalam riset kali ini lebih kuat untuk standar fonologi/ujian daripada percakapan spontan. Jangan tandai reviewed sampai sumber Mandarin langsung ditambahkan."
+    },
+    "standard_language": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "CN-STD-001",
+          "term": "Putonghua standard",
+          "reading": "普通话",
+          "explanation_id": "Hukum RRT mendefinisikan bahasa lisan dan tulisan standar sebagai Putonghua dengan pelafalan berdasarkan dialek Beijing serta karakter Han yang distandardisasi.",
+          "indonesian_learning_link": "Gunakan bahasa Indonesia baku untuk komunikasi formal; jelaskan bahwa standardisasi Mandarin adalah konteks bahasa dan kebijakan yang berbeda.",
+          "region": "Tiongkok daratan; standar nasional",
+          "register": "Official standard",
+          "usage_context": "Pendidikan, penyiaran, dan komunikasi publik.",
+          "example_source_language": "我会说普通话。",
+          "example_indonesian": "Saya bisa berbicara bahasa Mandarin standar.",
+          "sources": "https://en.moe.gov.cn/Resources/Laws_and_Policies/201506/t20150626_191388.html",
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-STD-002",
+          "term": "Simplified Chinese characters",
+          "reading": "简化字",
+          "explanation_id": "Karakter sederhana distandardisasi dan digunakan secara luas di Tiongkok daratan; aksara tradisional tetap dipakai di wilayah dan komunitas lain.",
+          "indonesian_learning_link": "Untuk antarmuka LWT yang ber-tag zh-CN, karakter sederhana menjadi pilihan default; jangan menyatakan aksara tradisional salah.",
+          "region": "Tiongkok daratan; konteks resmi dan pendidikan",
+          "register": "Written standard",
+          "usage_context": "Membaca dan menulis di Tiongkok daratan.",
+          "example_source_language": "学习汉字。",
+          "example_indonesian": "Belajar karakter Han.",
+          "sources": "https://en.moe.gov.cn/Resources/Laws_and_Policies/201506/t20150626_191388.html",
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-STD-003",
+          "term": "Hanyu Pinyin",
+          "reading": "汉语拼音",
+          "explanation_id": "Pinyin adalah sistem romanisasi/penunjuk bunyi yang digunakan dalam pendidikan; tanda nada penting untuk mewakili pelafalan leksikal.",
+          "indonesian_learning_link": "Pinyin adalah alat bantu baca, bukan pengganti aksara Mandarin untuk semua kebutuhan.",
+          "region": "Tiongkok daratan; pendidikan",
+          "register": "Standard transcription",
+          "usage_context": "Belajar pengucapan dan mencari kata.",
+          "example_source_language": "你好 (nǐ hǎo)",
+          "example_indonesian": "Halo.",
+          "sources": "https://www.moe.gov.cn/jyb_xxgk/gk_gbgg/moe_0/moe_9/moe_40/tnull_117.html",
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-STD-004",
+          "term": "Measure words",
+          "reading": "量词 (liàngcí)",
+          "explanation_id": "Kata penggolong dipakai di antara angka/demonstratif dan nomina; pemilihan kata penggolong dipengaruhi kelas kata dan konvensi leksikal.",
+          "indonesian_learning_link": "Bahasa Indonesia tidak selalu memakai kata penggolong di setiap konstruksi; jelaskan fungsi, bukan terjemahan literal.",
+          "region": "Putonghua; tata bahasa standar",
+          "register": "Standard grammar",
+          "usage_context": "Menghitung benda.",
+          "example_source_language": "一本书",
+          "example_indonesian": "Sebuah buku",
+          "sources": "https://www.moe.gov.cn/jyb_xxgk/gk_gbgg/moe_0/moe_9/moe_40/tnull_117.html",
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-STD-005",
+          "term": "了 (le)",
+          "reading": "le",
+          "explanation_id": "了 dapat menandai aspek/perubahan keadaan dan memiliki beberapa konstruksi; tidak tepat selalu diterjemahkan sebagai ‘sudah’ atau penanda lampau.",
+          "indonesian_learning_link": "Bahasa Indonesia memakai penanda waktu/aspek melalui kata dan konteks; terjemahan harus berdasarkan fungsi kalimat.",
+          "region": "Putonghua; tata bahasa standar",
+          "register": "Standard grammar",
+          "usage_context": "Memahami perubahan keadaan atau aspek.",
+          "example_source_language": "下雨了。",
+          "example_indonesian": "Hujan turun sekarang / mulai hujan.",
+          "sources": "https://www.moe.gov.cn/jyb_xxgk/gk_gbgg/moe_0/moe_9/moe_40/tnull_117.html",
+          "verification_status": "draft",
+          "note": "Perlu korpus dan referensi tata bahasa untuk memisahkan berbagai fungsi 了."
+        }
+      ],
+      "coverage_note": "Profil mengutamakan Putonghua dan aksara sederhana untuk zh-CN. Status resmi tidak berarti semua penduduk Tiongkok menggunakan bahasa ibu yang sama."
+    },
+    "nonstandard_language_and_slang": {
+      "status": "seeded_research_reviewed",
+      "entries": [
+        {
+          "id": "CN-SLANG-001",
+          "term": "内卷",
+          "reading": "nèi juǎn",
+          "explanation_id": "Istilah yang banyak dipakai untuk kompetisi internal berlebihan atau usaha makin keras tanpa manfaat sebanding; berasal dari istilah akademik yang mengalami perluasan makna sosial.",
+          "indonesian_learning_link": "Padanan Indonesia: ‘persaingan tidak sehat yang makin intens’, ‘kompetisi melelahkan’, atau ‘saling sikut’ sesuai konteks.",
+          "region": "Tiongkok daratan; media dan percakapan kontemporer",
+          "register": "Internet / social slang",
+          "usage_context": "Mengomentari tekanan kompetitif.",
+          "example_source_language": "这个行业太内卷了。",
+          "example_indonesian": "Persaingan di industri ini terlalu tidak sehat dan melelahkan.",
+          "sources": "https://nlp.ccnu.edu.cn/conference/15",
+          "verification_status": "draft",
+          "note": "Daftar resmi jaringan media yang ditelusuri belum tentu mencatat istilah ini pada setiap tahun; sumber khusus pemakaian perlu ditautkan."
+        },
+        {
+          "id": "CN-SLANG-002",
+          "term": "躺平",
+          "reading": "tǎng píng",
+          "explanation_id": "Sikap menolak kompetisi atau tuntutan produktivitas berlebihan; makna dapat berupa kritik sosial, humor, atau pilihan gaya hidup.",
+          "indonesian_learning_link": "Padanan Indonesia: ‘memilih hidup sederhana dan tidak ikut perlombaan’, bukan terjemahan literal ‘rebahan’ di semua konteks.",
+          "region": "Tiongkok daratan; diskursus sosial dan internet",
+          "register": "Internet / social slang",
+          "usage_context": "Menyatakan keengganan ikut perlombaan sosial-ekonomi.",
+          "example_source_language": "我不想再卷了，想躺平一段时间。",
+          "example_indonesian": "Saya tidak ingin terus bersaing; saya ingin beristirahat dari tekanan itu.",
+          "sources": "https://www.ccl.pku.edu.cn/news/535/detail",
+          "verification_status": "draft",
+          "note": "Masih perlu bukti korpus spesifik untuk frekuensi dan nuansa terkini."
+        },
+        {
+          "id": "CN-SLANG-003",
+          "term": "班味儿",
+          "reading": "bān wèir",
+          "explanation_id": "Istilah internet yang merujuk pada kesan atau aura seseorang yang terlihat lelah/terserap rutinitas kerja; tercantum dalam daftar kata populer 2024.",
+          "indonesian_learning_link": "Padanan Indonesia: ‘aura pekerja kantoran’, ‘bau kerja’, atau ‘kelihatan habis lembur’, tergantung konteks.",
+          "region": "Tiongkok daratan; internet 2024",
+          "register": "Internet slang",
+          "usage_context": "Bercanda tentang kesan lelah setelah bekerja.",
+          "example_source_language": "今天的班味儿太重了。",
+          "example_indonesian": "Hari ini aura habis kerja terasa sekali.",
+          "sources": "https://www.cp.com.cn/Content/2024/12-12/1655160790.html",
+          "verification_status": "reviewed",
+          "note": "Termasuk salah satu jaringan kata populer resmi 2024; contoh kalimat dibuat untuk pembelajaran, bukan kutipan sumber."
+        },
+        {
+          "id": "CN-SLANG-004",
+          "term": "松弛感",
+          "reading": "sōngchí gǎn",
+          "explanation_id": "Istilah 2024 tentang kesan rileks, tenang, dan tidak terlihat tertekan; digunakan dalam diskursus gaya hidup dan media.",
+          "indonesian_learning_link": "Padanan Indonesia: ‘aura santai’, ‘ketenangan’, atau ‘tidak gampang panik’.",
+          "region": "Tiongkok daratan; tren media 2024",
+          "register": "Contemporary media expression",
+          "usage_context": "Menggambarkan pembawaan seseorang atau suasana.",
+          "example_source_language": "她给人一种松弛感。",
+          "example_indonesian": "Dia memberi kesan tenang dan santai.",
+          "sources": "https://www.cp.com.cn/Content/2024/12-12/1655160790.html",
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-SLANG-005",
+          "term": "City不City",
+          "reading": "City bù City",
+          "explanation_id": "Campur kode English-Mandarin yang menjadi ungkapan populer 2024; pertanyaan bernada jenaka tentang apakah sesuatu terasa modern/kosmopolitan atau menarik.",
+          "indonesian_learning_link": "Padanan Indonesia dapat berupa ‘kota banget nggak?’ atau ‘terasa modern nggak?’; jangan diterjemahkan secara literal tanpa konteks meme.",
+          "region": "Tiongkok daratan; media dan internet 2024",
+          "register": "Internet / code-mixing",
+          "usage_context": "Komentar jenaka tentang pengalaman wisata atau kota.",
+          "example_source_language": "这里很City不City？",
+          "example_indonesian": "Tempat ini terasa modern dan kekinian, tidak?",
+          "sources": "https://www.cp.com.cn/Content/2024/12-12/1655160790.html",
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-SLANG-006",
+          "term": "主理人",
+          "reading": "zhǔlǐrén",
+          "explanation_id": "Secara umum berarti orang yang mengelola atau bertanggung jawab; dalam tren media 2024 juga terkait identitas kreatif/pengelola merek atau ruang.",
+          "indonesian_learning_link": "Padanan Indonesia: ‘pengelola’, ‘penanggung jawab’, atau ‘kreator/pemilik brand’ menurut konteks.",
+          "region": "Tiongkok daratan; media, bisnis kecil, gaya hidup",
+          "register": "Contemporary expression",
+          "usage_context": "Menyebut orang yang mengelola usaha atau proyek.",
+          "example_source_language": "她是这家店的主理人。",
+          "example_indonesian": "Dia adalah pengelola toko ini.",
+          "sources": "https://www.cp.com.cn/Content/2024/12-12/1655160790.html",
+          "verification_status": "reviewed"
+        }
+      ],
+      "coverage_note": "Contoh resmi yang digunakan di sini merujuk pada daftar kata populer 2024; slang yang lebih cepat berubah harus diberi tahun dan sumber korpus."
+    },
+    "profanity_and_vulgar_language": {
+      "status": "seeded_educational_with_context",
+      "entries": [
+        {
+          "id": "CN-PROF-001",
+          "term": "笨蛋",
+          "reading": "bèn dàn",
+          "explanation_id": "Hinaan untuk orang yang dianggap bodoh atau tidak cakap; kamus MOE Taiwan menyebut pemakaian sebagai kata makian. Ini bukan validasi distribusi khusus Tiongkok daratan.",
+          "indonesian_learning_link": "Padanan Indonesia: ‘bodoh’ atau ‘tolol’; kekuatan penghinaan bergantung pada hubungan dan intonasi.",
+          "region": "Mandarin; perlu cek perbedaan wilayah",
+          "register": "Insult",
+          "usage_context": "Mengejek atau mengkritik seseorang.",
+          "example_source_language": "请不要叫别人笨蛋。",
+          "example_indonesian": "Tolong jangan menyebut orang lain bodoh.",
+          "sources": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=17151",
+          "verification_status": "draft",
+          "note": "Sumber leksikografi resmi berasal dari MOE Taiwan; harus diverifikasi dengan kamus dan penutur Mainland sebelum digunakan sebagai fakta zh-CN."
+        },
+        {
+          "id": "CN-PROF-002",
+          "term": "混蛋",
+          "reading": "hún dàn",
+          "explanation_id": "Hinaan kasar untuk orang yang dianggap bejat, bodoh, atau berperilaku buruk; kamus MOE Taiwan mengaitkannya dengan umpatan.",
+          "indonesian_learning_link": "Padanan Indonesia: ‘brengsek’ atau ‘bajingan’ bergantung konteks; bukan padanan tetap.",
+          "region": "Mandarin; perlu cek perbedaan wilayah",
+          "register": "Strong insult",
+          "usage_context": "Mengutuk perilaku seseorang.",
+          "example_source_language": "不要用这种话骂人。",
+          "example_indonesian": "Jangan menggunakan kata seperti itu untuk menghina orang.",
+          "sources": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=86001&la=1&powerMode=0",
+          "verification_status": "draft",
+          "note": "Kamus tersebut mengulas bentuk 渾蛋/混蛋; bukti khusus penggunaan mainland masih dibutuhkan."
+        },
+        {
+          "id": "CN-PROF-003",
+          "term": "滚蛋",
+          "reading": "gǔn dàn",
+          "explanation_id": "Perintah kasar untuk menyuruh orang pergi; kamus MOE Taiwan mendefinisikan sebagai seruan keras agar seseorang menjauh/pergi.",
+          "indonesian_learning_link": "Padanan Indonesia: ‘pergi sana’ dengan nada kasar atau ‘enyah’; tidak cocok untuk komunikasi sopan.",
+          "region": "Mandarin; perlu cek perbedaan wilayah",
+          "register": "Strong profanity / dismissal",
+          "usage_context": "Mengusir seseorang dalam konflik.",
+          "example_source_language": "他叫我滚蛋。",
+          "example_indonesian": "Dia mengusir saya dengan kasar.",
+          "sources": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=74303&la=1&powerMode=0",
+          "verification_status": "draft",
+          "note": "Sumber leksikografi Taiwan; label Mainland zh-CN membutuhkan verifikasi tambahan."
+        },
+        {
+          "id": "CN-PROF-004",
+          "term": "傻子",
+          "reading": "shǎ zi",
+          "explanation_id": "Sebutan untuk orang yang dianggap bodoh; dapat menjadi hinaan tetapi dalam konteks dekat atau sastra dapat pula muncul secara berbeda.",
+          "indonesian_learning_link": "Padanan Indonesia: ‘orang bodoh’; intonasi, hubungan, dan kalimat perlu diperiksa.",
+          "region": "Mandarin; wilayah perlu verifikasi",
+          "register": "Insult",
+          "usage_context": "Menggambarkan seseorang secara merendahkan.",
+          "example_source_language": "不要把他当傻子。",
+          "example_indonesian": "Jangan menganggap dia orang bodoh.",
+          "sources": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=129232&la=1&powerMode=0",
+          "verification_status": "draft",
+          "note": "Sumber dari kamus MOE Taiwan dan tidak boleh digeneralisasi tanpa verifikasi untuk Mainland."
+        },
+        {
+          "id": "CN-PROF-005",
+          "term": "操",
+          "reading": "cào",
+          "explanation_id": "Kata vulgar dengan beberapa makna leksikal; dalam ujaran kasar dapat menjadi seruan umpatan atau bagian dari umpatan majemuk.",
+          "indonesian_learning_link": "Jangan memberi satu padanan Indonesia saja; intensitas dan fungsi harus ditentukan dari frasa lengkap.",
+          "region": "Mandarin; penggunaan dan intensitas perlu verifikasi regional",
+          "register": "Very strong profanity",
+          "usage_context": "Ledakan emosi atau makian.",
+          "example_source_language": "这句话含有粗俗用语。",
+          "example_indonesian": "Kalimat ini mengandung ungkapan vulgar.",
+          "sources": "https://ccl.pku.edu.cn/news/535/detail",
+          "verification_status": "draft",
+          "note": "Perlu entri kamus Mainland dan konsultasi penutur asli untuk makna vulgar serta tingkat kekasarannya."
+        },
+        {
+          "id": "CN-PROF-006",
+          "term": "他妈的",
+          "reading": "tā mā de",
+          "explanation_id": "Umpatan vulgar yang secara literal mengandung referensi ibu; dapat menjadi penguat kemarahan atau makian dan sangat tidak pantas di situasi formal.",
+          "indonesian_learning_link": "Tidak diterjemahkan kata demi kata; jelaskan sebagai umpatan kuat dengan risiko penghinaan tinggi.",
+          "region": "Mandarin; penggunaan kontemporer perlu verifikasi",
+          "register": "Very strong profanity",
+          "usage_context": "Kutipan dialog konflik atau media.",
+          "example_source_language": "请注意，这是一句很粗俗的骂人话。",
+          "example_indonesian": "Perhatikan, ini adalah ungkapan makian yang sangat kasar.",
+          "sources": "https://ccl.pku.edu.cn/news/535/detail",
+          "verification_status": "draft",
+          "note": "Perlu kamus khusus umpatan Mandarin dan validasi penutur Mainland."
+        }
+      ],
+      "coverage_note": "Entri profanity dipertahankan untuk tujuan pemahaman. Tiga rujukan kamus spesifik berasal dari MOE Taiwan dan ditandai draft; jangan menampilkan sebagai bukti final distribusi di Tiongkok daratan."
+    },
+    "regional_and_minority_languages": {
+      "status": "cross_reference_country_catalog",
+      "entries": [
+        {
+          "id": "CN-REG-001",
+          "term": "Yue / Cantonese",
+          "reading": "粤语 / 广东话",
+          "explanation_id": "Kelompok bahasa Sinitik dengan ragam regional; bukan aksen Mandarin dan tidak otomatis saling dapat dipahami dengan Putonghua.",
+          "indonesian_learning_link": "Jika pengguna memilih Cantonese, LWT harus memilih profil yue, bukan mengubah aksen Mandarin.",
+          "region": "Guangdong, Guangxi, Hong Kong, Macau dan diaspora",
+          "register": "Regional Sinitic language",
+          "usage_context": "Navigasi ke profil bahasa terpisah.",
+          "example_source_language": "你好 (Cantonese: néih hóu)",
+          "example_indonesian": "Halo.",
+          "sources": "https://www.cal.org/wp-content/uploads/2022/05/HeritageBriefChineseLanguageandLanguagePlanninginChina.pdf",
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-REG-002",
+          "term": "Wu / Shanghainese",
+          "reading": "吴语 / 上海话",
+          "explanation_id": "Kelompok bahasa Sinitik yang mencakup ragam Shanghai dan wilayah sekitarnya.",
+          "indonesian_learning_link": "Perlu profil tersendiri dengan wilayah dan ragam spesifik.",
+          "region": "Shanghai, Zhejiang, Jiangsu selatan",
+          "register": "Regional Sinitic language",
+          "usage_context": "Mengenali bahasa regional yang berbeda dari Putonghua.",
+          "example_source_language": "上海话",
+          "example_indonesian": "Bahasa Shanghai",
+          "sources": "https://www.cal.org/wp-content/uploads/2022/05/HeritageBriefChineseLanguageandLanguagePlanninginChina.pdf",
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-REG-003",
+          "term": "Min varieties",
+          "reading": "闽语",
+          "explanation_id": "Kelompok Min mencakup beberapa cabang/varietas, antara lain Min Nan dan Min Dong; label Min tidak cukup untuk profil tutur yang rinci.",
+          "indonesian_learning_link": "Pilih subvarietas dan wilayah sebelum membuat latihan atau daftar kata.",
+          "region": "Fujian, Guangdong timur, Hainan dan diaspora",
+          "register": "Regional Sinitic language",
+          "usage_context": "Menghindari satu profil untuk semua varietas Min.",
+          "example_source_language": "闽南语 / 闽东语",
+          "example_indonesian": "Min Nan / Min Dong",
+          "sources": "https://www.cal.org/wp-content/uploads/2022/05/HeritageBriefChineseLanguageandLanguagePlanninginChina.pdf",
+          "verification_status": "reviewed",
+          "note": "Country catalog memakai label payung dan wajib dipecah saat implementasi profil."
+        },
+        {
+          "id": "CN-REG-004",
+          "term": "Hakka (Kejia)",
+          "reading": "客家话",
+          "explanation_id": "Bahasa Sinitik yang digunakan oleh komunitas Hakka di beberapa wilayah; jangan menyamakan identitas bahasa dengan batas provinsi.",
+          "indonesian_learning_link": "Buat profil mandiri serta catat variasi lokal penutur.",
+          "region": "Guangdong, Fujian, Jiangxi dan komunitas lain",
+          "register": "Regional Sinitic language",
+          "usage_context": "Mengenali ragam bahasa komunitas.",
+          "example_source_language": "客家话",
+          "example_indonesian": "Bahasa Hakka",
+          "sources": "https://www.cal.org/wp-content/uploads/2022/05/HeritageBriefChineseLanguageandLanguagePlanninginChina.pdf",
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-REG-005",
+          "term": "Tibetan",
+          "reading": "藏语",
+          "explanation_id": "Bahasa Tibet dan ragamnya termasuk kelompok bahasa non-Sinitik; butuh pengelompokan internal dan konteks komunitas yang tepat.",
+          "indonesian_learning_link": "Jangan dianggap aksen Mandarin atau sekadar variasi pelafalan Putonghua.",
+          "region": "Wilayah Tibet dan komunitas Tibet di provinsi sekitar",
+          "register": "Minority language",
+          "usage_context": "Pengindeksan bahasa komunitas.",
+          "example_source_language": "藏语",
+          "example_indonesian": "Bahasa Tibet",
+          "sources": "https://www.moe.gov.cn/jyb_xxgk/xxgk/neirong/fenlei/sxml_zwgk/yuyanwenzi/202610/t20261023_1455676.html",
+          "verification_status": "reviewed"
+        },
+        {
+          "id": "CN-REG-006",
+          "term": "Uyghur",
+          "reading": "ئۇيغۇرچە",
+          "explanation_id": "Bahasa Turkik yang digunakan komunitas Uyghur; memiliki sistem tulisan dan struktur yang berbeda dari Mandarin.",
+          "indonesian_learning_link": "Sediakan jalur materi sendiri dan hindari transkripsi seolah-olah Mandarin.",
+          "region": "Xinjiang dan diaspora",
+          "register": "Minority language",
+          "usage_context": "Pengindeksan bahasa komunitas.",
+          "example_source_language": "ئۇيغۇرچە",
+          "example_indonesian": "Bahasa Uyghur",
+          "sources": "https://www.moe.gov.cn/jyb_xxgk/xxgk/neirong/fenlei/sxml_zwgk/yuyanwenzi/202610/t20261023_1455676.html",
+          "verification_status": "reviewed"
+        }
+      ],
+      "coverage_note": "Bahasa Sinitik regional dan bahasa minoritas non-Sinitik tetap menjadi profil bahasa tersendiri. Indeks belum mencakup semua bahasa dan semua ragam."
+    }
+  },
+  "sources": [
+    {
+      "title": "PRC Ministry of Education — Law on the Standard Spoken and Written Chinese Language",
+      "url": "https://en.moe.gov.cn/Resources/Laws_and_Policies/201506/t20150626_191388.html",
+      "scope": "Definisi hukum Putonghua dan karakter standar untuk RRT."
+    },
+    {
+      "title": "PRC Ministry of Education — Putonghua Proficiency Test Outline",
+      "url": "https://www.moe.gov.cn/jyb_xxgk/gk_gbgg/moe_0/moe_9/moe_40/tnull_117.html",
+      "scope": "Standar pengujian pelafalan, kosakata, dan tata bahasa Putonghua."
+    },
+    {
+      "title": "Peking University Center for Chinese Linguistics — CCL Corpus 2026",
+      "url": "https://ccl.pku.edu.cn/news/535/detail",
+      "scope": "Korpus besar untuk meneliti penggunaan bahasa Mandarin dan pembelajaran bahasa kedua."
+    },
+    {
+      "title": "National Language Resources Monitoring and Research Center — Annual Internet Buzzwords",
+      "url": "https://nlp.ccnu.edu.cn/conference/15",
+      "scope": "Metode pemantauan penggunaan istilah internet tahunan."
+    },
+    {
+      "title": "The Commercial Press — 2024 Annual Internet Buzzwords",
+      "url": "https://www.cp.com.cn/Content/2024/12-12/1655160790.html",
+      "scope": "Daftar dan konteks ungkapan internet populer 2024."
+    },
+    {
+      "title": "Center for Applied Linguistics — Chinese Language and Language Planning in China",
+      "url": "https://www.cal.org/wp-content/uploads/2022/05/HeritageBriefChineseLanguageandLanguagePlanninginChina.pdf",
+      "scope": "Pengenalan kelompok Sinitik dan perencanaan bahasa."
+    },
+    {
+      "title": "Ministry of Education, Taiwan — Revised Mandarin Chinese Dictionary",
+      "url": "https://dict.revised.moe.edu.tw/",
+      "scope": "Rujukan leksikografi pembanding; tidak dianggap sumber penetapan pemakaian Mainland."
+    }
   ],
-  "verification":{"status":"framework_reviewed","last_reviewed":"2026-11-19","notes":"Profile framework created. Lexical examples, slang, and profanity entries require dictionary and native-speaker review."}
+  "indonesian_learning_design": {
+    "direction": "Mandarin Putonghua (Mainland China) → Indonesian",
+    "learner_support": [
+      "Jelaskan perbedaan nada Mandarin dengan intonasi bahasa Indonesia.",
+      "Latih bunyi ng, ny, r, dan e pepet Indonesia bagi penutur Mandarin.",
+      "Jelaskan karakter sederhana dan pinyin sebagai konteks bahasa sumber, lalu arahkan hasil belajar ke ejaan serta tata bahasa Indonesia baku/nonbaku."
+    ]
+  },
+  "verification": {
+    "status": "content_seeded_reviewed_not_native_validated",
+    "last_reviewed": "2026-11-19",
+    "notes": "Materi fonologi dan standar ditopang sumber pemerintah RRT. Entri pragmatik dan sejumlah umpatan tetap draft karena perlu sumber leksikografi/korpus yang secara spesifik mencakup Mandarin Tiongkok daratan. Rujukan kamus MOE Taiwan diberi batas geografis yang eksplisit."
+  }
 }
