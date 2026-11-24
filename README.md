@@ -40,6 +40,6 @@ Bahasa kasar tidak otomatis dihapus. Materi tersebut dibahas secara edukatif dan
 
 ## Status proyek
 
-Fase 1 saat ini memiliki 12 profil bahasa untuk tiga negara dan 236 entri pembelajaran. Materi mencakup bahasa komunitas serta Indigenous di Amerika Serikat, Japanese, dan Mandarin Putonghua. Audit terakhir mencatat 165 reviewed, 71 draft, dan 0 verified; inventaris tiga negara belum lengkap dan validasi penutur asli/ahli masih diperlukan.
+Audit ulang terhadap branch `main` menemukan 33 profil bahasa dan 499 entri pembelajaran pada tiga negara (Amerika Serikat, Jepang, dan Tiongkok), berdasarkan 35 record katalog. Status entri saat ini: 397 reviewed, 102 draft, dan 0 verified. Dua record katalog Amerika Serikat masih berupa label payung, bukan profil bahasa individual. Inventaris ketiga negara belum lengkap dan validasi penutur asli/ahli masih diperlukan.
 
-Lihat [status Fase 1](./bahasa-asing-global/FASE-01-README.md) untuk rincian cakupan.
+Jalankan validator dengan Python 3.10 atau lebih baru: `python bahasa-asing-global/tools/validate_language_data.py`. Lihat [status Fase 1](./bahasa-asing-global/FASE-01-README.md) untuk rincian cakupan.
